@@ -1,0 +1,180 @@
+{
+  "head" : {
+    "vars" : [ "c", "type", "typeLabel", "status", "statusLabel", "exception", "exceptionLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P26-183C2471-ED90-45FD-949F-020CD7EF5F90"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21502838"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conflicts-with constraint"
+      },
+      "status" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21502408"
+      },
+      "statusLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mandatory constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P26-35E5D7A3-D2AC-4A9F-93D3-8630E85EC729"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21503250"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "subject type constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P26-0FBFED90-38B1-4EA0-9002-4EB95FC7093A"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510851"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "allowed qualifiers constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P26-75392F51-A753-4451-B057-4C2719462EFB"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P26-862D87C1-BB05-45A8-934F-3585370F6253"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25796498"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "contemporary constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P26-f487f86b-444a-ee91-a709-74e9707904ee"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52004125"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "allowed-entity-types constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P26-46738363-4725-63da-853b-24a1190a343e"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52558054"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "none-of constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P26-c75a4c3d-4806-8402-9d44-79166c9dad87"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52558054"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "none-of constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P26-f1e6c730-480b-deee-0bc5-792f91ba73e5"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52558054"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "none-of constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P26-4E3184DC-6F31-411C-AD6D-3A85568ED24B"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53869507"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "property scope constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P26-224c4259-4f19-6b88-d497-2af9d5584b35"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q54554025"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "citation-needed constraint"
+      },
+      "status" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62026391"
+      },
+      "statusLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "suggestion constraint"
+      }
+    } ]
+  }
+}

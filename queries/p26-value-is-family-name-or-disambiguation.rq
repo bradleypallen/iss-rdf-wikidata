@@ -1,0 +1,19 @@
+# As p26-value-is-name-or-year.rq, for the two large classes that the
+# conflicts-with constraint on P26 forbids for the subject: family name and
+# Wikimedia disambiguation page.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?a ?aLabel ?b ?bLabel ?class ?classLabel ?reciprocated WHERE {
+  { BIND(wd:Q101352 AS ?class) ?b wdt:P31 wd:Q101352 . ?a wdt:P26 ?b . }
+  UNION
+  { BIND(wd:Q4167410 AS ?class) ?b wdt:P31 wd:Q4167410 . ?a wdt:P26 ?b . }
+  BIND(EXISTS { ?b wdt:P26 ?a } AS ?reciprocated)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+LIMIT 500

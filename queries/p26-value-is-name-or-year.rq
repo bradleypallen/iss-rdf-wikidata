@@ -1,0 +1,31 @@
+# Spouse triples whose value is an instance of one of six classes that the
+# conflicts-with constraint on P26 forbids for the subject: the four given-name
+# classes, set index article, and year (classes as listed in
+# p26-constraint-qualifiers, 2026-11-14). ?reciprocated says whether the
+# reverse triple is present. Direct P31 only; no subclass closure.
+# One UNION branch per class, because the single-pattern form with VALUES
+# (p26-value-conflicts-with.rq) timed out on 2026-11-14T15:41:26Z.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?a ?aLabel ?b ?bLabel ?class ?classLabel ?reciprocated WHERE {
+  { BIND(wd:Q202444 AS ?class) ?b wdt:P31 wd:Q202444 . ?a wdt:P26 ?b . }
+  UNION
+  { BIND(wd:Q11879590 AS ?class) ?b wdt:P31 wd:Q11879590 . ?a wdt:P26 ?b . }
+  UNION
+  { BIND(wd:Q12308941 AS ?class) ?b wdt:P31 wd:Q12308941 . ?a wdt:P26 ?b . }
+  UNION
+  { BIND(wd:Q3409032 AS ?class) ?b wdt:P31 wd:Q3409032 . ?a wdt:P26 ?b . }
+  UNION
+  { BIND(wd:Q15623926 AS ?class) ?b wdt:P31 wd:Q15623926 . ?a wdt:P26 ?b . }
+  UNION
+  { BIND(wd:Q577 AS ?class) ?b wdt:P31 wd:Q577 . ?a wdt:P26 ?b . }
+  BIND(EXISTS { ?b wdt:P26 ?a } AS ?reciprocated)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+LIMIT 500

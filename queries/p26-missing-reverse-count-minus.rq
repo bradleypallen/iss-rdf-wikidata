@@ -1,0 +1,16 @@
+# Number of direct spouse triples with no reverse triple, written with MINUS.
+# The FILTER NOT EXISTS form (p26-missing-reverse-count.rq) timed out with
+# HTTP 504 on 2026-11-14T15:31:37Z. Best rank only, as there.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT (COUNT(*) AS ?n) WHERE {
+  { ?a wdt:P26 ?b . }
+  MINUS
+  { ?b wdt:P26 ?a . }
+}

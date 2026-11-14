@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/symmetric-inverse-constraint-exception-items.rq",
+  "query_sha256": "51cdae9370a199da84c3d8f2f38e37d369b80fc33c251870aac7d9f881f894d0",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:45:19+00:00",
+  "finished_utc": "2026-11-14T15:45:20+00:00",
+  "seconds": 0.21,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 14,
+  "body_file": "results/symmetric-inverse-constraint-exception-items/20261114T154519Z.json",
+  "body_bytes": 10283,
+  "body_sha256": "62adb3a3d5ddd434856a95e110a1f49b65e78ebca9c03e7d349c006660b32fc4",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:45:20 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2013"
+  },
+  "query": "# The items listed as exceptions (P2303) to a symmetric constraint (Q21510862)\n# or an inverse constraint (Q21510855), one row per property and item.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?property ?propertyLabel ?type ?typeLabel ?exception ?exceptionLabel WHERE {\n  VALUES ?type { wd:Q21510862 wd:Q21510855 }\n  ?property p:P2302 ?c .\n  ?c ps:P2302 ?type .\n  ?c pq:P2303 ?exception .\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nORDER BY ?property ?exception\n"
+}

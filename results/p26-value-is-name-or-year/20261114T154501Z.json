@@ -1,0 +1,2936 @@
+{
+  "head" : {
+    "vars" : [ "a", "aLabel", "b", "bLabel", "class", "classLabel", "reciprocated" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q385468"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139464"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zechariah"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elizabeth"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q307901"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16672322"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rebiha Khebtani"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abdelkader"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1158139"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q469726"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3409032"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rudolf Vrba"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Robin"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "unisex given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q820698"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17113830"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hugo Wathne"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Berit"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1523785"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2073014"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lucine Amara"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gil"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1778168"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4793563"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rebecca Lee Crumpler"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arthur"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1158477"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30128496"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grace Dean Rogers"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Henry"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1381706"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27734073"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3409032"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "C-Kan"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Evelyn"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "unisex given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1381706"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27734073"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "C-Kan"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Evelyn"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1541047"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33113565"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Christopher Stephen Ekpenyong"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grace"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q746076"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q73289130"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elli Plaut"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gustav"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1249148"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65589052"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Annie Rothwell"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Richard"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2164999"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61108820"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Danutė Kalinauskaitė"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Romas"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q187309"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136521990"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Roy Fey"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ethel"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1495413"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q98834492"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jonas Borak"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emilia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q325872"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136723257"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "type" : "literal",
+        "value" : "Q136723257"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maria"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4682579"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2911058"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3409032"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Galila Ron-Feder Amit"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adi"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "unisex given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482671"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137271978"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vasile Goraș"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ana"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q394431"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141795874"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Charles brown"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agnes"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q558067"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137091728"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emmanuel Enoidem"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ann"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q650689"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136668277"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tundu Lisu"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alice"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q607350"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141355280"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "type" : "literal",
+        "value" : "Q141355280"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Virginia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1168432"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125406868"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lento Goffi"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elisa"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q793417"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141636569"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Salih Yıldırım"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ayşegül"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2087646"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139474396"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Christopher M. Dewees"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Christine"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2087646"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139474396"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Christopher M. Dewees"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Christine"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2624318"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130360696"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rafael Navejas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Giselle"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4489019"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137940977"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rosa Brunori Ciriaco"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ciriaco"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4963612"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136687530"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ian Boyne"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Margaret"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4925623"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141156004"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "type" : "literal",
+        "value" : "Q141156004"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paul"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9496769"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q354003"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adelaide Ristori"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Giuliano"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12794967"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q568578"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Julien Doré"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Livio"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12787268"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q968929"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3409032"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guillaume Gouffier, seigneur de Bonnivet"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dani"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "unisex given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13258171"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2688195"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3409032"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rami Kleinstein"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alex"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "unisex given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10303410"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139792550"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "type" : "literal",
+        "value" : "Q139792550"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ioannis"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12344159"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108172051"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emma Lucy Dickson"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "William"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15730839"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4793563"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rebecca Lee Crumpler"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wyatt"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15921732"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q273492"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pamela Sue Martin"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "George"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15238167"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q44480018"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3409032"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sandra Achums"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tony"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "unisex given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16277792"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19665592"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ola Oni"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kehinde"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13570373"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139120079"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alfred Muhoozi"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Molly"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16423414"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q84327084"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marga Ingeborg Thome"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Erlingur"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14898421"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141343752"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Germaine Marie Wiswald"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alphonse"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15621047"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136756906"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Michael Lawrence Goldberg"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Michelle"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21401561"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q165524"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "type" : "literal",
+        "value" : "Q165524"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nidia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20002018"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q77027577"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuval Dayan"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sivan"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18014868"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140351015"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Odunlade adekola"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ruth"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18201513"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141889641"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Austin J. Philbin"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sarah"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47531281"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55854633"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3409032"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vrishbhanu"
+      },
+      "bLabel" : {
+        "type" : "literal",
+        "value" : "Q47531281"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "unisex given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48978795"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124620811"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lee Ann Gogo Maweni"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sabelo"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61041548"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139474521"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3409032"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Justin E. Crisp"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jewelle"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "unisex given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10261"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q235426"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Theano"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pythagoras"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "true"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q73785538"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7212800"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "type" : "literal",
+        "value" : "Q7212800"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rachel"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97998125"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2911058"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Galila Ron-Feder Amit"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oded"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q98777105"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26844709"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oluseun Onigbinde"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oluwaseun"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q100275577"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21066919"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rahmon Adedoyin"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iyabo"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97156058"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141453765"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Isabel Jocelyn Waldbauer"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Louis"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104621222"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q718994"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "John Mystacon"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Placidia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104638914"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53997799"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zinca Bălcescu"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barbu"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107178443"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19559901"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ayo Adesanya"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hassan"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108307760"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18705328"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "John Momoh"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Olusola"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104622062"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141447655"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dr Rachel Damina"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Damina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110554162"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2160718"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luiz Carlos Prates"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ieda"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106949808"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136765166"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ale Oregel"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maria Paola"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117788836"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q123460336"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ishaya Dare Akau"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aishatu"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125625529"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16201373"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Offiong Ekanem Ejindu"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amechi"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q123147141"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140420932"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hazar Abouchaer"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fayez"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130710025"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109289930"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uche Nwaefuna"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Echezona"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136031796"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q183187"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fahd bin Abdulaziz Al Saud"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "AlAnoud"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136688560"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3630446"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Raja Bhoja (Raja Bhoja I)"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lilavati"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139406873"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107850570"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elzé ML"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marie-Pauline"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18104420"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q237021"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belén Rueda"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Massimo"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19962796"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1235662"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Isaac Komnenos"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Theodora"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20000301"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3520690"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "R. Sarathkumar"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chaya"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19999977"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20606800"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tobias Goodman"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chana"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19819746"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65589052"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Annie Rothwell"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19810276"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83802158"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Suleiman Sadiq Umar"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maryam"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18857387"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141440831"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rev. Christie Bature Ogbeifun"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Greg"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30041182"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3266236"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Count Dracula"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elisabeta"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30093849"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131021842"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sadiya Gyale"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abubakar"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29908350"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141159255"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "type" : "literal",
+        "value" : "Q141159255"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tülay"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47531488"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141814787"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rahul Bafna"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rachana"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48980148"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101417657"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aisha Dikko"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ahmad"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55061485"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q66058176"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wulfric Rabel"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lidiard"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56259489"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30323430"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gurpreet Singh Dhuri"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gagandeep"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q57329218"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4667738"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abike Dabiri"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Segun"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55530600"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q116290500"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202444"
+      },
+      "aLabel" : {
+        "type" : "literal",
+        "value" : "Q116290500"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sire"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60180068"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q102228121"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11879590"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Boyar Teodor Calmasul, Lord of Stancesti"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nastasia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "female given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60617576"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95099143"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12308941"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sujatha Mohan"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mohan"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "male given name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    } ]
+  }
+}

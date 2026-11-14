@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-somevalue-sample.rq",
+  "query_sha256": "f54797a2fd3d030c1166e42f066cb79d6070a49b7e83c1f03d30086ebe4343c4",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:42:49+00:00",
+  "finished_utc": "2026-11-14T15:42:53+00:00",
+  "seconds": 3.989,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 20,
+  "body_file": "results/p26-somevalue-sample/20261114T154249Z.json",
+  "body_bytes": 11020,
+  "body_sha256": "1039e4adecb7bc68b042d9a0b74b88558432c84c51b9fa2caea2eefffc035f84",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:42:53 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2013"
+  },
+  "query": "# A few direct spouse triples whose value is \"unknown value\", to record how\n# the query service represents it (term type and IRI form).\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?a ?b (isIRI(?b) AS ?iri) (isBlank(?b) AS ?blank) WHERE {\n  ?a wdt:P26 ?b .\n  FILTER(wikibase:isSomeValue(?b))\n}\nLIMIT 20\n"
+}

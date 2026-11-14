@@ -1,0 +1,236 @@
+{
+  "head" : {
+    "vars" : [ "property", "propertyLabel", "type", "typeLabel", "status", "statusLabel", "exceptions" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P47"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "shares border with"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exceptions" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "3"
+      }
+    }, {
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P674"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "characters"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510855"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "inverse constraint"
+      },
+      "exceptions" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "status" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62026391"
+      },
+      "statusLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "suggestion constraint"
+      }
+    }, {
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P2152"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "antiparticle"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exceptions" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "status" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21502408"
+      },
+      "statusLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mandatory constraint"
+      }
+    }, {
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P2388"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "position held by head of the organization"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510855"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "inverse constraint"
+      },
+      "exceptions" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "2"
+      }
+    }, {
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P2789"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "connects with"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exceptions" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "1"
+      },
+      "status" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62026391"
+      },
+      "statusLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "suggestion constraint"
+      }
+    }, {
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P530"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "diplomatic relation"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exceptions" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "1"
+      }
+    }, {
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P156"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "followed by"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510855"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "inverse constraint"
+      },
+      "exceptions" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "1"
+      },
+      "status" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62026391"
+      },
+      "statusLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "suggestion constraint"
+      }
+    }, {
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P398"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "child astronomical body"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510855"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "inverse constraint"
+      },
+      "exceptions" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "1"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "head" : {
+    "vars" : [ "property", "propertyLabel", "type", "typeLabel", "exception", "exceptionLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510855"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1411020"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P156"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "followed by"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "inverse constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "shebang"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118629252"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P47"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "shares border with"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belgorod People's Republic"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q81810310"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P47"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "shares border with"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Numbani"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P47"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "shares border with"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3198"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P2152"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "antiparticle"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "photon"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q402"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P2152"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "antiparticle"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Higgs boson"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510855"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133944039"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P2388"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "position held by head of the organization"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "inverse constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Association of Polish Minecraft Wiki"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510855"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q285328"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P2388"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "position held by head of the organization"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "inverse constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Commonwealth Bank"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133803"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P2789"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "connects with"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lego minifigure"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510855"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q634"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P398"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "child astronomical body"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "inverse constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "planet"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23057402"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P530"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "diplomatic relation"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Qumar"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510855"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1405"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P674"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "characters"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "inverse constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Augustus"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510855"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37085"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P674"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "characters"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "inverse constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Solomon"
+      }
+    }, {
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510855"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q377"
+      },
+      "property" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/P674"
+      },
+      "propertyLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "characters"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "inverse constraint"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yanka Kupala"
+      }
+    } ]
+  }
+}

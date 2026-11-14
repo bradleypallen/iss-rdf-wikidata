@@ -1,0 +1,22 @@
+{
+  "query_file": "queries/p26-missing-reverse-count-minus.rq",
+  "query_sha256": "f44bb03363bd56c1ae544b05e8c5bdd1ed3485f4fcfc80c0e55ea8d7ce94e996",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:40:15+00:00",
+  "finished_utc": "2026-11-14T15:41:20+00:00",
+  "seconds": 65.176,
+  "http_status": 504,
+  "ok": false,
+  "error": "HTTP 504 Gateway Timeout",
+  "rows": null,
+  "body_file": "results/p26-missing-reverse-count-minus/20261114T154015Z.error.txt",
+  "body_bytes": 24,
+  "body_sha256": "89f2d4e6c7a6c41c13c2e7a75e526aa60b9d5274fe28b2d82801c6beb6beb879",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:41:20 GMT",
+    "Content-Type": "text/plain",
+    "Server": "envoy"
+  },
+  "query": "# Number of direct spouse triples with no reverse triple, written with MINUS.\n# The FILTER NOT EXISTS form (p26-missing-reverse-count.rq) timed out with\n# HTTP 504 on 2026-11-14T15:31:37Z. Best rank only, as there.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT (COUNT(*) AS ?n) WHERE {\n  { ?a wdt:P26 ?b . }\n  MINUS\n  { ?b wdt:P26 ?a . }\n}\n"
+}

@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-value-is-family-name-or-disambiguation.rq",
+  "query_sha256": "1453c2dc4eebc62d4e14c36b37965f2cb0c3cac7990d1960a6c5929d078134b5",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:45:06+00:00",
+  "finished_utc": "2026-11-14T15:45:17+00:00",
+  "seconds": 11.538,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 122,
+  "body_file": "results/p26-value-is-family-name-or-disambiguation/20261114T154506Z.json",
+  "body_bytes": 103316,
+  "body_sha256": "ee8d7543d0ecff6ce30ae6ad78bf10b597297a329f248cfa2ad4c131740a79cf",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:45:17 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2013"
+  },
+  "query": "# As p26-value-is-name-or-year.rq, for the two large classes that the\n# conflicts-with constraint on P26 forbids for the subject: family name and\n# Wikimedia disambiguation page.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?a ?aLabel ?b ?bLabel ?class ?classLabel ?reciprocated WHERE {\n  { BIND(wd:Q101352 AS ?class) ?b wdt:P31 wd:Q101352 . ?a wdt:P26 ?b . }\n  UNION\n  { BIND(wd:Q4167410 AS ?class) ?b wdt:P31 wd:Q4167410 . ?a wdt:P26 ?b . }\n  BIND(EXISTS { ?b wdt:P26 ?a } AS ?reciprocated)\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nLIMIT 500\n"
+}

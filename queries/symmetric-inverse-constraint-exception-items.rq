@@ -1,0 +1,18 @@
+# The items listed as exceptions (P2303) to a symmetric constraint (Q21510862)
+# or an inverse constraint (Q21510855), one row per property and item.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?property ?propertyLabel ?type ?typeLabel ?exception ?exceptionLabel WHERE {
+  VALUES ?type { wd:Q21510862 wd:Q21510855 }
+  ?property p:P2302 ?c .
+  ?c ps:P2302 ?type .
+  ?c pq:P2303 ?exception .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?property ?exception

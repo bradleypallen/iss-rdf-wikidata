@@ -6,9 +6,10 @@ Supplementary material for the Wikidata case study (spouse, P26) in Bradley P. A
 formalization) and [iss-rdf-checks](https://github.com/bradleypallen/iss-rdf-checks)
 (computational checks of the theorems).
 
-**Status (14 November 2026):** the layout, the first queries and the query runner are in
-place. No query has yet been run against Wikidata, so there are no results, no data subset
-and no entries here yet.
+**Status (14 November 2026):** fourteen queries have been run once each against the
+Wikidata Query Service, between 15:31 and 15:46 UTC on 14 November 2026; eleven returned
+results and three timed out. The failed runs are kept. There is no data subset, no entry
+file and no pipeline here yet.
 
 ## How this repository is kept
 

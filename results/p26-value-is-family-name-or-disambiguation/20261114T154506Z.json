@@ -1,0 +1,4025 @@
+{
+  "head" : {
+    "vars" : [ "a", "aLabel", "b", "bLabel", "class", "classLabel", "reciprocated" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q338415"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q226163"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jonas Prapiestis"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Regina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q562964"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q226163"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rimantas Dagys"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Regina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4476105"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q226163"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bronius Kryžius"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Regina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q82353"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rytis Šatkauskas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q364952"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adolfas Brėskis"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q716036"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Artūras Leita"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2514498"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q400443"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Algimantas Zaremba"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4163510"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q400443"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kęstutis Trečiokas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4149831"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jonas Gricius"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12649686"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q226163"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aurelijus Katkevičius"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Regina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12658650"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q226163"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Juozas Puodžiukaitis"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Regina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12671716"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q226163"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Romualdas Urmilevičius"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Regina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12672841"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q226163"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sigitas Mičiulis"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Regina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12676026"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q226163"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vaclovas Sidzikauskas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Regina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12677812"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q226163"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Virginijus Šimkevičius"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Regina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12678511"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q226143"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vytautas Urbanavičius"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Palmyra"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6814885"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazys Bobelis"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12647750"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q254264"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Algimantas Gaubas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ona"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12658551"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q254264"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Juozas Juknius"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ona"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12662884"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q254264"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonas Gineitis"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ona"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16471196"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q226143"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rimundas Domarkas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Palmyra"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17088661"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q223958"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kristoff"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anna"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12647357"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q400443"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Albertas Juška"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12657814"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q400443"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jonas Nekrašius"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Janina"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12648405"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Andrius Mosiejus"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12669953"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Povilas Mataitis"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16323117"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anicetas Lupeika"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16450227"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eduardas Juchnevičius"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16451608"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gintaras Ruplėnas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16456021"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazys Algirdas Kaminskas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16477187"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442076"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vytautas Šerėnas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dalia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25468492"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218592"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arthur Stefano Anapaku"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Diana"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16658417"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q845069"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hu Lanqi"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yang"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q46118365"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170455"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "William Conan Davis"
+      },
+      "bLabel" : {
+        "type" : "literal",
+        "value" : "Q170455"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2096443"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2046317"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lindsay Armaou"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pahl"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106523173"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q228133"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Domas Smaliukas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Apollonia"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108264798"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4682389"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bolanle Frazer"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adetokunbo"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108881350"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7881851"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dr. Opara Genevieve Chinedu"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Umunna"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16453392"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12647392"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Joana Bartaškienė"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Albinas"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16453451"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12652260"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jolanta Damulienė"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Damulis"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2023697"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16442772"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ona Adomavičienė"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adomavičius"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6170285"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16479741"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jean Blewett"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bassett"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7517054"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16881332"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Silvia Süller"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ponce"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18977605"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16860207"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Afro Candy"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bolton"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55500775"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15713572"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Verena Kurtz"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bühler"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13562440"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18272482"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yvonne Johnson"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Walter"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141445876"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18043344"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marthe Renard"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Renard"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55446801"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21561333"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Edwuin Pernía"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Albani"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q75542637"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20997154"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luis Hector Sosa Basualdo"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leach"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115350002"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21450166"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amina Mousso Ouedraogo"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ouédraogo"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q120513636"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21501735"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Suzanne Barclay"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Backus"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95971823"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23009991"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abdul Rasid"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ariani"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37677"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20124442"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Francisco Solano López"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ninguno"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5812611"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q471325"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dolores Vargas París"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rafael Urdaneta"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "true"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6454618"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1525150"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kęstutis Smirnovas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gintaras"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1714253"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1713851"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Justinas Sartauskas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jurga"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16457765"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1641003"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kęstutis Gascevičius"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ala"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12508419"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1897198"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Remy Sylado"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marie Louise"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12522832"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2297350"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuty S."
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Soeprapto"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4163516"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4111195"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rimantas Velykis"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vilija"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4476143"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4111195"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sigitas Kaktys"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vilija"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12647688"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4111195"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alfredas Algirdas Jonušas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vilija"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12648589"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4111195"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Antanas Burinskas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vilija"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12663593"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4111195"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Linas Urmanavičius"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vilija"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16387607"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4111195"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jurgis Krasnickas"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vilija"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12525259"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5953625"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yogi Finanda"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Clara"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12660121"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7702251"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazimieras Augulis"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Terese"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12246247"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8067568"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Musa ibn Anas ibn Malik"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zaynab"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12671404"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12649137"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rimutė Avižinienė"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arminas"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12665927"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12673629"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Motiejus Bigelis"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stanislava"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2350272"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15834293"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mstislav of Chernigov"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "María"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16475941"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15614216"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "type" : "literal",
+        "value" : "Q16475941"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonas"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111283365"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12648636"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "type" : "literal",
+        "value" : "Q111283365"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Antanas Jankauskas"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q735121"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26742258"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jean Alfonse"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Valentine"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q87470623"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28339766"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "William McKelvie"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "MacIntosh"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113130183"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28403644"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bayo Bankole"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Olayinka"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q573720"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37095460"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anthony Ogogo"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wicks"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q275971"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37186065"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Roman Reigns"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Single"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2850512"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37290921"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anna Gréki"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Melki"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18684873"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37097287"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bolanle Austen-Peters"
+      },
+      "bLabel" : {
+        "type" : "literal",
+        "value" : "Q37097287"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8039285"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37561106"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iyalode Wuraola Adepeju Esan"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Esan"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23799828"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37241647"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Isha Ambani"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sankar"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30557994"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37196314"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Frank Artus"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prima"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63184792"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37186065"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Serwaa Amihere"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Single"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q54152630"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37479922"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sangeeta Sindhi Bahl"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bahl"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q75265398"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36937382"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "William Gilbert Montriou Campion"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wedderburn"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q73289130"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37459067"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elli Plaut"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katzenstein"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q93493253"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37448706"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Patience Ibekwe Adbullah"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mustapha"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111590040"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36896530"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Osinachi Nwachukwu"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nwachukwu"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108188887"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37039815"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Epiphany Azinge"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Valerie"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q105037371"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37479917"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ma Yuanbao"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seow"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113632023"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37565030"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hajia Hamdatu Ibrahim Haruna"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yakubu"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115973104"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37533054"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "type" : "literal",
+        "value" : "Q115973104"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Soldner"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131920240"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37232137"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elena Polli"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barabino"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136541831"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37186065"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mahmoud Talebi"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Single"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140572893"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37187387"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dame Pauline Tallen"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tallen"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130530224"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37533351"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "H. M. Hoyem"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hoyem"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140085109"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37507715"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Faruk Raj"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Farzana"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86357161"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48980730"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dzifa Dey"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kafui"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4667738"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q57329218"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abike Dabiri"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Segun"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q64666980"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q64862975"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Madame Gironella"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gironella"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94401251"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65442348"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tereza K. Mbire"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mbire"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97597239"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136796228"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aida Stuckering"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tränkner"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q99980845"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q75821086"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Morgan J. R. de la Poer Horsley Beresford"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Borioni"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104518403"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q507985"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shar Jackson"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Corey Jackson"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106636252"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5087022"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chas Betts"
+      },
+      "bLabel" : {
+        "type" : "literal",
+        "value" : "Q106636252"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108816501"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4889031"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Benjamin Mitchell"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kate Mitchell"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109599096"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q172061"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Suleiman II"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Şehsuvar Kadın"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109507802"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13095107"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mieke Amalia"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hendra Wijaya"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q116368150"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5362271"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elizabeth Adekogbe"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adekogbe"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q116369019"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56678163"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shina Peller"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ayọ̀bọ́lá"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117125095"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133816250"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zainab bint Ibrahim al-Maqdisiyya"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takieddine"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130755858"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1234699"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Giorgio Parodi"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cais di Pierlas"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136831264"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q75383641"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Countess Gisela of Ysenburg-Büdingen-Meerholz"
+      },
+      "bLabel" : {
+        "type" : "literal",
+        "value" : "Q136831264"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138632087"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134008607"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101352"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lizzie Lossa"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mpinganjira"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "family name"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20753543"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q116136631"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beatrice Schrott von Kindberg"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hans Leyser"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24731562"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62800724"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ildefonso Velásquez Martínez"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Isabel Ruiz"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28019833"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5791882"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cristóbal Suárez"
+      },
+      "bLabel" : {
+        "type" : "literal",
+        "value" : "Q28019833"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29422750"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q749992"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gonario II of Arborea"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Leonor"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48963612"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4098860"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Varvara Bulgakova"
+      },
+      "bLabel" : {
+        "type" : "literal",
+        "value" : "Q48963612"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48979767"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108256438"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yemi Sonde"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Molade"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56410130"
+      },
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49255827"
+      },
+      "class" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4167410"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yusril Fahriza"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Putri"
+      },
+      "classLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wikimedia disambiguation page"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "query_file": "queries/p26-value-conflicts-with.rq",
+  "query_sha256": "e171add8194e69b6dc86e8d1ecca461b9fbccd7e8a7af28c84882fbeaa2b95f8",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:41:26+00:00",
+  "finished_utc": "2026-11-14T15:42:31+00:00",
+  "seconds": 65.155,
+  "http_status": 504,
+  "ok": false,
+  "error": "HTTP 504 Gateway Timeout",
+  "rows": null,
+  "body_file": "results/p26-value-conflicts-with/20261114T154126Z.error.txt",
+  "body_bytes": 24,
+  "body_sha256": "89f2d4e6c7a6c41c13c2e7a75e526aa60b9d5274fe28b2d82801c6beb6beb879",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:42:31 GMT",
+    "Content-Type": "text/plain",
+    "Server": "envoy"
+  },
+  "query": "# Spouse triples whose value is an instance of a class that the conflicts-with\n# constraint on P26 forbids for the subject (classes as listed in\n# p26-constraint-qualifiers, 2026-11-14), and whose reverse triple is absent.\n# Direct P31 only; no subclass closure. A sample, not a count.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?a ?aLabel ?b ?bLabel ?class ?classLabel WHERE {\n  VALUES ?class { wd:Q101352 wd:Q11879590 wd:Q12308941 wd:Q15623926\n                  wd:Q202444 wd:Q3409032 wd:Q4167410 wd:Q577 }\n  ?a wdt:P26 ?b .\n  ?b wdt:P31 ?class .\n  FILTER NOT EXISTS { ?b wdt:P26 ?a }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nLIMIT 200\n"
+}

@@ -1,0 +1,21 @@
+# Spouse triples whose value is an instance of a class that the conflicts-with
+# constraint on P26 forbids for the subject (classes as listed in
+# p26-constraint-qualifiers, 2026-11-14), and whose reverse triple is absent.
+# Direct P31 only; no subclass closure. A sample, not a count.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?a ?aLabel ?b ?bLabel ?class ?classLabel WHERE {
+  VALUES ?class { wd:Q101352 wd:Q11879590 wd:Q12308941 wd:Q15623926
+                  wd:Q202444 wd:Q3409032 wd:Q4167410 wd:Q577 }
+  ?a wdt:P26 ?b .
+  ?b wdt:P31 ?class .
+  FILTER NOT EXISTS { ?b wdt:P26 ?a }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+LIMIT 200

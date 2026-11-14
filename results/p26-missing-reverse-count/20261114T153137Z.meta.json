@@ -1,0 +1,22 @@
+{
+  "query_file": "queries/p26-missing-reverse-count.rq",
+  "query_sha256": "051a279471abb3c2a1351558784b531a72a11cba91c19f3782f619eb830e6ffa",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:31:37+00:00",
+  "finished_utc": "2026-11-14T15:32:42+00:00",
+  "seconds": 65.151,
+  "http_status": 504,
+  "ok": false,
+  "error": "HTTP 504 Gateway Timeout",
+  "rows": null,
+  "body_file": "results/p26-missing-reverse-count/20261114T153137Z.error.txt",
+  "body_bytes": 24,
+  "body_sha256": "89f2d4e6c7a6c41c13c2e7a75e526aa60b9d5274fe28b2d82801c6beb6beb879",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:32:42 GMT",
+    "Content-Type": "text/plain",
+    "Server": "envoy"
+  },
+  "query": "# Number of spouse statements with no reverse statement, over direct triples.\n# wdt: carries best-rank statements only, so a reverse statement that exists\n# at a non-best rank counts as missing here.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT (COUNT(*) AS ?n) WHERE {\n  ?a wdt:P26 ?b .\n  FILTER NOT EXISTS { ?b wdt:P26 ?a }\n}\n"
+}

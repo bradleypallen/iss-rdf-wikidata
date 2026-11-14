@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-constraint-qualifiers.rq",
+  "query_sha256": "a6a2744308713b8e55a630de889a8f6415a55451e796ccdeb9a745fcae58e613",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:31:35+00:00",
+  "finished_utc": "2026-11-14T15:31:35+00:00",
+  "seconds": 0.278,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 74,
+  "body_file": "results/p26-constraint-qualifiers/20261114T153135Z.json",
+  "body_bytes": 56600,
+  "body_sha256": "05e31e620636f41efa4788428e4e13f75dd5faac4bcde75f9a7108a9be3fff03",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:31:35 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2022"
+  },
+  "query": "# Every qualifier of every constraint statement on spouse (P26), so that the\n# parameters of each constraint are on record.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?c ?type ?typeLabel ?qualifier ?value ?valueLabel WHERE {\n  wd:P26 p:P2302 ?c .\n  ?c ps:P2302 ?type .\n  ?c ?qualifier ?value .\n  FILTER(STRSTARTS(STR(?qualifier), STR(pq:)))\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nORDER BY ?type ?c ?qualifier ?value\n"
+}

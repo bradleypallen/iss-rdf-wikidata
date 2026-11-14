@@ -1,0 +1,22 @@
+# Properties whose symmetric constraint (Q21510862) or inverse constraint
+# (Q21510855) lists exceptions (P2303), with the number of listed exceptions.
+# The symmetric constraint on P26 lists none (p26-constraints, 2026-11-14).
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?property ?propertyLabel ?type ?typeLabel ?status ?statusLabel
+       (COUNT(DISTINCT ?exception) AS ?exceptions) WHERE {
+  VALUES ?type { wd:Q21510862 wd:Q21510855 }
+  ?property p:P2302 ?c .
+  ?c ps:P2302 ?type .
+  ?c pq:P2303 ?exception .
+  OPTIONAL { ?c pq:P2316 ?status }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+GROUP BY ?property ?propertyLabel ?type ?typeLabel ?status ?statusLabel
+ORDER BY DESC(?exceptions)

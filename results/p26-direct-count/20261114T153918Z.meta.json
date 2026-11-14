@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-direct-count.rq",
+  "query_sha256": "a3fc24ab9d4f87fcbff40f9011bb70697b5345cf7c601e3665a638b333c7fe2e",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:39:18+00:00",
+  "finished_utc": "2026-11-14T15:39:18+00:00",
+  "seconds": 0.308,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 1,
+  "body_file": "results/p26-direct-count/20261114T153918Z.json",
+  "body_bytes": 233,
+  "body_sha256": "2eedba77fa90dcbd75ceef62be8fd3b96c13fb13a6e46159f6e64618f4809f23",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:39:18 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2007"
+  },
+  "query": "# Number of direct (best-rank) spouse triples.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT (COUNT(*) AS ?n) WHERE {\n  ?a wdt:P26 ?b .\n}\n"
+}

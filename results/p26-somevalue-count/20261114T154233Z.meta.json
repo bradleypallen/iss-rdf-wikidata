@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-somevalue-count.rq",
+  "query_sha256": "d668a3679ce7f30f8090018f973fa9119e9b5667c8a17ae8155151a04cfcb432",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:42:33+00:00",
+  "finished_utc": "2026-11-14T15:42:47+00:00",
+  "seconds": 14.191,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 1,
+  "body_file": "results/p26-somevalue-count/20261114T154233Z.json",
+  "body_bytes": 231,
+  "body_sha256": "340ea6e5e71a6e485515fa95a9180dc3f1463fdafcfde4127e1ed081be09f5b2",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:42:47 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2011"
+  },
+  "query": "# Number of direct spouse triples whose value is \"unknown value\".\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT (COUNT(*) AS ?n) WHERE {\n  ?a wdt:P26 ?b .\n  FILTER(wikibase:isSomeValue(?b))\n}\n"
+}

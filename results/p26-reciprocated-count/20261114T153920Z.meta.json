@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-reciprocated-count.rq",
+  "query_sha256": "b72c12da94aeedc61a4fe6d99bfc04ef16569814386a71be6a073e3079f62189",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:39:20+00:00",
+  "finished_utc": "2026-11-14T15:40:13+00:00",
+  "seconds": 52.611,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 1,
+  "body_file": "results/p26-reciprocated-count/20261114T153920Z.json",
+  "body_bytes": 233,
+  "body_sha256": "73b555cfa64e7319a03f961746f7a3e844504880f5070adeff0a459a826a3761",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:40:13 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2011"
+  },
+  "query": "# Number of direct spouse triples whose reverse triple is also present.\n# Subtracted from p26-direct-count, run at nearly the same time, this gives\n# the number of missing reverse statements. A triple ?a wdt:P26 ?a counts.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT (COUNT(*) AS ?n) WHERE {\n  ?a wdt:P26 ?b .\n  ?b wdt:P26 ?a .\n}\n"
+}

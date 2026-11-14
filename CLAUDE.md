@@ -6,9 +6,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Public at `github.com/bradleypallen/iss-rdf-wikidata`. It is the supplementary material for
 the paper's Wikidata case study, so everything committed here is published and will be
-archived. As of 14 Nov 2026 it holds the layout, four queries from the handoff, and the
-query runner; no query has been run against Wikidata, and there is no pipeline, data subset
-or entry file yet. There is no build and no test suite.
+archived. As of 14 Nov 2026 it holds the layout, the query runner, fourteen queries and one
+dated run of each (three timed out; see `logs/runs.jsonl`). There is no pipeline, data
+subset or entry file yet. There is no build and no test suite.
+
+Brad's `WDQS_USER_AGENT` is set only in his own Terminal tab. Shells and tabs opened by
+Claude do not have it, so write the query files, then give him one command to run there.
+Counting anti-joins over all spouse triples (`FILTER NOT EXISTS`, `MINUS`) time out on the
+query service at 60 s; a join that drives from a small class does not.
 
 **Read `WIKIDATA-HANDOFF.md` first**; it is the specification for the work. It is a working
 note, kept out of the public repository by `.gitignore`, so it exists only in this checkout.

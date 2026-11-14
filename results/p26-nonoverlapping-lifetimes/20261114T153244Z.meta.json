@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-nonoverlapping-lifetimes.rq",
+  "query_sha256": "bb0eccb7c699c6c5e7a824a0d18a7d7d06a8b5feec30c3a1c1455a4636f49d52",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:32:44+00:00",
+  "finished_utc": "2026-11-14T15:32:46+00:00",
+  "seconds": 1.257,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 200,
+  "body_file": "results/p26-nonoverlapping-lifetimes/20261114T153244Z.json",
+  "body_bytes": 109121,
+  "body_sha256": "ee1e20b6469f965f2a453250ddc8de368cd605d4dfe9f75073deaea4ab3eb63c",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:32:45 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2014"
+  },
+  "query": "# Spouse pairs where the subject died before the value was born. A starting\n# shape only: date precision and unknown values are not handled.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?a ?b ?death ?birth WHERE {\n  ?a wdt:P26 ?b .\n  ?a wdt:P570 ?death .\n  ?b wdt:P569 ?birth .\n  FILTER(?death < ?birth)\n}\nLIMIT 200\n"
+}

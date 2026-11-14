@@ -1,0 +1,15 @@
+# A few direct spouse triples whose value is "unknown value", to record how
+# the query service represents it (term type and IRI form).
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?a ?b (isIRI(?b) AS ?iri) (isBlank(?b) AS ?blank) WHERE {
+  ?a wdt:P26 ?b .
+  FILTER(wikibase:isSomeValue(?b))
+}
+LIMIT 20

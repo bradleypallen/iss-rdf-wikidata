@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-value-is-name-or-year.rq",
+  "query_sha256": "1a7c8647278326d9c11532af2f826180443a9e4079090c77593262bc60df1153",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:45:01+00:00",
+  "finished_utc": "2026-11-14T15:45:03+00:00",
+  "seconds": 2.233,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 89,
+  "body_file": "results/p26-value-is-name-or-year/20261114T154501Z.json",
+  "body_bytes": 74738,
+  "body_sha256": "5fa3fe5af5de1ef57959d7c38630ee7c808443fe6c93689000a5e325e0e4f546",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:45:03 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2010"
+  },
+  "query": "# Spouse triples whose value is an instance of one of six classes that the\n# conflicts-with constraint on P26 forbids for the subject: the four given-name\n# classes, set index article, and year (classes as listed in\n# p26-constraint-qualifiers, 2026-11-14). ?reciprocated says whether the\n# reverse triple is present. Direct P31 only; no subclass closure.\n# One UNION branch per class, because the single-pattern form with VALUES\n# (p26-value-conflicts-with.rq) timed out on 2026-11-14T15:41:26Z.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?a ?aLabel ?b ?bLabel ?class ?classLabel ?reciprocated WHERE {\n  { BIND(wd:Q202444 AS ?class) ?b wdt:P31 wd:Q202444 . ?a wdt:P26 ?b . }\n  UNION\n  { BIND(wd:Q11879590 AS ?class) ?b wdt:P31 wd:Q11879590 . ?a wdt:P26 ?b . }\n  UNION\n  { BIND(wd:Q12308941 AS ?class) ?b wdt:P31 wd:Q12308941 . ?a wdt:P26 ?b . }\n  UNION\n  { BIND(wd:Q3409032 AS ?class) ?b wdt:P31 wd:Q3409032 . ?a wdt:P26 ?b . }\n  UNION\n  { BIND(wd:Q15623926 AS ?class) ?b wdt:P31 wd:Q15623926 . ?a wdt:P26 ?b . }\n  UNION\n  { BIND(wd:Q577 AS ?class) ?b wdt:P31 wd:Q577 . ?a wdt:P26 ?b . }\n  BIND(EXISTS { ?b wdt:P26 ?a } AS ?reciprocated)\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nLIMIT 500\n"
+}
