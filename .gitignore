@@ -6,3 +6,10 @@ __pycache__/
 # Working notes between sessions; not part of the supplementary material.
 WIKIDATA-HANDOFF.md
 LEAN-UPDATE.md
+
+# The full-run snapshot and the pipeline's graph dumps for it are too large for
+# git. Their checksums are in the committed .meta.json, PROVENANCE.json and run.json.
+results/full-p26-snapshot/*.ttl
+data/full-p26/asserted.nt
+results/pipeline/full-p26/*/*.nt
+results/pipeline/sample-*-all-subclass/*/*.nt

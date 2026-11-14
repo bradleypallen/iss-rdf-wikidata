@@ -1,0 +1,35 @@
+{
+  "seed": 20261114,
+  "n": 200,
+  "parties": 918058,
+  "parties_off_named": 8363,
+  "subclass_triples_kept": 1067,
+  "subclass_triples_all": 4149,
+  "sampled_parties": 200,
+  "spouse_triples": 429,
+  "parties_in_those_triples": 418,
+  "identical": {
+    "defaults.nt": true,
+    "2-default-instances.json": true,
+    "2-defeated.json": true,
+    "2-incompatibilities.json": true,
+    "4-recheck.json": true,
+    "q-spouse-of-at-closure.json": true,
+    "q-spouse-of-at-cons.json": true
+  },
+  "all_identical": true,
+  "kept": {
+    "run": "results/pipeline/sample-random/20261114T175807Z",
+    "K": 6391,
+    "Cons": 6398,
+    "check_agrees": true,
+    "incompatibilities_at_K": 0,
+    "incompatibilities_over_Cons": 3
+  },
+  "all_subclass": {
+    "run": "results/pipeline/sample-random-all-subclass/20261114T175808Z",
+    "K": 144153,
+    "Cons": 144160,
+    "check_agrees": true
+  }
+}

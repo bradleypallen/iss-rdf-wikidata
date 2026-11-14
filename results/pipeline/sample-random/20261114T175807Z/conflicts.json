@@ -1,0 +1,24 @@
+{
+ "new_conclusions": 7,
+ "in_conflict_over_cons": 1,
+ "in_conflict_one_at_a_time": 1,
+ "conclusions_where_the_readings_differ": 0,
+ "instances_over_cons_not_at_K_touching_no_new_conclusion": 0,
+ "conclusions": [
+  {
+   "conclusion": [
+    "<http://www.wikidata.org/entity/Q18014868>",
+    "<http://www.wikidata.org/prop/direct/P26>",
+    "<http://www.wikidata.org/entity/Q140351015>"
+   ],
+   "over_cons": [
+    "p26-conflicts-with",
+    "p26-subject-type"
+   ],
+   "one_at_a_time": [
+    "p26-conflicts-with",
+    "p26-subject-type"
+   ]
+  }
+ ]
+}

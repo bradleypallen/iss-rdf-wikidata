@@ -1,0 +1,43 @@
+{
+  "data": "/Users/bradleyallen/Documents/GitHub/iss-rdf-wikidata/data/sample-random/asserted.nt",
+  "agree": true,
+  "seconds": 0.1,
+  "incoherent at K": false,
+  "readings_of_in_conflict_differ_on": 0,
+  "asserted is the data file": true,
+  "K": {
+    "definition": 6391,
+    "pipeline": 6391,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "D*": {
+    "definition": 429,
+    "pipeline": 429,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "Cons": {
+    "definition": 6398,
+    "pipeline": 6398,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "incompatibilities at K": {
+    "definition": 0,
+    "pipeline": 0,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "incompatibilities over Cons": {
+    "definition": 3,
+    "pipeline": 3,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  }
+}

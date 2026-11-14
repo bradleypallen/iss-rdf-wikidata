@@ -1,0 +1,7171 @@
+{
+ "seed": 20261114,
+ "size": 50,
+ "data": "data/full-p26/asserted.nt",
+ "run": "results/pipeline/full-p26/20261114T175336Z",
+ "categories": {
+  "reciprocated": {
+   "description": "Reverse triple present; no incompatibility at K.",
+   "population": 969652,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q107635910>",
+     "y": "<http://www.wikidata.org/entity/Q17301406>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q107635910$b6c7ee55-4cbc-4b31-0ccf-7b6b96f054c4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q108317441>",
+     "y": "<http://www.wikidata.org/entity/Q108317444>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q108317441$90d0346c-4803-f86f-5d4b-acf525e3a0c9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q11452180>",
+     "y": "<http://www.wikidata.org/entity/Q62601512>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q11452180$614399EB-6534-4EE9-A950-C233C7E5DF0B",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q130632979>",
+     "y": "<http://www.wikidata.org/entity/Q67146945>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q130632979$25bc8206-469d-1728-3cb9-8eb25ccf9dda",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q131574231>",
+     "y": "<http://www.wikidata.org/entity/Q15640464>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q131574231$340d6401-411e-29ec-e15d-105cf76c92c8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q136087655>",
+     "y": "<http://www.wikidata.org/entity/Q136087657>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q136087655$A1AA081C-F4B6-4014-8BEF-BE5B450D2B26",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q136436797>",
+     "y": "<http://www.wikidata.org/entity/Q110797471>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q136436797$c0b12e97-430f-4227-d5e3-5135d3a7284c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141408049>",
+     "y": "<http://www.wikidata.org/entity/Q5797731>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q141408049$1E9B8BC5-8710-4F72-A32C-24689531D4AD",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1434857>",
+     "y": "<http://www.wikidata.org/entity/Q96572>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q1434857$71d7f205-403c-b1be-513d-9218c165370e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q15921534>",
+     "y": "<http://www.wikidata.org/entity/Q110632065>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q15921534$8056C27B-155F-4E96-A281-66A6F2311668",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1712827>",
+     "y": "<http://www.wikidata.org/entity/Q21856665>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q1712827$306e52ae-43e5-2d46-6286-ed3c6f0bfc12",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q17411557>",
+     "y": "<http://www.wikidata.org/entity/Q48644099>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q17411557$216A25CE-7959-491B-AD52-14FEFA1706D4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q17856019>",
+     "y": "<http://www.wikidata.org/entity/Q17855990>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q17856019$05f5ac4d-4f3e-8faa-1ca5-603d04266a4f",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q220201>",
+     "y": "<http://www.wikidata.org/entity/Q28497240>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q220201$bf7b343e-418e-c001-7ecb-e12009d27f02",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q26834078>",
+     "y": "<http://www.wikidata.org/entity/Q1156254>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q26834078$6aae910a-4400-e630-8095-7263d4697a4b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q45682188>",
+     "y": "<http://www.wikidata.org/entity/Q65894333>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q45682188$6018D11C-13DE-4BCE-98A4-0F64B7A0E4EC",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q48684072>",
+     "y": "<http://www.wikidata.org/entity/Q4893400>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q48684072$33b1089a-4809-0cbb-0d2b-ff94ab51043f",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q5368719>",
+     "y": "<http://www.wikidata.org/entity/Q36742>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q5368719$CB788860-293C-46CE-8458-9D78545B8C21",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q5461936>",
+     "y": "<http://www.wikidata.org/entity/Q4685482>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q5461936$3F158005-6329-43D4-8432-5BAB2BFF96ED",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q59917796>",
+     "y": "<http://www.wikidata.org/entity/Q173528>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q59917796$1c1d3d58-45c3-3e5e-f269-032a68747aea",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q619346>",
+     "y": "<http://www.wikidata.org/entity/Q69541>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "q619346$CE9517A6-EBF8-4744-91B7-03303FB8D7A5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6385335>",
+     "y": "<http://www.wikidata.org/entity/Q6382135>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q6385335$7de750b3-4842-d7a9-8cb9-145cfd866aa8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q65834570>",
+     "y": "<http://www.wikidata.org/entity/Q18651593>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q65834570$892681B1-4A38-42AD-BBC8-DC3D74E9C65F",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q7324261>",
+     "y": "<http://www.wikidata.org/entity/Q75500072>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q7324261$7B014AC7-D98E-48DD-910D-A474B9235A95",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q7419>",
+     "y": "<http://www.wikidata.org/entity/Q8253514>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q7419$c4a54fe7-4b46-66ea-84cf-0c2c081c3a8f",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75264759>",
+     "y": "<http://www.wikidata.org/entity/Q75264757>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75264759$7667F7BC-7105-4759-AF49-9A952F6130BA",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75280818>",
+     "y": "<http://www.wikidata.org/entity/Q75280820>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75280818$944BB798-7656-478B-86A6-FEE9671128C9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75323766>",
+     "y": "<http://www.wikidata.org/entity/Q75323765>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75323766$361C2FD4-9ECD-4D0F-B47C-856150DADDBF",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75376367>",
+     "y": "<http://www.wikidata.org/entity/Q75376368>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75376367$2825E096-46E0-40EA-BE03-97BC2FDB38C8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75417097>",
+     "y": "<http://www.wikidata.org/entity/Q75417099>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75417097$7BBF5921-7BDE-4B1A-8A55-DDC3E74280A3",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75451362>",
+     "y": "<http://www.wikidata.org/entity/Q75273998>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75451362$9A2C1E71-EF92-4894-978D-ADD147BE7CCF",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75521544>",
+     "y": "<http://www.wikidata.org/entity/Q75521835>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75521544$591DFFC6-BE7C-4FEF-AF81-2A9609FB3C4E",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75608612>",
+     "y": "<http://www.wikidata.org/entity/Q5727990>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75608612$081978E0-E26B-4105-8B71-9267F49C7DD8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75684774>",
+     "y": "<http://www.wikidata.org/entity/Q75684771>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75684774$32D18CB4-8786-476D-933B-8D65F741E20F",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75741613>",
+     "y": "<http://www.wikidata.org/entity/Q75741611>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75741613$EB40AA2C-E899-4CA7-B94E-AC7880F83832",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75745253>",
+     "y": "<http://www.wikidata.org/entity/Q75745252>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75745253$9D4FF549-3FCF-405B-B09D-0A7AB5BD3B00",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75895128>",
+     "y": "<http://www.wikidata.org/entity/Q75895126>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75895128$4908E8DC-25C0-419A-BBC6-8ACE0A55DDEF",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75996433>",
+     "y": "<http://www.wikidata.org/entity/Q75996432>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q75996433$F85DB06B-8710-469F-AAFB-53FC267E45A0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76017306>",
+     "y": "<http://www.wikidata.org/entity/Q28363356>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q76017306$BE24FDA0-01B9-4EAE-9D30-A35FB13F17B9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76076894>",
+     "y": "<http://www.wikidata.org/entity/Q76076891>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q76076894$FC834F0E-DC05-45B7-934E-DD3D03F2866D",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76092520>",
+     "y": "<http://www.wikidata.org/entity/Q76092522>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q76092520$B80BDD15-C762-4392-89DF-71826BEA8161",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76107760>",
+     "y": "<http://www.wikidata.org/entity/Q76107750>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q76107760$1F35FA2D-49EE-4979-AB22-E942FE3114D6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76126879>",
+     "y": "<http://www.wikidata.org/entity/Q76126881>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q76126879$232EC65E-3AB2-49BA-8902-CAFCB3477EB9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76256752>",
+     "y": "<http://www.wikidata.org/entity/Q76256747>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q76256752$C1107818-E813-421C-B9A1-01E0E056893E",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76288844>",
+     "y": "<http://www.wikidata.org/entity/Q76288845>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q76288844$2C1300C2-FFD8-4CEF-A62F-0E000C93B08F",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76289649>",
+     "y": "<http://www.wikidata.org/entity/Q76289648>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q76289649$DEF24B99-54E6-40D8-9D7A-110CED4098C4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76301514>",
+     "y": "<http://www.wikidata.org/entity/Q76301513>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q76301514$37F6B12B-E2A6-4B26-9ED2-17FD71B32ECE",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q81207351>",
+     "y": "<http://www.wikidata.org/entity/Q3917958>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q81207351$832CDE16-CE8A-4297-8FE8-6B1A90BB3DB3",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q84973>",
+     "y": "<http://www.wikidata.org/entity/Q92210>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q84973$A4E46363-25E1-44E6-8483-152D1540D6F4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q96714609>",
+     "y": "<http://www.wikidata.org/entity/Q109790247>",
+     "expected": [],
+     "statements": [
+      {
+       "claim": "Q96714609$98291e46-4092-f7de-1b14-d9fe768829c5",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  },
+  "clean-default": {
+   "description": "No reverse triple; the default conclusion is clean; no incompatibility at K.",
+   "population": 12484,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q110640958>",
+     "y": "<http://www.wikidata.org/entity/Q110640959>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q110640958$ae0d6c36-4bd4-71de-1387-88b0550969e2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q113044231>",
+     "y": "<http://www.wikidata.org/entity/Q2080040>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q113044231$db19fe6c-496d-9928-25c1-46c12c3e7795",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q123211790>",
+     "y": "<http://www.wikidata.org/entity/Q138996541>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q123211790$A5BFDE09-7B3F-419F-8AA1-61853B5177CD",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q130615388>",
+     "y": "<http://www.wikidata.org/entity/Q130611763>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q130615388$12bdf214-4b2f-819d-d620-1ff84a0761d2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q130786354>",
+     "y": "<http://www.wikidata.org/entity/Q133405355>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q130786354$700677A0-6287-4730-8E79-7171ECDEF461",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q131774957>",
+     "y": "<http://www.wikidata.org/entity/Q682816>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q131774957$88722505-E115-44C7-96D2-736D6879ADC9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q131865314>",
+     "y": "<http://www.wikidata.org/entity/Q95288630>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q131865314$4D6C806D-F7DF-4063-849F-71E301AA9079",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q132130821>",
+     "y": "<http://www.wikidata.org/entity/Q132130827>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q132130821$6d13cb12-4c7d-6a20-31d6-824afd1f7975",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q132175340>",
+     "y": "<http://www.wikidata.org/entity/Q132175179>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q132175340$114f2076-1389-4a30-aee6-b47b7112ea99",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q133513488>",
+     "y": "<http://www.wikidata.org/entity/Q72937444>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q133513488$5A0F3678-7FF3-47FD-B4A7-739391C95A0F",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q133590204>",
+     "y": "<http://www.wikidata.org/entity/Q1220512>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q133590204$745DB0F8-9086-472B-968C-60842414841C",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q133605763>",
+     "y": "<http://www.wikidata.org/entity/Q1695707>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q133605763$5B610991-AF89-440E-BAAD-D05B9D3BA5FF",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q133625478>",
+     "y": "<http://www.wikidata.org/entity/Q7494148>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q133625478$31B17BE9-F956-446A-AC65-FD0312D7D46D",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q133719036>",
+     "y": "<http://www.wikidata.org/entity/Q113793062>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q133719036$3A449A78-69A3-4187-BD73-A1CECC309DAD",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q133761721>",
+     "y": "<http://www.wikidata.org/entity/Q5388726>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q133761721$00766866-8159-4FE5-9E40-D41BFE48DE4D",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q136680738>",
+     "y": "<http://www.wikidata.org/entity/Q27493470>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q136680738$30e6b100-439f-8f35-1cca-34ffb1c451be",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q137095741>",
+     "y": "<http://www.wikidata.org/entity/Q137772235>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q137095741$46DBF7AA-CEB9-44EE-8121-C337DD1599CE",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q137445652>",
+     "y": "<http://www.wikidata.org/entity/Q1506170>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q137445652$0AE22EDE-8A67-42E3-8416-8985FC5358A0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q139113534>",
+     "y": "<http://www.wikidata.org/entity/Q1696487>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q139113534$7A7BD1DE-90D3-46CE-A2E1-739ED1834AD1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q139208096>",
+     "y": "<http://www.wikidata.org/entity/Q1446620>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q139208096$FFE37C11-001B-40C1-AA59-471E6BCC84B7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q15440088>",
+     "y": "<http://www.wikidata.org/entity/Q139233942>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q15440088$5B44FE11-18BB-4FCE-8CEF-0EAE2722E46B",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1555969>",
+     "y": "<http://www.wikidata.org/entity/Q95207301>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q1555969$48bdf72c-4221-7adf-7706-67594db9011a",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q17309207>",
+     "y": "<http://www.wikidata.org/entity/Q75357460>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q17309207$71C48D3F-6FDE-44CE-81E8-8A48DAFA69BD",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q17575917>",
+     "y": "<http://www.wikidata.org/entity/Q17575940>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q17575917$EF255EA5-18B3-410D-AE1A-9DA8E23A44E6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1767625>",
+     "y": "<http://www.wikidata.org/entity/Q537669>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q1767625$9EAA06BC-D3D1-4B61-AAEA-FAD2C36A1258",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q18628144>",
+     "y": "<http://www.wikidata.org/entity/Q5331464>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q18628144$E49D7A39-881D-4E66-A795-EBC9CF0652BE",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1871355>",
+     "y": "<http://www.wikidata.org/entity/Q123740378>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q1871355$0f54054f-447b-0baf-49fd-e3df0b5f2c52",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q20562993>",
+     "y": "<http://www.wikidata.org/entity/Q31500769>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q20562993$30f13616-4277-1cef-fbec-4894ed2168b3",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q230563>",
+     "y": "<http://www.wikidata.org/entity/Q95838743>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q230563$3a1b4ff2-4afb-4257-3d19-0bca1403baba",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q29918699>",
+     "y": "<http://www.wikidata.org/entity/Q75372104>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q29918699$000DB311-1F87-43AD-AE97-B58BCBE03DE7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3086586>",
+     "y": "<http://www.wikidata.org/entity/Q102419688>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q3086586$cf834632-4de9-d1c3-3e76-f7fd82468ce6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q312317>",
+     "y": "<http://www.wikidata.org/entity/Q7967127>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q312317$50DD1366-2A79-4072-83F6-BE11703590F2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3656096>",
+     "y": "<http://www.wikidata.org/entity/Q233444>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q3656096$F6D03578-35F5-4566-B8C6-D3A6599C7817",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q468577>",
+     "y": "<http://www.wikidata.org/entity/Q155164>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q468577$9B77B15E-DA79-4FBA-9081-0E801FB60FCC",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q55099946>",
+     "y": "<http://www.wikidata.org/entity/Q128159993>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q55099946$a381f5c9-4a26-bfe0-6169-24c891b46b87",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q55883182>",
+     "y": "<http://www.wikidata.org/entity/Q1641574>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q55883182$3FD302D9-98DB-49CB-AC8F-FB5155F457C9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q562541>",
+     "y": "<http://www.wikidata.org/entity/Q4976061>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q562541$16633E85-E361-407E-89D4-C2B72B8AB8AB",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q63108450>",
+     "y": "<http://www.wikidata.org/entity/Q68325>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q63108450$1CD8211D-7F15-4BC3-A6E6-AD4C9BBAF43E",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q63149341>",
+     "y": "<http://www.wikidata.org/entity/Q123126145>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q63149341$276d86aa-40c4-4541-d9fe-bca1087aab49",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75359078>",
+     "y": "<http://www.wikidata.org/entity/Q75359079>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q75359078$4C5A7A45-B017-4899-A093-81260C7B4E1D",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75368076>",
+     "y": "<http://www.wikidata.org/entity/Q75368075>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q75368076$C6601FC6-7F49-4EED-8C0D-EAE7CB5EBA31",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75368717>",
+     "y": "<http://www.wikidata.org/entity/Q75368719>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q75368717$82C98774-49CA-4BAA-A5CB-8D76778FEB5B",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75369499>",
+     "y": "<http://www.wikidata.org/entity/Q75369501>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q75369499$1B45A18D-EE55-49A8-99AE-321A12F2A4D8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75371588>",
+     "y": "<http://www.wikidata.org/entity/Q75371586>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q75371588$DFEEFCE9-028D-44D4-8D1E-537D3F54B977",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75374361>",
+     "y": "<http://www.wikidata.org/entity/Q75374359>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q75374361$CCCFD69C-28A3-4568-98BB-CE3DCBA56F51",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75420058>",
+     "y": "<http://www.wikidata.org/entity/Q75355069>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q75420058$F672BCF6-C9F1-4143-899C-B05EDC8CC754",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75571167>",
+     "y": "<http://www.wikidata.org/entity/Q6141740>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q75571167$0B441F1B-4D39-4EFA-A6A1-5963C22868C3",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75701262>",
+     "y": "<http://www.wikidata.org/entity/Q75701259>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q75701262$9C70DAE7-79F1-45EE-B699-9807F898BA4C",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q91609073>",
+     "y": "<http://www.wikidata.org/entity/Q92494089>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q91609073$76b77b7f-48aa-fc84-b4e4-cfa797fa1623",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q95659635>",
+     "y": "<http://www.wikidata.org/entity/Q15429282>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q95659635$9A4AE432-31A1-4D16-BA20-73216B67D728",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  },
+  "conflict-conflicts-with": {
+   "description": "No reverse triple; the default conclusion is in conflict with conflicts-with over Cons.",
+   "population": 229,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q106523173>",
+     "y": "<http://www.wikidata.org/entity/Q228133>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q106523173$FB75954C-2D76-44B6-B75E-B6671344A51C",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q108188887>",
+     "y": "<http://www.wikidata.org/entity/Q37039815>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q108188887$2d688017-45f4-b6b7-871f-824e1027f2e3",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1235662>",
+     "y": "<http://www.wikidata.org/entity/Q19962796>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q1235662$8b8288ea-45dc-f3fb-30ac-3211f7e14a12",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12522832>",
+     "y": "<http://www.wikidata.org/entity/Q2297350>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12522832$C5D7327E-3DF8-4239-86C1-8F39A335381A",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12649686>",
+     "y": "<http://www.wikidata.org/entity/Q226163>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12649686$953CEE07-C23F-4E88-952D-97F299909570",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12662884>",
+     "y": "<http://www.wikidata.org/entity/Q254264>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12662884$C17E5E89-D4E0-4AB3-8EBF-6F5843B417A0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12663593>",
+     "y": "<http://www.wikidata.org/entity/Q4111195>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12663593$B8C9AFD6-FD67-454D-8C02-FF49C60FB5ED",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12671404>",
+     "y": "<http://www.wikidata.org/entity/Q12649137>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12671404$17102E1B-DF8B-4EE0-B532-957A576D5EAE",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12672841>",
+     "y": "<http://www.wikidata.org/entity/Q226163>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12672841$00E855B9-E4FA-4E6B-8449-F0F80C5506FC",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12677812>",
+     "y": "<http://www.wikidata.org/entity/Q226163>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12677812$597B602C-AD57-4F1B-A100-FF474C47BA88",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q13562440>",
+     "y": "<http://www.wikidata.org/entity/Q18272482>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q13562440$5f51a662-45c2-d264-a399-e992b6ffac83",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q136668277>",
+     "y": "<http://www.wikidata.org/entity/Q650689>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q136668277$97da23a5-4aae-fd16-9828-ff4ccfdbbee4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q140420932>",
+     "y": "<http://www.wikidata.org/entity/Q123147141>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q140420932$b1590e8a-48b5-8375-7f08-9a7e736fe132",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q140572893>",
+     "y": "<http://www.wikidata.org/entity/Q37187387>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q140572893$72e8afac-4453-0529-a6e6-943ba7a6e187",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141445876>",
+     "y": "<http://www.wikidata.org/entity/Q18043344>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q141445876$4fe25e96-4b61-5b09-ea81-24c4b2e1469b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141814787>",
+     "y": "<http://www.wikidata.org/entity/Q47531488>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q141814787$c0a054f0-49c1-0277-c9ee-e42929a8651d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141889641>",
+     "y": "<http://www.wikidata.org/entity/Q18201513>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q141889641$396e28d4-4c04-589f-5511-64109a34086c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q16387607>",
+     "y": "<http://www.wikidata.org/entity/Q4111195>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q16387607$F50AFA33-6AC5-4E54-8703-BBCBAC6BC738",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q16456021>",
+     "y": "<http://www.wikidata.org/entity/Q442076>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q16456021$74996305-0F50-479D-9F13-A8690F4DA245",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q165524>",
+     "y": "<http://www.wikidata.org/entity/Q21401561>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q165524$29048318-2308-43C7-9D0E-BA39509AE7F2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q16672322>",
+     "y": "<http://www.wikidata.org/entity/Q307901>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q16672322$807a20be-4ced-e4e1-5983-c9bb1809fe2d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q17113830>",
+     "y": "<http://www.wikidata.org/entity/Q820698>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q17113830$3e26eec0-42a0-5e10-13c7-7846d52ce247",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q183187>",
+     "y": "<http://www.wikidata.org/entity/Q136031796>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q183187$b071dad6-4fa6-1ac8-20bb-b5cce15c1d2c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q18684873>",
+     "y": "<http://www.wikidata.org/entity/Q37097287>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q18684873$a4c60175-428a-46a4-a6a3-cde188fef15b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2096443>",
+     "y": "<http://www.wikidata.org/entity/Q2046317>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q2096443$a61c39f1-4ead-4528-4116-285e636669cd",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2160718>",
+     "y": "<http://www.wikidata.org/entity/Q110554162>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q2160718$fa8bd427-4de2-7e4b-92f7-081555c30f05",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q23799828>",
+     "y": "<http://www.wikidata.org/entity/Q37241647>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q23799828$84ab38b9-4a5b-4cd6-c4de-662467dbd3a6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q251397>",
+     "y": "<http://www.wikidata.org/entity/Q38576847>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q251397$490894a5-4c58-8d22-6cc2-2765169fcfd3",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2688195>",
+     "y": "<http://www.wikidata.org/entity/Q13258171>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q2688195$B9F5458E-200C-4F4C-A7D9-F1CFCB7F0411",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3031671>",
+     "y": "<http://www.wikidata.org/entity/Q30709043>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q3031671$0d7a2e6b-4d7a-f238-1e5f-e3692750b00b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3630446>",
+     "y": "<http://www.wikidata.org/entity/Q136688560>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q3630446$0cb0f54d-43eb-a1da-edf2-6737d83a414d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q37677>",
+     "y": "<http://www.wikidata.org/entity/Q20124442>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q37677$D81E579E-43EB-47F7-A59E-2DCBAA5C1A3C",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q44480018>",
+     "y": "<http://www.wikidata.org/entity/Q15238167>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q44480018$4cfb12e6-4c79-cd1d-a8e7-2ee5cbf08289",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q4739400>",
+     "y": "<http://www.wikidata.org/entity/Q11775640>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q4739400$ed79a09f-4db7-e03e-a650-99c543a0778a",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q4793563>",
+     "y": "<http://www.wikidata.org/entity/Q15730839>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q4793563$9f473530-4b44-ac62-36ff-c7908a7bb9a4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q49255827>",
+     "y": "<http://www.wikidata.org/entity/Q56410130>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q49255827$A32E557D-7760-4CA5-87CC-89A429F02C23",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q507985>",
+     "y": "<http://www.wikidata.org/entity/Q104518403>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q507985$891bbd10-4dfe-b3ef-eaa4-2f82dfbddf7f",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q53997799>",
+     "y": "<http://www.wikidata.org/entity/Q104638914>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q53997799$1b52c99d-46f8-cd7f-db6e-31bfb794ca66",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q55446801>",
+     "y": "<http://www.wikidata.org/entity/Q21561333>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q55446801$e5c7d46c-42de-47bf-33b9-148101225142",
+       "rank": "PreferredRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q55758026>",
+     "y": "<http://www.wikidata.org/entity/Q3181398>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q55758026$4cbb3c6c-43a1-448f-a3a6-13abe1dcb472",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6170285>",
+     "y": "<http://www.wikidata.org/entity/Q16479741>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q6170285$7c689611-4d5f-02a3-a386-83c67dd2ad64",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q64666980>",
+     "y": "<http://www.wikidata.org/entity/Q64862975>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q64666980$76e2ef0f-493e-c6f2-7ada-0efc4d20d3a4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q7212800>",
+     "y": "<http://www.wikidata.org/entity/Q73785538>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q7212800$44bfd8fa-4709-5860-b976-882bdfc68125",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q749992>",
+     "y": "<http://www.wikidata.org/entity/Q29422750>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q749992$A42BEFD4-723B-4C5D-9C5D-37BA6EB945D7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75383641>",
+     "y": "<http://www.wikidata.org/entity/Q136831264>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q75383641$D07E379F-3327-4629-8287-DA26383D0853",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q77027577>",
+     "y": "<http://www.wikidata.org/entity/Q20002018>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q77027577$dc1b35da-4bc3-3e6a-033b-2d4e6de2b32c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q94401251>",
+     "y": "<http://www.wikidata.org/entity/Q65442348>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q94401251$ddb55c59-4db2-187a-cc34-70258e6f64ef",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q95099143>",
+     "y": "<http://www.wikidata.org/entity/Q60617576>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q95099143$51FAC18C-10FC-40B3-A6F7-466E5B97ADB6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q968929>",
+     "y": "<http://www.wikidata.org/entity/Q12787268>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q968929$F48BCFBE-D662-43C8-92A4-129E8178FE22",
+       "rank": "PreferredRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q98834492>",
+     "y": "<http://www.wikidata.org/entity/Q1495413>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q98834492$bf798cd6-4023-4d88-fcba-40b489405c08",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  },
+  "conflict-subject-type": {
+   "description": "No reverse triple, value an item; the default conclusion is in conflict with subject type only.",
+   "population": 418,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q107559929>",
+     "y": "<http://www.wikidata.org/entity/Q107559942>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q107559929$acf7a146-4da2-da6a-b8df-3ee4ed81f914",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q108914600>",
+     "y": "<http://www.wikidata.org/entity/Q28341938>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q108914600$bc470a34-4470-5b55-e464-731a84e572c1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q110056672>",
+     "y": "<http://www.wikidata.org/entity/Q8445>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q110056672$fb7c20d0-41ef-9e16-0c9a-c1f17a4c85c5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q110152783>",
+     "y": "<http://www.wikidata.org/entity/Q110192058>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q110152783$7c1cb13c-4480-4288-2470-2c91b1feb261",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q113389136>",
+     "y": "<http://www.wikidata.org/entity/Q24238356>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q113389136$98476ae6-48f4-6f7e-60e0-49fcf8b2bea4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q116185770>",
+     "y": "<http://www.wikidata.org/entity/Q140664151>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q116185770$bc329ff5-4351-7e9e-8db4-ce7d29e41bcb",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q117121907>",
+     "y": "<http://www.wikidata.org/entity/Q4254019>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q117121907$007876b2-41b9-80d0-348d-16c5543de63f",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q117830526>",
+     "y": "<http://www.wikidata.org/entity/Q6452715>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q117830526$6ca0160d-4294-b1cd-0c4d-d5570b3a3cb7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q120483067>",
+     "y": "<http://www.wikidata.org/entity/Q93190>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q120483067$0259e672-45af-0178-6149-e538f36f4638",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12281691>",
+     "y": "<http://www.wikidata.org/entity/Q93190>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12281691$e788e645-4358-506f-64e1-68c4c5681d00",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q124325802>",
+     "y": "<http://www.wikidata.org/entity/Q124435999>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q124325802$6a56fb70-40be-e977-af87-6f33474f28d5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q124667177>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q124667177$5b8fc550-4a6d-9ede-b30c-5a70c05d4df9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q126087491>",
+     "y": "<http://www.wikidata.org/entity/Q21645260>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q126087491$f6760891-4b7d-0b3a-26a9-b8a38bbf091d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12671596>",
+     "y": "<http://www.wikidata.org/entity/Q26782>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12671596$1AA23924-BD38-4519-A108-AE9FC521697B",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12678921>",
+     "y": "<http://www.wikidata.org/entity/Q918372>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12678921$75EE06A7-FC82-41D0-89C9-C1131841B797",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q133073575>",
+     "y": "<http://www.wikidata.org/entity/Q18646998>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q133073575$a98a0754-4bb2-a774-66b5-f39da41ccb6e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q137220889>",
+     "y": "<http://www.wikidata.org/entity/Q137212610>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q137220889$35b963d8-463b-04b3-8d6d-b2ddba03cb42",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q138071856>",
+     "y": "<http://www.wikidata.org/entity/Q138071966>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q138071856$9dba6f5f-43e2-f416-9586-615fd1118680",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q138649347>",
+     "y": "<http://www.wikidata.org/entity/Q8445>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q138649347$5cb6eb53-4a18-bcc7-37d9-ec60d19393b2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q139565234>",
+     "y": "<http://www.wikidata.org/entity/Q188830>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q139565234$9bd26d0e-4755-523a-f214-803613779f55",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q139601233>",
+     "y": "<http://www.wikidata.org/entity/Q16769612>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q139601233$16411091-4f56-251c-8274-639cf1fc0be2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q140301948>",
+     "y": "<http://www.wikidata.org/entity/Q8445>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q140301948$34e26326-4173-9df7-59b6-5c3583bfa40c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141739308>",
+     "y": "<http://www.wikidata.org/entity/Q141737759>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q141739308$9F748B23-7E86-4486-BC81-9E39AD02581F",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q16443427>",
+     "y": "<http://www.wikidata.org/entity/Q165250>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q16443427$592E16B0-CC41-4FBF-B5B9-08B5DB9A514C",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q16449803>",
+     "y": "<http://www.wikidata.org/entity/Q1370>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q16449803$884A2ACE-9C1F-4C8C-9A7D-0C2330306C81",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q181765>",
+     "y": "<http://www.wikidata.org/entity/Q3944505>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q181765$e48fb1e3-48d0-181d-8938-56d0afb94e9c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q18609699>",
+     "y": "<http://www.wikidata.org/entity/Q107620982>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q18609699$da2f20e4-423c-5daf-0bb6-7b6ccdb0d83a",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q18653360>",
+     "y": "<http://www.wikidata.org/entity/Q140287619>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q18653360$45e6e7ee-48f0-20cf-c002-e7abdf15238f",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q19341989>",
+     "y": "<http://www.wikidata.org/entity/Q28341938>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q19341989$2aa447fa-4761-7b1e-ddab-2bd4b6fc48c4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q19667872>",
+     "y": "<http://www.wikidata.org/entity/Q99199860>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q19667872$18616218-4a8f-9420-045e-3a94ee2c3be0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2443197>",
+     "y": "<http://www.wikidata.org/entity/Q19901393>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q2443197$658DDD59-2BA1-4469-BFEF-3D1483291EA0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q24833212>",
+     "y": "<http://www.wikidata.org/entity/Q116>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q24833212$181D2B2B-FDAA-4495-B3D6-054E28D92AD0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q28554005>",
+     "y": "<http://www.wikidata.org/entity/Q90919985>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q28554005$d14585c4-45e2-436f-4f05-3373d507efa0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q316475>",
+     "y": "<http://www.wikidata.org/entity/Q24238356>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q316475$58bafa5f-49c3-d6d0-43f6-2b6fdd5d38c8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q42891>",
+     "y": "<http://www.wikidata.org/entity/Q32133357>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q42891$cecae6b7-4c42-8ffc-3235-7be8de7e8619",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q449357>",
+     "y": "<http://www.wikidata.org/entity/Q864843>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q449357$89D514A2-91BC-40C6-99B0-006EEF3D1679",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q545057>",
+     "y": "<http://www.wikidata.org/entity/Q87985495>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q545057$f4934194-44b9-5cb0-4ec6-7562c659bc2c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q55105940>",
+     "y": "<http://www.wikidata.org/entity/Q131716876>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q55105940$b5dcb3c9-4dba-ce40-c131-6b3ac64f0e95",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q55984174>",
+     "y": "<http://www.wikidata.org/entity/Q19471444>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q55984174$8A628C57-AED6-42EB-9F51-E8B1070E3371",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6007229>",
+     "y": "<http://www.wikidata.org/entity/Q110132899>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q6007229$fd51dc39-4b50-05bf-589b-2d3098519f78",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q65815978>",
+     "y": "<http://www.wikidata.org/entity/Q45580561>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q65815978$9CE13A1B-8B74-48C4-A87B-514C599B7359",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6755620>",
+     "y": "<http://www.wikidata.org/entity/Q500032>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q6755620$773E2521-B525-43A0-BA0B-752894FD806B",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6834524>",
+     "y": "<http://www.wikidata.org/entity/Q16147389>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q6834524$AFFB8310-95C2-4231-9DBB-9EBB996C100A",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q7490220>",
+     "y": "<http://www.wikidata.org/entity/Q6575806>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q7490220$E8785573-37A8-4FC4-8E81-351CE7F7928F",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75345626>",
+     "y": "<http://www.wikidata.org/entity/Q75345628>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q75345626$F4A8E17A-0CEA-42FF-BB26-4FF8B455F383",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q7607065>",
+     "y": "<http://www.wikidata.org/entity/Q108120295>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q7607065$8a83ebde-4482-1417-a4b7-f4c90150d5a0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76138311>",
+     "y": "<http://www.wikidata.org/entity/Q76138309>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q76138311$2C800241-8472-4F8D-BEFA-9CE8A5B5286E",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76333806>",
+     "y": "<http://www.wikidata.org/entity/Q76333803>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q76333806$309E27D1-AE0F-4257-B4FB-D309D1912383",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q91929>",
+     "y": "<http://www.wikidata.org/entity/Q142067621>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q91929$fc6c8cbc-4151-138a-6b88-6df7ed22c37e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q926379>",
+     "y": "<http://www.wikidata.org/entity/Q1864897>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q926379$25EBC696-E53E-4553-8779-BBDC51F53050",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  },
+  "conflict-contemporary": {
+   "description": "No reverse triple; the default conclusion is in conflict with a contemporary entry over Cons.",
+   "population": 55,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q10309931>",
+     "y": "<http://www.wikidata.org/entity/Q7454328>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q10309931$11A7E8FE-1BB2-4778-A5A5-FEFE1E9892E7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1047689>",
+     "y": "<http://www.wikidata.org/entity/Q18639399>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1047689$B78423A8-0D0A-447F-A873-AEE6D92E6DA9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q105105623>",
+     "y": "<http://www.wikidata.org/entity/Q104370029>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q105105623$3d079640-48ab-cd5e-05cd-7131549569f9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q110587924>",
+     "y": "<http://www.wikidata.org/entity/Q93591294>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q110587924$a84d3d71-41e7-b3f1-8340-d2f8c7ef6314",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q11636836>",
+     "y": "<http://www.wikidata.org/entity/Q11636789>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q11636836$8486C27F-F951-4991-8069-38971DC095EC",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q116951500>",
+     "y": "<http://www.wikidata.org/entity/Q94757871>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q116951500$D96E2482-8A42-4B9D-8AB4-A365F5B2303C",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q116985067>",
+     "y": "<http://www.wikidata.org/entity/Q93387261>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q116985067$31C33908-DEFC-4B1C-A652-54C6C7424272",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q116985260>",
+     "y": "<http://www.wikidata.org/entity/Q108587142>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q116985260$6C99A0E4-CA7F-4C13-ACB2-538C5D050644",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q123333363>",
+     "y": "<http://www.wikidata.org/entity/Q123333410>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q123333363$1d879bea-4e1e-e288-5a32-3f64439daa70",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q123419925>",
+     "y": "<http://www.wikidata.org/entity/Q94741320>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q123419925$8986691F-7D61-445F-B367-0A8EA6DA634A",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q124732407>",
+     "y": "<http://www.wikidata.org/entity/Q107503502>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q124732407$a7ddd7c3-48e3-9dee-c6b0-49a99266edbd",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12730701>",
+     "y": "<http://www.wikidata.org/entity/Q110109964>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q12730701$3c7cef34-433b-b55b-7a47-38c0a24d838d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q133011987>",
+     "y": "<http://www.wikidata.org/entity/Q55105447>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q133011987$0d6ae8e2-4447-d3e5-b9e6-746bff691eff",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q13422084>",
+     "y": "<http://www.wikidata.org/entity/Q20006310>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q13422084$6490031b-4643-50fe-c711-24f51547f565",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q137705351>",
+     "y": "<http://www.wikidata.org/entity/Q61014505>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q137705351$58cdfe83-478c-39c5-d06d-3d62273f7ed2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q140309440>",
+     "y": "<http://www.wikidata.org/entity/Q140306488>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q140309440$b97af122-4e02-6c51-d73c-5deaa85112c0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q15697807>",
+     "y": "<http://www.wikidata.org/entity/Q777005>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q15697807$3E9DA1FA-D412-41CA-A06A-9097FEAFA86F",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q16185436>",
+     "y": "<http://www.wikidata.org/entity/Q15994577>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q16185436$B6FEC289-8A41-476E-A30C-2E108220EA44",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q16445884>",
+     "y": "<http://www.wikidata.org/entity/Q145746>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q16445884$B3C68E96-6B10-425A-9787-767F94602EFE",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1768161>",
+     "y": "<http://www.wikidata.org/entity/Q194808>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1768161$A9FABD2E-16BE-4466-94B8-9CC287E043F5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1773005>",
+     "y": "<http://www.wikidata.org/entity/Q122035>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1773005$fc89d3a6-45a7-c855-314e-6f1c26af359c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q18785049>",
+     "y": "<http://www.wikidata.org/entity/Q133594961>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q18785049$7C9A7404-7379-47BA-A625-D3ADEAD87CA7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q19519573>",
+     "y": "<http://www.wikidata.org/entity/Q76206273>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q19519573$bfc6ebbf-4551-d4e1-c3ac-35d0be4da84c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q20101662>",
+     "y": "<http://www.wikidata.org/entity/Q727402>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q20101662$ce9524c5-40eb-f183-a4f9-d354f473dd7c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q21070419>",
+     "y": "<http://www.wikidata.org/entity/Q135029246>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q21070419$55fcf678-4f70-239c-08f2-10c98552d628",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2217059>",
+     "y": "<http://www.wikidata.org/entity/Q110929>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q2217059$B200712F-382E-4B63-8E44-058D37DDCB45",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2220937>",
+     "y": "<http://www.wikidata.org/entity/Q3655529>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q2220937$E8D80531-77CE-4B32-9EA0-07AB5D65BBE1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3094783>",
+     "y": "<http://www.wikidata.org/entity/Q671419>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q3094783$04052C06-B6BE-43E2-8E34-93BA72F69F4F",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q33743656>",
+     "y": "<http://www.wikidata.org/entity/Q94937661>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q33743656$8F6FB0AF-4BF1-4B65-89BE-77608E3001C5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q390848>",
+     "y": "<http://www.wikidata.org/entity/Q252763>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q390848$73C18BDA-71DA-4E5F-AFF6-5CCC4BA9A2DE",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q42606>",
+     "y": "<http://www.wikidata.org/entity/Q262428>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q42606$5C30792C-DDF8-4925-83E5-E8066A34544B",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q4498462>",
+     "y": "<http://www.wikidata.org/entity/Q4128757>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q4498462$CF075A05-7B45-44DB-9705-EAECC1E62C03",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q4503359>",
+     "y": "<http://www.wikidata.org/entity/Q218186>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q4503359$88FF834B-52FD-4731-8441-21F3E140BE24",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q462917>",
+     "y": "<http://www.wikidata.org/entity/Q2469381>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q462917$C39B6B36-3DE1-4B76-BFCB-81F96D5D78B1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q4962879>",
+     "y": "<http://www.wikidata.org/entity/Q5957377>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q4962879$CD81A23E-1EB2-47AC-9DA5-4B412C980ED9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q5536090>",
+     "y": "<http://www.wikidata.org/entity/Q123384053>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q5536090$02e415a2-4153-5540-4fa6-3441e65bd281",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q55907825>",
+     "y": "<http://www.wikidata.org/entity/Q94001507>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q55907825$CD51DB80-5F02-4496-8711-B7EA81CB85DE",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6336050>",
+     "y": "<http://www.wikidata.org/entity/Q252763>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q6336050$E20F223C-2895-430D-B523-94D08C5D875A",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6498984>",
+     "y": "<http://www.wikidata.org/entity/Q94621122>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q6498984$4f721b5c-4bee-0e66-4033-e9a00cb9988e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q66426300>",
+     "y": "<http://www.wikidata.org/entity/Q99198778>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q66426300$77a4c1c3-48ae-c449-e9f6-ca7eeeb078e0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q680>",
+     "y": "<http://www.wikidata.org/entity/Q78288195>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q680$E1C9D993-BD87-4C6C-9102-483FDD862958",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q68168078>",
+     "y": "<http://www.wikidata.org/entity/Q2706504>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q68168078$6b2728ff-4859-d693-e61e-d12118379805",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q68168078>",
+     "y": "<http://www.wikidata.org/entity/Q27841651>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q68168078$6f5d7ce6-41d7-576e-be0a-6d0fca02a3b5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q7260822>",
+     "y": "<http://www.wikidata.org/entity/Q877831>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q7260822$cfb8b25b-43d8-7576-097b-f3b53b3e6c45",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75323919>",
+     "y": "<http://www.wikidata.org/entity/Q75389156>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q75323919$3bc2511b-46fc-4756-b740-cac60b523a42",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75363085>",
+     "y": "<http://www.wikidata.org/entity/Q75363088>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q75363085$0AA6DC3F-0578-441A-8292-760CE1BD3C99",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q94692158>",
+     "y": "<http://www.wikidata.org/entity/Q22921201>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q94692158$DBB7C897-DACE-4ECF-A9B4-A69E815F045A",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q94738502>",
+     "y": "<http://www.wikidata.org/entity/Q94848503>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q94738502$0D51AD2F-D66B-4EFB-9FA1-BB7BD8FBDAD9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q94990863>",
+     "y": "<http://www.wikidata.org/entity/Q105105623>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q94990863$041414d7-43e9-9906-e00b-83e735963184",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q96483>",
+     "y": "<http://www.wikidata.org/entity/Q54857394>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q96483$77072FF6-FF44-4ADB-85E6-D7F16C93D2DD",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  },
+  "unknown-value": {
+   "description": "The value is an unknown value.",
+   "population": 2661,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q103982158>",
+     "y": "<http://www.wikidata.org/.well-known/genid/587bd09d3774fefdbd5632167a9f1d41>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q103982158$01c27b0f-4003-a4a0-31cb-c917defaf751",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q108332666>",
+     "y": "<http://www.wikidata.org/.well-known/genid/ec7dd6a85f9799a4fdd8170e1d7b8e2a>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q108332666$06a0190a-4b30-cfcb-4701-34b6f9289d39",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q112066746>",
+     "y": "<http://www.wikidata.org/.well-known/genid/973738d8f11cf3a9869b3e1fe5cbc095>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q112066746$bed41af2-4fc1-7dc1-296a-919f94fea4f9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q11719575>",
+     "y": "<http://www.wikidata.org/.well-known/genid/48a76f135db1675dda5de282dbeec188>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q11719575$32402e91-4b62-54fd-e4d1-8f2f9f25a74a",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q117473166>",
+     "y": "<http://www.wikidata.org/.well-known/genid/a1d0460ea98a80bdff10561b83ef392c>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q117473166$8e878886-409e-056e-36a1-4eef167f5f0a",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12285197>",
+     "y": "<http://www.wikidata.org/.well-known/genid/c92890cbcd37ef95cda2d2ce173a8db6>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12285197$AB80C07E-99BB-458E-940C-598AF81C812B",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q123007418>",
+     "y": "<http://www.wikidata.org/.well-known/genid/6ac4e5ca61d27c383da9f7f769ce6e2c>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q123007418$bcacea54-4b06-5a34-3e91-df508b380ff7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1252302>",
+     "y": "<http://www.wikidata.org/.well-known/genid/d5af9f7f25548e3b6926ff41722694ad>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q1252302$0d1378c4-4d86-2a29-b93e-80f257b88734",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1252302$403b703d-4b2a-1575-a6dc-9c82b6b1d8be",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1252302$5a97dfd2-48bf-3f7c-ddca-226e01375af5",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1252302$75a9a302-4997-c397-f7f1-26ad299b64e6",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1252302$83224eee-44a9-30c6-fd88-9ec7ee3e7da0",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1252302$dc981b27-49dd-e382-92ca-b99fa9462d28",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1252302$eac4f96d-4250-49e1-af49-6cdf9e66a664",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1252302$ff1a0283-4c48-bff4-85ce-6fe7afe99df0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12598502>",
+     "y": "<http://www.wikidata.org/.well-known/genid/729e299ba0dbeecfccc147982940710f>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12598502$43985d42-4f89-9e38-fa71-096304e62fe2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q133871388>",
+     "y": "<http://www.wikidata.org/.well-known/genid/7a75af5d92f7fa1bffd098640ea2b6c0>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q133871388$9E402068-6B07-4749-8F11-57AC05AC9F98",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q134434675>",
+     "y": "<http://www.wikidata.org/.well-known/genid/32c9652a2a5515cff0df9fea62ad01f8>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q134434675$8bce25c3-4897-d59e-3124-c42becfe4159",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q136202667>",
+     "y": "<http://www.wikidata.org/.well-known/genid/1371d4d524deac21e32eff38e9df88f3>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q136202667$8d7d9d9f-4d63-c0eb-a145-cfeaedfb33d4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q136525435>",
+     "y": "<http://www.wikidata.org/.well-known/genid/0de43cdc567258bea9a04b2fee00fa60>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q136525435$037106df-44a2-4457-1f64-ec93e5f16b12",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q142153769>",
+     "y": "<http://www.wikidata.org/.well-known/genid/064d82e201033ae3a3961ba13c6883df>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q142153769$47959bee-4128-5307-b552-ae95ecee0723",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1477388>",
+     "y": "<http://www.wikidata.org/.well-known/genid/6d6cbfd9d46edd7d25b0272d995a20bd>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q1477388$4f64ff00-4816-1499-1f8e-908de9903463",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1477388$63225916-43db-e504-f269-3eca4e935c58",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1477388$d07f7f70-4a24-28e6-6e4d-8771cfd815b8",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1477388$dc6590eb-415b-e7fb-fce5-9df2c902f46a",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q15456596>",
+     "y": "<http://www.wikidata.org/.well-known/genid/9de6d0cabd204f510ceefb7c844285f8>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q15456596$20de9c74-40a4-6f59-c52a-61b6323f773c",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q15456596$649a7935-4c2f-a768-7629-e7379a8976e2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q16065411>",
+     "y": "<http://www.wikidata.org/.well-known/genid/148a5f99a75aee9049c075ebd873036b>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q16065411$d4a3f159-4758-820c-2846-b88bed6f8426",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1648540>",
+     "y": "<http://www.wikidata.org/.well-known/genid/79bbfd44862250b44b99c1ffedbc02b7>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q1648540$0fea85e1-49be-e978-d0e2-cf2b7d598d8c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1972714>",
+     "y": "<http://www.wikidata.org/.well-known/genid/8a96313e7744a13dbfed050b928f21d7>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q1972714$32e22be6-4497-b65a-05d1-74dddb0ba3b4",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1972714$6a4fd3c0-406f-b45c-1bcc-883115526bff",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1972714$97db4a43-4fa7-7f67-2bae-908c37574316",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1972714$ca5d8df0-4dd0-f9cb-8809-e554a297912d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2080137>",
+     "y": "<http://www.wikidata.org/.well-known/genid/f875fe42e8b167e20d7271b6dcd36021>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q2080137$de2aa06b-415c-c214-9978-af25af668df3",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q208871>",
+     "y": "<http://www.wikidata.org/.well-known/genid/448163f95ab2d3e7e493efa37b92f734>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q208871$142500b5-4297-f37e-acb2-9ebe00457de5",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q208871$2999934f-4d28-11d4-e773-311469c57471",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q208871$4b48c2f9-4da5-c010-9b17-03439cb5b5e2",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q208871$83d2a957-432b-c495-4a60-9d4389fb348d",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q208871$86cdc3b7-44ce-ef53-124d-b4f6a29282e9",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q208871$e2ef6eae-4d98-0719-b8a7-25396a8aeccd",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q208871$fbe97855-41be-cc7b-19ff-0c12b3adcc4a",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q24704254>",
+     "y": "<http://www.wikidata.org/.well-known/genid/6d1fa2a7ec86d608b9cbbe4652314146>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q24704254$beccbe52-4cca-8a3b-e63e-0b76838bf78b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2568818>",
+     "y": "<http://www.wikidata.org/.well-known/genid/bad99e31156e919da1eb5b1068278fe1>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q2568818$8bf63770-436a-3410-41f2-254ca5a5ba0e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q30243644>",
+     "y": "<http://www.wikidata.org/.well-known/genid/032a8bcdd8e89c490fbf697835f600e8>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q30243644$52824401-4cec-7138-aeb8-d95c5976bbb4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q326878>",
+     "y": "<http://www.wikidata.org/.well-known/genid/11a5c1a85bbfd535beb88b38fd3943d1>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q326878$11017b0b-4074-9fe6-7b3c-0d75afab746e",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q326878$2ac5676b-40bc-1af9-f7b7-02fb6a8180b9",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q326878$2e6954c2-4c55-c1bb-2019-0a872ce2e931",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q326878$7a756114-4a6f-7842-065b-823228f75353",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q326878$b015919a-4f52-bf88-4834-8193846d47ce",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q326878$e26ef2e2-4b5e-094d-b8f2-928f4d42a163",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q344758>",
+     "y": "<http://www.wikidata.org/.well-known/genid/665c0254c1074a1d366d6e405832f3be>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q344758$8b8e36de-4ff2-05d1-5acb-8012cac19d7d",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q344758$c1b481d1-44ca-e18e-5fff-ef7ff8ed2fdb",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q344758$f0de9834-446b-a11e-dda6-1a8682289cf7",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q344758$f3a955de-4ba2-580d-53e3-e5b68d741f1c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q349086>",
+     "y": "<http://www.wikidata.org/.well-known/genid/5be25e31a10823bac953d0629c317c5c>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q349086$5214f980-44ea-7065-92f1-4e674854fb3b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q358317>",
+     "y": "<http://www.wikidata.org/.well-known/genid/d5563a64771de676fb1ad485671b7220>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q358317$1fb6cd5a-4697-2c63-a90a-3afbad49c818",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q358317$3a230b2a-40d7-9c0e-bd5c-c4ac2fd19cca",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q358317$84d454f7-46e2-0b81-624b-31b7378fcdfe",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q358317$e0ac03a6-48d9-4690-2069-832d915441a6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3656285>",
+     "y": "<http://www.wikidata.org/.well-known/genid/e8ecc44b023fca1ed2f0f4e44f3f04d2>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q3656285$293E2BD0-C449-4FC5-B92F-89F581C89F66",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3656496>",
+     "y": "<http://www.wikidata.org/.well-known/genid/4589530d809f595eaa6512dcdf3aca3d>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q3656496$CEB8ABA4-629E-4A86-BCE2-941413B6016F",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q42315344>",
+     "y": "<http://www.wikidata.org/.well-known/genid/5e83e7a7b635022835a31b627f699d06>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q42315344$711ceafa-41d4-f338-4f79-7e3a2eda1771",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q440324>",
+     "y": "<http://www.wikidata.org/.well-known/genid/9d74adee2d41d55d7536e83ed48e21ca>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q440324$331bf59c-4d49-5182-42f0-4892be87b635",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q461370>",
+     "y": "<http://www.wikidata.org/.well-known/genid/e520d8bb066d591aa7c768070d7a9dcf>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q461370$3f9f657d-41c8-796d-2c2e-009f9a4aee17",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q461370$a6ce90a0-4f34-505b-920a-bd00fc440855",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q461370$eead5b04-488f-9573-a7f8-c2aaf6eb8a97",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q478460>",
+     "y": "<http://www.wikidata.org/.well-known/genid/47da0c474440396c9d7c0d002014f70f>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q478460$06dfcb14-43a0-3c75-663c-a6d748268a97",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q51466>",
+     "y": "<http://www.wikidata.org/.well-known/genid/7ffc373340b09696398125a747900237>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q51466$4e958c5d-4a68-2407-ff96-bdb2d2521244",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q51466$838fb5d7-41d1-eafd-2ae9-e5ae42c120f8",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q51466$d852c891-4779-4b37-3f01-7335f146e74f",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q51466$d99b9bcc-43f6-c0ac-073d-a9d4957a1ed3",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q525083>",
+     "y": "<http://www.wikidata.org/.well-known/genid/59790feb3e1ebedeb43cc9b8df886df8>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q525083$1885650c-4013-ddcf-8a13-b2fde9629124",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q525083$275ae27f-4abe-9a80-fe63-9253fd423afb",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q525083$e6686923-408f-3ee0-c702-1808266e25b1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q525083>",
+     "y": "<http://www.wikidata.org/.well-known/genid/7d486d04b97026281792fc22d0563d4c>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q525083$1885650c-4013-ddcf-8a13-b2fde9629124",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q525083$275ae27f-4abe-9a80-fe63-9253fd423afb",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q525083$e6686923-408f-3ee0-c702-1808266e25b1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q5543848>",
+     "y": "<http://www.wikidata.org/.well-known/genid/64e84085372fe17d02c2ac1cc119791c>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q5543848$777588ac-4f27-65b2-a1fa-e3b45472dbdd",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q5543848$b7ff61d3-46f5-3dfc-00cc-c26b21e51a7a",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q554395>",
+     "y": "<http://www.wikidata.org/.well-known/genid/d10113f4e7e71657e9b888a4e3d147e9>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q554395$B1CB698E-331A-4CB3-9C3D-0C64EA4D22B1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q5759141>",
+     "y": "<http://www.wikidata.org/.well-known/genid/7581fb97d47b00af3c0b2b6ee26b5ceb>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q5759141$976B2B9A-3F59-46BB-A374-A1CFFA2AA31F",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6211849>",
+     "y": "<http://www.wikidata.org/.well-known/genid/5e165a8f02b8d393955b36c59c66b1d5>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q6211849$0d71f39e-46ee-380f-8ad7-e17edcaaca6c",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q6211849$647d1248-46c7-484a-9656-95ad555c4b64",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q6211849$b89fd51d-41c3-f7a4-5826-ecc7eef56ee5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q65093876>",
+     "y": "<http://www.wikidata.org/.well-known/genid/027c6848981361eb9fc0705a0376355b>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q65093876$0dc3d905-4fe7-eb1c-7d0c-679d6b575f38",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q745111>",
+     "y": "<http://www.wikidata.org/.well-known/genid/8a7df8d1f1a337a8d246a4be56d669c1>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q745111$6A567958-DA41-4324-89E5-5BA7AC3F9864",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q74825231>",
+     "y": "<http://www.wikidata.org/.well-known/genid/16f5d3dbc72b838bb0a8a93c7a066d54>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q74825231$2dbd0763-4810-c8fa-5040-42e7495157d2",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q74825231$673c6c0a-46a9-9628-ec57-578a4facdf57",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q74825231$ce55cfe8-45d3-b733-f08d-67a70178978f",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q74825231$ede0d9fd-461b-3b7e-9975-be8def0605b1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q7599484>",
+     "y": "<http://www.wikidata.org/.well-known/genid/e31699fd9c6c871c1240c091b7dadca5>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q7599484$a24cbf12-41ad-36b5-a9ec-8cbfb6d4741d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q929593>",
+     "y": "<http://www.wikidata.org/.well-known/genid/686bea2021d864cda37d1c3d5f8b3743>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q929593$855C8607-EA26-47C8-B253-2A3CF7842BF6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q939045>",
+     "y": "<http://www.wikidata.org/.well-known/genid/465581f12e74efd089de98a7821306ec>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q939045$2A94A228-9B2A-4EBC-8589-B2B201F39536",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q939045$DF37CC86-297D-4B75-BD31-7764A08D967D",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q955356>",
+     "y": "<http://www.wikidata.org/.well-known/genid/93d9f7aebc04be0dd628399f626e33e8>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q955356$71bb3909-4959-b30a-f8d9-557b95349bbd",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q960612>",
+     "y": "<http://www.wikidata.org/.well-known/genid/26cec1261a69edd11c2a4dd39ca85e1f>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q960612$101a797d-4044-dd97-4f76-adbc92f4baab",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q960612$5f9afc15-4ba3-7228-b498-3e5fa5f13f73",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q960612$6a79a201-45ab-f2cb-3cf7-4e5dc5bd0711",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q960612$8b246248-46db-06be-0c88-1256682913e6",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q960612$cfc993ad-4062-792a-7992-201b178a913b",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q960612$faf2ee0c-4dc1-8fd0-00e9-34c096510823",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q966542>",
+     "y": "<http://www.wikidata.org/.well-known/genid/c9c5d03255c6ad6d520c82cd6b72b096>",
+     "expected": [
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q966542$698fcaaf-4380-495c-4f4f-07cbf4e3e766",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  },
+  "contemporary-no-1-january": {
+   "description": "A contemporary entry applies at K; latest death precedes earliest birth; no compared date on 1 January.",
+   "population": 75,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q10309931>",
+     "y": "<http://www.wikidata.org/entity/Q7454328>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q10309931$11A7E8FE-1BB2-4778-A5A5-FEFE1E9892E7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q10396338>",
+     "y": "<http://www.wikidata.org/entity/Q3093977>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q10396338$85921aa6-4c63-bdc9-3ad8-b48fcd812fa5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1048126>",
+     "y": "<http://www.wikidata.org/entity/Q12726865>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1048126$34c75e80-4bb6-d83d-b96e-f3a0dc6a4caa",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q10556584>",
+     "y": "<http://www.wikidata.org/entity/Q240485>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q10556584$FC71FF58-D2DC-4A56-A64A-C192E3A18BAD",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q108524313>",
+     "y": "<http://www.wikidata.org/entity/Q108524315>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q108524313$1555d9f7-48b3-e0c6-85a2-ab48a543aaa5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q109829472>",
+     "y": "<http://www.wikidata.org/entity/Q129251445>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q109829472$2b35470d-40ad-f9d8-c7c0-8f3ec052ef63",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q110548932>",
+     "y": "<http://www.wikidata.org/entity/Q44191541>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q110548932$0486f790-48b3-d0ba-3bec-ecb8934f8e56",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q110587924>",
+     "y": "<http://www.wikidata.org/entity/Q93591294>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q110587924$a84d3d71-41e7-b3f1-8340-d2f8c7ef6314",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12346929>",
+     "y": "<http://www.wikidata.org/entity/Q6186144>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q12346929$CE497AD1-932B-4007-8468-AB80BDF31280",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12648732>",
+     "y": "<http://www.wikidata.org/entity/Q16443037>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q12648732$17A3E9AA-3B2E-4E00-A129-8B975573ABE8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12726865>",
+     "y": "<http://www.wikidata.org/entity/Q1048126>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q12726865$019B5E7E-E981-4AC5-B640-71D0EF6FDCEC",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q129251445>",
+     "y": "<http://www.wikidata.org/entity/Q109829472>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q129251445$4b641d2c-43c3-6bff-3403-ec0a0acc016d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q135191176>",
+     "y": "<http://www.wikidata.org/entity/Q135061044>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q135191176$246fbf5f-4449-5ca9-feea-cb5124d96d7d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q135919790>",
+     "y": "<http://www.wikidata.org/entity/Q135920203>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q135919790$45039c64-4045-7793-98cf-60dc9b999194",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1392127>",
+     "y": "<http://www.wikidata.org/entity/Q6743642>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1392127$bed95b61-4bda-0a2e-7d6f-94e6aa94a37b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q15728323>",
+     "y": "<http://www.wikidata.org/entity/Q53449>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q15728323$2842501B-B38B-4B6A-A79C-6CF209E48B82",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q16185436>",
+     "y": "<http://www.wikidata.org/entity/Q15994577>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q16185436$B6FEC289-8A41-476E-A30C-2E108220EA44",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q16453722>",
+     "y": "<http://www.wikidata.org/entity/Q53449>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q16453722$A97A2C11-14E0-431B-B35A-F825035F3AAE",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q16469943>",
+     "y": "<http://www.wikidata.org/entity/Q2318426>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q16469943$EFB121D7-396A-49C5-968B-34F4C04A2C32",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1647226>",
+     "y": "<http://www.wikidata.org/entity/Q1042390>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1647226$27DE7682-EEE0-4137-B187-85E5C7FB67FD",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1730625>",
+     "y": "<http://www.wikidata.org/entity/Q1896043>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1730625$7467eeb8-4c11-5372-dc1f-70645b283e88",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q18217691>",
+     "y": "<http://www.wikidata.org/entity/Q4766889>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q18217691$FDD1A507-6CB1-4F39-8026-62E826F0F964",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1896043>",
+     "y": "<http://www.wikidata.org/entity/Q1730625>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1896043$42da8f81-a14a-4eb3-ae21-5985bf288399",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2572702>",
+     "y": "<http://www.wikidata.org/entity/Q136488085>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q2572702$0CAEB8DA-54A4-47A3-A2FA-9D6773224409",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2755836>",
+     "y": "<http://www.wikidata.org/entity/Q2939336>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q2755836$59A564F5-631D-4EB9-BCB6-83D65F3FEDA6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2980737>",
+     "y": "<http://www.wikidata.org/entity/Q138296959>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q2980737$5996904c-4c00-739d-4eb3-ba67322a263e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3093977>",
+     "y": "<http://www.wikidata.org/entity/Q10396338>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q3093977$3E951FE5-4F17-49EC-8109-CEB904BDB30A",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3663513>",
+     "y": "<http://www.wikidata.org/entity/Q3750652>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q3663513$425E3031-84B1-4F6C-AFCF-055D9E8CF57E",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3750652>",
+     "y": "<http://www.wikidata.org/entity/Q3663513>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q3750652$574B1B97-C120-4630-8505-126D838A61F7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3801717>",
+     "y": "<http://www.wikidata.org/entity/Q43255405>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q3801717$8E618A20-A7C2-411E-AE3E-11887CC7DC3A",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q390848>",
+     "y": "<http://www.wikidata.org/entity/Q252763>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q390848$73C18BDA-71DA-4E5F-AFF6-5CCC4BA9A2DE",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q43267123>",
+     "y": "<http://www.wikidata.org/entity/Q134961353>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q43267123$85464f27-4c22-437e-3edb-a31bd02850f0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q434292>",
+     "y": "<http://www.wikidata.org/entity/Q63964937>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q434292$b133e563-4b38-32de-8caa-5598bf1bc7b4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q44191541>",
+     "y": "<http://www.wikidata.org/entity/Q110548932>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q44191541$60c3e5b1-4438-6e49-9c41-04d4adb0f355",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q50379075>",
+     "y": "<http://www.wikidata.org/entity/Q63226222>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q50379075$9073904C-AD85-4B36-A622-D66E2AB2E8E9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q53449>",
+     "y": "<http://www.wikidata.org/entity/Q15728323>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q53449$46FE8E55-421A-4D04-9C51-62B43EA7F212",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q53449>",
+     "y": "<http://www.wikidata.org/entity/Q16453722>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q53449$67F9865C-529A-4A1C-AE23-FAD9703D599D",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q56461835>",
+     "y": "<http://www.wikidata.org/entity/Q141551365>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q56461835$6a29df4c-4ccb-a5b7-297b-57b7877bc82a",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q5805045>",
+     "y": "<http://www.wikidata.org/entity/Q98545710>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q5805045$F2E22C82-95AC-428C-B429-B1DA1EA09030",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q61643371>",
+     "y": "<http://www.wikidata.org/entity/Q61643373>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q61643371$80c70bed-4d32-5089-0262-5ad3d951752d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q61643373>",
+     "y": "<http://www.wikidata.org/entity/Q61643371>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q61643373$d0a7047d-4a56-f1d8-98bd-bbbc803de03c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6186144>",
+     "y": "<http://www.wikidata.org/entity/Q12346929>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q6186144$42f57707-4f11-ef8f-9b66-77b90c87f684",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q63045627>",
+     "y": "<http://www.wikidata.org/entity/Q98475627>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q63045627$c383493b-4d8a-2324-11d5-077283325ae4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6336050>",
+     "y": "<http://www.wikidata.org/entity/Q252763>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q6336050$E20F223C-2895-430D-B523-94D08C5D875A",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q63964937>",
+     "y": "<http://www.wikidata.org/entity/Q434292>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q63964937$21cf8a11-4d23-0c0b-1f5b-444bc045207e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6743642>",
+     "y": "<http://www.wikidata.org/entity/Q1392127>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q6743642$775D02ED-4ED0-4C95-AD5F-80CA0C63F893",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75323919>",
+     "y": "<http://www.wikidata.org/entity/Q75389156>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q75323919$3bc2511b-46fc-4756-b740-cac60b523a42",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q96483>",
+     "y": "<http://www.wikidata.org/entity/Q54857394>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q96483$77072FF6-FF44-4ADB-85E6-D7F16C93D2DD",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q98475627>",
+     "y": "<http://www.wikidata.org/entity/Q63045627>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q98475627$dc0a214f-444a-62c1-839c-1d01d2638517",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q98545710>",
+     "y": "<http://www.wikidata.org/entity/Q5805045>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q98545710$80e42f70-4b88-0bf5-44e2-46b4e205f118",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  },
+  "contemporary-1-january": {
+   "description": "A contemporary entry applies at K; latest death precedes earliest birth; a compared date falls on 1 January.",
+   "population": 1435,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q116150238>",
+     "y": "<http://www.wikidata.org/entity/Q1597708>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q116150238$1a9579cb-4cdd-0c31-a1ed-77d0d084526b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q116994839>",
+     "y": "<http://www.wikidata.org/entity/Q7794667>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q116994839$4D389E4C-6CEC-4A94-9EFD-1D666ED4DB98",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q11909495>",
+     "y": "<http://www.wikidata.org/entity/Q536326>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q11909495$7cccd0e4-4af4-ffea-7a64-0a4df471a84e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q122706310>",
+     "y": "<http://www.wikidata.org/entity/Q9396734>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q122706310$b088d234-4baa-0870-ccfa-b4ae81ddeb84",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q125493963>",
+     "y": "<http://www.wikidata.org/entity/Q31491>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q125493963$4243CB22-D81D-42BD-9984-49D0439330B1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12586339>",
+     "y": "<http://www.wikidata.org/entity/Q302096>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q12586339$88967042-0331-4AD7-8C80-CFC6229FAB76",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q131280778>",
+     "y": "<http://www.wikidata.org/entity/Q131354122>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q131280778$e1a0368b-4b92-e5f5-c73f-59e53050ee2f",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q138566812>",
+     "y": "<http://www.wikidata.org/entity/Q138566828>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q138566812$8e1b4d5d-4107-68e9-ef2d-54506783afd6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141628261>",
+     "y": "<http://www.wikidata.org/entity/Q2117631>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q141628261$C7E62430-FEFD-4D33-BF30-9763EB519E3E",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q14752447>",
+     "y": "<http://www.wikidata.org/entity/Q133458706>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q14752447$5ecc40fe-4399-d50b-0666-1f01b8fdc1db",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1672591>",
+     "y": "<http://www.wikidata.org/entity/Q167902>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1672591$CB9C8D63-D0F7-4967-A922-FB432093D123",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1685955>",
+     "y": "<http://www.wikidata.org/entity/Q1517349>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1685955$c814a61d-47c5-170d-5306-81423a65d489",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1848246>",
+     "y": "<http://www.wikidata.org/entity/Q134642228>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1848246$58cb2faa-407d-c831-c3d5-aae9e242a8de",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q18625366>",
+     "y": "<http://www.wikidata.org/entity/Q57303458>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q18625366$bbbf1ef2-4f2d-e7fd-f701-25d496a96d76",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q21932490>",
+     "y": "<http://www.wikidata.org/entity/Q17068520>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q21932490$AF29B749-EBC0-48C1-9B5B-E582AD96CE14",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q233573>",
+     "y": "<http://www.wikidata.org/entity/Q271786>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "q233573$016000FE-7A6C-4A49-8528-D3CB161888AD",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q242405>",
+     "y": "<http://www.wikidata.org/entity/Q157899>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q242405$34F90EBD-393B-49CA-B802-A174816B9FCA",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2554235>",
+     "y": "<http://www.wikidata.org/entity/Q333676>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q2554235$a3cf7d04-43f4-2715-0320-335b0d193758",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q273979>",
+     "y": "<http://www.wikidata.org/entity/Q157995>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "q273979$d1deaa25-451d-a4c2-31bc-54080097c696",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q275127>",
+     "y": "<http://www.wikidata.org/entity/Q7220>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q275127$55D3B688-B2B5-405F-9370-619B4789317C",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q279693>",
+     "y": "<http://www.wikidata.org/entity/Q12272069>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q279693$0E45F8C5-3CBF-4BAB-8C2E-2F6FFBE3BEEF",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2826477>",
+     "y": "<http://www.wikidata.org/entity/Q117647>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "q2826477$EE463C9E-4014-4EA0-A8FD-8E079D86C8A9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q286542>",
+     "y": "<http://www.wikidata.org/entity/Q124487499>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q286542$3ff7c5a2-459a-c6c9-f399-c9ed72e6e1ec",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q289060>",
+     "y": "<http://www.wikidata.org/entity/Q1277343>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q289060$7ba4c8ee-4e9d-4f9f-d3d2-8e5bac5f18a6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q32893531>",
+     "y": "<http://www.wikidata.org/entity/Q43562>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q32893531$24d16896-42df-d515-0628-dc36b5847d18",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q348518>",
+     "y": "<http://www.wikidata.org/entity/Q4383240>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q348518$88542CE0-EE47-462B-BE02-208C341A115E",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q37082>",
+     "y": "<http://www.wikidata.org/entity/Q458367>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q37082$5d535531-4eeb-215e-b789-9a65f7e14fd6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q41635>",
+     "y": "<http://www.wikidata.org/entity/Q4947274>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q41635$c0253e67-4c4c-d2c2-1d20-191014e94830",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q4302750>",
+     "y": "<http://www.wikidata.org/entity/Q75458463>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q4302750$2D307BEA-5261-42DB-AFA7-FC4A7D5F3D5B",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q433363>",
+     "y": "<http://www.wikidata.org/entity/Q296304>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q433363$f5ad7d58-43f8-0eb2-1e8c-46c82aab0a91",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q446544>",
+     "y": "<http://www.wikidata.org/entity/Q185126>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q446544$08b6ec3f-4ff4-11aa-1e99-0be654ae5b3f",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q448084>",
+     "y": "<http://www.wikidata.org/entity/Q728777>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q448084$861cceee-48f9-1e04-a38c-d46a0fc3491d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q450332>",
+     "y": "<http://www.wikidata.org/entity/Q430916>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q450332$095A7E6B-EBAF-4432-A77A-3D0F3D3D17AD",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q469387>",
+     "y": "<http://www.wikidata.org/entity/Q12583935>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q469387$136e788c-4a89-8feb-4683-145ae956d9ea",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q5374536>",
+     "y": "<http://www.wikidata.org/entity/Q1071618>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q5374536$39F93153-5F37-4A4C-B0F3-E3D5EC54F370",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q546716>",
+     "y": "<http://www.wikidata.org/entity/Q504932>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q546716$9b65cf85-407b-5df3-ea18-b54a7b66b6d3",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q5659604>",
+     "y": "<http://www.wikidata.org/entity/Q32850294>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q5659604$13dcfd5b-4ef6-c2cd-d836-10753e71559b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6505609>",
+     "y": "<http://www.wikidata.org/entity/Q112128>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "q6505609$e94f0eb6-406a-63a6-ed27-67f5119578d8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q69325>",
+     "y": "<http://www.wikidata.org/entity/Q1711096>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "q69325$4DE00ABD-C0F1-4C85-AB5F-262EAA56A7CF",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q7089020>",
+     "y": "<http://www.wikidata.org/entity/Q185538>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q7089020$8fbd16ac-470e-1cf5-7e0c-7b2e13dbcc4f",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q7277>",
+     "y": "<http://www.wikidata.org/entity/Q449464>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q7277$e752d114-4c88-ae66-f60e-464076c8ec32",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75393565>",
+     "y": "<http://www.wikidata.org/entity/Q141612101>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q75393565$1A2803AD-724A-491C-8C81-4E1C089E1126",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q76044628>",
+     "y": "<http://www.wikidata.org/entity/Q76040401>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q76044628$d53b6bcf-4261-3e5d-0acb-40e090fb8932",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q7787833>",
+     "y": "<http://www.wikidata.org/entity/Q75418801>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q7787833$CDBD8E56-8280-4E69-9033-C8A0543E89F1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q85125284>",
+     "y": "<http://www.wikidata.org/entity/Q12024868>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q85125284$dee044f9-4078-03bc-4f8c-76a92a0400b6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q854920>",
+     "y": "<http://www.wikidata.org/entity/Q19684144>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q854920$2a6f4493-467b-0343-c684-973d965619f0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q91293>",
+     "y": "<http://www.wikidata.org/entity/Q24263388>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q91293$c5cf008c-4b13-b6b4-74f5-db8889f36c32",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q94745875>",
+     "y": "<http://www.wikidata.org/entity/Q95803414>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q94745875$3038D8E9-454D-4D16-A3D1-39D26EF81708",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q95190587>",
+     "y": "<http://www.wikidata.org/entity/Q18413385>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q95190587$013C4CD3-F8AA-4AD6-8DAB-5D4FAF40411D",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q9790>",
+     "y": "<http://www.wikidata.org/entity/Q5163362>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q9790$bc2853ce-436e-9680-aac0-ea44c80196df",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  },
+  "contemporary-several-dates": {
+   "description": "A contemporary entry applies at K, but the latest death does not precede the earliest birth.",
+   "population": 113,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q108051677>",
+     "y": "<http://www.wikidata.org/entity/Q110845896>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q108051677$9d99371f-4009-d320-0227-3c026f307e56",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q110613323>",
+     "y": "<http://www.wikidata.org/entity/Q110613324>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q110613323$5917840f-42fd-f669-b69b-a347b28da933",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q110613324>",
+     "y": "<http://www.wikidata.org/entity/Q110613323>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q110613324$5892e79e-4b02-98a8-5123-7d9f5d5fdc6b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1121941>",
+     "y": "<http://www.wikidata.org/entity/Q1369274>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1121941$8962551F-61F3-4EA0-96AA-C2DE50A340A9",
+       "rank": "NormalRank"
+      },
+      {
+       "claim": "Q1121941$CECE128C-234F-4AFD-A3D9-CE66310B26C7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q116004710>",
+     "y": "<http://www.wikidata.org/entity/Q44192347>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q116004710$95053d61-41a1-f24e-205a-4b11b1502b85",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q122732335>",
+     "y": "<http://www.wikidata.org/entity/Q115625390>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q122732335$738F5A24-8FB3-4B34-BAF6-B5E2BD87105D",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q124272308>",
+     "y": "<http://www.wikidata.org/entity/Q28140>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q124272308$b4e2a6c4-4550-c14e-3565-73d748c97d93",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12874544>",
+     "y": "<http://www.wikidata.org/entity/Q50376734>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q12874544$b2c61ca2-46b8-66c0-d6ff-0b3dd50e4ce7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q130636644>",
+     "y": "<http://www.wikidata.org/entity/Q44192347>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q130636644$920b9438-4d8f-a59e-2e8e-4f2a7ec745d4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1330397>",
+     "y": "<http://www.wikidata.org/entity/Q442033>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1330397$e9427aec-4ec7-74b4-cbc8-3669734009e3",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q137944710>",
+     "y": "<http://www.wikidata.org/entity/Q137945541>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q137944710$DA4DD4B8-8388-4739-BD18-4AB37DDF01BE",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1423>",
+     "y": "<http://www.wikidata.org/entity/Q239010>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q1423$BBCEE9C9-BFAA-4709-A234-663BA46F0874",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q18672229>",
+     "y": "<http://www.wikidata.org/entity/Q75918197>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q18672229$296CC5BF-941B-40B6-A38C-B0DF1D1C845C",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q21415623>",
+     "y": "<http://www.wikidata.org/entity/Q116120010>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q21415623$bbb440b6-4f48-be80-9c2e-6c76e86e9bf8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q25497103>",
+     "y": "<http://www.wikidata.org/entity/Q61140432>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q25497103$684E05AA-4162-45BE-8D6E-D768E1B92869",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q266523>",
+     "y": "<http://www.wikidata.org/entity/Q466247>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "q266523$94236203-B7EF-4D48-B260-0B405C4CB96C",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q266751>",
+     "y": "<http://www.wikidata.org/entity/Q81212>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "q266751$01ED817E-5F35-4090-AF7D-572164BF2EF0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3223972>",
+     "y": "<http://www.wikidata.org/entity/Q456955>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "q3223972$B41AAF3B-2AA5-405D-8186-BB88471A3461",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3223972>",
+     "y": "<http://www.wikidata.org/entity/Q527458>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q3223972$c66780ca-488f-6a21-9bb0-7b59175e6b60",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q33743656>",
+     "y": "<http://www.wikidata.org/entity/Q94937661>",
+     "expected": [
+      "Q21510862",
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q33743656$8F6FB0AF-4BF1-4B65-89BE-77608E3001C5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3618991>",
+     "y": "<http://www.wikidata.org/entity/Q521446>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q3618991$293b95cf-4107-a06b-d4c9-f8e167ca3e56",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q369691>",
+     "y": "<http://www.wikidata.org/entity/Q979146>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q369691$3034feb6-4c4a-e526-ad91-cf155362ab1c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q371668>",
+     "y": "<http://www.wikidata.org/entity/Q9030130>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q371668$AB8DAC48-ACBD-4003-AB58-77406E1A223E",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q3781179>",
+     "y": "<http://www.wikidata.org/entity/Q4684015>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q3781179$BC20D493-1FC9-47FF-A889-C9CACF424D66",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q394772>",
+     "y": "<http://www.wikidata.org/entity/Q503875>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q394772$e1e3363e-4c55-56a6-984b-1d2367895b2c",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q44192347>",
+     "y": "<http://www.wikidata.org/entity/Q116004710>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q44192347$ec62e93a-4b4f-8c65-eb18-de97185e72b7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q442033>",
+     "y": "<http://www.wikidata.org/entity/Q1330397>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q442033$6F5FBF9F-FB65-4D87-BAAA-3785656E2903",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q4456990>",
+     "y": "<http://www.wikidata.org/entity/Q52637634>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q4456990$7c9865bd-4495-f000-db44-765390663646",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q467551>",
+     "y": "<http://www.wikidata.org/entity/Q75322562>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q467551$9EB66983-9266-47B9-825B-F6B689BF71E6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q521446>",
+     "y": "<http://www.wikidata.org/entity/Q3618991>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q521446$688b38e0-4df2-4216-16bb-7abf9e06acab",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q52637634>",
+     "y": "<http://www.wikidata.org/entity/Q4456990>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q52637634$f2252e36-42cd-73ae-43d3-144111affdaf",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q527458>",
+     "y": "<http://www.wikidata.org/entity/Q3223972>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q527458$fcf22e64-445a-bc30-3581-0eff1971ec72",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q55124271>",
+     "y": "<http://www.wikidata.org/entity/Q137444922>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q55124271$8509427A-7DCD-4142-8CD4-72AD68127F3E",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q55180949>",
+     "y": "<http://www.wikidata.org/entity/Q196264>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q55180949$33A98F30-5D2A-4B01-8504-88FE9910C68C",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q61913464>",
+     "y": "<http://www.wikidata.org/entity/Q2576899>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q61913464$650E1D8D-0FC9-43B9-849D-10F71484E153",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q68466026>",
+     "y": "<http://www.wikidata.org/entity/Q654278>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q68466026$ef07eb71-46e1-cf86-f039-3ab81e694e37",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q694128>",
+     "y": "<http://www.wikidata.org/entity/Q5547738>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q694128$B4FE8336-8CBF-419B-9FC3-99353B26BA98",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q7026474>",
+     "y": "<http://www.wikidata.org/entity/Q75453855>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q7026474$C0964DDA-BBAF-44EA-9986-D51D6D4C81FA",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q706481>",
+     "y": "<http://www.wikidata.org/entity/Q9652383>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q706481$1028e9f8-42af-eb7e-4532-7555545d1e96",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q72936>",
+     "y": "<http://www.wikidata.org/entity/Q1330110>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "q72936$074c3f28-4679-9999-2d03-c69701b41620",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q742376>",
+     "y": "<http://www.wikidata.org/entity/Q466247>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "q742376$7175D11F-4851-4DFE-97D9-646095C4F901",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75249257>",
+     "y": "<http://www.wikidata.org/entity/Q61140432>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q75249257$cfef2a07-4641-2d2c-3014-e565b5522a44",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75453855>",
+     "y": "<http://www.wikidata.org/entity/Q7026474>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q75453855$CCF415EB-0485-486B-BD8C-583270BD7D38",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75918197>",
+     "y": "<http://www.wikidata.org/entity/Q18672229>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q75918197$67B51015-3C55-4F40-B0C0-0EEE6D5F2E01",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q787220>",
+     "y": "<http://www.wikidata.org/entity/Q3612851>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q787220$19918748-4c42-c110-7491-0e6b653958a3",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q81212>",
+     "y": "<http://www.wikidata.org/entity/Q266751>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "q81212$5BD248E1-5EC7-4168-B7D7-1A95394D0A55",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q83540666>",
+     "y": "<http://www.wikidata.org/entity/Q114811424>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q83540666$27e89325-4517-5347-d05e-852649b9d631",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q94744010>",
+     "y": "<http://www.wikidata.org/entity/Q94909863>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q94744010$8a22dcd8-16d4-474e-b476-b8b69956357d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q94774476>",
+     "y": "<http://www.wikidata.org/entity/Q95005667>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q94774476$4A60F315-F0A2-497E-85E1-6690F95D8DC6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q94909863>",
+     "y": "<http://www.wikidata.org/entity/Q94744010>",
+     "expected": [
+      "Q25796498"
+     ],
+     "statements": [
+      {
+       "claim": "Q94909863$3B241660-9D35-4B9A-90A6-DD47A942D7D9",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  },
+  "subject-type-at-k": {
+   "description": "The subject type entry applies at K.",
+   "population": 135,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q106989785>",
+     "y": "<http://www.wikidata.org/entity/Q106989762>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q106989785$c9c7494e-4b8f-e7d3-065b-222209b83384",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q107349483>",
+     "y": "<http://www.wikidata.org/entity/Q107349473>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q107349483$194B827F-466C-4923-8860-46FC4A746530",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q111745143>",
+     "y": "<http://www.wikidata.org/entity/Q7362355>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q111745143$ad3b486a-43f9-52c8-e212-0d68af8f46d5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q112129817>",
+     "y": "<http://www.wikidata.org/entity/Q127163574>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q112129817$2c7f8c3e-4086-5fad-e56d-48c53906eaa0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q113462426>",
+     "y": "<http://www.wikidata.org/entity/Q21524350>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q113462426$E940AEBE-4F5E-4909-9748-5BE793598034",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q113494784>",
+     "y": "<http://www.wikidata.org/entity/Q113494726>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q113494784$7cb51486-47d6-988c-4bd1-88a4af02d69f",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q116421500>",
+     "y": "<http://www.wikidata.org/entity/Q116419805>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q116421500$a6a58855-4622-8541-686f-3a4784d83b4b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q116523824>",
+     "y": "<http://www.wikidata.org/entity/Q116474852>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q116523824$1dc01961-49ca-eb0d-3ead-9f1b3b9e8cac",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q11756037>",
+     "y": "<http://www.wikidata.org/entity/Q4244041>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q11756037$ba67b9a8-be9a-493a-af12-ce85ec5be7f2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q117933899>",
+     "y": "<http://www.wikidata.org/entity/Q117933783>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q117933899$47820c4f-42ef-c6af-2a2a-85f3fb75ee5e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12254818>",
+     "y": "<http://www.wikidata.org/entity/Q2571442>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q12254818$3208daec-4a91-4112-01c1-270b8615434d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q12499603>",
+     "y": "<http://www.wikidata.org/entity/Q4460863>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q12499603$146EBA92-D249-4964-BA0E-CDCC0C97A50E",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q125817525>",
+     "y": "<http://www.wikidata.org/entity/Q50414407>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q125817525$557d27c2-4ad4-f0e4-01d9-cc93696dcd12",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q126036468>",
+     "y": "<http://www.wikidata.org/entity/Q126036063>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q126036468$06c208b1-4b3f-8b86-98a7-69e7ce3c0a21",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q135227491>",
+     "y": "<http://www.wikidata.org/entity/Q133762496>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q135227491$b142fa79-4a25-09c4-5400-21948cbb3daa",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q135273825>",
+     "y": "<http://www.wikidata.org/entity/Q136656627>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q135273825$0e4f368f-40d2-5181-b913-41228f7b36fc",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q135474893>",
+     "y": "<http://www.wikidata.org/entity/Q135474881>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q135474893$51aaf0e9-4281-288e-cddc-6bfeb16a45c7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q136468306>",
+     "y": "<http://www.wikidata.org/entity/Q136468304>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q136468306$05068657-466f-2ad9-5f9d-9e29b4797b29",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q136533287>",
+     "y": "<http://www.wikidata.org/entity/Q136532706>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q136533287$0e98b944-4b56-a895-6b50-b064c1ed3f7e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q136656627>",
+     "y": "<http://www.wikidata.org/entity/Q135273825>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q136656627$e17b04cf-471b-56dc-5cc4-f3fc99576ea0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q136694937>",
+     "y": "<http://www.wikidata.org/entity/Q135424716>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q136694937$da97814f-4e7f-419d-ed6d-298466c5a9a5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q137176686>",
+     "y": "<http://www.wikidata.org/entity/Q137176702>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q137176686$68ce8fce-4248-6728-5e78-d73ae4672b05",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q137351795>",
+     "y": "<http://www.wikidata.org/entity/Q137301816>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q137351795$23e0a705-42e0-6dbb-abe7-5548cab5a0c2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q137435399>",
+     "y": "<http://www.wikidata.org/entity/Q137435029>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q137435399$e43895e2-4e5c-74e2-8398-59263d30af8e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q137588249>",
+     "y": "<http://www.wikidata.org/entity/Q9028671>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q137588249$4cdb70c4-44e7-090e-9013-5480091e5edb",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q137669928>",
+     "y": "<http://www.wikidata.org/entity/Q137669931>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q137669928$1524cbd6-4cfb-525b-fa4b-700a0802d975",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q137920290>",
+     "y": "<http://www.wikidata.org/entity/Q1504498>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q137920290$dd1633bf-4ca3-a1ce-58ea-170c7f147ab2",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q138335864>",
+     "y": "<http://www.wikidata.org/entity/Q472562>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q138335864$f99ea901-4401-14dc-09a6-59ffe341c9b8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q139898697>",
+     "y": "<http://www.wikidata.org/entity/Q2716187>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q139898697$6d424086-42ea-5841-ea40-478b49968407",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q140103574>",
+     "y": "<http://www.wikidata.org/entity/Q7072179>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q140103574$e76a6d05-4c86-1877-523c-23a22dd452b5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q140968356>",
+     "y": "<http://www.wikidata.org/entity/Q140968324>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q140968356$3004dd1f-48e4-f2ff-1409-5ae8ffc43f4a",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q140987927>",
+     "y": "<http://www.wikidata.org/entity/Q140988017>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q140987927$97eeba3e-4dac-8f35-51a9-f5498a16dca9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141145032>",
+     "y": "<http://www.wikidata.org/entity/Q20499143>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q141145032$2b706f78-46a5-c8e4-153a-09cb9d665b55",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141405291>",
+     "y": "<http://www.wikidata.org/entity/Q114388607>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q141405291$9e315cdd-4de2-ce0a-3fa7-10a148dc461d",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141477713>",
+     "y": "<http://www.wikidata.org/entity/Q482907>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q141477713$dc093d2a-4971-a419-606d-37dcabe79002",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141601088>",
+     "y": "<http://www.wikidata.org/entity/Q135654927>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q141601088$41ab81dc-401e-93b1-d64d-56eea4cacbd1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141739308>",
+     "y": "<http://www.wikidata.org/entity/Q141737759>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q141739308$9F748B23-7E86-4486-BC81-9E39AD02581F",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141801253>",
+     "y": "<http://www.wikidata.org/entity/Q107538953>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q141801253$dd4e68e6-4c4d-f49c-e611-2f247a9f89a6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q141959906>",
+     "y": "<http://www.wikidata.org/entity/Q37762738>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q141959906$dad25ebd-46d5-c5e8-f2b7-856522c50ff8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1541525>",
+     "y": "<http://www.wikidata.org/entity/Q137691715>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q1541525$CE954BFA-05A1-42BF-9E1C-90713242DEBD",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q18577504>",
+     "y": "<http://www.wikidata.org/entity/Q81299243>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q18577504$e8b872db-421e-2fda-e8e4-9c13c8bcc4c8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q19081325>",
+     "y": "<http://www.wikidata.org/entity/Q106072862>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q19081325$4974626a-49df-4b8d-f398-832eb117028a",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q25659295>",
+     "y": "<http://www.wikidata.org/entity/Q25659300>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q25659295$cfcf2eb5-4c6b-87c7-3b6b-253b0c3117e7",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q2571442>",
+     "y": "<http://www.wikidata.org/entity/Q12254818>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q2571442$87b94d0f-4708-cd81-3305-4b8a4774a4c0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q4435673>",
+     "y": "<http://www.wikidata.org/entity/Q579677>",
+     "expected": [
+      "Q21503250",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q4435673$e17ee26c-479b-cc61-fab9-93ffc1cb49fd",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6761396>",
+     "y": "<http://www.wikidata.org/entity/Q6761583>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q6761396$9211d7f6-4803-10d8-b341-fd8ef70bcea6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75664947>",
+     "y": "<http://www.wikidata.org/entity/Q75664944>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q75664947$A24770B3-C947-435E-B96F-2AD2B716D6AD",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q75667219>",
+     "y": "<http://www.wikidata.org/entity/Q75667222>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q75667219$EE8852F8-5A99-46BB-B0BA-865ADA55408B",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q81299243>",
+     "y": "<http://www.wikidata.org/entity/Q18577504>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q81299243$aa4e026f-4825-499f-347b-184fedd36464",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q98994115>",
+     "y": "<http://www.wikidata.org/entity/Q16112493>",
+     "expected": [
+      "Q21503250"
+     ],
+     "statements": [
+      {
+       "claim": "Q98994115$99F81D9B-196D-4A14-98EA-EB73FC4AD8C3",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  },
+  "conflicts-with-at-k": {
+   "description": "The conflicts-with entry applies at K.",
+   "population": 6,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q10261>",
+     "y": "<http://www.wikidata.org/entity/Q235426>",
+     "expected": [
+      "Q21502838"
+     ],
+     "statements": [
+      {
+       "claim": "Q10261$DD876181-4D0D-4226-8790-395472AAD3BB",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1057724>",
+     "y": "<http://www.wikidata.org/entity/Q805514>",
+     "expected": [
+      "Q21502838",
+      "Q21510862"
+     ],
+     "statements": [
+      {
+       "claim": "Q1057724$e38ea9ff-4b8f-1780-0677-6eecdb0fae03",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q1141300>",
+     "y": "<http://www.wikidata.org/entity/Q1469456>",
+     "expected": [
+      "Q21502838"
+     ],
+     "statements": [
+      {
+       "claim": "Q1141300$579d79e8-4f75-5a8e-0824-aa5a0c2b96e0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q471325>",
+     "y": "<http://www.wikidata.org/entity/Q5812611>",
+     "expected": [
+      "Q21502838"
+     ],
+     "statements": [
+      {
+       "claim": "Q471325$5D9C0261-F56B-402D-9F03-80C06BDA13B5",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q52985>",
+     "y": "<http://www.wikidata.org/entity/Q16013454>",
+     "expected": [
+      "Q21502838"
+     ],
+     "statements": [
+      {
+       "claim": "Q52985$B70179DF-82B8-40B8-879D-44A90BAB8039",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q52985>",
+     "y": "<http://www.wikidata.org/entity/Q3066487>",
+     "expected": [
+      "Q21502838"
+     ],
+     "statements": [
+      {
+       "claim": "Q52985$F0692A4E-E5E9-4AB6-A72F-F20CB68B4C30",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  },
+  "none-of-at-k": {
+   "description": "A none-of entry applies at K.",
+   "population": 22,
+   "items": [
+    {
+     "x": "<http://www.wikidata.org/entity/Q108332714>",
+     "y": "<http://www.wikidata.org/entity/Q28341938>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q108332714$d88f9a59-456f-dfde-72a8-328f4b9bc1b0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q108894661>",
+     "y": "<http://www.wikidata.org/entity/Q18646998>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q108894661$a6e4aeb9-4047-fd07-7b0c-480c5ba78451",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q108914600>",
+     "y": "<http://www.wikidata.org/entity/Q28341938>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q108914600$bc470a34-4470-5b55-e464-731a84e572c1",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q109246743>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q109246743$305aeb71-496d-7d30-83c2-1e251c9be110",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q109370962>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q109370962$13217781-477a-7468-793a-ff8dafdba124",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q109563456>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q109563456$62426a11-4328-092e-8acf-886f6f89e95b",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q110027000>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q110027000$5ce8432f-461d-169d-b66c-62a6b917dba6",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q111711159>",
+     "y": "<http://www.wikidata.org/entity/Q179115>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q111711159$08af8b45-4e90-c90c-f098-6f93605595c0",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q123914544>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q123914544$6436ca26-4556-3e17-3102-337a9a35fb5e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q124667177>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q124667177$5b8fc550-4a6d-9ede-b30c-5a70c05d4df9",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q124667294>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q124667294$16b31334-4963-d8f9-8003-e42330273b57",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q125346693>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q125346693$AE9C8274-4653-4E2D-A654-7A989135C598",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q133073575>",
+     "y": "<http://www.wikidata.org/entity/Q18646998>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q133073575$a98a0754-4bb2-a774-66b5-f39da41ccb6e",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q134606973>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q134606973$dec80540-43dc-2323-b10a-aee07f37cb47",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q136723257>",
+     "y": "<http://www.wikidata.org/entity/Q325872>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q136723257$f32df79b-42ed-a5a2-9f87-91cff3c4b8d8",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q140034247>",
+     "y": "<http://www.wikidata.org/entity/Q28341938>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q140034247$E103B23A-731F-4BE5-AD71-4F9E444A5600",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q19341989>",
+     "y": "<http://www.wikidata.org/entity/Q28341938>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q19341989$2aa447fa-4761-7b1e-ddab-2bd4b6fc48c4",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q26997345>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q26997345$4709afa2-44f6-b96b-67df-7f848dc3f44f",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q28872573>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q28872573$56292baa-4d71-aae1-766a-95ca406c49eb",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q35563083>",
+     "y": "<http://www.wikidata.org/entity/Q179115>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q35563083$52CB3A2F-862C-436F-9084-7473CC43A556",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q6054317>",
+     "y": "<http://www.wikidata.org/entity/Q18646998>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q6054317$5aa29ca8-4d30-e1ac-4470-01bf1d3b3e87",
+       "rank": "NormalRank"
+      }
+     ]
+    },
+    {
+     "x": "<http://www.wikidata.org/entity/Q99610363>",
+     "y": "<http://www.wikidata.org/entity/Q908826>",
+     "expected": [
+      "Q21510862",
+      "Q52558054"
+     ],
+     "statements": [
+      {
+       "claim": "Q99610363$b96e1a7c-4f83-652c-468d-b8bd704e0601",
+       "rank": "NormalRank"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "statements_from": [
+  "results/calibration-statements-01-reciprocated/20261114T180055Z.json",
+  "results/calibration-statements-02-clean-default/20261114T180056Z.json",
+  "results/calibration-statements-03-conflict-conflicts-with/20261114T180057Z.json",
+  "results/calibration-statements-04-conflict-subject-type/20261114T180058Z.json",
+  "results/calibration-statements-05-conflict-contemporary/20261114T180059Z.json",
+  "results/calibration-statements-06-unknown-value/20261114T180100Z.json",
+  "results/calibration-statements-07-contemporary-no-1-january/20261114T180101Z.json",
+  "results/calibration-statements-08-contemporary-1-january/20261114T180102Z.json",
+  "results/calibration-statements-09-contemporary-several-dates/20261114T180103Z.json",
+  "results/calibration-statements-10-subject-type-at-k/20261114T180103Z.json",
+  "results/calibration-statements-11-conflicts-with-at-k/20261114T180104Z.json",
+  "results/calibration-statements-12-none-of-at-k/20261114T180105Z.json"
+ ]
+}

@@ -17,6 +17,7 @@ never written to disk: it carries contact details. Standard library only.
 import argparse
 import datetime
 import hashlib
+import http.client
 import json
 import os
 import pathlib
@@ -25,11 +26,12 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import zlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DEFAULT_ENDPOINT = "https://query.wikidata.org/sparql"
-ACCEPT = {"json": "application/sparql-results+json", "ttl": "text/turtle"}
-KEPT_HEADERS = ("Date", "Content-Type", "Server", "X-Served-By", "Retry-After")
+ACCEPT = {"json": "application/sparql-results+json", "ttl": "text/turtle", "tsv": "text/tab-separated-values"}
+KEPT_HEADERS = ("Date", "Content-Type", "Content-Encoding", "Server", "X-Served-By", "Retry-After")
 
 
 def utc_now():
@@ -65,7 +67,7 @@ def main():
     ap.add_argument("query", type=pathlib.Path, help="a .rq file under queries/")
     ap.add_argument("--endpoint", default=DEFAULT_ENDPOINT)
     ap.add_argument("--format", choices=sorted(ACCEPT), default="json",
-                    help="json for SELECT and ASK, ttl for CONSTRUCT")
+                    help="json for SELECT and ASK, ttl for CONSTRUCT, tsv for a large SELECT")
     ap.add_argument("--timeout", type=float, default=90.0, help="seconds")
     ap.add_argument("--results-dir", type=pathlib.Path, default=ROOT / "results")
     ap.add_argument("--log", type=pathlib.Path, default=ROOT / "logs" / "runs.jsonl")
@@ -85,29 +87,53 @@ def main():
     request = urllib.request.Request(
         args.endpoint,
         data=urllib.parse.urlencode({"query": query_text}).encode("utf-8"),
-        headers={"Accept": ACCEPT[args.format], "User-Agent": user_agent},
+        headers={"Accept": ACCEPT[args.format], "User-Agent": user_agent, "Accept-Encoding": "gzip"},
         method="POST",
     )
 
     started = utc_now()
     clock = time.monotonic()
-    status, headers, body, error = None, {}, b"", None
+    base = out_dir / stamp(started)
+    part = pathlib.Path(str(base) + ".part")
+    status, headers, error = None, {}, None
+    size, lines, digest = 0, 0, hashlib.sha256()
     try:
-        with urllib.request.urlopen(request, timeout=args.timeout) as response:
-            status, headers, body = response.status, response.headers, response.read()
+        # The body is written to disk as it arrives, so a large result never sits in memory.
+        with urllib.request.urlopen(request, timeout=args.timeout) as response, part.open("wb") as out:
+            status, headers = response.status, response.headers
+            # Sent compressed when the server agrees; what is saved and hashed is the body itself.
+            unzip = zlib.decompressobj(16 + zlib.MAX_WBITS) if headers.get("Content-Encoding") == "gzip" else None
+            while raw := response.read(1 << 20):
+                chunk = unzip.decompress(raw) if unzip else raw
+                out.write(chunk)
+                digest.update(chunk)
+                size += len(chunk)
+                lines += chunk.count(b"\n")
+            if unzip and not unzip.eof:
+                raise http.client.IncompleteRead(b"", None)
     except urllib.error.HTTPError as e:
         status, headers, body = e.code, e.headers, e.read()
         error = f"HTTP {e.code} {e.reason}"
-    except (urllib.error.URLError, TimeoutError, OSError) as e:
-        error = f"{type(e).__name__}: {e}"
+        part.write_bytes(body)
+        size, digest = len(body), hashlib.sha256(body)
+    except (urllib.error.URLError, http.client.HTTPException, TimeoutError, OSError) as e:
+        # A connection cut part-way raises here; whatever arrived is kept as the error body.
+        error = f"{type(e).__name__}: {str(e)[:200]}"
     seconds = round(time.monotonic() - clock, 3)
     finished = utc_now()
 
     ok = error is None
-    base = out_dir / stamp(started)
     body_path = base.with_suffix("." + args.format if ok else ".error.txt")
-    if body:
-        body_path.write_bytes(body)
+    if part.exists() and size:
+        part.rename(body_path)
+    elif part.exists():
+        part.unlink()
+
+    rows = None
+    if ok and args.format == "tsv":
+        rows = max(lines - 1, 0)  # one header line
+    elif ok and args.format == "json" and size < 300_000_000:
+        rows = count_rows(body_path.read_bytes(), "json")
 
     record = {
         "query_file": relative(args.query),
@@ -120,10 +146,11 @@ def main():
         "http_status": status,
         "ok": ok,
         "error": error,
-        "rows": count_rows(body, args.format) if ok else None,
-        "body_file": relative(body_path) if body else None,
-        "body_bytes": len(body),
-        "body_sha256": hashlib.sha256(body).hexdigest() if body else None,
+        "rows": rows,
+        "body_file": relative(body_path) if size else None,
+        "body_bytes": size,
+        "body_lines": lines if size else None,
+        "body_sha256": digest.hexdigest() if size else None,
         "response_headers": {h: headers[h] for h in KEPT_HEADERS if headers.get(h)},
     }
     meta_path = pathlib.Path(str(base) + ".meta.json")

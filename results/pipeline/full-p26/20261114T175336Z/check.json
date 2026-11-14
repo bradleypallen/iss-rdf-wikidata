@@ -1,0 +1,43 @@
+{
+  "data": "data/full-p26/asserted.nt",
+  "agree": true,
+  "seconds": 66.8,
+  "incoherent at K": true,
+  "readings_of_in_conflict_differ_on": 0,
+  "asserted is the data file": true,
+  "K": {
+    "definition": 4916764,
+    "pipeline": 4916764,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "D*": {
+    "definition": 987188,
+    "pipeline": 987188,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "Cons": {
+    "definition": 4932634,
+    "pipeline": 4932634,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "incompatibilities at K": {
+    "definition": 1936,
+    "pipeline": 1936,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "incompatibilities over Cons": {
+    "definition": 5626,
+    "pipeline": 5626,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  }
+}

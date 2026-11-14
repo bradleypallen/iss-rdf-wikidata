@@ -1,0 +1,37 @@
+{
+  "query_file": "queries/calibration-09-contemporary-several-dates-part2.api.json",
+  "query_sha256": "57afe61c079ebfa36aa929a995a83113dc6040001adaaa3966e5df686468e096",
+  "endpoint": "https://www.wikidata.org/w/api.php",
+  "request_url": "https://www.wikidata.org/w/api.php?action=wbcheckconstraints&format=json&formatversion=2&claimid=q81212%245BD248E1-5EC7-4168-B7D7-1A95394D0A55&constraintid=P26%2475392F51-A753-4451-B057-4C2719462EFB%7CP26%24862D87C1-BB05-45A8-934F-3585370F6253%7CP26%24183C2471-ED90-45FD-949F-020CD7EF5F90%7CP26%2435E5D7A3-D2AC-4A9F-93D3-8630E85EC729%7CP26%2446738363-4725-63da-853b-24a1190a343e%7CP26%24c75a4c3d-4806-8402-9d44-79166c9dad87%7CP26%24f1e6c730-480b-deee-0bc5-792f91ba73e5&status=%2A",
+  "started_utc": "2026-11-14T18:03:04+00:00",
+  "finished_utc": "2026-11-14T18:03:04+00:00",
+  "seconds": 0.26,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 1,
+  "body_file": "results/calibration-09-contemporary-several-dates-part2/20261114T180304Z.json",
+  "body_bytes": 3016,
+  "body_sha256": "0d09a2dae38070d4b90599a0c7daf27fb4a636639909d3858eaacd64f31b1ebc",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 18:03:04 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Server": "mw-api-ext.codfw.main-5f564dc48-zc528"
+  },
+  "query": {
+    "purpose": "Checker calibration for the full run, category 'contemporary-several-dates': A contemporary entry applies at K, but the latest death does not precede the earliest birth. Statements drawn with seed 20261114; see data/full-p26/calibration-sample.json.",
+    "claimid": [
+      "q81212$5BD248E1-5EC7-4168-B7D7-1A95394D0A55"
+    ],
+    "constraintid": [
+      "P26$75392F51-A753-4451-B057-4C2719462EFB",
+      "P26$862D87C1-BB05-45A8-934F-3585370F6253",
+      "P26$183C2471-ED90-45FD-949F-020CD7EF5F90",
+      "P26$35E5D7A3-D2AC-4A9F-93D3-8630E85EC729",
+      "P26$46738363-4725-63da-853b-24a1190a343e",
+      "P26$c75a4c3d-4806-8402-9d44-79166c9dad87",
+      "P26$f1e6c730-480b-deee-0bc5-792f91ba73e5"
+    ],
+    "status": "*"
+  }
+}

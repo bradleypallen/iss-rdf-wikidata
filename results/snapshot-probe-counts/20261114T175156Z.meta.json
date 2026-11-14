@@ -1,0 +1,24 @@
+{
+  "query_file": "queries/snapshot-probe-counts.rq",
+  "query_sha256": "21873519fce73a5d4542d23f0ed3c06657b01f16fc421a6e0c13551cc4387806",
+  "endpoint": "https://qlever.dev/api/wikidata",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T17:51:56+00:00",
+  "finished_utc": "2026-11-14T17:51:57+00:00",
+  "seconds": 1.284,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 1,
+  "body_file": "results/snapshot-probe-counts/20261114T175156Z.json",
+  "body_bytes": 556,
+  "body_lines": 0,
+  "body_sha256": "118b7b8695626e7819bccbb8ef6a6b2ff2a02c34b94d2a5bac5dc25a6ba90bc7",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 17:51:57 GMT",
+    "Content-Type": "application/sparql-results+json",
+    "Content-Encoding": "gzip",
+    "Server": "nginx/1.18.0 (Ubuntu)"
+  },
+  "query": "# How an endpoint holds the direct spouse (P26) triples: how many there are,\n# and how many values are blank nodes, Wikidata items, or other IRIs (the\n# query service gives unknown values as Skolem IRIs; a dump gives blank nodes).\n# Used to compare candidate sources for the full run.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX schema: <http://schema.org/>\n\nSELECT (COUNT(*) AS ?triples)\n       (SUM(IF(isBlank(?b), 1, 0)) AS ?blankValues)\n       (SUM(IF(isIRI(?b) && STRSTARTS(STR(?b), \"http://www.wikidata.org/entity/\"), 1, 0)) AS ?itemValues)\n       (SUM(IF(isIRI(?b) && !STRSTARTS(STR(?b), \"http://www.wikidata.org/entity/\"), 1, 0)) AS ?otherIriValues)\nWHERE {\n  ?a wdt:P26 ?b .\n}\n"
+}

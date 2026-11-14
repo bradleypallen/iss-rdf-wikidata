@@ -1,0 +1,21 @@
+{
+ "purpose": "Checker calibration for the full run, category 'conflicts-with-at-k': The conflicts-with entry applies at K. Statements drawn with seed 20261114; see data/full-p26/calibration-sample.json.",
+ "claimid": [
+  "Q10261$DD876181-4D0D-4226-8790-395472AAD3BB",
+  "Q1057724$e38ea9ff-4b8f-1780-0677-6eecdb0fae03",
+  "Q1141300$579d79e8-4f75-5a8e-0824-aa5a0c2b96e0",
+  "Q471325$5D9C0261-F56B-402D-9F03-80C06BDA13B5",
+  "Q52985$B70179DF-82B8-40B8-879D-44A90BAB8039",
+  "Q52985$F0692A4E-E5E9-4AB6-A72F-F20CB68B4C30"
+ ],
+ "constraintid": [
+  "P26$75392F51-A753-4451-B057-4C2719462EFB",
+  "P26$862D87C1-BB05-45A8-934F-3585370F6253",
+  "P26$183C2471-ED90-45FD-949F-020CD7EF5F90",
+  "P26$35E5D7A3-D2AC-4A9F-93D3-8630E85EC729",
+  "P26$46738363-4725-63da-853b-24a1190a343e",
+  "P26$c75a4c3d-4806-8402-9d44-79166c9dad87",
+  "P26$f1e6c730-480b-deee-0bc5-792f91ba73e5"
+ ],
+ "status": "*"
+}

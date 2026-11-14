@@ -1,0 +1,254 @@
+{
+ "data": "data/full-p26/asserted.nt",
+ "run": "results/pipeline/full-p26/20261114T175336Z",
+ "counts": {
+  "conflicts-with, spouse triples at K: a forbidden class is a direct class of the subject": {
+   "no unknown value": 3,
+   "unknown value": 0
+  },
+  "conflicts-with, spouse triples at K: only through subclass of": {
+   "no unknown value": 3,
+   "unknown value": 0
+  },
+  "conflicts-with, spouse triples over Cons only: a forbidden class is a direct class of the subject": {
+   "no unknown value": 206,
+   "unknown value": 0
+  },
+  "conflicts-with, spouse triples over Cons only: only through subclass of": {
+   "no unknown value": 23,
+   "unknown value": 0
+  },
+  "contemporary instances at K": {
+   "no unknown value": 1771,
+   "unknown value": 0
+  },
+  "contemporary instances at K: a compared date falls on 1 January": {
+   "no unknown value": 1689,
+   "unknown value": 0
+  },
+  "contemporary instances at K: a party has several birth or death dates": {
+   "no unknown value": 407,
+   "unknown value": 0
+  },
+  "contemporary instances at K: the death or the birth compared is one of several": {
+   "no unknown value": 319,
+   "unknown value": 0
+  },
+  "contemporary instances over Cons only": {
+   "no unknown value": 59,
+   "unknown value": 0
+  },
+  "contemporary instances over Cons only: a compared date falls on 1 January": {
+   "no unknown value": 45,
+   "unknown value": 0
+  },
+  "contemporary instances over Cons only: a party has several birth or death dates": {
+   "no unknown value": 7,
+   "unknown value": 0
+  },
+  "contemporary instances over Cons only: the death or the birth compared is one of several": {
+   "no unknown value": 7,
+   "unknown value": 0
+  },
+  "contemporary, distinct (died, born) party pairs at K": {
+   "no unknown value": 859,
+   "unknown value": 0
+  },
+  "contemporary, distinct (died, born) party pairs over Cons only": {
+   "no unknown value": 57,
+   "unknown value": 0
+  },
+  "contemporary, distinct party pairs at K: latest death precedes earliest birth": {
+   "no unknown value": 799,
+   "unknown value": 0
+  },
+  "contemporary, distinct party pairs at K: some death precedes some birth, but not the latest the earliest": {
+   "no unknown value": 60,
+   "unknown value": 0
+  },
+  "contemporary, distinct party pairs over Cons only: latest death precedes earliest birth": {
+   "no unknown value": 54,
+   "unknown value": 0
+  },
+  "contemporary, distinct party pairs over Cons only: some death precedes some birth, but not the latest the earliest": {
+   "no unknown value": 3,
+   "unknown value": 0
+  },
+  "date of birth values": {
+   "no unknown value": 613525,
+   "unknown value": 2814
+  },
+  "date of birth values: on 1 January": {
+   "no unknown value": 213970,
+   "unknown value": 0
+  },
+  "date of death values": {
+   "no unknown value": 507290,
+   "unknown value": 8092
+  },
+  "date of death values: on 1 January": {
+   "no unknown value": 138253,
+   "unknown value": 0
+  },
+  "default conclusions": {
+   "no unknown value": 984527,
+   "unknown value": 2661
+  },
+  "default conclusions: already in K": {
+   "no unknown value": 971318,
+   "unknown value": 0
+  },
+  "default conclusions: new to K": {
+   "no unknown value": 13209,
+   "unknown value": 2661
+  },
+  "incompatibility instances at K: p26-conflicts-with": {
+   "no unknown value": 8,
+   "unknown value": 0
+  },
+  "incompatibility instances at K: p26-contemporary-subject-first": {
+   "no unknown value": 874,
+   "unknown value": 0
+  },
+  "incompatibility instances at K: p26-contemporary-value-first": {
+   "no unknown value": 897,
+   "unknown value": 0
+  },
+  "incompatibility instances at K: p26-none-of-name-or-status": {
+   "no unknown value": 1,
+   "unknown value": 0
+  },
+  "incompatibility instances at K: p26-none-of-unmarried": {
+   "no unknown value": 16,
+   "unknown value": 0
+  },
+  "incompatibility instances at K: p26-none-of-widowed": {
+   "no unknown value": 5,
+   "unknown value": 0
+  },
+  "incompatibility instances at K: p26-subject-type": {
+   "no unknown value": 135,
+   "unknown value": 0
+  },
+  "new conclusions: clean": {
+   "no unknown value": 12507,
+   "unknown value": 0
+  },
+  "new conclusions: in conflict": {
+   "no unknown value": 702,
+   "unknown value": 2661
+  },
+  "new conclusions: in conflict with exactly p26-conflicts-with + p26-subject-type": {
+   "no unknown value": 229,
+   "unknown value": 0
+  },
+  "new conclusions: in conflict with exactly p26-contemporary-subject-first": {
+   "no unknown value": 37,
+   "unknown value": 0
+  },
+  "new conclusions: in conflict with exactly p26-contemporary-subject-first + p26-contemporary-value-first": {
+   "no unknown value": 2,
+   "unknown value": 0
+  },
+  "new conclusions: in conflict with exactly p26-contemporary-value-first": {
+   "no unknown value": 16,
+   "unknown value": 0
+  },
+  "new conclusions: in conflict with exactly p26-subject-type": {
+   "no unknown value": 418,
+   "unknown value": 2661
+  },
+  "new conclusions: in conflict with p26-conflicts-with": {
+   "no unknown value": 229,
+   "unknown value": 0
+  },
+  "new conclusions: in conflict with p26-contemporary-subject-first": {
+   "no unknown value": 39,
+   "unknown value": 0
+  },
+  "new conclusions: in conflict with p26-contemporary-value-first": {
+   "no unknown value": 18,
+   "unknown value": 0
+  },
+  "new conclusions: in conflict with p26-subject-type": {
+   "no unknown value": 647,
+   "unknown value": 2661
+  },
+  "parties with several date of birth values": {
+   "no unknown value": 11278,
+   "unknown value": 0
+  },
+  "parties with several date of death values": {
+   "no unknown value": 9190,
+   "unknown value": 0
+  },
+  "spouse triples": {
+   "no unknown value": 984527,
+   "unknown value": 2661
+  },
+  "spouse triples with an incompatibility at K: any entry": {
+   "no unknown value": 1786,
+   "unknown value": 0
+  },
+  "spouse triples with an incompatibility at K: p26-conflicts-with": {
+   "no unknown value": 6,
+   "unknown value": 0
+  },
+  "spouse triples with an incompatibility at K: p26-contemporary-subject-first": {
+   "no unknown value": 820,
+   "unknown value": 0
+  },
+  "spouse triples with an incompatibility at K: p26-contemporary-value-first": {
+   "no unknown value": 841,
+   "unknown value": 0
+  },
+  "spouse triples with an incompatibility at K: p26-none-of-name-or-status": {
+   "no unknown value": 1,
+   "unknown value": 0
+  },
+  "spouse triples with an incompatibility at K: p26-none-of-unmarried": {
+   "no unknown value": 16,
+   "unknown value": 0
+  },
+  "spouse triples with an incompatibility at K: p26-none-of-widowed": {
+   "no unknown value": 5,
+   "unknown value": 0
+  },
+  "spouse triples with an incompatibility at K: p26-subject-type": {
+   "no unknown value": 135,
+   "unknown value": 0
+  },
+  "spouse triples: missing reverse": {
+   "no unknown value": 13209,
+   "unknown value": 2661
+  },
+  "spouse triples: reciprocated": {
+   "no unknown value": 971318,
+   "unknown value": 0
+  },
+  "spouse triples: subject and value the same": {
+   "no unknown value": 12,
+   "unknown value": 0
+  }
+ },
+ "instances over Cons, not at K, whose spouse triple is not a new conclusion": 0,
+ "readings of 'in conflict'": {
+  "new conclusions": 15870,
+  "in conflict, over Cons": 3363,
+  "in conflict, one at a time": 3363,
+  "conclusions where the readings differ": 0,
+  "by entry, over Cons": {
+   "p26-conflicts-with": 229,
+   "p26-contemporary-subject-first": 39,
+   "p26-contemporary-value-first": 18,
+   "p26-subject-type": 3308
+  },
+  "by entry, one at a time": {
+   "p26-conflicts-with": 229,
+   "p26-contemporary-subject-first": 39,
+   "p26-contemporary-value-first": 18,
+   "p26-subject-type": 3308
+  },
+  "pipeline's step 4 and the definition's 'over Cons' give the same conclusions and entries": true
+ }
+}

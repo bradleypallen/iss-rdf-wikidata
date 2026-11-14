@@ -1,0 +1,30 @@
+{
+ "symmetric expected, not reported": {
+  "a statement y spouse x exists, not at best rank (NormalRank)": 4,
+  "a statement y spouse x exists, not at best rank (DeprecatedRank)": 5,
+  "y is a redirect, and its target has the reverse statement": 5
+ },
+ "contemporary by precision": {
+  "every compared pair has a date coarser than a day (century at best)": {
+   "checker reports contemporary": 31,
+   "checker does not": 32
+  },
+  "every compared pair has a date coarser than a day (decade at best)": {
+   "checker does not": 1
+  },
+  "every compared pair has a date coarser than a day (millennium at best)": {
+   "checker does not": 1
+  },
+  "every compared pair has a date coarser than a day (month at best)": {
+   "checker reports contemporary": 6
+  },
+  "every compared pair has a date coarser than a day (year at best)": {
+   "checker reports contemporary": 21,
+   "checker does not": 1
+  },
+  "some compared pair of dates is exact to the day": {
+   "checker reports contemporary": 53,
+   "checker does not": 4
+  }
+ }
+}

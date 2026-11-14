@@ -1,0 +1,44 @@
+# The snapshot for the full run over spouse (P26), as one query so that all of
+# it is read at one time:
+#   every direct P26 triple;
+#   for every subject and every value of one, its instance of (P31), date of
+#     birth (P569) and date of death (P570) triples;
+#   every subclass of (P279) triple at or above a class of one of those
+#     parties (tools/build_full_subset.py keeps the ones on a path to a class
+#     an entry names; the rest serve the full-hierarchy comparison on a sample);
+#   the symmetric constraint statement on P26 with its listed exceptions.
+# Plain SPARQL. Written for an endpoint that can return several million
+# triples in one answer; the Wikidata query service cannot.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+
+CONSTRUCT { ?s ?p ?o } WHERE {
+  { ?s wdt:P26 ?o . BIND(wdt:P26 AS ?p) }
+  UNION
+  { { SELECT DISTINCT ?s WHERE { { ?s wdt:P26 ?v } UNION { ?v wdt:P26 ?s } } } ?s wdt:P31 ?o . BIND(wdt:P31 AS ?p) }
+  UNION
+  { { SELECT DISTINCT ?s WHERE { { ?s wdt:P26 ?v } UNION { ?v wdt:P26 ?s } } } ?s wdt:P569 ?o . BIND(wdt:P569 AS ?p) }
+  UNION
+  { { SELECT DISTINCT ?s WHERE { { ?s wdt:P26 ?v } UNION { ?v wdt:P26 ?s } } } ?s wdt:P570 ?o . BIND(wdt:P570 AS ?p) }
+  UNION
+  {
+    { SELECT DISTINCT ?s ?o WHERE {
+        { SELECT DISTINCT ?class WHERE {
+            { SELECT DISTINCT ?party WHERE { { ?party wdt:P26 ?v } UNION { ?v wdt:P26 ?party } } }
+            ?party wdt:P31 ?class .
+        } }
+        ?class wdt:P279* ?s .
+        ?s wdt:P279 ?o .
+    } }
+    BIND(wdt:P279 AS ?p)
+  }
+  UNION
+  { wd:P26 p:P2302 ?o . ?o ps:P2302 wd:Q21510862 . BIND(wd:P26 AS ?s) BIND(p:P2302 AS ?p) }
+  UNION
+  { wd:P26 p:P2302 ?s . ?s ps:P2302 wd:Q21510862 . BIND(ps:P2302 AS ?p) BIND(wd:Q21510862 AS ?o) }
+  UNION
+  { wd:P26 p:P2302 ?s . ?s ps:P2302 wd:Q21510862 . ?s pq:P2303 ?o . BIND(pq:P2303 AS ?p) }
+}

@@ -1,0 +1,24 @@
+{
+  "query_file": "queries/full-p26-snapshot.rq",
+  "query_sha256": "e5206e4883103ce6cf668ece2f9b79b5c06a310c8cf9a04d930121d1abfd88a0",
+  "endpoint": "https://qlever.dev/api/wikidata",
+  "accept": "text/turtle",
+  "started_utc": "2026-11-14T17:51:57+00:00",
+  "finished_utc": "2026-11-14T17:52:16+00:00",
+  "seconds": 18.416,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": null,
+  "body_file": "results/full-p26-snapshot/20261114T175157Z.ttl",
+  "body_bytes": 419355702,
+  "body_lines": 3049566,
+  "body_sha256": "308de3ce062107617eed14d3c13840d663de618e227664d3638b0457d3444296",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 17:52:00 GMT",
+    "Content-Type": "text/turtle",
+    "Content-Encoding": "gzip",
+    "Server": "nginx/1.18.0 (Ubuntu)"
+  },
+  "query": "# The snapshot for the full run over spouse (P26), as one query so that all of\n# it is read at one time:\n#   every direct P26 triple;\n#   for every subject and every value of one, its instance of (P31), date of\n#     birth (P569) and date of death (P570) triples;\n#   every subclass of (P279) triple at or above a class of one of those\n#     parties (tools/build_full_subset.py keeps the ones on a path to a class\n#     an entry names; the rest serve the full-hierarchy comparison on a sample);\n#   the symmetric constraint statement on P26 with its listed exceptions.\n# Plain SPARQL. Written for an endpoint that can return several million\n# triples in one answer; the Wikidata query service cannot.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\n\nCONSTRUCT { ?s ?p ?o } WHERE {\n  { ?s wdt:P26 ?o . BIND(wdt:P26 AS ?p) }\n  UNION\n  { { SELECT DISTINCT ?s WHERE { { ?s wdt:P26 ?v } UNION { ?v wdt:P26 ?s } } } ?s wdt:P31 ?o . BIND(wdt:P31 AS ?p) }\n  UNION\n  { { SELECT DISTINCT ?s WHERE { { ?s wdt:P26 ?v } UNION { ?v wdt:P26 ?s } } } ?s wdt:P569 ?o . BIND(wdt:P569 AS ?p) }\n  UNION\n  { { SELECT DISTINCT ?s WHERE { { ?s wdt:P26 ?v } UNION { ?v wdt:P26 ?s } } } ?s wdt:P570 ?o . BIND(wdt:P570 AS ?p) }\n  UNION\n  {\n    { SELECT DISTINCT ?s ?o WHERE {\n        { SELECT DISTINCT ?class WHERE {\n            { SELECT DISTINCT ?party WHERE { { ?party wdt:P26 ?v } UNION { ?v wdt:P26 ?party } } }\n            ?party wdt:P31 ?class .\n        } }\n        ?class wdt:P279* ?s .\n        ?s wdt:P279 ?o .\n    } }\n    BIND(wdt:P279 AS ?p)\n  }\n  UNION\n  { wd:P26 p:P2302 ?o . ?o ps:P2302 wd:Q21510862 . BIND(wd:P26 AS ?s) BIND(p:P2302 AS ?p) }\n  UNION\n  { wd:P26 p:P2302 ?s . ?s ps:P2302 wd:Q21510862 . BIND(ps:P2302 AS ?p) BIND(wd:Q21510862 AS ?o) }\n  UNION\n  { wd:P26 p:P2302 ?s . ?s ps:P2302 wd:Q21510862 . ?s pq:P2303 ?o . BIND(pq:P2303 AS ?p) }\n}\n"
+}

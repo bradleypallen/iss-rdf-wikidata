@@ -1,0 +1,15 @@
+# How an endpoint holds the direct spouse (P26) triples: how many there are,
+# and how many values are blank nodes, Wikidata items, or other IRIs (the
+# query service gives unknown values as Skolem IRIs; a dump gives blank nodes).
+# Used to compare candidate sources for the full run.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX schema: <http://schema.org/>
+
+SELECT (COUNT(*) AS ?triples)
+       (SUM(IF(isBlank(?b), 1, 0)) AS ?blankValues)
+       (SUM(IF(isIRI(?b) && STRSTARTS(STR(?b), "http://www.wikidata.org/entity/"), 1, 0)) AS ?itemValues)
+       (SUM(IF(isIRI(?b) && !STRSTARTS(STR(?b), "http://www.wikidata.org/entity/"), 1, 0)) AS ?otherIriValues)
+WHERE {
+  ?a wdt:P26 ?b .
+}

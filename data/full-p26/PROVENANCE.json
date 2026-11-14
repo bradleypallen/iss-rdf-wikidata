@@ -1,0 +1,58 @@
+{
+  "licence": "Data retrieved from Wikidata, public domain under CC0 1.0.",
+  "built_by": "tools/build_full_subset.py",
+  "as_of": "2026-11-14T17:51:57+00:00",
+  "source": {
+    "query_file": "queries/full-p26-snapshot.rq",
+    "query_sha256": "e5206e4883103ce6cf668ece2f9b79b5c06a310c8cf9a04d930121d1abfd88a0",
+    "result_file": "results/full-p26-snapshot/20261114T175157Z.ttl",
+    "result_sha256": "308de3ce062107617eed14d3c13840d663de618e227664d3638b0457d3444296",
+    "run_started_utc": "2026-11-14T17:51:57+00:00",
+    "endpoint": "https://qlever.dev/api/wikidata"
+  },
+  "counts": {
+    "triples_fetched": 3049566,
+    "by_predicate": {
+      "<http://www.wikidata.org/prop/P2302>": 1,
+      "<http://www.wikidata.org/prop/direct/P26>": 987188,
+      "<http://www.wikidata.org/prop/direct/P279>": 4149,
+      "<http://www.wikidata.org/prop/direct/P31>": 926506,
+      "<http://www.wikidata.org/prop/direct/P569>": 616339,
+      "<http://www.wikidata.org/prop/direct/P570>": 515382,
+      "<http://www.wikidata.org/prop/statement/P2302>": 1
+    },
+    "subclass_triples_fetched": 4149,
+    "subclass_triples_kept": 1067,
+    "asserted": 3046484
+  },
+  "named_classes": [
+    "<http://www.wikidata.org/entity/Q101352>",
+    "<http://www.wikidata.org/entity/Q11879590>",
+    "<http://www.wikidata.org/entity/Q12308941>",
+    "<http://www.wikidata.org/entity/Q13002315>",
+    "<http://www.wikidata.org/entity/Q15623926>",
+    "<http://www.wikidata.org/entity/Q202444>",
+    "<http://www.wikidata.org/entity/Q21070568>",
+    "<http://www.wikidata.org/entity/Q215627>",
+    "<http://www.wikidata.org/entity/Q340069>",
+    "<http://www.wikidata.org/entity/Q3409032>",
+    "<http://www.wikidata.org/entity/Q4167410>",
+    "<http://www.wikidata.org/entity/Q4271324>",
+    "<http://www.wikidata.org/entity/Q577>",
+    "<http://www.wikidata.org/entity/Q5>",
+    "<http://www.wikidata.org/entity/Q95074>"
+  ],
+  "subclass_selection": "A fetched P279 triple is kept when its object is a class named in an entry or has a P279 path to one.",
+  "files": {
+    "asserted.nt": {
+      "sha256": "8b6a9c178f00aa6d83664ef2d86ba1d8042e8afcce0618fa5251338093bcd210",
+      "bytes": 418956927,
+      "in_git": false
+    },
+    "subclass-all.nt": {
+      "sha256": "a3f2e937751db592d269bc4becb18717cc076ef7709b4b386718da7e66d8f3bd",
+      "bytes": 537387,
+      "in_git": true
+    }
+  }
+}

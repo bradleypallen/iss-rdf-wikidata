@@ -1,0 +1,1802 @@
+[
+ {
+  "who": "<http://www.wikidata.org/entity/Q73360721>",
+  "spouse": "<http://www.wikidata.org/.well-known/genid/0dbde518cd460b9de41b43aa4ceec352>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q100155306>",
+  "spouse": "<http://www.wikidata.org/entity/Q100155275>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q100155275>",
+  "spouse": "<http://www.wikidata.org/entity/Q100155306>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1779543>",
+  "spouse": "<http://www.wikidata.org/entity/Q10264872>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2353999>",
+  "spouse": "<http://www.wikidata.org/entity/Q1036543>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q104047086>",
+  "spouse": "<http://www.wikidata.org/entity/Q104047063>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q104047063>",
+  "spouse": "<http://www.wikidata.org/entity/Q104047086>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q104047422>",
+  "spouse": "<http://www.wikidata.org/entity/Q104047352>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q104047352>",
+  "spouse": "<http://www.wikidata.org/entity/Q104047422>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q192485>",
+  "spouse": "<http://www.wikidata.org/entity/Q10466497>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3817746>",
+  "spouse": "<http://www.wikidata.org/entity/Q105733000>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q111319897>",
+  "spouse": "<http://www.wikidata.org/entity/Q1057885>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3523954>",
+  "spouse": "<http://www.wikidata.org/entity/Q1061606>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q461258>",
+  "spouse": "<http://www.wikidata.org/entity/Q106382386>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q461258>",
+  "spouse": "<http://www.wikidata.org/entity/Q106382973>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q7831777>",
+  "spouse": "<http://www.wikidata.org/entity/Q106485074>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q107095954>",
+  "spouse": "<http://www.wikidata.org/entity/Q107095933>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q107095933>",
+  "spouse": "<http://www.wikidata.org/entity/Q107095954>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q14702573>",
+  "spouse": "<http://www.wikidata.org/entity/Q10715158>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q107288374>",
+  "spouse": "<http://www.wikidata.org/entity/Q107271373>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q107271373>",
+  "spouse": "<http://www.wikidata.org/entity/Q107288374>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q107376523>",
+  "spouse": "<http://www.wikidata.org/entity/Q107288374>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q107709219>",
+  "spouse": "<http://www.wikidata.org/entity/Q107288374>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q107436824>",
+  "spouse": "<http://www.wikidata.org/entity/Q107333585>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q107288374>",
+  "spouse": "<http://www.wikidata.org/entity/Q107376523>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q107333585>",
+  "spouse": "<http://www.wikidata.org/entity/Q107436824>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q107288374>",
+  "spouse": "<http://www.wikidata.org/entity/Q107709219>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2887411>",
+  "spouse": "<http://www.wikidata.org/entity/Q10773454>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q108544600>",
+  "spouse": "<http://www.wikidata.org/entity/Q108525753>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q108525753>",
+  "spouse": "<http://www.wikidata.org/entity/Q108544600>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q108649729>",
+  "spouse": "<http://www.wikidata.org/entity/Q108649665>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q108649665>",
+  "spouse": "<http://www.wikidata.org/entity/Q108649729>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q108671255>",
+  "spouse": "<http://www.wikidata.org/entity/Q108653908>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q108653908>",
+  "spouse": "<http://www.wikidata.org/entity/Q108671255>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q276944>",
+  "spouse": "<http://www.wikidata.org/entity/Q10932592>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q11387098>",
+  "spouse": "<http://www.wikidata.org/entity/Q10936701>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q11572681>",
+  "spouse": "<http://www.wikidata.org/entity/Q10936701>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6378698>",
+  "spouse": "<http://www.wikidata.org/entity/Q10936701>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q271536>",
+  "spouse": "<http://www.wikidata.org/entity/Q10940731>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q109748839>",
+  "spouse": "<http://www.wikidata.org/entity/Q109693861>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q109693861>",
+  "spouse": "<http://www.wikidata.org/entity/Q109748839>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q21235663>",
+  "spouse": "<http://www.wikidata.org/entity/Q110110619>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q110160375>",
+  "spouse": "<http://www.wikidata.org/entity/Q110160361>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q110160361>",
+  "spouse": "<http://www.wikidata.org/entity/Q110160375>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q17036335>",
+  "spouse": "<http://www.wikidata.org/entity/Q110164672>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5595509>",
+  "spouse": "<http://www.wikidata.org/entity/Q110265397>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q110271956>",
+  "spouse": "<http://www.wikidata.org/entity/Q110271951>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q110271951>",
+  "spouse": "<http://www.wikidata.org/entity/Q110271956>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q110802947>",
+  "spouse": "<http://www.wikidata.org/entity/Q110802831>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q110802831>",
+  "spouse": "<http://www.wikidata.org/entity/Q110802947>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3833355>",
+  "spouse": "<http://www.wikidata.org/entity/Q1110335>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q111273236>",
+  "spouse": "<http://www.wikidata.org/entity/Q111272412>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q111272412>",
+  "spouse": "<http://www.wikidata.org/entity/Q111273236>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1057885>",
+  "spouse": "<http://www.wikidata.org/entity/Q111319897>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q131760971>",
+  "spouse": "<http://www.wikidata.org/entity/Q111980914>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q112085573>",
+  "spouse": "<http://www.wikidata.org/entity/Q112075433>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q112075433>",
+  "spouse": "<http://www.wikidata.org/entity/Q112085573>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q4739784>",
+  "spouse": "<http://www.wikidata.org/entity/Q112869141>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q58055171>",
+  "spouse": "<http://www.wikidata.org/entity/Q1128942>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2634102>",
+  "spouse": "<http://www.wikidata.org/entity/Q1136201>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q10936701>",
+  "spouse": "<http://www.wikidata.org/entity/Q11387098>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q11664925>",
+  "spouse": "<http://www.wikidata.org/entity/Q11412151>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q56291568>",
+  "spouse": "<http://www.wikidata.org/entity/Q11435430>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q461258>",
+  "spouse": "<http://www.wikidata.org/entity/Q11455216>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q244912>",
+  "spouse": "<http://www.wikidata.org/entity/Q114771167>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q11907447>",
+  "spouse": "<http://www.wikidata.org/entity/Q114931909>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1802029>",
+  "spouse": "<http://www.wikidata.org/entity/Q1153510>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q115650164>",
+  "spouse": "<http://www.wikidata.org/entity/Q115650110>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q115650110>",
+  "spouse": "<http://www.wikidata.org/entity/Q115650164>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q10936701>",
+  "spouse": "<http://www.wikidata.org/entity/Q11572681>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q135982895>",
+  "spouse": "<http://www.wikidata.org/entity/Q115760210>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3950326>",
+  "spouse": "<http://www.wikidata.org/entity/Q116113>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q48893069>",
+  "spouse": "<http://www.wikidata.org/entity/Q116113>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q18573705>",
+  "spouse": "<http://www.wikidata.org/entity/Q11620664>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q170138>",
+  "spouse": "<http://www.wikidata.org/entity/Q116273>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q11412151>",
+  "spouse": "<http://www.wikidata.org/entity/Q11664925>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q116963915>",
+  "spouse": "<http://www.wikidata.org/entity/Q116963864>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q116963864>",
+  "spouse": "<http://www.wikidata.org/entity/Q116963915>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q842104>",
+  "spouse": "<http://www.wikidata.org/entity/Q11890951>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q114931909>",
+  "spouse": "<http://www.wikidata.org/entity/Q11907447>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q45463116>",
+  "spouse": "<http://www.wikidata.org/entity/Q1195434>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2791154>",
+  "spouse": "<http://www.wikidata.org/entity/Q120331801>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q120701864>",
+  "spouse": "<http://www.wikidata.org/entity/Q120693696>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q120693696>",
+  "spouse": "<http://www.wikidata.org/entity/Q120701864>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q272000>",
+  "spouse": "<http://www.wikidata.org/entity/Q122248>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q122460410>",
+  "spouse": "<http://www.wikidata.org/entity/Q122460409>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q122460409>",
+  "spouse": "<http://www.wikidata.org/entity/Q122460410>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q122751010>",
+  "spouse": "<http://www.wikidata.org/entity/Q122750671>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q122750671>",
+  "spouse": "<http://www.wikidata.org/entity/Q122751010>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q122751378>",
+  "spouse": "<http://www.wikidata.org/entity/Q122751374>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q122751374>",
+  "spouse": "<http://www.wikidata.org/entity/Q122751378>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q159443>",
+  "spouse": "<http://www.wikidata.org/entity/Q123118736>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q124359211>",
+  "spouse": "<http://www.wikidata.org/entity/Q123582478>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q124625459>",
+  "spouse": "<http://www.wikidata.org/entity/Q123681122>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q855089>",
+  "spouse": "<http://www.wikidata.org/entity/Q12422779>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q123582478>",
+  "spouse": "<http://www.wikidata.org/entity/Q124359211>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q124685268>",
+  "spouse": "<http://www.wikidata.org/entity/Q124439269>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q124635348>",
+  "spouse": "<http://www.wikidata.org/entity/Q124616125>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q123681122>",
+  "spouse": "<http://www.wikidata.org/entity/Q124625459>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q124616125>",
+  "spouse": "<http://www.wikidata.org/entity/Q124635348>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q124439269>",
+  "spouse": "<http://www.wikidata.org/entity/Q124685268>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q4460863>",
+  "spouse": "<http://www.wikidata.org/entity/Q12499603>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q133343>",
+  "spouse": "<http://www.wikidata.org/entity/Q1252904>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5090075>",
+  "spouse": "<http://www.wikidata.org/entity/Q125697030>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q65561642>",
+  "spouse": "<http://www.wikidata.org/entity/Q125756883>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2749247>",
+  "spouse": "<http://www.wikidata.org/entity/Q125802934>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q21645260>",
+  "spouse": "<http://www.wikidata.org/entity/Q126087491>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q126692602>",
+  "spouse": "<http://www.wikidata.org/entity/Q126692374>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q126692374>",
+  "spouse": "<http://www.wikidata.org/entity/Q126692602>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1943680>",
+  "spouse": "<http://www.wikidata.org/entity/Q12755131>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q937216>",
+  "spouse": "<http://www.wikidata.org/entity/Q128612546>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2060754>",
+  "spouse": "<http://www.wikidata.org/entity/Q12878573>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q15290613>",
+  "spouse": "<http://www.wikidata.org/entity/Q12879132>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q15631096>",
+  "spouse": "<http://www.wikidata.org/entity/Q12885680>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q644921>",
+  "spouse": "<http://www.wikidata.org/entity/Q13058657>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q494886>",
+  "spouse": "<http://www.wikidata.org/entity/Q131651>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q111980914>",
+  "spouse": "<http://www.wikidata.org/entity/Q131760971>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q138820055>",
+  "spouse": "<http://www.wikidata.org/entity/Q131842926>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1252904>",
+  "spouse": "<http://www.wikidata.org/entity/Q133343>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q84122>",
+  "spouse": "<http://www.wikidata.org/entity/Q133343>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5065673>",
+  "spouse": "<http://www.wikidata.org/entity/Q134270>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q25173350>",
+  "spouse": "<http://www.wikidata.org/entity/Q1343093>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q63894687>",
+  "spouse": "<http://www.wikidata.org/entity/Q135049009>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q135474893>",
+  "spouse": "<http://www.wikidata.org/entity/Q135474881>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q135474881>",
+  "spouse": "<http://www.wikidata.org/entity/Q135474893>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q115760210>",
+  "spouse": "<http://www.wikidata.org/entity/Q135982895>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q136472079>",
+  "spouse": "<http://www.wikidata.org/entity/Q136472078>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q136472078>",
+  "spouse": "<http://www.wikidata.org/entity/Q136472079>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2746774>",
+  "spouse": "<http://www.wikidata.org/entity/Q136526250>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q13839877>",
+  "spouse": "<http://www.wikidata.org/entity/Q13656069>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q13843801>",
+  "spouse": "<http://www.wikidata.org/entity/Q13656310>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q13843801>",
+  "spouse": "<http://www.wikidata.org/entity/Q13656678>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q842104>",
+  "spouse": "<http://www.wikidata.org/entity/Q137303700>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q4908691>",
+  "spouse": "<http://www.wikidata.org/entity/Q137393249>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137473294>",
+  "spouse": "<http://www.wikidata.org/entity/Q137450748>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137450748>",
+  "spouse": "<http://www.wikidata.org/entity/Q137473294>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137547202>",
+  "spouse": "<http://www.wikidata.org/entity/Q137491415>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137491415>",
+  "spouse": "<http://www.wikidata.org/entity/Q137547202>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137649982>",
+  "spouse": "<http://www.wikidata.org/entity/Q137649886>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137649886>",
+  "spouse": "<http://www.wikidata.org/entity/Q137649982>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q138758406>",
+  "spouse": "<http://www.wikidata.org/entity/Q137735068>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137755368>",
+  "spouse": "<http://www.wikidata.org/entity/Q137754955>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137754955>",
+  "spouse": "<http://www.wikidata.org/entity/Q137755368>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6273142>",
+  "spouse": "<http://www.wikidata.org/entity/Q137857325>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137995669>",
+  "spouse": "<http://www.wikidata.org/entity/Q137994594>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137994594>",
+  "spouse": "<http://www.wikidata.org/entity/Q137995669>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q13656069>",
+  "spouse": "<http://www.wikidata.org/entity/Q13839877>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q13656310>",
+  "spouse": "<http://www.wikidata.org/entity/Q13843801>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q13656678>",
+  "spouse": "<http://www.wikidata.org/entity/Q13843801>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q138682273>",
+  "spouse": "<http://www.wikidata.org/entity/Q138678407>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q138678920>",
+  "spouse": "<http://www.wikidata.org/entity/Q138678409>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q138678409>",
+  "spouse": "<http://www.wikidata.org/entity/Q138678920>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q138678407>",
+  "spouse": "<http://www.wikidata.org/entity/Q138682273>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137735068>",
+  "spouse": "<http://www.wikidata.org/entity/Q138758406>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q63020402>",
+  "spouse": "<http://www.wikidata.org/entity/Q138796787>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q131842926>",
+  "spouse": "<http://www.wikidata.org/entity/Q138820055>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q167685>",
+  "spouse": "<http://www.wikidata.org/entity/Q139448>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q139917153>",
+  "spouse": "<http://www.wikidata.org/entity/Q139917138>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q55548581>",
+  "spouse": "<http://www.wikidata.org/entity/Q139917138>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q139917138>",
+  "spouse": "<http://www.wikidata.org/entity/Q139917153>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q140299533>",
+  "spouse": "<http://www.wikidata.org/entity/Q140299527>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q140299527>",
+  "spouse": "<http://www.wikidata.org/entity/Q140299533>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2597713>",
+  "spouse": "<http://www.wikidata.org/entity/Q1411680>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q141333654>",
+  "spouse": "<http://www.wikidata.org/entity/Q141333649>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q141333649>",
+  "spouse": "<http://www.wikidata.org/entity/Q141333654>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6818896>",
+  "spouse": "<http://www.wikidata.org/entity/Q141779603>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5410665>",
+  "spouse": "<http://www.wikidata.org/entity/Q141899732>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q10715158>",
+  "spouse": "<http://www.wikidata.org/entity/Q14702573>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5691104>",
+  "spouse": "<http://www.wikidata.org/entity/Q14954739>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q12879132>",
+  "spouse": "<http://www.wikidata.org/entity/Q15290613>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1812955>",
+  "spouse": "<http://www.wikidata.org/entity/Q15605357>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q12885680>",
+  "spouse": "<http://www.wikidata.org/entity/Q15631096>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q210883>",
+  "spouse": "<http://www.wikidata.org/entity/Q15631124>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q15703340>",
+  "spouse": "<http://www.wikidata.org/entity/Q15703337>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q15703337>",
+  "spouse": "<http://www.wikidata.org/entity/Q15703340>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q15710935>",
+  "spouse": "<http://www.wikidata.org/entity/Q15710921>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q15710921>",
+  "spouse": "<http://www.wikidata.org/entity/Q15710935>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q123118736>",
+  "spouse": "<http://www.wikidata.org/entity/Q159443>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2716760>",
+  "spouse": "<http://www.wikidata.org/entity/Q1605258>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6750237>",
+  "spouse": "<http://www.wikidata.org/entity/Q16161312>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q842104>",
+  "spouse": "<http://www.wikidata.org/entity/Q1641818>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q472>",
+  "spouse": "<http://www.wikidata.org/entity/Q16459919>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q293560>",
+  "spouse": "<http://www.wikidata.org/entity/Q1647325>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q139448>",
+  "spouse": "<http://www.wikidata.org/entity/Q167685>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q116273>",
+  "spouse": "<http://www.wikidata.org/entity/Q170138>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q110164672>",
+  "spouse": "<http://www.wikidata.org/entity/Q17036335>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2102874>",
+  "spouse": "<http://www.wikidata.org/entity/Q17376007>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q10264872>",
+  "spouse": "<http://www.wikidata.org/entity/Q1779543>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q993387>",
+  "spouse": "<http://www.wikidata.org/entity/Q1790803>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q184232>",
+  "spouse": "<http://www.wikidata.org/entity/Q179209>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1153510>",
+  "spouse": "<http://www.wikidata.org/entity/Q1802029>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q23168>",
+  "spouse": "<http://www.wikidata.org/entity/Q18021097>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q15605357>",
+  "spouse": "<http://www.wikidata.org/entity/Q1812955>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5073819>",
+  "spouse": "<http://www.wikidata.org/entity/Q18163418>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q455262>",
+  "spouse": "<http://www.wikidata.org/entity/Q18176350>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2252783>",
+  "spouse": "<http://www.wikidata.org/entity/Q18233710>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q179209>",
+  "spouse": "<http://www.wikidata.org/entity/Q184232>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q11620664>",
+  "spouse": "<http://www.wikidata.org/entity/Q18573705>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3606858>",
+  "spouse": "<http://www.wikidata.org/entity/Q18629526>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q10466497>",
+  "spouse": "<http://www.wikidata.org/entity/Q192485>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q328354>",
+  "spouse": "<http://www.wikidata.org/entity/Q192485>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q931321>",
+  "spouse": "<http://www.wikidata.org/entity/Q192485>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q12755131>",
+  "spouse": "<http://www.wikidata.org/entity/Q1943680>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q580113>",
+  "spouse": "<http://www.wikidata.org/entity/Q1973947>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2200623>",
+  "spouse": "<http://www.wikidata.org/entity/Q1986193>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2044636>",
+  "spouse": "<http://www.wikidata.org/entity/Q1987279>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2708683>",
+  "spouse": "<http://www.wikidata.org/entity/Q1989861>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2708683>",
+  "spouse": "<http://www.wikidata.org/entity/Q1999447>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q7288955>",
+  "spouse": "<http://www.wikidata.org/entity/Q2002477>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q80224>",
+  "spouse": "<http://www.wikidata.org/entity/Q2012487>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5229465>",
+  "spouse": "<http://www.wikidata.org/entity/Q2015800>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1987279>",
+  "spouse": "<http://www.wikidata.org/entity/Q2044636>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q472>",
+  "spouse": "<http://www.wikidata.org/entity/Q20503392>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q648125>",
+  "spouse": "<http://www.wikidata.org/entity/Q2057532>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q12878573>",
+  "spouse": "<http://www.wikidata.org/entity/Q2060754>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q622809>",
+  "spouse": "<http://www.wikidata.org/entity/Q207715>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q17376007>",
+  "spouse": "<http://www.wikidata.org/entity/Q2102874>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q15631124>",
+  "spouse": "<http://www.wikidata.org/entity/Q210883>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q91320592>",
+  "spouse": "<http://www.wikidata.org/entity/Q21193874>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q110110619>",
+  "spouse": "<http://www.wikidata.org/entity/Q21235663>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q21281228>",
+  "spouse": "<http://www.wikidata.org/entity/Q21281206>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q21281206>",
+  "spouse": "<http://www.wikidata.org/entity/Q21281228>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q126087491>",
+  "spouse": "<http://www.wikidata.org/entity/Q21645260>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q937512>",
+  "spouse": "<http://www.wikidata.org/entity/Q219936>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1986193>",
+  "spouse": "<http://www.wikidata.org/entity/Q2200623>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3622209>",
+  "spouse": "<http://www.wikidata.org/entity/Q22344543>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q18233710>",
+  "spouse": "<http://www.wikidata.org/entity/Q2252783>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3802006>",
+  "spouse": "<http://www.wikidata.org/entity/Q2258938>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2271377>",
+  "spouse": "<http://www.wikidata.org/entity/Q2267760>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2267760>",
+  "spouse": "<http://www.wikidata.org/entity/Q2271377>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3178894>",
+  "spouse": "<http://www.wikidata.org/entity/Q2287748>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q573988>",
+  "spouse": "<http://www.wikidata.org/entity/Q2296791>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q18021097>",
+  "spouse": "<http://www.wikidata.org/entity/Q23168>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1036543>",
+  "spouse": "<http://www.wikidata.org/entity/Q2353999>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q23758949>",
+  "spouse": "<http://www.wikidata.org/entity/Q23758935>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q23758935>",
+  "spouse": "<http://www.wikidata.org/entity/Q23758949>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q23759337>",
+  "spouse": "<http://www.wikidata.org/entity/Q23759084>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q23759084>",
+  "spouse": "<http://www.wikidata.org/entity/Q23759337>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q23809822>",
+  "spouse": "<http://www.wikidata.org/entity/Q23809812>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q23809812>",
+  "spouse": "<http://www.wikidata.org/entity/Q23809822>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q23811288>",
+  "spouse": "<http://www.wikidata.org/entity/Q23811255>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q23811255>",
+  "spouse": "<http://www.wikidata.org/entity/Q23811288>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3549379>",
+  "spouse": "<http://www.wikidata.org/entity/Q2440271>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q114771167>",
+  "spouse": "<http://www.wikidata.org/entity/Q244912>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q943141>",
+  "spouse": "<http://www.wikidata.org/entity/Q2481487>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1343093>",
+  "spouse": "<http://www.wikidata.org/entity/Q25173350>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q786051>",
+  "spouse": "<http://www.wikidata.org/entity/Q2563826>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q26728017>",
+  "spouse": "<http://www.wikidata.org/entity/Q25858027>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1411680>",
+  "spouse": "<http://www.wikidata.org/entity/Q2597713>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1136201>",
+  "spouse": "<http://www.wikidata.org/entity/Q2634102>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q26714787>",
+  "spouse": "<http://www.wikidata.org/entity/Q26714785>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q26714785>",
+  "spouse": "<http://www.wikidata.org/entity/Q26714787>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q25858027>",
+  "spouse": "<http://www.wikidata.org/entity/Q26728017>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1989861>",
+  "spouse": "<http://www.wikidata.org/entity/Q2708683>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1999447>",
+  "spouse": "<http://www.wikidata.org/entity/Q2708683>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q519034>",
+  "spouse": "<http://www.wikidata.org/entity/Q27133508>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q10940731>",
+  "spouse": "<http://www.wikidata.org/entity/Q271536>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1605258>",
+  "spouse": "<http://www.wikidata.org/entity/Q2716760>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q122248>",
+  "spouse": "<http://www.wikidata.org/entity/Q272000>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q332246>",
+  "spouse": "<http://www.wikidata.org/entity/Q272918>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q136526250>",
+  "spouse": "<http://www.wikidata.org/entity/Q2746774>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q125802934>",
+  "spouse": "<http://www.wikidata.org/entity/Q2749247>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q27501199>",
+  "spouse": "<http://www.wikidata.org/entity/Q27501158>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q27501158>",
+  "spouse": "<http://www.wikidata.org/entity/Q27501199>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q27664634>",
+  "spouse": "<http://www.wikidata.org/entity/Q27664586>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q27664586>",
+  "spouse": "<http://www.wikidata.org/entity/Q27664634>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q27666112>",
+  "spouse": "<http://www.wikidata.org/entity/Q27666036>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q27666036>",
+  "spouse": "<http://www.wikidata.org/entity/Q27666112>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q10932592>",
+  "spouse": "<http://www.wikidata.org/entity/Q276944>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q120331801>",
+  "spouse": "<http://www.wikidata.org/entity/Q2791154>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q958289>",
+  "spouse": "<http://www.wikidata.org/entity/Q27971787>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q28049930>",
+  "spouse": "<http://www.wikidata.org/entity/Q28049902>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q28049902>",
+  "spouse": "<http://www.wikidata.org/entity/Q28049930>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q10773454>",
+  "spouse": "<http://www.wikidata.org/entity/Q2887411>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q29169558>",
+  "spouse": "<http://www.wikidata.org/entity/Q29169557>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q29169557>",
+  "spouse": "<http://www.wikidata.org/entity/Q29169558>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q336496>",
+  "spouse": "<http://www.wikidata.org/entity/Q2917805>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1647325>",
+  "spouse": "<http://www.wikidata.org/entity/Q293560>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q30060738>",
+  "spouse": "<http://www.wikidata.org/entity/Q30060514>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q30060514>",
+  "spouse": "<http://www.wikidata.org/entity/Q30060738>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2287748>",
+  "spouse": "<http://www.wikidata.org/entity/Q3178894>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q43401974>",
+  "spouse": "<http://www.wikidata.org/entity/Q321305>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6907710>",
+  "spouse": "<http://www.wikidata.org/entity/Q3235555>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3740882>",
+  "spouse": "<http://www.wikidata.org/entity/Q3278614>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q192485>",
+  "spouse": "<http://www.wikidata.org/entity/Q328354>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q842104>",
+  "spouse": "<http://www.wikidata.org/entity/Q3307708>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q272918>",
+  "spouse": "<http://www.wikidata.org/entity/Q332246>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2917805>",
+  "spouse": "<http://www.wikidata.org/entity/Q336496>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1061606>",
+  "spouse": "<http://www.wikidata.org/entity/Q3523954>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2440271>",
+  "spouse": "<http://www.wikidata.org/entity/Q3549379>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q18629526>",
+  "spouse": "<http://www.wikidata.org/entity/Q3606858>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q22344543>",
+  "spouse": "<http://www.wikidata.org/entity/Q3622209>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q496595>",
+  "spouse": "<http://www.wikidata.org/entity/Q3622209>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q784892>",
+  "spouse": "<http://www.wikidata.org/entity/Q3638657>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q4022702>",
+  "spouse": "<http://www.wikidata.org/entity/Q3683664>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3810668>",
+  "spouse": "<http://www.wikidata.org/entity/Q3702804>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q867962>",
+  "spouse": "<http://www.wikidata.org/entity/Q3713899>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3278614>",
+  "spouse": "<http://www.wikidata.org/entity/Q3740882>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q82732>",
+  "spouse": "<http://www.wikidata.org/entity/Q375174>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q47542634>",
+  "spouse": "<http://www.wikidata.org/entity/Q3783774>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2258938>",
+  "spouse": "<http://www.wikidata.org/entity/Q3802006>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3702804>",
+  "spouse": "<http://www.wikidata.org/entity/Q3810668>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q4586290>",
+  "spouse": "<http://www.wikidata.org/entity/Q3815697>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q105733000>",
+  "spouse": "<http://www.wikidata.org/entity/Q3817746>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1110335>",
+  "spouse": "<http://www.wikidata.org/entity/Q3833355>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q58349609>",
+  "spouse": "<http://www.wikidata.org/entity/Q38673587>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q116113>",
+  "spouse": "<http://www.wikidata.org/entity/Q3950326>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3683664>",
+  "spouse": "<http://www.wikidata.org/entity/Q4022702>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q764950>",
+  "spouse": "<http://www.wikidata.org/entity/Q41917318>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5073819>",
+  "spouse": "<http://www.wikidata.org/entity/Q42609781>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q321305>",
+  "spouse": "<http://www.wikidata.org/entity/Q43401974>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6917495>",
+  "spouse": "<http://www.wikidata.org/entity/Q4389860>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q749966>",
+  "spouse": "<http://www.wikidata.org/entity/Q440440>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q12499603>",
+  "spouse": "<http://www.wikidata.org/entity/Q4460863>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1195434>",
+  "spouse": "<http://www.wikidata.org/entity/Q45463116>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q18176350>",
+  "spouse": "<http://www.wikidata.org/entity/Q455262>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3815697>",
+  "spouse": "<http://www.wikidata.org/entity/Q4586290>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q106382386>",
+  "spouse": "<http://www.wikidata.org/entity/Q461258>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q106382973>",
+  "spouse": "<http://www.wikidata.org/entity/Q461258>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q11455216>",
+  "spouse": "<http://www.wikidata.org/entity/Q461258>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q65248127>",
+  "spouse": "<http://www.wikidata.org/entity/Q461258>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q16459919>",
+  "spouse": "<http://www.wikidata.org/entity/Q472>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q20503392>",
+  "spouse": "<http://www.wikidata.org/entity/Q472>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q112869141>",
+  "spouse": "<http://www.wikidata.org/entity/Q4739784>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3783774>",
+  "spouse": "<http://www.wikidata.org/entity/Q47542634>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q7909348>",
+  "spouse": "<http://www.wikidata.org/entity/Q4783789>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q116113>",
+  "spouse": "<http://www.wikidata.org/entity/Q48893069>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137393249>",
+  "spouse": "<http://www.wikidata.org/entity/Q4908691>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q131651>",
+  "spouse": "<http://www.wikidata.org/entity/Q494886>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3622209>",
+  "spouse": "<http://www.wikidata.org/entity/Q496595>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q50383275>",
+  "spouse": "<http://www.wikidata.org/entity/Q50383254>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q50383254>",
+  "spouse": "<http://www.wikidata.org/entity/Q50383275>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5300548>",
+  "spouse": "<http://www.wikidata.org/entity/Q5046244>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q134270>",
+  "spouse": "<http://www.wikidata.org/entity/Q5065673>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q18163418>",
+  "spouse": "<http://www.wikidata.org/entity/Q5073819>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q42609781>",
+  "spouse": "<http://www.wikidata.org/entity/Q5073819>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q125697030>",
+  "spouse": "<http://www.wikidata.org/entity/Q5090075>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q51325>",
+  "spouse": "<http://www.wikidata.org/entity/Q51287>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q51287>",
+  "spouse": "<http://www.wikidata.org/entity/Q51325>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q27133508>",
+  "spouse": "<http://www.wikidata.org/entity/Q519034>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q7606432>",
+  "spouse": "<http://www.wikidata.org/entity/Q5221603>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2015800>",
+  "spouse": "<http://www.wikidata.org/entity/Q5229465>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5046244>",
+  "spouse": "<http://www.wikidata.org/entity/Q5300548>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q141899732>",
+  "spouse": "<http://www.wikidata.org/entity/Q5410665>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q55347305>",
+  "spouse": "<http://www.wikidata.org/entity/Q546404>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q73881696>",
+  "spouse": "<http://www.wikidata.org/entity/Q546404>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q55001399>",
+  "spouse": "<http://www.wikidata.org/entity/Q55001395>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q55001395>",
+  "spouse": "<http://www.wikidata.org/entity/Q55001399>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6595913>",
+  "spouse": "<http://www.wikidata.org/entity/Q5517469>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q546404>",
+  "spouse": "<http://www.wikidata.org/entity/Q55347305>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q139917138>",
+  "spouse": "<http://www.wikidata.org/entity/Q55548581>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q55704684>",
+  "spouse": "<http://www.wikidata.org/entity/Q55699281>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q55699281>",
+  "spouse": "<http://www.wikidata.org/entity/Q55704684>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q110265397>",
+  "spouse": "<http://www.wikidata.org/entity/Q5595509>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q11435430>",
+  "spouse": "<http://www.wikidata.org/entity/Q56291568>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q56651607>",
+  "spouse": "<http://www.wikidata.org/entity/Q56651599>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q56651599>",
+  "spouse": "<http://www.wikidata.org/entity/Q56651607>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q730496>",
+  "spouse": "<http://www.wikidata.org/entity/Q568463>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q14954739>",
+  "spouse": "<http://www.wikidata.org/entity/Q5691104>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6010846>",
+  "spouse": "<http://www.wikidata.org/entity/Q5697713>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2296791>",
+  "spouse": "<http://www.wikidata.org/entity/Q573988>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1973947>",
+  "spouse": "<http://www.wikidata.org/entity/Q580113>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1128942>",
+  "spouse": "<http://www.wikidata.org/entity/Q58055171>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q38673587>",
+  "spouse": "<http://www.wikidata.org/entity/Q58349609>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q867962>",
+  "spouse": "<http://www.wikidata.org/entity/Q589480>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q860234>",
+  "spouse": "<http://www.wikidata.org/entity/Q599546>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5697713>",
+  "spouse": "<http://www.wikidata.org/entity/Q6010846>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q749966>",
+  "spouse": "<http://www.wikidata.org/entity/Q6072426>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q60749765>",
+  "spouse": "<http://www.wikidata.org/entity/Q60749612>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q60749831>",
+  "spouse": "<http://www.wikidata.org/entity/Q60749612>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q60749612>",
+  "spouse": "<http://www.wikidata.org/entity/Q60749765>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q60749612>",
+  "spouse": "<http://www.wikidata.org/entity/Q60749831>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q66088304>",
+  "spouse": "<http://www.wikidata.org/entity/Q61750303>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q207715>",
+  "spouse": "<http://www.wikidata.org/entity/Q622809>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137857325>",
+  "spouse": "<http://www.wikidata.org/entity/Q6273142>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q138796787>",
+  "spouse": "<http://www.wikidata.org/entity/Q63020402>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q7968988>",
+  "spouse": "<http://www.wikidata.org/entity/Q6312248>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q63486318>",
+  "spouse": "<http://www.wikidata.org/entity/Q63486315>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q63486315>",
+  "spouse": "<http://www.wikidata.org/entity/Q63486318>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q10936701>",
+  "spouse": "<http://www.wikidata.org/entity/Q6378698>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q63884386>",
+  "spouse": "<http://www.wikidata.org/entity/Q63884385>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q63884399>",
+  "spouse": "<http://www.wikidata.org/entity/Q63884385>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q63884385>",
+  "spouse": "<http://www.wikidata.org/entity/Q63884386>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q63884385>",
+  "spouse": "<http://www.wikidata.org/entity/Q63884399>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q63888116>",
+  "spouse": "<http://www.wikidata.org/entity/Q63888113>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q63888113>",
+  "spouse": "<http://www.wikidata.org/entity/Q63888116>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q135049009>",
+  "spouse": "<http://www.wikidata.org/entity/Q63894687>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q13058657>",
+  "spouse": "<http://www.wikidata.org/entity/Q644921>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2057532>",
+  "spouse": "<http://www.wikidata.org/entity/Q648125>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q461258>",
+  "spouse": "<http://www.wikidata.org/entity/Q65248127>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q125756883>",
+  "spouse": "<http://www.wikidata.org/entity/Q65561642>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6557222>",
+  "spouse": "<http://www.wikidata.org/entity/Q6556980>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6556980>",
+  "spouse": "<http://www.wikidata.org/entity/Q6557222>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q65921636>",
+  "spouse": "<http://www.wikidata.org/entity/Q65921622>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q65921622>",
+  "spouse": "<http://www.wikidata.org/entity/Q65921636>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5517469>",
+  "spouse": "<http://www.wikidata.org/entity/Q6595913>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q61750303>",
+  "spouse": "<http://www.wikidata.org/entity/Q66088304>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q16161312>",
+  "spouse": "<http://www.wikidata.org/entity/Q6750237>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q141779603>",
+  "spouse": "<http://www.wikidata.org/entity/Q6818896>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3235555>",
+  "spouse": "<http://www.wikidata.org/entity/Q6907710>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q4389860>",
+  "spouse": "<http://www.wikidata.org/entity/Q6917495>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q7967551>",
+  "spouse": "<http://www.wikidata.org/entity/Q7072013>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q754837>",
+  "spouse": "<http://www.wikidata.org/entity/Q717594>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q725935>",
+  "spouse": "<http://www.wikidata.org/entity/Q725898>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q725898>",
+  "spouse": "<http://www.wikidata.org/entity/Q725935>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2002477>",
+  "spouse": "<http://www.wikidata.org/entity/Q7288955>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q568463>",
+  "spouse": "<http://www.wikidata.org/entity/Q730496>"
+ },
+ {
+  "who": "<http://www.wikidata.org/.well-known/genid/0dbde518cd460b9de41b43aa4ceec352>",
+  "spouse": "<http://www.wikidata.org/entity/Q73360721>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q546404>",
+  "spouse": "<http://www.wikidata.org/entity/Q73881696>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q440440>",
+  "spouse": "<http://www.wikidata.org/entity/Q749966>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6072426>",
+  "spouse": "<http://www.wikidata.org/entity/Q749966>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q8961699>",
+  "spouse": "<http://www.wikidata.org/entity/Q754477>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q717594>",
+  "spouse": "<http://www.wikidata.org/entity/Q754837>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q5221603>",
+  "spouse": "<http://www.wikidata.org/entity/Q7606432>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q87495970>",
+  "spouse": "<http://www.wikidata.org/entity/Q762337>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q41917318>",
+  "spouse": "<http://www.wikidata.org/entity/Q764950>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q99976048>",
+  "spouse": "<http://www.wikidata.org/entity/Q76834579>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q9077>",
+  "spouse": "<http://www.wikidata.org/entity/Q7710759>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q106485074>",
+  "spouse": "<http://www.wikidata.org/entity/Q7831777>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3638657>",
+  "spouse": "<http://www.wikidata.org/entity/Q784892>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2563826>",
+  "spouse": "<http://www.wikidata.org/entity/Q786051>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q4783789>",
+  "spouse": "<http://www.wikidata.org/entity/Q7909348>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q7072013>",
+  "spouse": "<http://www.wikidata.org/entity/Q7967551>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q6312248>",
+  "spouse": "<http://www.wikidata.org/entity/Q7968988>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2012487>",
+  "spouse": "<http://www.wikidata.org/entity/Q80224>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q375174>",
+  "spouse": "<http://www.wikidata.org/entity/Q82732>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q133343>",
+  "spouse": "<http://www.wikidata.org/entity/Q84122>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q11890951>",
+  "spouse": "<http://www.wikidata.org/entity/Q842104>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q137303700>",
+  "spouse": "<http://www.wikidata.org/entity/Q842104>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1641818>",
+  "spouse": "<http://www.wikidata.org/entity/Q842104>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3307708>",
+  "spouse": "<http://www.wikidata.org/entity/Q842104>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q84708562>",
+  "spouse": "<http://www.wikidata.org/entity/Q84707776>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q84707776>",
+  "spouse": "<http://www.wikidata.org/entity/Q84708562>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q84847073>",
+  "spouse": "<http://www.wikidata.org/entity/Q84766191>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q84766191>",
+  "spouse": "<http://www.wikidata.org/entity/Q84847073>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q12422779>",
+  "spouse": "<http://www.wikidata.org/entity/Q855089>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q599546>",
+  "spouse": "<http://www.wikidata.org/entity/Q860234>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q3713899>",
+  "spouse": "<http://www.wikidata.org/entity/Q867962>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q589480>",
+  "spouse": "<http://www.wikidata.org/entity/Q867962>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q762337>",
+  "spouse": "<http://www.wikidata.org/entity/Q87495970>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q754477>",
+  "spouse": "<http://www.wikidata.org/entity/Q8961699>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q7710759>",
+  "spouse": "<http://www.wikidata.org/entity/Q9077>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q21193874>",
+  "spouse": "<http://www.wikidata.org/entity/Q91320592>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q192485>",
+  "spouse": "<http://www.wikidata.org/entity/Q931321>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q128612546>",
+  "spouse": "<http://www.wikidata.org/entity/Q937216>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q219936>",
+  "spouse": "<http://www.wikidata.org/entity/Q937512>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2481487>",
+  "spouse": "<http://www.wikidata.org/entity/Q943141>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q27971787>",
+  "spouse": "<http://www.wikidata.org/entity/Q958289>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1790803>",
+  "spouse": "<http://www.wikidata.org/entity/Q993387>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q76834579>",
+  "spouse": "<http://www.wikidata.org/entity/Q99976048>"
+ }
+]

@@ -1,0 +1,1711 @@
+{
+ "reciprocated": {
+  "description": "Reverse triple present; no incompatibility at K.",
+  "population": 969652,
+  "statements": 50,
+  "not_returned": 0,
+  "same": 50,
+  "deprecated": 0,
+  "entries_only": {},
+  "checker_only": {},
+  "checker_reports": {
+   "nothing": 50
+  },
+  "expected": {
+   "nothing": 50
+  },
+  "differences": []
+ },
+ "clean-default": {
+  "description": "No reverse triple; the default conclusion is clean; no incompatibility at K.",
+  "population": 12484,
+  "statements": 50,
+  "not_returned": 0,
+  "same": 46,
+  "deprecated": 0,
+  "entries_only": {
+   "symmetric": 4
+  },
+  "checker_only": {},
+  "checker_reports": {
+   "symmetric": 46,
+   "nothing": 4
+  },
+  "expected": {
+   "symmetric": 50
+  },
+  "differences": [
+   {
+    "statement": "Q113044231$db19fe6c-496d-9928-25c1-46c12c3e7795",
+    "x": "<http://www.wikidata.org/entity/Q113044231>",
+    "y": "<http://www.wikidata.org/entity/Q2080040>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q3656096$F6D03578-35F5-4566-B8C6-D3A6599C7817",
+    "x": "<http://www.wikidata.org/entity/Q3656096>",
+    "y": "<http://www.wikidata.org/entity/Q233444>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q468577$9B77B15E-DA79-4FBA-9081-0E801FB60FCC",
+    "x": "<http://www.wikidata.org/entity/Q468577>",
+    "y": "<http://www.wikidata.org/entity/Q155164>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q562541$16633E85-E361-407E-89D4-C2B72B8AB8AB",
+    "x": "<http://www.wikidata.org/entity/Q562541>",
+    "y": "<http://www.wikidata.org/entity/Q4976061>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   }
+  ]
+ },
+ "conflict-conflicts-with": {
+  "description": "No reverse triple; the default conclusion is in conflict with conflicts-with over Cons.",
+  "population": 229,
+  "statements": 50,
+  "not_returned": 0,
+  "same": 50,
+  "deprecated": 0,
+  "entries_only": {},
+  "checker_only": {},
+  "checker_reports": {
+   "symmetric": 50
+  },
+  "expected": {
+   "symmetric": 50
+  },
+  "differences": []
+ },
+ "conflict-subject-type": {
+  "description": "No reverse triple, value an item; the default conclusion is in conflict with subject type only.",
+  "population": 418,
+  "statements": 50,
+  "not_returned": 0,
+  "same": 43,
+  "deprecated": 0,
+  "entries_only": {
+   "symmetric": 5
+  },
+  "checker_only": {
+   "contemporary": 2
+  },
+  "checker_reports": {
+   "symmetric": 36,
+   "none-of, symmetric": 4,
+   "nothing": 5,
+   "subject type, symmetric": 3,
+   "contemporary, symmetric": 2
+  },
+  "expected": {
+   "symmetric": 43,
+   "none-of, symmetric": 4,
+   "subject type, symmetric": 3
+  },
+  "differences": [
+   {
+    "statement": "Q117121907$007876b2-41b9-80d0-348d-16c5543de63f",
+    "x": "<http://www.wikidata.org/entity/Q117121907>",
+    "y": "<http://www.wikidata.org/entity/Q4254019>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q18653360$45e6e7ee-48f0-20cf-c002-e7abdf15238f",
+    "x": "<http://www.wikidata.org/entity/Q18653360>",
+    "y": "<http://www.wikidata.org/entity/Q140287619>",
+    "entries": "symmetric",
+    "checker": "contemporary, symmetric"
+   },
+   {
+    "statement": "Q65815978$9CE13A1B-8B74-48C4-A87B-514C599B7359",
+    "x": "<http://www.wikidata.org/entity/Q65815978>",
+    "y": "<http://www.wikidata.org/entity/Q45580561>",
+    "entries": "symmetric",
+    "checker": "contemporary, symmetric"
+   },
+   {
+    "statement": "Q75345626$F4A8E17A-0CEA-42FF-BB26-4FF8B455F383",
+    "x": "<http://www.wikidata.org/entity/Q75345626>",
+    "y": "<http://www.wikidata.org/entity/Q75345628>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q76138311$2C800241-8472-4F8D-BEFA-9CE8A5B5286E",
+    "x": "<http://www.wikidata.org/entity/Q76138311>",
+    "y": "<http://www.wikidata.org/entity/Q76138309>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q76333806$309E27D1-AE0F-4257-B4FB-D309D1912383",
+    "x": "<http://www.wikidata.org/entity/Q76333806>",
+    "y": "<http://www.wikidata.org/entity/Q76333803>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q91929$fc6c8cbc-4151-138a-6b88-6df7ed22c37e",
+    "x": "<http://www.wikidata.org/entity/Q91929>",
+    "y": "<http://www.wikidata.org/entity/Q142067621>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   }
+  ]
+ },
+ "conflict-contemporary": {
+  "description": "No reverse triple; the default conclusion is in conflict with a contemporary entry over Cons.",
+  "population": 55,
+  "statements": 50,
+  "not_returned": 0,
+  "same": 35,
+  "deprecated": 0,
+  "entries_only": {
+   "contemporary": 12,
+   "symmetric": 5
+  },
+  "checker_only": {},
+  "checker_reports": {
+   "contemporary, symmetric": 35,
+   "symmetric": 10,
+   "contemporary": 3,
+   "nothing": 2
+  },
+  "expected": {
+   "contemporary, symmetric": 50
+  },
+  "differences": [
+   {
+    "statement": "Q105105623$3d079640-48ab-cd5e-05cd-7131549569f9",
+    "x": "<http://www.wikidata.org/entity/Q105105623>",
+    "y": "<http://www.wikidata.org/entity/Q104370029>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q11636836$8486C27F-F951-4991-8069-38971DC095EC",
+    "x": "<http://www.wikidata.org/entity/Q11636836>",
+    "y": "<http://www.wikidata.org/entity/Q11636789>",
+    "entries": "contemporary, symmetric",
+    "checker": "contemporary"
+   },
+   {
+    "statement": "Q140309440$b97af122-4e02-6c51-d73c-5deaa85112c0",
+    "x": "<http://www.wikidata.org/entity/Q140309440>",
+    "y": "<http://www.wikidata.org/entity/Q140306488>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q16185436$B6FEC289-8A41-476E-A30C-2E108220EA44",
+    "x": "<http://www.wikidata.org/entity/Q16185436>",
+    "y": "<http://www.wikidata.org/entity/Q15994577>",
+    "entries": "contemporary, symmetric",
+    "checker": "contemporary"
+   },
+   {
+    "statement": "Q1768161$A9FABD2E-16BE-4466-94B8-9CC287E043F5",
+    "x": "<http://www.wikidata.org/entity/Q1768161>",
+    "y": "<http://www.wikidata.org/entity/Q194808>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q1773005$fc89d3a6-45a7-c855-314e-6f1c26af359c",
+    "x": "<http://www.wikidata.org/entity/Q1773005>",
+    "y": "<http://www.wikidata.org/entity/Q122035>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q2217059$B200712F-382E-4B63-8E44-058D37DDCB45",
+    "x": "<http://www.wikidata.org/entity/Q2217059>",
+    "y": "<http://www.wikidata.org/entity/Q110929>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q33743656$8F6FB0AF-4BF1-4B65-89BE-77608E3001C5",
+    "x": "<http://www.wikidata.org/entity/Q33743656>",
+    "y": "<http://www.wikidata.org/entity/Q94937661>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q42606$5C30792C-DDF8-4925-83E5-E8066A34544B",
+    "x": "<http://www.wikidata.org/entity/Q42606>",
+    "y": "<http://www.wikidata.org/entity/Q262428>",
+    "entries": "contemporary, symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q4498462$CF075A05-7B45-44DB-9705-EAECC1E62C03",
+    "x": "<http://www.wikidata.org/entity/Q4498462>",
+    "y": "<http://www.wikidata.org/entity/Q4128757>",
+    "entries": "contemporary, symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q462917$C39B6B36-3DE1-4B76-BFCB-81F96D5D78B1",
+    "x": "<http://www.wikidata.org/entity/Q462917>",
+    "y": "<http://www.wikidata.org/entity/Q2469381>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q66426300$77a4c1c3-48ae-c449-e9f6-ca7eeeb078e0",
+    "x": "<http://www.wikidata.org/entity/Q66426300>",
+    "y": "<http://www.wikidata.org/entity/Q99198778>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q94738502$0D51AD2F-D66B-4EFB-9FA1-BB7BD8FBDAD9",
+    "x": "<http://www.wikidata.org/entity/Q94738502>",
+    "y": "<http://www.wikidata.org/entity/Q94848503>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q94990863$041414d7-43e9-9906-e00b-83e735963184",
+    "x": "<http://www.wikidata.org/entity/Q94990863>",
+    "y": "<http://www.wikidata.org/entity/Q105105623>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q96483$77072FF6-FF44-4ADB-85E6-D7F16C93D2DD",
+    "x": "<http://www.wikidata.org/entity/Q96483>",
+    "y": "<http://www.wikidata.org/entity/Q54857394>",
+    "entries": "contemporary, symmetric",
+    "checker": "contemporary"
+   }
+  ]
+ },
+ "unknown-value": {
+  "description": "The value is an unknown value.",
+  "population": 2661,
+  "statements": 99,
+  "not_returned": 0,
+  "same": 0,
+  "deprecated": 0,
+  "entries_only": {
+   "symmetric": 99
+  },
+  "checker_only": {},
+  "checker_reports": {
+   "nothing": 99
+  },
+  "expected": {
+   "symmetric": 99
+  },
+  "differences": [
+   {
+    "statement": "Q103982158$01c27b0f-4003-a4a0-31cb-c917defaf751",
+    "x": "<http://www.wikidata.org/entity/Q103982158>",
+    "y": "<http://www.wikidata.org/.well-known/genid/587bd09d3774fefdbd5632167a9f1d41>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q108332666$06a0190a-4b30-cfcb-4701-34b6f9289d39",
+    "x": "<http://www.wikidata.org/entity/Q108332666>",
+    "y": "<http://www.wikidata.org/.well-known/genid/ec7dd6a85f9799a4fdd8170e1d7b8e2a>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q112066746$bed41af2-4fc1-7dc1-296a-919f94fea4f9",
+    "x": "<http://www.wikidata.org/entity/Q112066746>",
+    "y": "<http://www.wikidata.org/.well-known/genid/973738d8f11cf3a9869b3e1fe5cbc095>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q11719575$32402e91-4b62-54fd-e4d1-8f2f9f25a74a",
+    "x": "<http://www.wikidata.org/entity/Q11719575>",
+    "y": "<http://www.wikidata.org/.well-known/genid/48a76f135db1675dda5de282dbeec188>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q117473166$8e878886-409e-056e-36a1-4eef167f5f0a",
+    "x": "<http://www.wikidata.org/entity/Q117473166>",
+    "y": "<http://www.wikidata.org/.well-known/genid/a1d0460ea98a80bdff10561b83ef392c>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q12285197$AB80C07E-99BB-458E-940C-598AF81C812B",
+    "x": "<http://www.wikidata.org/entity/Q12285197>",
+    "y": "<http://www.wikidata.org/.well-known/genid/c92890cbcd37ef95cda2d2ce173a8db6>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q123007418$bcacea54-4b06-5a34-3e91-df508b380ff7",
+    "x": "<http://www.wikidata.org/entity/Q123007418>",
+    "y": "<http://www.wikidata.org/.well-known/genid/6ac4e5ca61d27c383da9f7f769ce6e2c>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1252302$0d1378c4-4d86-2a29-b93e-80f257b88734",
+    "x": "<http://www.wikidata.org/entity/Q1252302>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5af9f7f25548e3b6926ff41722694ad>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1252302$403b703d-4b2a-1575-a6dc-9c82b6b1d8be",
+    "x": "<http://www.wikidata.org/entity/Q1252302>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5af9f7f25548e3b6926ff41722694ad>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1252302$5a97dfd2-48bf-3f7c-ddca-226e01375af5",
+    "x": "<http://www.wikidata.org/entity/Q1252302>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5af9f7f25548e3b6926ff41722694ad>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1252302$75a9a302-4997-c397-f7f1-26ad299b64e6",
+    "x": "<http://www.wikidata.org/entity/Q1252302>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5af9f7f25548e3b6926ff41722694ad>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1252302$83224eee-44a9-30c6-fd88-9ec7ee3e7da0",
+    "x": "<http://www.wikidata.org/entity/Q1252302>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5af9f7f25548e3b6926ff41722694ad>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1252302$dc981b27-49dd-e382-92ca-b99fa9462d28",
+    "x": "<http://www.wikidata.org/entity/Q1252302>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5af9f7f25548e3b6926ff41722694ad>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1252302$eac4f96d-4250-49e1-af49-6cdf9e66a664",
+    "x": "<http://www.wikidata.org/entity/Q1252302>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5af9f7f25548e3b6926ff41722694ad>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1252302$ff1a0283-4c48-bff4-85ce-6fe7afe99df0",
+    "x": "<http://www.wikidata.org/entity/Q1252302>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5af9f7f25548e3b6926ff41722694ad>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q12598502$43985d42-4f89-9e38-fa71-096304e62fe2",
+    "x": "<http://www.wikidata.org/entity/Q12598502>",
+    "y": "<http://www.wikidata.org/.well-known/genid/729e299ba0dbeecfccc147982940710f>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q133871388$9E402068-6B07-4749-8F11-57AC05AC9F98",
+    "x": "<http://www.wikidata.org/entity/Q133871388>",
+    "y": "<http://www.wikidata.org/.well-known/genid/7a75af5d92f7fa1bffd098640ea2b6c0>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q134434675$8bce25c3-4897-d59e-3124-c42becfe4159",
+    "x": "<http://www.wikidata.org/entity/Q134434675>",
+    "y": "<http://www.wikidata.org/.well-known/genid/32c9652a2a5515cff0df9fea62ad01f8>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q136202667$8d7d9d9f-4d63-c0eb-a145-cfeaedfb33d4",
+    "x": "<http://www.wikidata.org/entity/Q136202667>",
+    "y": "<http://www.wikidata.org/.well-known/genid/1371d4d524deac21e32eff38e9df88f3>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q136525435$037106df-44a2-4457-1f64-ec93e5f16b12",
+    "x": "<http://www.wikidata.org/entity/Q136525435>",
+    "y": "<http://www.wikidata.org/.well-known/genid/0de43cdc567258bea9a04b2fee00fa60>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q142153769$47959bee-4128-5307-b552-ae95ecee0723",
+    "x": "<http://www.wikidata.org/entity/Q142153769>",
+    "y": "<http://www.wikidata.org/.well-known/genid/064d82e201033ae3a3961ba13c6883df>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1477388$4f64ff00-4816-1499-1f8e-908de9903463",
+    "x": "<http://www.wikidata.org/entity/Q1477388>",
+    "y": "<http://www.wikidata.org/.well-known/genid/6d6cbfd9d46edd7d25b0272d995a20bd>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1477388$63225916-43db-e504-f269-3eca4e935c58",
+    "x": "<http://www.wikidata.org/entity/Q1477388>",
+    "y": "<http://www.wikidata.org/.well-known/genid/6d6cbfd9d46edd7d25b0272d995a20bd>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1477388$d07f7f70-4a24-28e6-6e4d-8771cfd815b8",
+    "x": "<http://www.wikidata.org/entity/Q1477388>",
+    "y": "<http://www.wikidata.org/.well-known/genid/6d6cbfd9d46edd7d25b0272d995a20bd>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1477388$dc6590eb-415b-e7fb-fce5-9df2c902f46a",
+    "x": "<http://www.wikidata.org/entity/Q1477388>",
+    "y": "<http://www.wikidata.org/.well-known/genid/6d6cbfd9d46edd7d25b0272d995a20bd>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q15456596$20de9c74-40a4-6f59-c52a-61b6323f773c",
+    "x": "<http://www.wikidata.org/entity/Q15456596>",
+    "y": "<http://www.wikidata.org/.well-known/genid/9de6d0cabd204f510ceefb7c844285f8>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q15456596$649a7935-4c2f-a768-7629-e7379a8976e2",
+    "x": "<http://www.wikidata.org/entity/Q15456596>",
+    "y": "<http://www.wikidata.org/.well-known/genid/9de6d0cabd204f510ceefb7c844285f8>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q16065411$d4a3f159-4758-820c-2846-b88bed6f8426",
+    "x": "<http://www.wikidata.org/entity/Q16065411>",
+    "y": "<http://www.wikidata.org/.well-known/genid/148a5f99a75aee9049c075ebd873036b>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1648540$0fea85e1-49be-e978-d0e2-cf2b7d598d8c",
+    "x": "<http://www.wikidata.org/entity/Q1648540>",
+    "y": "<http://www.wikidata.org/.well-known/genid/79bbfd44862250b44b99c1ffedbc02b7>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1972714$32e22be6-4497-b65a-05d1-74dddb0ba3b4",
+    "x": "<http://www.wikidata.org/entity/Q1972714>",
+    "y": "<http://www.wikidata.org/.well-known/genid/8a96313e7744a13dbfed050b928f21d7>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1972714$6a4fd3c0-406f-b45c-1bcc-883115526bff",
+    "x": "<http://www.wikidata.org/entity/Q1972714>",
+    "y": "<http://www.wikidata.org/.well-known/genid/8a96313e7744a13dbfed050b928f21d7>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1972714$97db4a43-4fa7-7f67-2bae-908c37574316",
+    "x": "<http://www.wikidata.org/entity/Q1972714>",
+    "y": "<http://www.wikidata.org/.well-known/genid/8a96313e7744a13dbfed050b928f21d7>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1972714$ca5d8df0-4dd0-f9cb-8809-e554a297912d",
+    "x": "<http://www.wikidata.org/entity/Q1972714>",
+    "y": "<http://www.wikidata.org/.well-known/genid/8a96313e7744a13dbfed050b928f21d7>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q2080137$de2aa06b-415c-c214-9978-af25af668df3",
+    "x": "<http://www.wikidata.org/entity/Q2080137>",
+    "y": "<http://www.wikidata.org/.well-known/genid/f875fe42e8b167e20d7271b6dcd36021>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q208871$142500b5-4297-f37e-acb2-9ebe00457de5",
+    "x": "<http://www.wikidata.org/entity/Q208871>",
+    "y": "<http://www.wikidata.org/.well-known/genid/448163f95ab2d3e7e493efa37b92f734>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q208871$2999934f-4d28-11d4-e773-311469c57471",
+    "x": "<http://www.wikidata.org/entity/Q208871>",
+    "y": "<http://www.wikidata.org/.well-known/genid/448163f95ab2d3e7e493efa37b92f734>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q208871$4b48c2f9-4da5-c010-9b17-03439cb5b5e2",
+    "x": "<http://www.wikidata.org/entity/Q208871>",
+    "y": "<http://www.wikidata.org/.well-known/genid/448163f95ab2d3e7e493efa37b92f734>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q208871$83d2a957-432b-c495-4a60-9d4389fb348d",
+    "x": "<http://www.wikidata.org/entity/Q208871>",
+    "y": "<http://www.wikidata.org/.well-known/genid/448163f95ab2d3e7e493efa37b92f734>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q208871$86cdc3b7-44ce-ef53-124d-b4f6a29282e9",
+    "x": "<http://www.wikidata.org/entity/Q208871>",
+    "y": "<http://www.wikidata.org/.well-known/genid/448163f95ab2d3e7e493efa37b92f734>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q208871$e2ef6eae-4d98-0719-b8a7-25396a8aeccd",
+    "x": "<http://www.wikidata.org/entity/Q208871>",
+    "y": "<http://www.wikidata.org/.well-known/genid/448163f95ab2d3e7e493efa37b92f734>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q208871$fbe97855-41be-cc7b-19ff-0c12b3adcc4a",
+    "x": "<http://www.wikidata.org/entity/Q208871>",
+    "y": "<http://www.wikidata.org/.well-known/genid/448163f95ab2d3e7e493efa37b92f734>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q24704254$beccbe52-4cca-8a3b-e63e-0b76838bf78b",
+    "x": "<http://www.wikidata.org/entity/Q24704254>",
+    "y": "<http://www.wikidata.org/.well-known/genid/6d1fa2a7ec86d608b9cbbe4652314146>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q2568818$8bf63770-436a-3410-41f2-254ca5a5ba0e",
+    "x": "<http://www.wikidata.org/entity/Q2568818>",
+    "y": "<http://www.wikidata.org/.well-known/genid/bad99e31156e919da1eb5b1068278fe1>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q30243644$52824401-4cec-7138-aeb8-d95c5976bbb4",
+    "x": "<http://www.wikidata.org/entity/Q30243644>",
+    "y": "<http://www.wikidata.org/.well-known/genid/032a8bcdd8e89c490fbf697835f600e8>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q326878$11017b0b-4074-9fe6-7b3c-0d75afab746e",
+    "x": "<http://www.wikidata.org/entity/Q326878>",
+    "y": "<http://www.wikidata.org/.well-known/genid/11a5c1a85bbfd535beb88b38fd3943d1>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q326878$2ac5676b-40bc-1af9-f7b7-02fb6a8180b9",
+    "x": "<http://www.wikidata.org/entity/Q326878>",
+    "y": "<http://www.wikidata.org/.well-known/genid/11a5c1a85bbfd535beb88b38fd3943d1>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q326878$2e6954c2-4c55-c1bb-2019-0a872ce2e931",
+    "x": "<http://www.wikidata.org/entity/Q326878>",
+    "y": "<http://www.wikidata.org/.well-known/genid/11a5c1a85bbfd535beb88b38fd3943d1>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q326878$7a756114-4a6f-7842-065b-823228f75353",
+    "x": "<http://www.wikidata.org/entity/Q326878>",
+    "y": "<http://www.wikidata.org/.well-known/genid/11a5c1a85bbfd535beb88b38fd3943d1>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q326878$b015919a-4f52-bf88-4834-8193846d47ce",
+    "x": "<http://www.wikidata.org/entity/Q326878>",
+    "y": "<http://www.wikidata.org/.well-known/genid/11a5c1a85bbfd535beb88b38fd3943d1>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q326878$e26ef2e2-4b5e-094d-b8f2-928f4d42a163",
+    "x": "<http://www.wikidata.org/entity/Q326878>",
+    "y": "<http://www.wikidata.org/.well-known/genid/11a5c1a85bbfd535beb88b38fd3943d1>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q344758$8b8e36de-4ff2-05d1-5acb-8012cac19d7d",
+    "x": "<http://www.wikidata.org/entity/Q344758>",
+    "y": "<http://www.wikidata.org/.well-known/genid/665c0254c1074a1d366d6e405832f3be>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q344758$c1b481d1-44ca-e18e-5fff-ef7ff8ed2fdb",
+    "x": "<http://www.wikidata.org/entity/Q344758>",
+    "y": "<http://www.wikidata.org/.well-known/genid/665c0254c1074a1d366d6e405832f3be>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q344758$f0de9834-446b-a11e-dda6-1a8682289cf7",
+    "x": "<http://www.wikidata.org/entity/Q344758>",
+    "y": "<http://www.wikidata.org/.well-known/genid/665c0254c1074a1d366d6e405832f3be>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q344758$f3a955de-4ba2-580d-53e3-e5b68d741f1c",
+    "x": "<http://www.wikidata.org/entity/Q344758>",
+    "y": "<http://www.wikidata.org/.well-known/genid/665c0254c1074a1d366d6e405832f3be>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q349086$5214f980-44ea-7065-92f1-4e674854fb3b",
+    "x": "<http://www.wikidata.org/entity/Q349086>",
+    "y": "<http://www.wikidata.org/.well-known/genid/5be25e31a10823bac953d0629c317c5c>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q358317$1fb6cd5a-4697-2c63-a90a-3afbad49c818",
+    "x": "<http://www.wikidata.org/entity/Q358317>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5563a64771de676fb1ad485671b7220>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q358317$3a230b2a-40d7-9c0e-bd5c-c4ac2fd19cca",
+    "x": "<http://www.wikidata.org/entity/Q358317>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5563a64771de676fb1ad485671b7220>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q358317$84d454f7-46e2-0b81-624b-31b7378fcdfe",
+    "x": "<http://www.wikidata.org/entity/Q358317>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5563a64771de676fb1ad485671b7220>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q358317$e0ac03a6-48d9-4690-2069-832d915441a6",
+    "x": "<http://www.wikidata.org/entity/Q358317>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d5563a64771de676fb1ad485671b7220>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q3656285$293E2BD0-C449-4FC5-B92F-89F581C89F66",
+    "x": "<http://www.wikidata.org/entity/Q3656285>",
+    "y": "<http://www.wikidata.org/.well-known/genid/e8ecc44b023fca1ed2f0f4e44f3f04d2>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q3656496$CEB8ABA4-629E-4A86-BCE2-941413B6016F",
+    "x": "<http://www.wikidata.org/entity/Q3656496>",
+    "y": "<http://www.wikidata.org/.well-known/genid/4589530d809f595eaa6512dcdf3aca3d>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q42315344$711ceafa-41d4-f338-4f79-7e3a2eda1771",
+    "x": "<http://www.wikidata.org/entity/Q42315344>",
+    "y": "<http://www.wikidata.org/.well-known/genid/5e83e7a7b635022835a31b627f699d06>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q440324$331bf59c-4d49-5182-42f0-4892be87b635",
+    "x": "<http://www.wikidata.org/entity/Q440324>",
+    "y": "<http://www.wikidata.org/.well-known/genid/9d74adee2d41d55d7536e83ed48e21ca>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q461370$3f9f657d-41c8-796d-2c2e-009f9a4aee17",
+    "x": "<http://www.wikidata.org/entity/Q461370>",
+    "y": "<http://www.wikidata.org/.well-known/genid/e520d8bb066d591aa7c768070d7a9dcf>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q461370$a6ce90a0-4f34-505b-920a-bd00fc440855",
+    "x": "<http://www.wikidata.org/entity/Q461370>",
+    "y": "<http://www.wikidata.org/.well-known/genid/e520d8bb066d591aa7c768070d7a9dcf>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q461370$eead5b04-488f-9573-a7f8-c2aaf6eb8a97",
+    "x": "<http://www.wikidata.org/entity/Q461370>",
+    "y": "<http://www.wikidata.org/.well-known/genid/e520d8bb066d591aa7c768070d7a9dcf>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q478460$06dfcb14-43a0-3c75-663c-a6d748268a97",
+    "x": "<http://www.wikidata.org/entity/Q478460>",
+    "y": "<http://www.wikidata.org/.well-known/genid/47da0c474440396c9d7c0d002014f70f>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q51466$4e958c5d-4a68-2407-ff96-bdb2d2521244",
+    "x": "<http://www.wikidata.org/entity/Q51466>",
+    "y": "<http://www.wikidata.org/.well-known/genid/7ffc373340b09696398125a747900237>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q51466$838fb5d7-41d1-eafd-2ae9-e5ae42c120f8",
+    "x": "<http://www.wikidata.org/entity/Q51466>",
+    "y": "<http://www.wikidata.org/.well-known/genid/7ffc373340b09696398125a747900237>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q51466$d852c891-4779-4b37-3f01-7335f146e74f",
+    "x": "<http://www.wikidata.org/entity/Q51466>",
+    "y": "<http://www.wikidata.org/.well-known/genid/7ffc373340b09696398125a747900237>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q51466$d99b9bcc-43f6-c0ac-073d-a9d4957a1ed3",
+    "x": "<http://www.wikidata.org/entity/Q51466>",
+    "y": "<http://www.wikidata.org/.well-known/genid/7ffc373340b09696398125a747900237>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q525083$1885650c-4013-ddcf-8a13-b2fde9629124",
+    "x": "<http://www.wikidata.org/entity/Q525083>",
+    "y": "<http://www.wikidata.org/.well-known/genid/59790feb3e1ebedeb43cc9b8df886df8>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q525083$275ae27f-4abe-9a80-fe63-9253fd423afb",
+    "x": "<http://www.wikidata.org/entity/Q525083>",
+    "y": "<http://www.wikidata.org/.well-known/genid/59790feb3e1ebedeb43cc9b8df886df8>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q525083$e6686923-408f-3ee0-c702-1808266e25b1",
+    "x": "<http://www.wikidata.org/entity/Q525083>",
+    "y": "<http://www.wikidata.org/.well-known/genid/59790feb3e1ebedeb43cc9b8df886df8>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q5543848$777588ac-4f27-65b2-a1fa-e3b45472dbdd",
+    "x": "<http://www.wikidata.org/entity/Q5543848>",
+    "y": "<http://www.wikidata.org/.well-known/genid/64e84085372fe17d02c2ac1cc119791c>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q5543848$b7ff61d3-46f5-3dfc-00cc-c26b21e51a7a",
+    "x": "<http://www.wikidata.org/entity/Q5543848>",
+    "y": "<http://www.wikidata.org/.well-known/genid/64e84085372fe17d02c2ac1cc119791c>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q554395$B1CB698E-331A-4CB3-9C3D-0C64EA4D22B1",
+    "x": "<http://www.wikidata.org/entity/Q554395>",
+    "y": "<http://www.wikidata.org/.well-known/genid/d10113f4e7e71657e9b888a4e3d147e9>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q5759141$976B2B9A-3F59-46BB-A374-A1CFFA2AA31F",
+    "x": "<http://www.wikidata.org/entity/Q5759141>",
+    "y": "<http://www.wikidata.org/.well-known/genid/7581fb97d47b00af3c0b2b6ee26b5ceb>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q6211849$0d71f39e-46ee-380f-8ad7-e17edcaaca6c",
+    "x": "<http://www.wikidata.org/entity/Q6211849>",
+    "y": "<http://www.wikidata.org/.well-known/genid/5e165a8f02b8d393955b36c59c66b1d5>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q6211849$647d1248-46c7-484a-9656-95ad555c4b64",
+    "x": "<http://www.wikidata.org/entity/Q6211849>",
+    "y": "<http://www.wikidata.org/.well-known/genid/5e165a8f02b8d393955b36c59c66b1d5>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q6211849$b89fd51d-41c3-f7a4-5826-ecc7eef56ee5",
+    "x": "<http://www.wikidata.org/entity/Q6211849>",
+    "y": "<http://www.wikidata.org/.well-known/genid/5e165a8f02b8d393955b36c59c66b1d5>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q65093876$0dc3d905-4fe7-eb1c-7d0c-679d6b575f38",
+    "x": "<http://www.wikidata.org/entity/Q65093876>",
+    "y": "<http://www.wikidata.org/.well-known/genid/027c6848981361eb9fc0705a0376355b>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q745111$6A567958-DA41-4324-89E5-5BA7AC3F9864",
+    "x": "<http://www.wikidata.org/entity/Q745111>",
+    "y": "<http://www.wikidata.org/.well-known/genid/8a7df8d1f1a337a8d246a4be56d669c1>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q74825231$2dbd0763-4810-c8fa-5040-42e7495157d2",
+    "x": "<http://www.wikidata.org/entity/Q74825231>",
+    "y": "<http://www.wikidata.org/.well-known/genid/16f5d3dbc72b838bb0a8a93c7a066d54>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q74825231$673c6c0a-46a9-9628-ec57-578a4facdf57",
+    "x": "<http://www.wikidata.org/entity/Q74825231>",
+    "y": "<http://www.wikidata.org/.well-known/genid/16f5d3dbc72b838bb0a8a93c7a066d54>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q74825231$ce55cfe8-45d3-b733-f08d-67a70178978f",
+    "x": "<http://www.wikidata.org/entity/Q74825231>",
+    "y": "<http://www.wikidata.org/.well-known/genid/16f5d3dbc72b838bb0a8a93c7a066d54>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q74825231$ede0d9fd-461b-3b7e-9975-be8def0605b1",
+    "x": "<http://www.wikidata.org/entity/Q74825231>",
+    "y": "<http://www.wikidata.org/.well-known/genid/16f5d3dbc72b838bb0a8a93c7a066d54>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q7599484$a24cbf12-41ad-36b5-a9ec-8cbfb6d4741d",
+    "x": "<http://www.wikidata.org/entity/Q7599484>",
+    "y": "<http://www.wikidata.org/.well-known/genid/e31699fd9c6c871c1240c091b7dadca5>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q929593$855C8607-EA26-47C8-B253-2A3CF7842BF6",
+    "x": "<http://www.wikidata.org/entity/Q929593>",
+    "y": "<http://www.wikidata.org/.well-known/genid/686bea2021d864cda37d1c3d5f8b3743>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q939045$2A94A228-9B2A-4EBC-8589-B2B201F39536",
+    "x": "<http://www.wikidata.org/entity/Q939045>",
+    "y": "<http://www.wikidata.org/.well-known/genid/465581f12e74efd089de98a7821306ec>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q939045$DF37CC86-297D-4B75-BD31-7764A08D967D",
+    "x": "<http://www.wikidata.org/entity/Q939045>",
+    "y": "<http://www.wikidata.org/.well-known/genid/465581f12e74efd089de98a7821306ec>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q955356$71bb3909-4959-b30a-f8d9-557b95349bbd",
+    "x": "<http://www.wikidata.org/entity/Q955356>",
+    "y": "<http://www.wikidata.org/.well-known/genid/93d9f7aebc04be0dd628399f626e33e8>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q960612$101a797d-4044-dd97-4f76-adbc92f4baab",
+    "x": "<http://www.wikidata.org/entity/Q960612>",
+    "y": "<http://www.wikidata.org/.well-known/genid/26cec1261a69edd11c2a4dd39ca85e1f>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q960612$5f9afc15-4ba3-7228-b498-3e5fa5f13f73",
+    "x": "<http://www.wikidata.org/entity/Q960612>",
+    "y": "<http://www.wikidata.org/.well-known/genid/26cec1261a69edd11c2a4dd39ca85e1f>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q960612$6a79a201-45ab-f2cb-3cf7-4e5dc5bd0711",
+    "x": "<http://www.wikidata.org/entity/Q960612>",
+    "y": "<http://www.wikidata.org/.well-known/genid/26cec1261a69edd11c2a4dd39ca85e1f>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q960612$8b246248-46db-06be-0c88-1256682913e6",
+    "x": "<http://www.wikidata.org/entity/Q960612>",
+    "y": "<http://www.wikidata.org/.well-known/genid/26cec1261a69edd11c2a4dd39ca85e1f>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q960612$cfc993ad-4062-792a-7992-201b178a913b",
+    "x": "<http://www.wikidata.org/entity/Q960612>",
+    "y": "<http://www.wikidata.org/.well-known/genid/26cec1261a69edd11c2a4dd39ca85e1f>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q960612$faf2ee0c-4dc1-8fd0-00e9-34c096510823",
+    "x": "<http://www.wikidata.org/entity/Q960612>",
+    "y": "<http://www.wikidata.org/.well-known/genid/26cec1261a69edd11c2a4dd39ca85e1f>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q966542$698fcaaf-4380-495c-4f4f-07cbf4e3e766",
+    "x": "<http://www.wikidata.org/entity/Q966542>",
+    "y": "<http://www.wikidata.org/.well-known/genid/c9c5d03255c6ad6d520c82cd6b72b096>",
+    "entries": "symmetric",
+    "checker": "nothing"
+   }
+  ]
+ },
+ "contemporary-no-1-january": {
+  "description": "A contemporary entry applies at K; latest death precedes earliest birth; no compared date on 1 January.",
+  "population": 75,
+  "statements": 50,
+  "not_returned": 0,
+  "same": 44,
+  "deprecated": 0,
+  "entries_only": {
+   "symmetric": 2,
+   "contemporary": 4
+  },
+  "checker_only": {},
+  "checker_reports": {
+   "contemporary, symmetric": 6,
+   "contemporary": 40,
+   "nothing": 4
+  },
+  "expected": {
+   "contemporary, symmetric": 8,
+   "contemporary": 42
+  },
+  "differences": [
+   {
+    "statement": "Q16185436$B6FEC289-8A41-476E-A30C-2E108220EA44",
+    "x": "<http://www.wikidata.org/entity/Q16185436>",
+    "y": "<http://www.wikidata.org/entity/Q15994577>",
+    "entries": "contemporary, symmetric",
+    "checker": "contemporary"
+   },
+   {
+    "statement": "Q2980737$5996904c-4c00-739d-4eb3-ba67322a263e",
+    "x": "<http://www.wikidata.org/entity/Q2980737>",
+    "y": "<http://www.wikidata.org/entity/Q138296959>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q43267123$85464f27-4c22-437e-3edb-a31bd02850f0",
+    "x": "<http://www.wikidata.org/entity/Q43267123>",
+    "y": "<http://www.wikidata.org/entity/Q134961353>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q63045627$c383493b-4d8a-2324-11d5-077283325ae4",
+    "x": "<http://www.wikidata.org/entity/Q63045627>",
+    "y": "<http://www.wikidata.org/entity/Q98475627>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q96483$77072FF6-FF44-4ADB-85E6-D7F16C93D2DD",
+    "x": "<http://www.wikidata.org/entity/Q96483>",
+    "y": "<http://www.wikidata.org/entity/Q54857394>",
+    "entries": "contemporary, symmetric",
+    "checker": "contemporary"
+   },
+   {
+    "statement": "Q98475627$dc0a214f-444a-62c1-839c-1d01d2638517",
+    "x": "<http://www.wikidata.org/entity/Q98475627>",
+    "y": "<http://www.wikidata.org/entity/Q63045627>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   }
+  ]
+ },
+ "contemporary-1-january": {
+  "description": "A contemporary entry applies at K; latest death precedes earliest birth; a compared date falls on 1 January.",
+  "population": 1435,
+  "statements": 50,
+  "not_returned": 0,
+  "same": 27,
+  "deprecated": 0,
+  "entries_only": {
+   "contemporary": 23
+  },
+  "checker_only": {},
+  "checker_reports": {
+   "nothing": 23,
+   "contemporary": 27
+  },
+  "expected": {
+   "contemporary": 50
+  },
+  "differences": [
+   {
+    "statement": "Q116150238$1a9579cb-4cdd-0c31-a1ed-77d0d084526b",
+    "x": "<http://www.wikidata.org/entity/Q116150238>",
+    "y": "<http://www.wikidata.org/entity/Q1597708>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q125493963$4243CB22-D81D-42BD-9984-49D0439330B1",
+    "x": "<http://www.wikidata.org/entity/Q125493963>",
+    "y": "<http://www.wikidata.org/entity/Q31491>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q138566812$8e1b4d5d-4107-68e9-ef2d-54506783afd6",
+    "x": "<http://www.wikidata.org/entity/Q138566812>",
+    "y": "<http://www.wikidata.org/entity/Q138566828>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q141628261$C7E62430-FEFD-4D33-BF30-9763EB519E3E",
+    "x": "<http://www.wikidata.org/entity/Q141628261>",
+    "y": "<http://www.wikidata.org/entity/Q2117631>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1672591$CB9C8D63-D0F7-4967-A922-FB432093D123",
+    "x": "<http://www.wikidata.org/entity/Q1672591>",
+    "y": "<http://www.wikidata.org/entity/Q167902>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1685955$c814a61d-47c5-170d-5306-81423a65d489",
+    "x": "<http://www.wikidata.org/entity/Q1685955>",
+    "y": "<http://www.wikidata.org/entity/Q1517349>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q18625366$bbbf1ef2-4f2d-e7fd-f701-25d496a96d76",
+    "x": "<http://www.wikidata.org/entity/Q18625366>",
+    "y": "<http://www.wikidata.org/entity/Q57303458>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "q233573$016000FE-7A6C-4A49-8528-D3CB161888AD",
+    "x": "<http://www.wikidata.org/entity/Q233573>",
+    "y": "<http://www.wikidata.org/entity/Q271786>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q2554235$a3cf7d04-43f4-2715-0320-335b0d193758",
+    "x": "<http://www.wikidata.org/entity/Q2554235>",
+    "y": "<http://www.wikidata.org/entity/Q333676>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q275127$55D3B688-B2B5-405F-9370-619B4789317C",
+    "x": "<http://www.wikidata.org/entity/Q275127>",
+    "y": "<http://www.wikidata.org/entity/Q7220>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q289060$7ba4c8ee-4e9d-4f9f-d3d2-8e5bac5f18a6",
+    "x": "<http://www.wikidata.org/entity/Q289060>",
+    "y": "<http://www.wikidata.org/entity/Q1277343>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q32893531$24d16896-42df-d515-0628-dc36b5847d18",
+    "x": "<http://www.wikidata.org/entity/Q32893531>",
+    "y": "<http://www.wikidata.org/entity/Q43562>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q348518$88542CE0-EE47-462B-BE02-208C341A115E",
+    "x": "<http://www.wikidata.org/entity/Q348518>",
+    "y": "<http://www.wikidata.org/entity/Q4383240>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q4302750$2D307BEA-5261-42DB-AFA7-FC4A7D5F3D5B",
+    "x": "<http://www.wikidata.org/entity/Q4302750>",
+    "y": "<http://www.wikidata.org/entity/Q75458463>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q433363$f5ad7d58-43f8-0eb2-1e8c-46c82aab0a91",
+    "x": "<http://www.wikidata.org/entity/Q433363>",
+    "y": "<http://www.wikidata.org/entity/Q296304>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q448084$861cceee-48f9-1e04-a38c-d46a0fc3491d",
+    "x": "<http://www.wikidata.org/entity/Q448084>",
+    "y": "<http://www.wikidata.org/entity/Q728777>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q450332$095A7E6B-EBAF-4432-A77A-3D0F3D3D17AD",
+    "x": "<http://www.wikidata.org/entity/Q450332>",
+    "y": "<http://www.wikidata.org/entity/Q430916>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q5659604$13dcfd5b-4ef6-c2cd-d836-10753e71559b",
+    "x": "<http://www.wikidata.org/entity/Q5659604>",
+    "y": "<http://www.wikidata.org/entity/Q32850294>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "q69325$4DE00ABD-C0F1-4C85-AB5F-262EAA56A7CF",
+    "x": "<http://www.wikidata.org/entity/Q69325>",
+    "y": "<http://www.wikidata.org/entity/Q1711096>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q7089020$8fbd16ac-470e-1cf5-7e0c-7b2e13dbcc4f",
+    "x": "<http://www.wikidata.org/entity/Q7089020>",
+    "y": "<http://www.wikidata.org/entity/Q185538>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q7277$e752d114-4c88-ae66-f60e-464076c8ec32",
+    "x": "<http://www.wikidata.org/entity/Q7277>",
+    "y": "<http://www.wikidata.org/entity/Q449464>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q91293$c5cf008c-4b13-b6b4-74f5-db8889f36c32",
+    "x": "<http://www.wikidata.org/entity/Q91293>",
+    "y": "<http://www.wikidata.org/entity/Q24263388>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q9790$bc2853ce-436e-9680-aac0-ea44c80196df",
+    "x": "<http://www.wikidata.org/entity/Q9790>",
+    "y": "<http://www.wikidata.org/entity/Q5163362>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   }
+  ]
+ },
+ "contemporary-several-dates": {
+  "description": "A contemporary entry applies at K, but the latest death does not precede the earliest birth.",
+  "population": 113,
+  "statements": 51,
+  "not_returned": 0,
+  "same": 0,
+  "deprecated": 0,
+  "entries_only": {
+   "contemporary": 51
+  },
+  "checker_only": {},
+  "checker_reports": {
+   "symmetric": 2,
+   "nothing": 49
+  },
+  "expected": {
+   "contemporary, symmetric": 2,
+   "contemporary": 49
+  },
+  "differences": [
+   {
+    "statement": "Q108051677$9d99371f-4009-d320-0227-3c026f307e56",
+    "x": "<http://www.wikidata.org/entity/Q108051677>",
+    "y": "<http://www.wikidata.org/entity/Q110845896>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q110613323$5917840f-42fd-f669-b69b-a347b28da933",
+    "x": "<http://www.wikidata.org/entity/Q110613323>",
+    "y": "<http://www.wikidata.org/entity/Q110613324>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q110613324$5892e79e-4b02-98a8-5123-7d9f5d5fdc6b",
+    "x": "<http://www.wikidata.org/entity/Q110613324>",
+    "y": "<http://www.wikidata.org/entity/Q110613323>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1121941$8962551F-61F3-4EA0-96AA-C2DE50A340A9",
+    "x": "<http://www.wikidata.org/entity/Q1121941>",
+    "y": "<http://www.wikidata.org/entity/Q1369274>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1121941$CECE128C-234F-4AFD-A3D9-CE66310B26C7",
+    "x": "<http://www.wikidata.org/entity/Q1121941>",
+    "y": "<http://www.wikidata.org/entity/Q1369274>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q116004710$95053d61-41a1-f24e-205a-4b11b1502b85",
+    "x": "<http://www.wikidata.org/entity/Q116004710>",
+    "y": "<http://www.wikidata.org/entity/Q44192347>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q122732335$738F5A24-8FB3-4B34-BAF6-B5E2BD87105D",
+    "x": "<http://www.wikidata.org/entity/Q122732335>",
+    "y": "<http://www.wikidata.org/entity/Q115625390>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q124272308$b4e2a6c4-4550-c14e-3565-73d748c97d93",
+    "x": "<http://www.wikidata.org/entity/Q124272308>",
+    "y": "<http://www.wikidata.org/entity/Q28140>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q12874544$b2c61ca2-46b8-66c0-d6ff-0b3dd50e4ce7",
+    "x": "<http://www.wikidata.org/entity/Q12874544>",
+    "y": "<http://www.wikidata.org/entity/Q50376734>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q130636644$920b9438-4d8f-a59e-2e8e-4f2a7ec745d4",
+    "x": "<http://www.wikidata.org/entity/Q130636644>",
+    "y": "<http://www.wikidata.org/entity/Q44192347>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1330397$e9427aec-4ec7-74b4-cbc8-3669734009e3",
+    "x": "<http://www.wikidata.org/entity/Q1330397>",
+    "y": "<http://www.wikidata.org/entity/Q442033>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q137944710$DA4DD4B8-8388-4739-BD18-4AB37DDF01BE",
+    "x": "<http://www.wikidata.org/entity/Q137944710>",
+    "y": "<http://www.wikidata.org/entity/Q137945541>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q1423$BBCEE9C9-BFAA-4709-A234-663BA46F0874",
+    "x": "<http://www.wikidata.org/entity/Q1423>",
+    "y": "<http://www.wikidata.org/entity/Q239010>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q18672229$296CC5BF-941B-40B6-A38C-B0DF1D1C845C",
+    "x": "<http://www.wikidata.org/entity/Q18672229>",
+    "y": "<http://www.wikidata.org/entity/Q75918197>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q21415623$bbb440b6-4f48-be80-9c2e-6c76e86e9bf8",
+    "x": "<http://www.wikidata.org/entity/Q21415623>",
+    "y": "<http://www.wikidata.org/entity/Q116120010>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q25497103$684E05AA-4162-45BE-8D6E-D768E1B92869",
+    "x": "<http://www.wikidata.org/entity/Q25497103>",
+    "y": "<http://www.wikidata.org/entity/Q61140432>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "q266523$94236203-B7EF-4D48-B260-0B405C4CB96C",
+    "x": "<http://www.wikidata.org/entity/Q266523>",
+    "y": "<http://www.wikidata.org/entity/Q466247>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "q266751$01ED817E-5F35-4090-AF7D-572164BF2EF0",
+    "x": "<http://www.wikidata.org/entity/Q266751>",
+    "y": "<http://www.wikidata.org/entity/Q81212>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "q3223972$B41AAF3B-2AA5-405D-8186-BB88471A3461",
+    "x": "<http://www.wikidata.org/entity/Q3223972>",
+    "y": "<http://www.wikidata.org/entity/Q456955>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q3223972$c66780ca-488f-6a21-9bb0-7b59175e6b60",
+    "x": "<http://www.wikidata.org/entity/Q3223972>",
+    "y": "<http://www.wikidata.org/entity/Q527458>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q33743656$8F6FB0AF-4BF1-4B65-89BE-77608E3001C5",
+    "x": "<http://www.wikidata.org/entity/Q33743656>",
+    "y": "<http://www.wikidata.org/entity/Q94937661>",
+    "entries": "contemporary, symmetric",
+    "checker": "symmetric"
+   },
+   {
+    "statement": "Q3618991$293b95cf-4107-a06b-d4c9-f8e167ca3e56",
+    "x": "<http://www.wikidata.org/entity/Q3618991>",
+    "y": "<http://www.wikidata.org/entity/Q521446>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q369691$3034feb6-4c4a-e526-ad91-cf155362ab1c",
+    "x": "<http://www.wikidata.org/entity/Q369691>",
+    "y": "<http://www.wikidata.org/entity/Q979146>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q371668$AB8DAC48-ACBD-4003-AB58-77406E1A223E",
+    "x": "<http://www.wikidata.org/entity/Q371668>",
+    "y": "<http://www.wikidata.org/entity/Q9030130>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q3781179$BC20D493-1FC9-47FF-A889-C9CACF424D66",
+    "x": "<http://www.wikidata.org/entity/Q3781179>",
+    "y": "<http://www.wikidata.org/entity/Q4684015>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q394772$e1e3363e-4c55-56a6-984b-1d2367895b2c",
+    "x": "<http://www.wikidata.org/entity/Q394772>",
+    "y": "<http://www.wikidata.org/entity/Q503875>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q44192347$ec62e93a-4b4f-8c65-eb18-de97185e72b7",
+    "x": "<http://www.wikidata.org/entity/Q44192347>",
+    "y": "<http://www.wikidata.org/entity/Q116004710>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q442033$6F5FBF9F-FB65-4D87-BAAA-3785656E2903",
+    "x": "<http://www.wikidata.org/entity/Q442033>",
+    "y": "<http://www.wikidata.org/entity/Q1330397>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q4456990$7c9865bd-4495-f000-db44-765390663646",
+    "x": "<http://www.wikidata.org/entity/Q4456990>",
+    "y": "<http://www.wikidata.org/entity/Q52637634>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q467551$9EB66983-9266-47B9-825B-F6B689BF71E6",
+    "x": "<http://www.wikidata.org/entity/Q467551>",
+    "y": "<http://www.wikidata.org/entity/Q75322562>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q521446$688b38e0-4df2-4216-16bb-7abf9e06acab",
+    "x": "<http://www.wikidata.org/entity/Q521446>",
+    "y": "<http://www.wikidata.org/entity/Q3618991>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q52637634$f2252e36-42cd-73ae-43d3-144111affdaf",
+    "x": "<http://www.wikidata.org/entity/Q52637634>",
+    "y": "<http://www.wikidata.org/entity/Q4456990>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q527458$fcf22e64-445a-bc30-3581-0eff1971ec72",
+    "x": "<http://www.wikidata.org/entity/Q527458>",
+    "y": "<http://www.wikidata.org/entity/Q3223972>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q55124271$8509427A-7DCD-4142-8CD4-72AD68127F3E",
+    "x": "<http://www.wikidata.org/entity/Q55124271>",
+    "y": "<http://www.wikidata.org/entity/Q137444922>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q55180949$33A98F30-5D2A-4B01-8504-88FE9910C68C",
+    "x": "<http://www.wikidata.org/entity/Q55180949>",
+    "y": "<http://www.wikidata.org/entity/Q196264>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q61913464$650E1D8D-0FC9-43B9-849D-10F71484E153",
+    "x": "<http://www.wikidata.org/entity/Q61913464>",
+    "y": "<http://www.wikidata.org/entity/Q2576899>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q68466026$ef07eb71-46e1-cf86-f039-3ab81e694e37",
+    "x": "<http://www.wikidata.org/entity/Q68466026>",
+    "y": "<http://www.wikidata.org/entity/Q654278>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q694128$B4FE8336-8CBF-419B-9FC3-99353B26BA98",
+    "x": "<http://www.wikidata.org/entity/Q694128>",
+    "y": "<http://www.wikidata.org/entity/Q5547738>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q7026474$C0964DDA-BBAF-44EA-9986-D51D6D4C81FA",
+    "x": "<http://www.wikidata.org/entity/Q7026474>",
+    "y": "<http://www.wikidata.org/entity/Q75453855>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q706481$1028e9f8-42af-eb7e-4532-7555545d1e96",
+    "x": "<http://www.wikidata.org/entity/Q706481>",
+    "y": "<http://www.wikidata.org/entity/Q9652383>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "q72936$074c3f28-4679-9999-2d03-c69701b41620",
+    "x": "<http://www.wikidata.org/entity/Q72936>",
+    "y": "<http://www.wikidata.org/entity/Q1330110>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "q742376$7175D11F-4851-4DFE-97D9-646095C4F901",
+    "x": "<http://www.wikidata.org/entity/Q742376>",
+    "y": "<http://www.wikidata.org/entity/Q466247>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q75249257$cfef2a07-4641-2d2c-3014-e565b5522a44",
+    "x": "<http://www.wikidata.org/entity/Q75249257>",
+    "y": "<http://www.wikidata.org/entity/Q61140432>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q75453855$CCF415EB-0485-486B-BD8C-583270BD7D38",
+    "x": "<http://www.wikidata.org/entity/Q75453855>",
+    "y": "<http://www.wikidata.org/entity/Q7026474>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q75918197$67B51015-3C55-4F40-B0C0-0EEE6D5F2E01",
+    "x": "<http://www.wikidata.org/entity/Q75918197>",
+    "y": "<http://www.wikidata.org/entity/Q18672229>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q787220$19918748-4c42-c110-7491-0e6b653958a3",
+    "x": "<http://www.wikidata.org/entity/Q787220>",
+    "y": "<http://www.wikidata.org/entity/Q3612851>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "q81212$5BD248E1-5EC7-4168-B7D7-1A95394D0A55",
+    "x": "<http://www.wikidata.org/entity/Q81212>",
+    "y": "<http://www.wikidata.org/entity/Q266751>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q83540666$27e89325-4517-5347-d05e-852649b9d631",
+    "x": "<http://www.wikidata.org/entity/Q83540666>",
+    "y": "<http://www.wikidata.org/entity/Q114811424>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q94744010$8a22dcd8-16d4-474e-b476-b8b69956357d",
+    "x": "<http://www.wikidata.org/entity/Q94744010>",
+    "y": "<http://www.wikidata.org/entity/Q94909863>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q94774476$4A60F315-F0A2-497E-85E1-6690F95D8DC6",
+    "x": "<http://www.wikidata.org/entity/Q94774476>",
+    "y": "<http://www.wikidata.org/entity/Q95005667>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q94909863$3B241660-9D35-4B9A-90A6-DD47A942D7D9",
+    "x": "<http://www.wikidata.org/entity/Q94909863>",
+    "y": "<http://www.wikidata.org/entity/Q94744010>",
+    "entries": "contemporary",
+    "checker": "nothing"
+   }
+  ]
+ },
+ "subject-type-at-k": {
+  "description": "The subject type entry applies at K.",
+  "population": 135,
+  "statements": 50,
+  "not_returned": 0,
+  "same": 50,
+  "deprecated": 0,
+  "entries_only": {},
+  "checker_only": {},
+  "checker_reports": {
+   "subject type": 39,
+   "subject type, symmetric": 11
+  },
+  "expected": {
+   "subject type": 39,
+   "subject type, symmetric": 11
+  },
+  "differences": []
+ },
+ "conflicts-with-at-k": {
+  "description": "The conflicts-with entry applies at K.",
+  "population": 6,
+  "statements": 6,
+  "not_returned": 0,
+  "same": 3,
+  "deprecated": 0,
+  "entries_only": {
+   "conflicts-with": 3
+  },
+  "checker_only": {},
+  "checker_reports": {
+   "conflicts-with": 2,
+   "conflicts-with, symmetric": 1,
+   "nothing": 3
+  },
+  "expected": {
+   "conflicts-with": 5,
+   "conflicts-with, symmetric": 1
+  },
+  "differences": [
+   {
+    "statement": "Q1141300$579d79e8-4f75-5a8e-0824-aa5a0c2b96e0",
+    "x": "<http://www.wikidata.org/entity/Q1141300>",
+    "y": "<http://www.wikidata.org/entity/Q1469456>",
+    "entries": "conflicts-with",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q52985$B70179DF-82B8-40B8-879D-44A90BAB8039",
+    "x": "<http://www.wikidata.org/entity/Q52985>",
+    "y": "<http://www.wikidata.org/entity/Q16013454>",
+    "entries": "conflicts-with",
+    "checker": "nothing"
+   },
+   {
+    "statement": "Q52985$F0692A4E-E5E9-4AB6-A72F-F20CB68B4C30",
+    "x": "<http://www.wikidata.org/entity/Q52985>",
+    "y": "<http://www.wikidata.org/entity/Q3066487>",
+    "entries": "conflicts-with",
+    "checker": "nothing"
+   }
+  ]
+ },
+ "none-of-at-k": {
+  "description": "A none-of entry applies at K.",
+  "population": 22,
+  "statements": 22,
+  "not_returned": 0,
+  "same": 22,
+  "deprecated": 0,
+  "entries_only": {},
+  "checker_only": {},
+  "checker_reports": {
+   "none-of, symmetric": 22
+  },
+  "expected": {
+   "none-of, symmetric": 22
+  },
+  "differences": []
+ }
+}

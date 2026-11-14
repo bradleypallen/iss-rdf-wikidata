@@ -6,12 +6,17 @@ Supplementary material for the Wikidata case study (spouse, P26) in Bradley P. A
 formalization) and [iss-rdf-checks](https://github.com/bradleypallen/iss-rdf-checks)
 (computational checks of the theorems).
 
-**Status (14 November 2026):** a hand-sized example has been taken end to end: Wikidata's
-own constraint checker consulted, a 65-triple subset selected, the pipeline run on it in
-SPARQL on a local store, and the result checked against a direct computation from the
-definition. The dated note is `notes/2026-11-14-hand-sized-example.md`. The entries in
-`entries/entries.json` are still a draft. The full run over all spouse statements has not
-been done.
+**Status (14 November 2026):** two runs have been made, each with a dated note in `notes/`.
+
+* A hand-sized example (fourteen items, 65 triples), taken end to end.
+* The full run over spouse (P26) as of 14 November 2026, 17:51:57 UTC: 987,188 spouse
+  triples, a 3.0-million-triple subset, the pipeline in SPARQL on a local store, an
+  independent computation from the definition that agrees with it, counts per instance,
+  and a calibration against Wikidata's own constraint checker.
+
+The entries in `entries/entries.json` are still a draft. The full-run snapshot and the
+graphs computed from it are too large for git; their checksums are recorded here and the
+files belong in the archived release.
 
 ## How this repository is kept
 
@@ -35,8 +40,10 @@ data/       the subset the pipeline runs on, with its provenance
 entries/    the entries, in the form the pipeline reads
 pipeline/   the pipeline's SPARQL files, generated from entries/entries.json
 tools/      run_query.py and run_api_check.py, the only ways Wikidata is queried;
-            entries.py, make_pipeline.py, build_subset.py, run_pipeline.py,
-            check_cons.py, checker_summary.py
+            entries.py, make_pipeline.py, run_pipeline.py, check_cons.py;
+            build_subset.py, build_full_subset.py, sample_hierarchy_check.py;
+            count_instances.py, sample_for_checker.py, calibration_table.py,
+            calibration_followup.py, checker_summary.py
 notes/      dated notes of what was found
 logs/       runs.jsonl and pipeline.jsonl, one line per run, failed runs included
 ```

@@ -1,0 +1,9 @@
+# The time up to which an endpoint's copy of Wikidata has been updated, where
+# the endpoint records it in the way the query service does.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?modified WHERE {
+  <http://www.wikidata.org> schema:dateModified ?modified .
+}

@@ -1,0 +1,29 @@
+[
+ {
+  "entry": "p26-conflicts-with",
+  "x": "<http://www.wikidata.org/entity/Q18014868>",
+  "y": "<http://www.wikidata.org/entity/Q140351015>",
+  "class": "<http://www.wikidata.org/entity/Q11879590>",
+  "end": null,
+  "start": null,
+  "item": null
+ },
+ {
+  "entry": "p26-conflicts-with",
+  "x": "<http://www.wikidata.org/entity/Q18014868>",
+  "y": "<http://www.wikidata.org/entity/Q140351015>",
+  "class": "<http://www.wikidata.org/entity/Q202444>",
+  "end": null,
+  "start": null,
+  "item": null
+ },
+ {
+  "entry": "p26-subject-type",
+  "x": "<http://www.wikidata.org/entity/Q18014868>",
+  "y": "<http://www.wikidata.org/entity/Q140351015>",
+  "class": null,
+  "end": null,
+  "start": null,
+  "item": null
+ }
+]

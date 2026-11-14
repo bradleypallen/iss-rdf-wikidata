@@ -1,0 +1,47 @@
+[
+ {
+  "entry": "p26-contemporary-subject-first",
+  "x": "<http://www.wikidata.org/entity/Q65921636>",
+  "y": "<http://www.wikidata.org/entity/Q65921622>",
+  "class": null,
+  "end": "\"1921-06-27T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "start": "\"2011-01-01T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "item": null
+ },
+ {
+  "entry": "p26-contemporary-value-first",
+  "x": "<http://www.wikidata.org/entity/Q65921622>",
+  "y": "<http://www.wikidata.org/entity/Q65921636>",
+  "class": null,
+  "end": "\"1921-06-27T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "start": "\"2011-01-01T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "item": null
+ },
+ {
+  "entry": "p26-subject-type",
+  "x": "<http://www.wikidata.org/entity/Q11435430>",
+  "y": "<http://www.wikidata.org/entity/Q56291568>",
+  "class": null,
+  "end": null,
+  "start": null,
+  "item": null
+ },
+ {
+  "entry": "p26-subject-type",
+  "x": "<http://www.wikidata.org/entity/Q12499603>",
+  "y": "<http://www.wikidata.org/entity/Q4460863>",
+  "class": null,
+  "end": null,
+  "start": null,
+  "item": null
+ },
+ {
+  "entry": "p26-subject-type",
+  "x": "<http://www.wikidata.org/entity/Q135474893>",
+  "y": "<http://www.wikidata.org/entity/Q135474881>",
+  "class": null,
+  "end": null,
+  "start": null,
+  "item": null
+ }
+]

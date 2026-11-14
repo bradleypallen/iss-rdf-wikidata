@@ -1,0 +1,139 @@
+{
+ "new_conclusions": 21,
+ "in_conflict_over_cons": 10,
+ "in_conflict_one_at_a_time": 10,
+ "conclusions_where_the_readings_differ": 0,
+ "instances_over_cons_not_at_K_touching_no_new_conclusion": 0,
+ "conclusions": [
+  {
+   "conclusion": [
+    "<http://www.wikidata.org/.well-known/genid/0dbde518cd460b9de41b43aa4ceec352>",
+    "<http://www.wikidata.org/prop/direct/P26>",
+    "<http://www.wikidata.org/entity/Q73360721>"
+   ],
+   "over_cons": [
+    "p26-subject-type"
+   ],
+   "one_at_a_time": [
+    "p26-subject-type"
+   ]
+  },
+  {
+   "conclusion": [
+    "<http://www.wikidata.org/entity/Q21645260>",
+    "<http://www.wikidata.org/prop/direct/P26>",
+    "<http://www.wikidata.org/entity/Q126087491>"
+   ],
+   "over_cons": [
+    "p26-subject-type"
+   ],
+   "one_at_a_time": [
+    "p26-subject-type"
+   ]
+  },
+  {
+   "conclusion": [
+    "<http://www.wikidata.org/entity/Q472>",
+    "<http://www.wikidata.org/prop/direct/P26>",
+    "<http://www.wikidata.org/entity/Q16459919>"
+   ],
+   "over_cons": [
+    "p26-subject-type"
+   ],
+   "one_at_a_time": [
+    "p26-subject-type"
+   ]
+  },
+  {
+   "conclusion": [
+    "<http://www.wikidata.org/entity/Q472>",
+    "<http://www.wikidata.org/prop/direct/P26>",
+    "<http://www.wikidata.org/entity/Q20503392>"
+   ],
+   "over_cons": [
+    "p26-subject-type"
+   ],
+   "one_at_a_time": [
+    "p26-subject-type"
+   ]
+  },
+  {
+   "conclusion": [
+    "<http://www.wikidata.org/entity/Q5073819>",
+    "<http://www.wikidata.org/prop/direct/P26>",
+    "<http://www.wikidata.org/entity/Q18163418>"
+   ],
+   "over_cons": [
+    "p26-subject-type"
+   ],
+   "one_at_a_time": [
+    "p26-subject-type"
+   ]
+  },
+  {
+   "conclusion": [
+    "<http://www.wikidata.org/entity/Q5073819>",
+    "<http://www.wikidata.org/prop/direct/P26>",
+    "<http://www.wikidata.org/entity/Q42609781>"
+   ],
+   "over_cons": [
+    "p26-subject-type"
+   ],
+   "one_at_a_time": [
+    "p26-subject-type"
+   ]
+  },
+  {
+   "conclusion": [
+    "<http://www.wikidata.org/entity/Q56291568>",
+    "<http://www.wikidata.org/prop/direct/P26>",
+    "<http://www.wikidata.org/entity/Q11435430>"
+   ],
+   "over_cons": [
+    "p26-subject-type"
+   ],
+   "one_at_a_time": [
+    "p26-subject-type"
+   ]
+  },
+  {
+   "conclusion": [
+    "<http://www.wikidata.org/entity/Q58349609>",
+    "<http://www.wikidata.org/prop/direct/P26>",
+    "<http://www.wikidata.org/entity/Q38673587>"
+   ],
+   "over_cons": [
+    "p26-subject-type"
+   ],
+   "one_at_a_time": [
+    "p26-subject-type"
+   ]
+  },
+  {
+   "conclusion": [
+    "<http://www.wikidata.org/entity/Q6595913>",
+    "<http://www.wikidata.org/prop/direct/P26>",
+    "<http://www.wikidata.org/entity/Q5517469>"
+   ],
+   "over_cons": [
+    "p26-subject-type"
+   ],
+   "one_at_a_time": [
+    "p26-subject-type"
+   ]
+  },
+  {
+   "conclusion": [
+    "<http://www.wikidata.org/entity/Q87495970>",
+    "<http://www.wikidata.org/prop/direct/P26>",
+    "<http://www.wikidata.org/entity/Q762337>"
+   ],
+   "over_cons": [
+    "p26-subject-type"
+   ],
+   "one_at_a_time": [
+    "p26-subject-type"
+   ]
+  }
+ ]
+}

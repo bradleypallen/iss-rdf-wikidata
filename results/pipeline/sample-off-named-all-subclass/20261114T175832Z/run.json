@@ -1,0 +1,64 @@
+{
+  "started_utc": "2026-11-14T17:58:32+00:00",
+  "seconds": 11.422,
+  "seconds_per_step": {
+    "0-load": 0.006,
+    "1-closure": 8.122,
+    "2-defaults": 0.002,
+    "2-defeated": 0.0,
+    "2-incompatibilities": 0.003,
+    "2-default-instances": 0.003,
+    "3-default-closure": 3.026,
+    "4-recheck": 0.007,
+    "q-spouse-of-at-closure": 0.001,
+    "q-spouse-of-at-cons": 0.002,
+    "write-graphs": 0.222
+  },
+  "summary_only": false,
+  "data_file": "data/sample-off-named-all-subclass/asserted.nt",
+  "data_sha256": "ad0b2e193ff79a5e5102baac320c27431bb4223aa6e572508df692a0288a1ef7",
+  "entries_sha256": "e0fabe561b8c623dbd557bdf8f5f4b9388994d1a387468cbe9bf5715f5fc76b8",
+  "pipeline_sha256": {
+    "1-closure.rq": "ab7dc9004e814745c7ad3d88ae5c8573b1c862148077d5b69b5ac4828600a313",
+    "2-default-instances.rq": "d71eeeb125c4d99e34ea54edb31a8c43b1a4b3200f63d0b7c7adae604d383b7c",
+    "2-defaults.rq": "a30f5553de0c5ed16fa11425ab2467f0405f8aa3a4232e624fd8eb9d88204d5f",
+    "2-defeated.rq": "c3641096920165eafab94420ddeb68f9f67840143607459501a683d37b6b0c59",
+    "2-incompatibilities.rq": "b33bb5d187c0866143ce6bb2d78b7c46adb179b41c7a16d046ad2813300ed46b",
+    "3-default-closure.rq": "3a8d04f1373c5fbfbf5545d44e1fbeaf9074719b8818c60b8f7cfa31d5493ee1",
+    "4-recheck.rq": "626c250e72725557d4b99a78481fb3a201d9cbecb097c5370dd3c4888c5550d1",
+    "q-spouse-of-at-closure.rq": "742f9a550033f26d5f203a86ea41a58a59ce3e3ba5092bcffc45243218f2b945",
+    "q-spouse-of-at-cons.rq": "4b127ec47d24fa57650c7454dc3df335bb5d27f996ae1b8231350d37aba25556"
+  },
+  "store": "pyoxigraph 0.5.11",
+  "blank_nodes_skolemized": 0,
+  "fixpoint_rounds": {
+    "1-closure": 6,
+    "3-default-closure": 1
+  },
+  "graph_sizes": {
+    "asserted": 5523,
+    "closure": 117735,
+    "defaults": 429,
+    "default-closure": 0
+  },
+  "K": 123258,
+  "Cons": 123279,
+  "select_rows": {
+    "2-defeated": 0,
+    "2-incompatibilities": 5,
+    "2-default-instances": 429,
+    "4-recheck": 15,
+    "q-spouse-of-at-closure": 429,
+    "q-spouse-of-at-cons": 450
+  },
+  "instances": {
+    "already/known": 408,
+    "conflict/known": 9,
+    "clean/known": 11,
+    "conflict/unknown": 1,
+    "incompatible/known": 5,
+    "conflicts over Cons not touching a default conclusion": 0,
+    "conflict triples outside K that no default drew": 0
+  },
+  "out_dir": "results/pipeline/sample-off-named-all-subclass/20261114T175832Z"
+}

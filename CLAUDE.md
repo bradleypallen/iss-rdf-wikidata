@@ -6,11 +6,23 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Public at `github.com/bradleypallen/iss-rdf-wikidata`. It is the supplementary material for
 the paper's Wikidata case study, so everything committed here is published and will be
-archived. As of 14 Nov 2026 a hand-sized example (fourteen items, 65 triples) has been taken
-end to end; `notes/2026-11-14-hand-sized-example.md` is the dated account and the place to
-start. `entries/entries.json` is a draft with Brad's decisions of 14 Nov recorded under
-`decided`. The full run over all spouse statements has not been done. There is no test
-suite; `tools/check_cons.py` agreeing with the pipeline is the check.
+archived. As of 14 Nov 2026 two runs exist, each with a dated note in `notes/`, which is
+the place to start: a hand-sized example (fourteen items, 65 triples) and the full run over
+spouse (P26) as of 2026-11-14T17:51:57Z. `entries/entries.json` is a draft with Brad's
+decisions of 14 Nov recorded under `decided`; the full run used it unchanged. There is no
+test suite; `tools/check_cons.py` agreeing with the pipeline is the check.
+
+The full-run snapshot (`results/full-p26-snapshot/*.ttl`), the subset
+(`data/full-p26/asserted.nt`) and the pipeline's graph dumps for it are ignored by git
+(about 1.5 GB together). If they are missing, the snapshot cannot be re-fetched as it was:
+the source is a live endpoint. Do not delete them.
+
+Two endpoints are used. Wikimedia's (the query service and the constraint-check API) get
+Brad's User-Agent, below. QLever (`qlever.dev`, University of Freiburg; all of Wikidata,
+live-updated, can return a whole property) is not a Wikimedia service: Claude runs those
+queries itself with a generic client name and no contact details. QLever cuts uncompressed
+responses at about 4 MB (the runner asks for gzip) and refuses a query longer than a few
+kilobytes with HTTP 500 (split a long `VALUES` list over several query files).
 
 Brad's `WDQS_USER_AGENT` is set only in his own Terminal tab. Shells and tabs opened by
 Claude do not have it, so write the query files, then give him one command to run there.
@@ -36,6 +48,13 @@ python3 tools/run_api_check.py queries/<name>.api.json   # ask Wikidata's constr
 python3 tools/make_pipeline.py           # regenerate pipeline/*.rq from entries.json (never edit them)
 python3 tools/run_pipeline.py data/<subset>/asserted.nt [--labels data/<subset>/labels.json]
 python3 tools/check_cons.py data/<subset>/asserted.nt results/pipeline/<subset>/<timestamp>
+python3 tools/run_query.py queries/<name>.rq --endpoint https://qlever.dev/api/wikidata [--format ttl|tsv]
+python3 tools/build_full_subset.py       # data/full-p26 from the saved snapshot
+python3 tools/run_pipeline.py data/full-p26/asserted.nt --summary   # about a minute, 4.5 GB
+python3 tools/count_instances.py data/full-p26/asserted.nt results/pipeline/full-p26/<timestamp>
+python3 tools/sample_hierarchy_check.py  # the two 200-item comparisons
+python3 tools/sample_for_checker.py ...  # then run_api_check.py on queries/calibration-[0-9]*.api.json
+python3 tools/calibration_table.py results/pipeline/full-p26/<timestamp>
 python3 tools/build_subset.py            # rebuild data/hand-sized from the saved hand-sized-* results
 python3 tools/checker_summary.py results/checker-<name>/<timestamp>.json   # table of a saved checker response
 ```

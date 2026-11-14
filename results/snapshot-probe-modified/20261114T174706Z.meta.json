@@ -1,0 +1,22 @@
+{
+  "query_file": "queries/snapshot-probe-modified.rq",
+  "query_sha256": "dbeccccf7fe4ef81ef1656da701d38f9b56476a199735e027b476302fb611ab4",
+  "endpoint": "https://qlever.dev/api/wikidata",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T17:47:06+00:00",
+  "finished_utc": "2026-11-14T17:47:07+00:00",
+  "seconds": 1.036,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 0,
+  "body_file": "results/snapshot-probe-modified/20261114T174706Z.json",
+  "body_bytes": 121,
+  "body_sha256": "aa4778d8c3261dc18ef798af21b8a8b6d9528c27a19ab5f85a5ce5d6d27c3c66",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 17:47:07 GMT",
+    "Content-Type": "application/sparql-results+json",
+    "Server": "nginx/1.18.0 (Ubuntu)"
+  },
+  "query": "# The time up to which an endpoint's copy of Wikidata has been updated, where\n# the endpoint records it in the way the query service does.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX schema: <http://schema.org/>\n\nSELECT ?modified WHERE {\n  <http://www.wikidata.org> schema:dateModified ?modified .\n}\n"
+}
