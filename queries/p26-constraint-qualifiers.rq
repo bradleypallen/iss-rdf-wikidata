@@ -1,0 +1,18 @@
+# Every qualifier of every constraint statement on spouse (P26), so that the
+# parameters of each constraint are on record.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?c ?type ?typeLabel ?qualifier ?value ?valueLabel WHERE {
+  wd:P26 p:P2302 ?c .
+  ?c ps:P2302 ?type .
+  ?c ?qualifier ?value .
+  FILTER(STRSTARTS(STR(?qualifier), STR(pq:)))
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?type ?c ?qualifier ?value

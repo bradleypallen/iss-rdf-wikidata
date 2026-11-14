@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite the paper it accompanies."
+title: "Wikidata case study for Implication-Space Semantics for RDF"
+type: dataset
+authors:
+  - family-names: Allen
+    given-names: Bradley P.
+    affiliation: University of Amsterdam
+repository-code: "https://github.com/bradleypallen/iss-rdf-wikidata"
+license: MIT

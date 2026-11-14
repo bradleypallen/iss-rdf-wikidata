@@ -1,0 +1,17 @@
+# Spouse pairs where the subject died before the value was born. A starting
+# shape only: date precision and unknown values are not handled.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?a ?b ?death ?birth WHERE {
+  ?a wdt:P26 ?b .
+  ?a wdt:P570 ?death .
+  ?b wdt:P569 ?birth .
+  FILTER(?death < ?birth)
+}
+LIMIT 200

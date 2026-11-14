@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Working notes between sessions; not part of the supplementary material.
+WIKIDATA-HANDOFF.md
