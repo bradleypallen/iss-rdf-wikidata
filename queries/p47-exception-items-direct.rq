@@ -1,0 +1,38 @@
+# Every direct (best-rank) "shares border with" (P47) triple ?s wdt:P47 ?o
+# that has a listed exception to the symmetric constraint on P47 as its
+# subject or as its value. The exception items are read from the constraint
+# statement, inside each branch.
+#   ?role          whether the exception item is the subject or the value
+#   ?reciprocated  whether the reverse direct triple ?o wdt:P47 ?s is present
+# Replaces p47-exception-items-both-directions.rq, which timed out on
+# 2026-11-14T15:52:34Z.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?exception ?exceptionLabel ?role ?s ?sLabel ?o ?oLabel ?reciprocated WHERE {
+  {
+    wd:P47 p:P2302 ?c .
+    ?c ps:P2302 wd:Q21510862 .
+    ?c pq:P2303 ?exception .
+    ?exception wdt:P47 ?o .
+    BIND(?exception AS ?s)
+    BIND("subject" AS ?role)
+  }
+  UNION
+  {
+    wd:P47 p:P2302 ?c .
+    ?c ps:P2302 wd:Q21510862 .
+    ?c pq:P2303 ?exception .
+    ?s wdt:P47 ?exception .
+    BIND(?exception AS ?o)
+    BIND("value" AS ?role)
+  }
+  BIND(EXISTS { ?o wdt:P47 ?s } AS ?reciprocated)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?exception ?role ?s ?o

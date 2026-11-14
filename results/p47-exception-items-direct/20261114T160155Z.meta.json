@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p47-exception-items-direct.rq",
+  "query_sha256": "8dc84f3b7f127d3dd1ac77297d8b374717a826f1190f079ab0df6ecf34e301bf",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T16:01:55+00:00",
+  "finished_utc": "2026-11-14T16:01:55+00:00",
+  "seconds": 0.196,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 11,
+  "body_file": "results/p47-exception-items-direct/20261114T160155Z.json",
+  "body_bytes": 10447,
+  "body_sha256": "71a66b751f259acc114345fdf3529ae8954e23f9e410dc2ba88c255c59cba1c4",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:01:55 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2015"
+  },
+  "query": "# Every direct (best-rank) \"shares border with\" (P47) triple ?s wdt:P47 ?o\n# that has a listed exception to the symmetric constraint on P47 as its\n# subject or as its value. The exception items are read from the constraint\n# statement, inside each branch.\n#   ?role          whether the exception item is the subject or the value\n#   ?reciprocated  whether the reverse direct triple ?o wdt:P47 ?s is present\n# Replaces p47-exception-items-both-directions.rq, which timed out on\n# 2026-11-14T15:52:34Z.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?exception ?exceptionLabel ?role ?s ?sLabel ?o ?oLabel ?reciprocated WHERE {\n  {\n    wd:P47 p:P2302 ?c .\n    ?c ps:P2302 wd:Q21510862 .\n    ?c pq:P2303 ?exception .\n    ?exception wdt:P47 ?o .\n    BIND(?exception AS ?s)\n    BIND(\"subject\" AS ?role)\n  }\n  UNION\n  {\n    wd:P47 p:P2302 ?c .\n    ?c ps:P2302 wd:Q21510862 .\n    ?c pq:P2303 ?exception .\n    ?s wdt:P47 ?exception .\n    BIND(?exception AS ?o)\n    BIND(\"value\" AS ?role)\n  }\n  BIND(EXISTS { ?o wdt:P47 ?s } AS ?reciprocated)\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nORDER BY ?exception ?role ?s ?o\n"
+}

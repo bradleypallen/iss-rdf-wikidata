@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-name-values-life-dates.rq",
+  "query_sha256": "4dd88fb29c195eeb401c79f3c8006243be730d804962404e5a28a9565ec0b12b",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T16:01:57+00:00",
+  "finished_utc": "2026-11-14T16:02:07+00:00",
+  "seconds": 10.262,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 211,
+  "body_file": "results/p26-name-values-life-dates/20261114T160157Z.json",
+  "body_bytes": 135238,
+  "body_sha256": "eedcad62a3ca68aa6b31d05204cec954a62dfe06b5ed93219992145e0ddd3bb4",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:02:07 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2022"
+  },
+  "query": "# Spouse triples whose value is a given-name, family-name or disambiguation\n# item, with whether that value carries any of six date properties: date of\n# birth (P569), inception (P571), start time (P580), date of death (P570),\n# dissolved (P576), end time (P582). These are the properties the\n# contemporary constraint is believed to compare (from documentation, not\n# confirmed). ?reciprocated says whether the reverse triple is present.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?a ?b ?class ?reciprocated ?valueHasDate WHERE {\n  { BIND(wd:Q202444 AS ?class) ?b wdt:P31 wd:Q202444 . ?a wdt:P26 ?b . }\n  UNION\n  { BIND(wd:Q11879590 AS ?class) ?b wdt:P31 wd:Q11879590 . ?a wdt:P26 ?b . }\n  UNION\n  { BIND(wd:Q12308941 AS ?class) ?b wdt:P31 wd:Q12308941 . ?a wdt:P26 ?b . }\n  UNION\n  { BIND(wd:Q3409032 AS ?class) ?b wdt:P31 wd:Q3409032 . ?a wdt:P26 ?b . }\n  UNION\n  { BIND(wd:Q101352 AS ?class) ?b wdt:P31 wd:Q101352 . ?a wdt:P26 ?b . }\n  UNION\n  { BIND(wd:Q4167410 AS ?class) ?b wdt:P31 wd:Q4167410 . ?a wdt:P26 ?b . }\n  BIND(EXISTS { ?b wdt:P26 ?a } AS ?reciprocated)\n  BIND(EXISTS {\n    VALUES ?dateProperty { wdt:P569 wdt:P571 wdt:P580 wdt:P570 wdt:P576 wdt:P582 }\n    ?b ?dateProperty ?date .\n  } AS ?valueHasDate)\n}\nORDER BY ?a ?b ?class\nLIMIT 1000\n"
+}

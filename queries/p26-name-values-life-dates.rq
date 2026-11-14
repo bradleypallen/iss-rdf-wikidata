@@ -1,0 +1,34 @@
+# Spouse triples whose value is a given-name, family-name or disambiguation
+# item, with whether that value carries any of six date properties: date of
+# birth (P569), inception (P571), start time (P580), date of death (P570),
+# dissolved (P576), end time (P582). These are the properties the
+# contemporary constraint is believed to compare (from documentation, not
+# confirmed). ?reciprocated says whether the reverse triple is present.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?a ?b ?class ?reciprocated ?valueHasDate WHERE {
+  { BIND(wd:Q202444 AS ?class) ?b wdt:P31 wd:Q202444 . ?a wdt:P26 ?b . }
+  UNION
+  { BIND(wd:Q11879590 AS ?class) ?b wdt:P31 wd:Q11879590 . ?a wdt:P26 ?b . }
+  UNION
+  { BIND(wd:Q12308941 AS ?class) ?b wdt:P31 wd:Q12308941 . ?a wdt:P26 ?b . }
+  UNION
+  { BIND(wd:Q3409032 AS ?class) ?b wdt:P31 wd:Q3409032 . ?a wdt:P26 ?b . }
+  UNION
+  { BIND(wd:Q101352 AS ?class) ?b wdt:P31 wd:Q101352 . ?a wdt:P26 ?b . }
+  UNION
+  { BIND(wd:Q4167410 AS ?class) ?b wdt:P31 wd:Q4167410 . ?a wdt:P26 ?b . }
+  BIND(EXISTS { ?b wdt:P26 ?a } AS ?reciprocated)
+  BIND(EXISTS {
+    VALUES ?dateProperty { wdt:P569 wdt:P571 wdt:P580 wdt:P570 wdt:P576 wdt:P582 }
+    ?b ?dateProperty ?date .
+  } AS ?valueHasDate)
+}
+ORDER BY ?a ?b ?class
+LIMIT 1000

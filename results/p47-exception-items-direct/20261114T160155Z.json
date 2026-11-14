@@ -1,0 +1,415 @@
+{
+  "head" : {
+    "vars" : [ "exception", "exceptionLabel", "role", "s", "sLabel", "o", "oLabel", "reciprocated" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118629252"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q159"
+      },
+      "s" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118629252"
+      },
+      "role" : {
+        "type" : "literal",
+        "value" : "subject"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belgorod People's Republic"
+      },
+      "sLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belgorod People's Republic"
+      },
+      "oLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russia"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118629252"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q212"
+      },
+      "s" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118629252"
+      },
+      "role" : {
+        "type" : "literal",
+        "value" : "subject"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belgorod People's Republic"
+      },
+      "sLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belgorod People's Republic"
+      },
+      "oLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ukraine"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q81810310"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1033"
+      },
+      "s" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q81810310"
+      },
+      "role" : {
+        "type" : "literal",
+        "value" : "subject"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Numbani"
+      },
+      "sLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Numbani"
+      },
+      "oLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nigeria"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "s" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134675"
+      },
+      "role" : {
+        "type" : "literal",
+        "value" : "value"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "sLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Geta"
+      },
+      "oLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "s" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176196"
+      },
+      "role" : {
+        "type" : "literal",
+        "value" : "value"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "sLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saltvik"
+      },
+      "oLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "s" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18177755"
+      },
+      "role" : {
+        "type" : "literal",
+        "value" : "value"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "sLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Haukipudas"
+      },
+      "oLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "s" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10084"
+      },
+      "role" : {
+        "type" : "literal",
+        "value" : "value"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "sLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vlissingen"
+      },
+      "oLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "s" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47048"
+      },
+      "role" : {
+        "type" : "literal",
+        "value" : "value"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "sLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oulu"
+      },
+      "oLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "s" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5689"
+      },
+      "role" : {
+        "type" : "literal",
+        "value" : "value"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "sLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Åland"
+      },
+      "oLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "s" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5696"
+      },
+      "role" : {
+        "type" : "literal",
+        "value" : "value"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "sLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central Ostrobothnia"
+      },
+      "oLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    }, {
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "s" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5712"
+      },
+      "role" : {
+        "type" : "literal",
+        "value" : "value"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "sLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Southwest Finland"
+      },
+      "oLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      },
+      "reciprocated" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "literal",
+        "value" : "false"
+      }
+    } ]
+  }
+}

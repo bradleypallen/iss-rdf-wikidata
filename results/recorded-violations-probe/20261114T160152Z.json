@@ -1,0 +1,8 @@
+{
+  "head" : {
+    "vars" : [ "statement", "constraint" ]
+  },
+  "results" : {
+    "bindings" : [ ]
+  }
+}

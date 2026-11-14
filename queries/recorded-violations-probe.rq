@@ -1,0 +1,15 @@
+# Does the query service hold any wikibase:hasViolationForConstraint triple
+# at all? p26-recorded-violations-by-constraint returned 0 for every
+# constraint on P26 on 2026-11-14T15:52:32Z.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?statement ?constraint WHERE {
+  ?statement wikibase:hasViolationForConstraint ?constraint .
+}
+LIMIT 5

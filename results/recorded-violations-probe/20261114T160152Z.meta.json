@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/recorded-violations-probe.rq",
+  "query_sha256": "89200963d6ab709cb58006cc1a7925ce24a70205801455feaf2ebac403ddb383",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T16:01:52+00:00",
+  "finished_utc": "2026-11-14T16:01:52+00:00",
+  "seconds": 0.224,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 0,
+  "body_file": "results/recorded-violations-probe/20261114T160152Z.json",
+  "body_bytes": 105,
+  "body_sha256": "1e0fa57b6e0d12e08340123214c61b214fd3b6ab7bfb6a20315989f008e09fb5",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:01:52 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2015"
+  },
+  "query": "# Does the query service hold any wikibase:hasViolationForConstraint triple\n# at all? p26-recorded-violations-by-constraint returned 0 for every\n# constraint on P26 on 2026-11-14T15:52:32Z.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?statement ?constraint WHERE {\n  ?statement wikibase:hasViolationForConstraint ?constraint .\n}\nLIMIT 5\n"
+}

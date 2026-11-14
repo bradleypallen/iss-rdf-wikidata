@@ -6,10 +6,10 @@ Supplementary material for the Wikidata case study (spouse, P26) in Bradley P. A
 formalization) and [iss-rdf-checks](https://github.com/bradleypallen/iss-rdf-checks)
 (computational checks of the theorems).
 
-**Status (14 November 2026):** fourteen queries have been run once each against the
-Wikidata Query Service, between 15:31 and 15:46 UTC on 14 November 2026; eleven returned
-results and three timed out. The failed runs are kept. There is no data subset, no entry
-file and no pipeline here yet.
+**Status (14 November 2026):** twenty queries have been run once each against the Wikidata
+Query Service, between 15:31 and 16:02 UTC on 14 November 2026; fifteen returned results
+and five timed out. The failed runs are kept. `entries/entries.json` is a draft. There is
+no data subset and no pipeline here yet.
 
 ## How this repository is kept
 
@@ -31,7 +31,7 @@ queries/    one SPARQL query per .rq file, with its prefixes declared
 results/    results/<query name>/<UTC timestamp>.json and .meta.json, one pair per run
 data/       the subset the pipeline runs on, with its provenance
 entries/    the entries, in the form the pipeline reads
-tools/      run_query.py, the only way queries are run
+tools/      run_query.py, the only way queries are run; entries.py, check and listing
 logs/       runs.jsonl, one line per run, failed runs included
 ```
 

@@ -1,0 +1,38 @@
+# Spouse statements whose value is a given-name, family-name or
+# disambiguation item, with each constraint for which the query service holds
+# a recorded violation on that statement. One row per statement and violated
+# constraint; ?constraintType is unbound when none is recorded.
+# Asks what the live checker reports on the asserted statement itself, in
+# particular whether the contemporary constraint (Q25796498) is among them.
+# Recorded violations are only present for entities whose constraints have
+# been checked, so an unbound ?constraintType does not show the statement is
+# free of violations. All ranks are included.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?a ?aLabel ?b ?bLabel ?class ?st ?rank ?constraintType ?constraintTypeLabel WHERE {
+  { BIND(wd:Q202444 AS ?class) ?b wdt:P31 wd:Q202444 . ?st ps:P26 ?b . ?a p:P26 ?st . }
+  UNION
+  { BIND(wd:Q11879590 AS ?class) ?b wdt:P31 wd:Q11879590 . ?st ps:P26 ?b . ?a p:P26 ?st . }
+  UNION
+  { BIND(wd:Q12308941 AS ?class) ?b wdt:P31 wd:Q12308941 . ?st ps:P26 ?b . ?a p:P26 ?st . }
+  UNION
+  { BIND(wd:Q3409032 AS ?class) ?b wdt:P31 wd:Q3409032 . ?st ps:P26 ?b . ?a p:P26 ?st . }
+  UNION
+  { BIND(wd:Q101352 AS ?class) ?b wdt:P31 wd:Q101352 . ?st ps:P26 ?b . ?a p:P26 ?st . }
+  UNION
+  { BIND(wd:Q4167410 AS ?class) ?b wdt:P31 wd:Q4167410 . ?st ps:P26 ?b . ?a p:P26 ?st . }
+  ?st wikibase:rank ?rank .
+  OPTIONAL {
+    ?st wikibase:hasViolationForConstraint ?violated .
+    ?violated ps:P2302 ?constraintType .
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?a ?b ?constraintType
+LIMIT 3000

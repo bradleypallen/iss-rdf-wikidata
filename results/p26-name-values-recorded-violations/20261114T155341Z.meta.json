@@ -1,0 +1,22 @@
+{
+  "query_file": "queries/p26-name-values-recorded-violations.rq",
+  "query_sha256": "cc1945644261b21ddc5223a5a47a7200506b17d63a64211f98d3f4065946f162",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:53:41+00:00",
+  "finished_utc": "2026-11-14T15:54:46+00:00",
+  "seconds": 65.125,
+  "http_status": 504,
+  "ok": false,
+  "error": "HTTP 504 Gateway Timeout",
+  "rows": null,
+  "body_file": "results/p26-name-values-recorded-violations/20261114T155341Z.error.txt",
+  "body_bytes": 24,
+  "body_sha256": "89f2d4e6c7a6c41c13c2e7a75e526aa60b9d5274fe28b2d82801c6beb6beb879",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:54:46 GMT",
+    "Content-Type": "text/plain",
+    "Server": "envoy"
+  },
+  "query": "# Spouse statements whose value is a given-name, family-name or\n# disambiguation item, with each constraint for which the query service holds\n# a recorded violation on that statement. One row per statement and violated\n# constraint; ?constraintType is unbound when none is recorded.\n# Asks what the live checker reports on the asserted statement itself, in\n# particular whether the contemporary constraint (Q25796498) is among them.\n# Recorded violations are only present for entities whose constraints have\n# been checked, so an unbound ?constraintType does not show the statement is\n# free of violations. All ranks are included.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?a ?aLabel ?b ?bLabel ?class ?st ?rank ?constraintType ?constraintTypeLabel WHERE {\n  { BIND(wd:Q202444 AS ?class) ?b wdt:P31 wd:Q202444 . ?st ps:P26 ?b . ?a p:P26 ?st . }\n  UNION\n  { BIND(wd:Q11879590 AS ?class) ?b wdt:P31 wd:Q11879590 . ?st ps:P26 ?b . ?a p:P26 ?st . }\n  UNION\n  { BIND(wd:Q12308941 AS ?class) ?b wdt:P31 wd:Q12308941 . ?st ps:P26 ?b . ?a p:P26 ?st . }\n  UNION\n  { BIND(wd:Q3409032 AS ?class) ?b wdt:P31 wd:Q3409032 . ?st ps:P26 ?b . ?a p:P26 ?st . }\n  UNION\n  { BIND(wd:Q101352 AS ?class) ?b wdt:P31 wd:Q101352 . ?st ps:P26 ?b . ?a p:P26 ?st . }\n  UNION\n  { BIND(wd:Q4167410 AS ?class) ?b wdt:P31 wd:Q4167410 . ?st ps:P26 ?b . ?a p:P26 ?st . }\n  ?st wikibase:rank ?rank .\n  OPTIONAL {\n    ?st wikibase:hasViolationForConstraint ?violated .\n    ?violated ps:P2302 ?constraintType .\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nORDER BY ?a ?b ?constraintType\nLIMIT 3000\n"
+}

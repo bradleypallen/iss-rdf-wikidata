@@ -1,0 +1,20 @@
+# For each constraint statement on spouse (P26), the number of statements for
+# which the query service holds a recorded violation of it. A calibration:
+# recorded violations cover only entities whose constraints have been checked,
+# so these are lower bounds on what the checker would report.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?c ?type ?typeLabel (COUNT(?st) AS ?statements) WHERE {
+  wd:P26 p:P2302 ?c .
+  ?c ps:P2302 ?type .
+  OPTIONAL { ?st wikibase:hasViolationForConstraint ?c }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+GROUP BY ?c ?type ?typeLabel
+ORDER BY DESC(?statements)

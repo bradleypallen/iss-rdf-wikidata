@@ -1,0 +1,310 @@
+{
+  "status": "DRAFT 2026-11-14. Format and content are proposals; every item under 'choices' is undecided.",
+  "format": {
+    "term": "A string. '?name' is a variable; anything else is a prefixed name from 'prefixes'.",
+    "triple": "A list of three terms: subject, predicate, object.",
+    "conclusion": "A triple, or the string 'BOT' for an incompatibility.",
+    "defeaters": "A list of graphs, each a list of triples. The entry instance applies when its premises are in K and no defeater has an instance contained in K. Variables of a defeater that do not occur in the premises are existential.",
+    "guards": "Comparisons between literals bound by the premises.",
+    "expand": "The entry stands for one entry per listed value of the variable.",
+    "variant_of": "Entries sharing this value are alternatives; exactly one is to be kept."
+  },
+  "prefixes": {
+    "wd": "http://www.wikidata.org/entity/",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "wds": "http://www.wikidata.org/entity/statement/",
+    "p": "http://www.wikidata.org/prop/",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "pq": "http://www.wikidata.org/prop/qualifier/"
+  },
+  "regime": {
+    "choices": [
+      "The regime is these two rules and nothing else. Alternative: no rules, with instance-of already closed under subclass-of in the selected subset.",
+      "Reading P31 and P279 as rdf:type and rdfs:subClassOf is ours. It is what the subject type constraint's relation 'instance of' (Q21503252) asks the checker to do."
+    ],
+    "rules": [
+      {
+        "id": "subclass-transitive",
+        "premises": [["?c", "wdt:P279", "?d"], ["?d", "wdt:P279", "?e"]],
+        "conclusion": ["?c", "wdt:P279", "?e"]
+      },
+      {
+        "id": "instance-through-subclass",
+        "premises": [["?x", "wdt:P31", "?c"], ["?c", "wdt:P279", "?d"]],
+        "conclusion": ["?x", "wdt:P31", "?d"]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": "p26-symmetric",
+      "kind": "default",
+      "source": {
+        "property": "wd:P26",
+        "constraint_type": "wd:Q21510862",
+        "statement": "wds:P26-75392F51-A753-4451-B057-4C2719462EFB",
+        "constraint_status": null
+      },
+      "premises": [["?x", "wdt:P26", "?y"]],
+      "conclusion": ["?y", "wdt:P26", "?x"],
+      "defeaters": [],
+      "guards": [],
+      "choices": [
+        "Reading a symmetric-constraint violation as a default consequence is our stipulation; Wikidata documents constraints as hints for editors.",
+        "No defeater, because the constraint statement lists no exception. Alternative: the same exception defeater as the P47 entry, read from the constraint statement, which matches nothing on P26 today.",
+        "No status is stated on the constraint, so it is taken as defeasible. With no defeater the only effect of that is that the conclusion is added in the one round of entries and is not in K.",
+        "The entry applies when ?y is an unknown value (a Skolem IRI). No guard may exclude that case, since a guard may not depend on the identity of a Skolem term. The conclusion then has a Skolem IRI as subject."
+      ],
+      "evidence": [
+        "results/p26-constraints/20261114T153132Z.json: no exception listed.",
+        "results/p26-direct-count/20261114T153918Z.json and results/p26-reciprocated-count/20261114T153920Z.json: 987168 direct triples, 971294 with the reverse present; difference 15874, approximate (two servers).",
+        "results/p26-somevalue-count/20261114T154233Z.json: 2661 direct triples with an unknown value."
+      ]
+    },
+    {
+      "id": "p26-conflicts-with",
+      "kind": "incompatibility",
+      "source": {
+        "property": "wd:P26",
+        "constraint_type": "wd:Q21502838",
+        "statement": "wds:P26-183C2471-ED90-45FD-949F-020CD7EF5F90",
+        "constraint_status": "wd:Q21502408"
+      },
+      "expand": {
+        "?class": ["wd:Q101352", "wd:Q11879590", "wd:Q12308941", "wd:Q15623926", "wd:Q202444", "wd:Q3409032", "wd:Q4167410", "wd:Q577"]
+      },
+      "premises": [["?x", "wdt:P26", "?y"], ["?x", "wdt:P31", "?class"]],
+      "conclusion": "BOT",
+      "defeaters": [],
+      "guards": [],
+      "choices": [
+        "The constraint is mandatory, which the proposed mapping reads as a monotone rule of the regime. Written here as an incompatibility entry with no defeater. The two give the same verdicts; the difference is only where it is listed.",
+        "The eight classes are named in the entry, so they are in the vocabulary. Alternative: read them from the constraint statement (pq:P2305), which puts the statement's triples in the subset instead.",
+        "Whether the checker follows subclass-of for this constraint is not confirmed. With the regime's second rule, this entry does."
+      ],
+      "evidence": [
+        "results/p26-constraint-qualifiers/20261114T153135Z.json: the eight classes and the mandatory status.",
+        "results/p26-name-values-life-dates/20261114T160157Z.json: 206 spouse pairs with no reverse triple whose value is directly an instance of one of six of these classes. The entry does not apply to them at K; it would apply to the conclusions of p26-symmetric."
+      ]
+    },
+    {
+      "id": "p26-subject-type",
+      "kind": "incompatibility",
+      "source": {
+        "property": "wd:P26",
+        "constraint_type": "wd:Q21503250",
+        "statement": "wds:P26-35E5D7A3-D2AC-4A9F-93D3-8630E85EC729",
+        "constraint_status": null
+      },
+      "premises": [["?x", "wdt:P26", "?y"]],
+      "conclusion": "BOT",
+      "defeaters": [
+        [["?x", "wdt:P31", "wd:Q5"]],
+        [["?x", "wdt:P31", "wd:Q215627"]],
+        [["?x", "wdt:P31", "wd:Q13002315"]],
+        [["?x", "wdt:P31", "wd:Q21070568"]],
+        [["?x", "wdt:P31", "wd:Q4271324"]],
+        [["?x", "wdt:P31", "wd:Q95074"]],
+        [["?x", "wdt:P31", "wd:Q340069"]]
+      ],
+      "guards": [],
+      "choices": [
+        "A type constraint is violated by the absence of a type, so it is written as an incompatibility whose defeaters are the allowed types: incompatible unless typed. This is our encoding.",
+        "It depends on the regime's two rules, or on a subset in which instance-of is already closed under subclass-of.",
+        "P26 has no value type constraint. This entry therefore constrains ?x and not ?y, which is the asymmetry between asserted and reverse direction.",
+        "Over the conclusions of p26-symmetric this entry would apply to every unknown-value spouse, since a Skolem IRI has no type."
+      ],
+      "evidence": [
+        "results/p26-constraint-qualifiers/20261114T153135Z.json: the seven classes and the relation 'instance of'.",
+        "results/p26-constraints/20261114T153132Z.json: no value type constraint among the eleven."
+      ]
+    },
+    {
+      "id": "p26-contemporary-subject-first",
+      "kind": "incompatibility",
+      "source": {
+        "property": "wd:P26",
+        "constraint_type": "wd:Q25796498",
+        "statement": "wds:P26-862D87C1-BB05-45A8-934F-3585370F6253",
+        "constraint_status": null
+      },
+      "premises": [["?x", "wdt:P26", "?y"], ["?x", "wdt:P570", "?end"], ["?y", "wdt:P569", "?start"]],
+      "conclusion": "BOT",
+      "defeaters": [],
+      "guards": [{"left": "?end", "op": "<", "right": "?start"}],
+      "choices": [
+        "Only date of birth and date of death are compared. The constraint is believed, from documentation, to use inception and start time, and dissolved and end time, as well.",
+        "Direct date values carry no precision, so a year-precision date appears as 1 January. Comparing them as written over-reports; comparing years only is the alternative.",
+        "When either date is absent the entry does not apply. That this matches the checker is from documentation, not confirmed.",
+        "The check has no direction, so the pair p26-contemporary-subject-first and p26-contemporary-value-first together express it. A violation is therefore present at K whichever direction is asserted."
+      ],
+      "evidence": [
+        "results/p26-constraint-qualifiers/20261114T153135Z.json: the constraint has no parameters.",
+        "results/p26-nonoverlapping-lifetimes/20261114T153244Z.json: 200 rows (the cap), 184 distinct pairs; in 122 rows one date falls on 1 January."
+      ]
+    },
+    {
+      "id": "p26-contemporary-value-first",
+      "kind": "incompatibility",
+      "source": {
+        "property": "wd:P26",
+        "constraint_type": "wd:Q25796498",
+        "statement": "wds:P26-862D87C1-BB05-45A8-934F-3585370F6253",
+        "constraint_status": null
+      },
+      "premises": [["?x", "wdt:P26", "?y"], ["?y", "wdt:P570", "?end"], ["?x", "wdt:P569", "?start"]],
+      "conclusion": "BOT",
+      "defeaters": [],
+      "guards": [{"left": "?end", "op": "<", "right": "?start"}],
+      "choices": ["As p26-contemporary-subject-first, with the two parties exchanged."],
+      "evidence": []
+    },
+    {
+      "id": "p26-none-of-widowed",
+      "kind": "incompatibility",
+      "source": {
+        "property": "wd:P26",
+        "constraint_type": "wd:Q52558054",
+        "statement": "wds:P26-46738363-4725-63da-853b-24a1190a343e",
+        "constraint_status": null
+      },
+      "expand": {"?item": ["wd:Q179115", "wd:Q18646998"]},
+      "premises": [["?x", "wdt:P26", "?item"]],
+      "conclusion": "BOT",
+      "defeaters": [],
+      "guards": [],
+      "choices": ["The barred items are named in the entry, so they are in the vocabulary. Alternative: read them from the constraint statement (pq:P2305)."],
+      "evidence": ["results/p26-constraint-qualifiers/20261114T153135Z.json"]
+    },
+    {
+      "id": "p26-none-of-unmarried",
+      "kind": "incompatibility",
+      "source": {
+        "property": "wd:P26",
+        "constraint_type": "wd:Q52558054",
+        "statement": "wds:P26-c75a4c3d-4806-8402-9d44-79166c9dad87",
+        "constraint_status": null
+      },
+      "expand": {"?item": ["wd:Q19798647", "wd:Q28341938", "wd:Q908826"]},
+      "premises": [["?x", "wdt:P26", "?item"]],
+      "conclusion": "BOT",
+      "defeaters": [],
+      "guards": [],
+      "choices": ["As p26-none-of-widowed."],
+      "evidence": ["results/p26-constraint-qualifiers/20261114T153135Z.json"]
+    },
+    {
+      "id": "p26-none-of-name-or-status",
+      "kind": "incompatibility",
+      "source": {
+        "property": "wd:P26",
+        "constraint_type": "wd:Q52558054",
+        "statement": "wds:P26-f1e6c730-480b-deee-0bc5-792f91ba73e5",
+        "constraint_status": null
+      },
+      "expand": {"?item": ["wd:Q325872", "wd:Q37713312", "wd:Q4925477"]},
+      "premises": [["?x", "wdt:P26", "?item"]],
+      "conclusion": "BOT",
+      "defeaters": [],
+      "guards": [],
+      "choices": [
+        "As p26-none-of-widowed.",
+        "This is the only P26 constraint that catches a name item as a value at K, and it names two given names only (Maria, John)."
+      ],
+      "evidence": ["results/p26-constraint-qualifiers/20261114T153135Z.json"]
+    },
+    {
+      "id": "p47-symmetric-exception-as-subject",
+      "variant_of": "p47-symmetric",
+      "kind": "default",
+      "source": {
+        "property": "wd:P47",
+        "constraint_type": "wd:Q21510862",
+        "statement": null,
+        "constraint_status": null
+      },
+      "premises": [["?x", "wdt:P47", "?y"]],
+      "conclusion": ["?y", "wdt:P47", "?x"],
+      "defeaters": [
+        [["wd:P47", "p:P2302", "?c"], ["?c", "ps:P2302", "wd:Q21510862"], ["?c", "pq:P2303", "?x"]]
+      ],
+      "guards": [],
+      "choices": [
+        "The exception is read from the constraint statement in the graph, so that statement's triples must be in the subset. Alternative: name the three items in the entry.",
+        "The statement asserted on a listed item is exempt. This is the checker's rule as recalled from documentation, not confirmed.",
+        "The IRI of the constraint statement on P47 has not been recorded yet."
+      ],
+      "evidence": [
+        "results/symmetric-inverse-constraint-exception-items/20261114T154519Z.json: three exceptions listed.",
+        "results/p47-exception-items-direct/20261114T160155Z.json: 11 direct triples involve a listed exception, none with its reverse; this variant defeats 3 of the 11 defaults."
+      ]
+    },
+    {
+      "id": "p47-symmetric-exception-as-value",
+      "variant_of": "p47-symmetric",
+      "kind": "default",
+      "source": {
+        "property": "wd:P47",
+        "constraint_type": "wd:Q21510862",
+        "statement": null,
+        "constraint_status": null
+      },
+      "premises": [["?x", "wdt:P47", "?y"]],
+      "conclusion": ["?y", "wdt:P47", "?x"],
+      "defeaters": [
+        [["wd:P47", "p:P2302", "?c"], ["?c", "ps:P2302", "wd:Q21510862"], ["?c", "pq:P2303", "?y"]]
+      ],
+      "guards": [],
+      "choices": [
+        "The statement pointing at a listed item is exempt. This is how the eight statements with international waters as value use the list.",
+        "Otherwise as p47-symmetric-exception-as-subject."
+      ],
+      "evidence": ["results/p47-exception-items-direct/20261114T160155Z.json: this variant defeats 8 of the 11 defaults."]
+    },
+    {
+      "id": "p47-symmetric-exception-either-side",
+      "variant_of": "p47-symmetric",
+      "kind": "default",
+      "source": {
+        "property": "wd:P47",
+        "constraint_type": "wd:Q21510862",
+        "statement": null,
+        "constraint_status": null
+      },
+      "premises": [["?x", "wdt:P47", "?y"]],
+      "conclusion": ["?y", "wdt:P47", "?x"],
+      "defeaters": [
+        [["wd:P47", "p:P2302", "?c"], ["?c", "ps:P2302", "wd:Q21510862"], ["?c", "pq:P2303", "?x"]],
+        [["wd:P47", "p:P2302", "?c"], ["?c", "ps:P2302", "wd:Q21510862"], ["?c", "pq:P2303", "?y"]]
+      ],
+      "guards": [],
+      "choices": [
+        "A statement is exempt when either party is a listed item.",
+        "Otherwise as p47-symmetric-exception-as-subject."
+      ],
+      "evidence": ["results/p47-exception-items-direct/20261114T160155Z.json: this variant defeats all 11 defaults."]
+    }
+  ],
+  "not_written": [
+    {
+      "constraint_type": "wd:Q21510851",
+      "statement": "wds:P26-0FBFED90-38B1-4EA0-9002-4EB95FC7093A",
+      "reason": "Allowed qualifiers. About qualifiers of the statement; the example is over direct triples."
+    },
+    {
+      "constraint_type": "wd:Q53869507",
+      "statement": "wds:P26-4E3184DC-6F31-411C-AD6D-3A85568ED24B",
+      "reason": "Property scope (as main value). About where the property is used in a statement; not visible in direct triples."
+    },
+    {
+      "constraint_type": "wd:Q52004125",
+      "statement": "wds:P26-f487f86b-444a-ee91-a709-74e9707904ee",
+      "reason": "Allowed entity types (Wikibase item). Would need a test on the form of the subject's IRI, which is not a comparison on literals."
+    },
+    {
+      "constraint_type": "wd:Q54554025",
+      "statement": "wds:P26-224c4259-4f19-6b88-d497-2af9d5584b35",
+      "reason": "Citation needed (a suggestion). About references of the statement; the example is over direct triples."
+    }
+  ]
+}

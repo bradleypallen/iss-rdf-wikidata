@@ -1,0 +1,22 @@
+{
+  "query_file": "queries/p47-exception-items-both-directions.rq",
+  "query_sha256": "34fac4d72a1182354c28857d108d20241dc329bf7f7469413b7828ee429a7468",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:52:34+00:00",
+  "finished_utc": "2026-11-14T15:53:39+00:00",
+  "seconds": 65.196,
+  "http_status": 504,
+  "ok": false,
+  "error": "HTTP 504 Gateway Timeout",
+  "rows": null,
+  "body_file": "results/p47-exception-items-both-directions/20261114T155234Z.error.txt",
+  "body_bytes": 24,
+  "body_sha256": "89f2d4e6c7a6c41c13c2e7a75e526aa60b9d5274fe28b2d82801c6beb6beb879",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:53:39 GMT",
+    "Content-Type": "text/plain",
+    "Server": "envoy"
+  },
+  "query": "# Every \"shares border with\" (P47) statement that has a listed exception to\n# the symmetric constraint on P47 as its subject or as its value. The\n# exception items are read from the constraint statement itself.\n#   ?role          whether the exception item is the subject or the value\n#   ?reciprocated  whether the reverse direct (best-rank) triple is present\n#   ?flagged       whether the query service holds a recorded violation of\n#                  the symmetric constraint for this statement\n# Recorded violations (wikibase:hasViolationForConstraint) are only present\n# for entities whose constraints have been checked, so ?flagged = false does\n# not show that the checker accepts the statement. All ranks are included.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?exception ?exceptionLabel ?role ?other ?otherLabel ?rank ?reciprocated ?flagged WHERE {\n  wd:P47 p:P2302 ?c .\n  ?c ps:P2302 wd:Q21510862 .\n  ?c pq:P2303 ?exception .\n  {\n    ?exception p:P47 ?st .\n    ?st ps:P47 ?other .\n    BIND(\"subject\" AS ?role)\n    BIND(EXISTS { ?other wdt:P47 ?exception } AS ?reciprocated)\n  }\n  UNION\n  {\n    ?st ps:P47 ?exception .\n    ?other p:P47 ?st .\n    BIND(\"value\" AS ?role)\n    BIND(EXISTS { ?exception wdt:P47 ?other } AS ?reciprocated)\n  }\n  ?st wikibase:rank ?rank .\n  BIND(EXISTS { ?st wikibase:hasViolationForConstraint ?c } AS ?flagged)\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nORDER BY ?exception ?role ?other\n"
+}

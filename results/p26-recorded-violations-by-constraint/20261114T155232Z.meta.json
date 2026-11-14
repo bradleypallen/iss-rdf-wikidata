@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-recorded-violations-by-constraint.rq",
+  "query_sha256": "343b0fa842f9f3ef2efda2e478d812833248aa9721dd2ad731440954e438c83a",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T15:52:32+00:00",
+  "finished_utc": "2026-11-14T15:52:32+00:00",
+  "seconds": 0.217,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 11,
+  "body_file": "results/p26-recorded-violations-by-constraint/20261114T155232Z.json",
+  "body_bytes": 6115,
+  "body_sha256": "0c2c1f118e99de7a34a3c2d8307b921c0bfd2439639585ab098c23d7a0124d04",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 15:52:32 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2021"
+  },
+  "query": "# For each constraint statement on spouse (P26), the number of statements for\n# which the query service holds a recorded violation of it. A calibration:\n# recorded violations cover only entities whose constraints have been checked,\n# so these are lower bounds on what the checker would report.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?c ?type ?typeLabel (COUNT(?st) AS ?statements) WHERE {\n  wd:P26 p:P2302 ?c .\n  ?c ps:P2302 ?type .\n  OPTIONAL { ?st wikibase:hasViolationForConstraint ?c }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nGROUP BY ?c ?type ?typeLabel\nORDER BY DESC(?statements)\n"
+}

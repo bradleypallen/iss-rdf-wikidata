@@ -6,9 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Public at `github.com/bradleypallen/iss-rdf-wikidata`. It is the supplementary material for
 the paper's Wikidata case study, so everything committed here is published and will be
-archived. As of 14 Nov 2026 it holds the layout, the query runner, fourteen queries and one
-dated run of each (three timed out; see `logs/runs.jsonl`). There is no pipeline, data
-subset or entry file yet. There is no build and no test suite.
+archived. As of 14 Nov 2026 it holds the layout, the query runner, twenty queries and one
+dated run of each (five timed out; see `logs/runs.jsonl`), and a draft `entries/entries.json`.
+There is no pipeline or data subset yet. There is no build and no test suite.
 
 Brad's `WDQS_USER_AGENT` is set only in his own Terminal tab. Shells and tabs opened by
 Claude do not have it, so write the query files, then give him one command to run there.
@@ -25,6 +25,8 @@ export WDQS_USER_AGENT='...'                           # ask Brad for the string
 python3 tools/run_query.py queries/p26-constraints.rq  # SELECT or ASK, saved as JSON
 python3 tools/run_query.py queries/<name>.rq --format ttl          # CONSTRUCT
 python3 tools/run_query.py queries/<name>.rq --endpoint <url>      # another store
+python3 tools/entries.py check    # entries.json is well-formed; run after every edit to it
+python3 tools/entries.py list     # print the entries from the file
 ```
 
 Python 3.10 or later, standard library only. Each run writes
@@ -44,8 +46,9 @@ These four rules come from Brad and decide where things go.
    produced it. Wikidata's data is CC0 1.0; the code and queries are MIT.
 3. **Entries as files.** The spouse entries are written once in `entries/`, in the form the
    pipeline reads. The paper's listing is generated from those files; do not keep a second
-   copy of an entry in prose, in code, or in a query. The file format is not fixed yet, and
-   the Lean session needs the entry shapes before it fixes its own.
+   copy of an entry in prose, in code, or in a query. `entries/entries.json` is a draft:
+   its format is a proposal and each entry's `choices` are Brad's to settle. When showing
+   entries, print them with `tools/entries.py list`; do not retype them.
 4. **A deposit at submission.** TGDK asks for a Supplementary Material Statement. Plan on a
    tagged release archived with a DOI, the DOI then recorded in `README.md` and
    `CITATION.cff`. Until then, keep the repository in a state that could be released.
