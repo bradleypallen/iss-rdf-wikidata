@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/hand-sized-touching-edges.rq",
+  "query_sha256": "45770126bd7b35c0ed1fab9cb187a6a5004525aa2b44cd0abe170837a12b4968",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T16:54:01+00:00",
+  "finished_utc": "2026-11-14T16:54:02+00:00",
+  "seconds": 1.238,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 33,
+  "body_file": "results/hand-sized-touching-edges/20261114T165401Z.json",
+  "body_bytes": 18627,
+  "body_sha256": "3201ff34749675c07c01d543788aee2ec43658492183eb732c414a84f6319260",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:54:02 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2010"
+  },
+  "query": "# Every direct spouse (P26) or shares border with (P47) triple that has one\n# of the twelve items of the hand-sized example as subject or as value. The\n# ones whose other end is outside the twelve are what the subset leaves out.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?s ?sLabel ?p ?o ?oLabel WHERE {\n  {\n    VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951\n             wd:Q1330110 wd:Q72936 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }\n    VALUES ?p { wdt:P26 wdt:P47 }\n    ?s ?p ?o .\n  }\n  UNION\n  {\n    VALUES ?o { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951\n             wd:Q1330110 wd:Q72936 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }\n    VALUES ?p { wdt:P26 wdt:P47 }\n    ?s ?p ?o .\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul\" }\n}\nORDER BY ?p ?s ?o\n"
+}

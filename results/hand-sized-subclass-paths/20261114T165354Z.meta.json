@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/hand-sized-subclass-paths.rq",
+  "query_sha256": "ef50072c4051ce0e1f223c1b9d40958d54f469db41a576349ad1dc5a136e8425",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "text/turtle",
+  "started_utc": "2026-11-14T16:53:54+00:00",
+  "finished_utc": "2026-11-14T16:53:55+00:00",
+  "seconds": 1.207,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": null,
+  "body_file": "results/hand-sized-subclass-paths/20261114T165354Z.ttl",
+  "body_bytes": 14446,
+  "body_sha256": "371c263f5e8c904b36f20f6d2ce02340ffc6ee3c87b6f9cc0d9d2d464631449b",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:53:55 GMT",
+    "Content-Type": "text/turtle;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2014"
+  },
+  "query": "# Every subclass of (P279) triple above a class of one of the twelve items of\n# the hand-sized example: the classes of the items, and everything reachable\n# from them by P279. tools/build_subset.py keeps the triples that lie on a\n# path to a class named in an entry, and also keeps this whole set for a\n# comparison run.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nCONSTRUCT { ?m wdt:P279 ?n } WHERE {\n  VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951\n             wd:Q1330110 wd:Q72936 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }\n  ?s wdt:P31 ?c .\n  ?c wdt:P279* ?m .\n  ?m wdt:P279 ?n .\n}\n"
+}

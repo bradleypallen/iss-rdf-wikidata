@@ -1,0 +1,58 @@
+[
+ {
+  "who": "<http://www.wikidata.org/entity/Q2139951>",
+  "spouse": "<http://www.wikidata.org/.well-known/genid/3bcd12d3f81642853a156dd84ce8d7de>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q2139951>",
+  "spouse": "<http://www.wikidata.org/.well-known/genid/8020efddd5ec938c11e6a83cd2ddc353>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q364179>",
+  "spouse": "<http://www.wikidata.org/entity/Q112829435>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q72936>",
+  "spouse": "<http://www.wikidata.org/entity/Q1330110>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q235849>",
+  "spouse": "<http://www.wikidata.org/entity/Q139464>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q385468>",
+  "spouse": "<http://www.wikidata.org/entity/Q139464>"
+ },
+ {
+  "who": "<http://www.wikidata.org/.well-known/genid/3bcd12d3f81642853a156dd84ce8d7de>",
+  "spouse": "<http://www.wikidata.org/entity/Q2139951>"
+ },
+ {
+  "who": "<http://www.wikidata.org/.well-known/genid/8020efddd5ec938c11e6a83cd2ddc353>",
+  "spouse": "<http://www.wikidata.org/entity/Q2139951>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q139464>",
+  "spouse": "<http://www.wikidata.org/entity/Q235849>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q112829435>",
+  "spouse": "<http://www.wikidata.org/entity/Q364179>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q7186>",
+  "spouse": "<http://www.wikidata.org/entity/Q37463>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q139464>",
+  "spouse": "<http://www.wikidata.org/entity/Q385468>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q37463>",
+  "spouse": "<http://www.wikidata.org/entity/Q7186>"
+ },
+ {
+  "who": "<http://www.wikidata.org/entity/Q1330110>",
+  "spouse": "<http://www.wikidata.org/entity/Q72936>"
+ }
+]

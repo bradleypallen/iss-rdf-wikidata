@@ -1,0 +1,69 @@
+# The facts of the hand-sized example, as triples.
+# The fourteen items of the hand-sized example: Marie Curie and Pierre Curie;
+# Elizabeth (Q235849), Zechariah and the given name Elizabeth (Q385468);
+# David Von Erich; Elisabeth Magdalene von Brandenburg and Francis Otto, Duke
+# of Brunswick-Lueneburg; Berta Gerster and Fritz Reiner; Numbani, Nigeria,
+# Geta and international waters.
+# Taken: spouse (P26) and shares border with (P47) triples between two of the
+# items; spouse triples from an item to an unknown value; instance of (P31),
+# date of birth (P569) and date of death (P570) of each item; and, for P26 and
+# P47, the symmetric constraint statement with its listed exceptions (P2303).
+# Spouse and border triples from an item to anything outside the fourteen are
+# not taken; hand-sized-touching-edges lists them.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT { ?s ?p ?o } WHERE {
+  {
+    VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951
+             wd:Q1330110 wd:Q72936 wd:Q112829435 wd:Q364179 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }
+    VALUES ?o { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951
+             wd:Q1330110 wd:Q72936 wd:Q112829435 wd:Q364179 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }
+    VALUES ?p { wdt:P26 wdt:P47 }
+    ?s ?p ?o .
+  }
+  UNION
+  {
+    VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951
+             wd:Q1330110 wd:Q72936 wd:Q112829435 wd:Q364179 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }
+    ?s wdt:P26 ?o .
+    FILTER(wikibase:isSomeValue(?o))
+    BIND(wdt:P26 AS ?p)
+  }
+  UNION
+  {
+    VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951
+             wd:Q1330110 wd:Q72936 wd:Q112829435 wd:Q364179 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }
+    VALUES ?p { wdt:P31 wdt:P569 wdt:P570 }
+    ?s ?p ?o .
+  }
+  UNION
+  {
+    VALUES ?s { wd:P26 wd:P47 }
+    ?s p:P2302 ?o .
+    ?o ps:P2302 wd:Q21510862 .
+    BIND(p:P2302 AS ?p)
+  }
+  UNION
+  {
+    VALUES ?property { wd:P26 wd:P47 }
+    ?property p:P2302 ?s .
+    ?s ps:P2302 wd:Q21510862 .
+    BIND(ps:P2302 AS ?p)
+    BIND(wd:Q21510862 AS ?o)
+  }
+  UNION
+  {
+    VALUES ?property { wd:P26 wd:P47 }
+    ?property p:P2302 ?s .
+    ?s ps:P2302 wd:Q21510862 .
+    ?s pq:P2303 ?o .
+    BIND(pq:P2303 AS ?p)
+  }
+}

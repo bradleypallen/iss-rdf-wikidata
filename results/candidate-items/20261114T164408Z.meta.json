@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/candidate-items.rq",
+  "query_sha256": "67cf90a7402298b459b69261eea9410973ad3f04f925fa46dc90c2c2380e570f",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T16:44:08+00:00",
+  "finished_utc": "2026-11-14T16:44:09+00:00",
+  "seconds": 0.401,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 32,
+  "body_file": "results/candidate-items/20261114T164408Z.json",
+  "body_bytes": 21259,
+  "body_sha256": "e4a872b4cfcdd6923e2ff03495316ed8752f930a9da009bf0f8ad4ccd0f13fd0",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:44:08 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2022"
+  },
+  "query": "# Label, classes and life dates of the items being considered for the\n# hand-sized example. One row per item and class.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?item ?itemLabel ?class ?classLabel ?birth ?death WHERE {\n  VALUES ?item { wd:Q10556584 wd:Q240485 wd:Q63964937 wd:Q434292 wd:Q112829435 wd:Q364179 wd:Q1330110 wd:Q72936\n                  wd:Q139464 wd:Q385468 wd:Q469726 wd:Q1158139 wd:Q338415 wd:Q226163\n                  wd:Q2139951 wd:Q727175 wd:Q521435 wd:Q7186 wd:Q37463\n                  wd:Q81810310 wd:Q1033 wd:Q118629252 wd:Q134675 wd:Q25855 }\n  OPTIONAL { ?item wdt:P31 ?class }\n  OPTIONAL { ?item wdt:P569 ?birth }\n  OPTIONAL { ?item wdt:P570 ?death }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nORDER BY ?item ?class\n"
+}

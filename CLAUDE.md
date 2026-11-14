@@ -6,12 +6,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Public at `github.com/bradleypallen/iss-rdf-wikidata`. It is the supplementary material for
 the paper's Wikidata case study, so everything committed here is published and will be
-archived. As of 14 Nov 2026 it holds the layout, the query runner, twenty queries and one
-dated run of each (five timed out; see `logs/runs.jsonl`), and a draft `entries/entries.json`.
-There is no pipeline or data subset yet. There is no build and no test suite.
+archived. As of 14 Nov 2026 a hand-sized example (fourteen items, 65 triples) has been taken
+end to end; `notes/2026-11-14-hand-sized-example.md` is the dated account and the place to
+start. `entries/entries.json` is a draft with Brad's decisions of 14 Nov recorded under
+`decided`. The full run over all spouse statements has not been done. There is no test
+suite; `tools/check_cons.py` agreeing with the pipeline is the check.
 
 Brad's `WDQS_USER_AGENT` is set only in his own Terminal tab. Shells and tabs opened by
 Claude do not have it, so write the query files, then give him one command to run there.
+The label service needs `wikibase:language "en,mul"`: many items now carry their label
+only under `mul`. The local store (Oxigraph) returns a row once per named graph holding a
+matching triple, which is why the generated SELECTs say `DISTINCT`.
 Counting anti-joins over all spouse triples (`FILTER NOT EXISTS`, `MINUS`) time out on the
 query service at 60 s; a join that drives from a small class does not.
 
@@ -27,7 +32,19 @@ python3 tools/run_query.py queries/<name>.rq --format ttl          # CONSTRUCT
 python3 tools/run_query.py queries/<name>.rq --endpoint <url>      # another store
 python3 tools/entries.py check    # entries.json is well-formed; run after every edit to it
 python3 tools/entries.py list     # print the entries from the file
+python3 tools/run_api_check.py queries/<name>.api.json   # ask Wikidata's constraint checker; saved like a query
+python3 tools/make_pipeline.py           # regenerate pipeline/*.rq from entries.json (never edit them)
+python3 tools/run_pipeline.py data/<subset>/asserted.nt [--labels data/<subset>/labels.json]
+python3 tools/check_cons.py data/<subset>/asserted.nt results/pipeline/<subset>/<timestamp>
+python3 tools/build_subset.py            # rebuild data/hand-sized from the saved hand-sized-* results
+python3 tools/checker_summary.py results/checker-<name>/<timestamp>.json   # table of a saved checker response
 ```
+
+`run_pipeline.py` needs `pyoxigraph` (the local store); everything else is standard library.
+`check_cons.py` computes K, D* and Cons from the definition and must stay independent of the
+SPARQL side: no SPARQL, no store, no import from the other tools. After any change to
+`entries.json`, run `entries.py check`, then `make_pipeline.py`, then the pipeline and the
+check again.
 
 Python 3.10 or later, standard library only. Each run writes
 `results/<query name>/<UTC timestamp>.json` and `.meta.json` and appends a line to

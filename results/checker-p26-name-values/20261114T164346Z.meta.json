@@ -1,0 +1,40 @@
+{
+  "query_file": "queries/checker-p26-name-values.api.json",
+  "query_sha256": "ab656d2256dba229c6238e39aeeb1bcb2c288947ae71f475b0afec22b3d31bd6",
+  "endpoint": "https://www.wikidata.org/w/api.php",
+  "request_url": "https://www.wikidata.org/w/api.php?action=wbcheckconstraints&format=json&formatversion=2&id=Q139464%7CQ469726%7CQ338415%7CQ2139951&constraintid=P26%2475392F51-A753-4451-B057-4C2719462EFB%7CP26%24862D87C1-BB05-45A8-934F-3585370F6253%7CP26%24183C2471-ED90-45FD-949F-020CD7EF5F90%7CP26%2435E5D7A3-D2AC-4A9F-93D3-8630E85EC729%7CP26%2446738363-4725-63da-853b-24a1190a343e%7CP26%24c75a4c3d-4806-8402-9d44-79166c9dad87%7CP26%24f1e6c730-480b-deee-0bc5-792f91ba73e5&status=%2A",
+  "started_utc": "2026-11-14T16:43:46+00:00",
+  "finished_utc": "2026-11-14T16:43:46+00:00",
+  "seconds": 0.667,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 4,
+  "body_file": "results/checker-p26-name-values/20261114T164346Z.json",
+  "body_bytes": 51400,
+  "body_sha256": "06563d3e053be3336ca0c0520d701f485e01a0d0a88c18acdafc4f36301454d3",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:43:46 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Server": "mw-api-ext.codfw.main-5f564dc48-cc6f4"
+  },
+  "query": {
+    "purpose": "What the constraint checker reports on spouse statements whose value is a name or disambiguation item (Zechariah, Rudolf Vrba, Jonas Prapiestis), where the value has no dates, and on one statement with an unknown value (Q2139951). Restricted to the symmetric, contemporary, conflicts-with, subject type and three none-of constraints on P26.",
+    "id": [
+      "Q139464",
+      "Q469726",
+      "Q338415",
+      "Q2139951"
+    ],
+    "constraintid": [
+      "P26$75392F51-A753-4451-B057-4C2719462EFB",
+      "P26$862D87C1-BB05-45A8-934F-3585370F6253",
+      "P26$183C2471-ED90-45FD-949F-020CD7EF5F90",
+      "P26$35E5D7A3-D2AC-4A9F-93D3-8630E85EC729",
+      "P26$46738363-4725-63da-853b-24a1190a343e",
+      "P26$c75a4c3d-4806-8402-9d44-79166c9dad87",
+      "P26$f1e6c730-480b-deee-0bc5-792f91ba73e5"
+    ],
+    "status": "*"
+  }
+}

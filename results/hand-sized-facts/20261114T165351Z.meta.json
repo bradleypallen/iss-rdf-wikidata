@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/hand-sized-facts.rq",
+  "query_sha256": "9c3bca439aed5a2dd5318fd544357bf1cbd87266d0d45c3614ffab50a2e41d27",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "text/turtle",
+  "started_utc": "2026-11-14T16:53:51+00:00",
+  "finished_utc": "2026-11-14T16:53:52+00:00",
+  "seconds": 0.328,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": null,
+  "body_file": "results/hand-sized-facts/20261114T165351Z.ttl",
+  "body_bytes": 4549,
+  "body_sha256": "9ebe5607c02aed5becfad998a4beaf9185d987b17beb56a897ed3f0365fff547",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:53:52 GMT",
+    "Content-Type": "text/turtle;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2021"
+  },
+  "query": "# The facts of the hand-sized example, as triples.\n# The twelve items of the hand-sized example: Marie Curie and Pierre Curie;\n# Elizabeth (Q235849), Zechariah and the given name Elizabeth (Q385468);\n# David Von Erich; Elisabeth Magdalene von Brandenburg and Francis Otto, Duke\n# of Brunswick-Lueneburg; Numbani, Nigeria, Geta and international waters.\n# Taken: spouse (P26) and shares border with (P47) triples between two of the\n# items; spouse triples from an item to an unknown value; instance of (P31),\n# date of birth (P569) and date of death (P570) of each item; and, for P26 and\n# P47, the symmetric constraint statement with its listed exceptions (P2303).\n# Spouse and border triples from an item to anything outside the twelve are\n# not taken; hand-sized-touching-edges lists them.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nCONSTRUCT { ?s ?p ?o } WHERE {\n  {\n    VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951\n             wd:Q1330110 wd:Q72936 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }\n    VALUES ?o { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951\n             wd:Q1330110 wd:Q72936 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }\n    VALUES ?p { wdt:P26 wdt:P47 }\n    ?s ?p ?o .\n  }\n  UNION\n  {\n    VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951\n             wd:Q1330110 wd:Q72936 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }\n    ?s wdt:P26 ?o .\n    FILTER(wikibase:isSomeValue(?o))\n    BIND(wdt:P26 AS ?p)\n  }\n  UNION\n  {\n    VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951\n             wd:Q1330110 wd:Q72936 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }\n    VALUES ?p { wdt:P31 wdt:P569 wdt:P570 }\n    ?s ?p ?o .\n  }\n  UNION\n  {\n    VALUES ?s { wd:P26 wd:P47 }\n    ?s p:P2302 ?o .\n    ?o ps:P2302 wd:Q21510862 .\n    BIND(p:P2302 AS ?p)\n  }\n  UNION\n  {\n    VALUES ?property { wd:P26 wd:P47 }\n    ?property p:P2302 ?s .\n    ?s ps:P2302 wd:Q21510862 .\n    BIND(ps:P2302 AS ?p)\n    BIND(wd:Q21510862 AS ?o)\n  }\n  UNION\n  {\n    VALUES ?property { wd:P26 wd:P47 }\n    ?property p:P2302 ?s .\n    ?s ps:P2302 wd:Q21510862 .\n    ?s pq:P2303 ?o .\n    BIND(pq:P2303 AS ?p)\n  }\n}\n"
+}

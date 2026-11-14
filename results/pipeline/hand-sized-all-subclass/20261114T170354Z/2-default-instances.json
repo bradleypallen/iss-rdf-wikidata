@@ -1,0 +1,57 @@
+[
+ {
+  "entry": "p26-symmetric",
+  "x": "<http://www.wikidata.org/entity/Q112829435>",
+  "y": "<http://www.wikidata.org/entity/Q364179>"
+ },
+ {
+  "entry": "p26-symmetric",
+  "x": "<http://www.wikidata.org/entity/Q1330110>",
+  "y": "<http://www.wikidata.org/entity/Q72936>"
+ },
+ {
+  "entry": "p26-symmetric",
+  "x": "<http://www.wikidata.org/entity/Q139464>",
+  "y": "<http://www.wikidata.org/entity/Q385468>"
+ },
+ {
+  "entry": "p26-symmetric",
+  "x": "<http://www.wikidata.org/entity/Q2139951>",
+  "y": "<http://www.wikidata.org/.well-known/genid/3bcd12d3f81642853a156dd84ce8d7de>"
+ },
+ {
+  "entry": "p26-symmetric",
+  "x": "<http://www.wikidata.org/entity/Q2139951>",
+  "y": "<http://www.wikidata.org/.well-known/genid/8020efddd5ec938c11e6a83cd2ddc353>"
+ },
+ {
+  "entry": "p26-symmetric",
+  "x": "<http://www.wikidata.org/entity/Q235849>",
+  "y": "<http://www.wikidata.org/entity/Q139464>"
+ },
+ {
+  "entry": "p26-symmetric",
+  "x": "<http://www.wikidata.org/entity/Q364179>",
+  "y": "<http://www.wikidata.org/entity/Q112829435>"
+ },
+ {
+  "entry": "p26-symmetric",
+  "x": "<http://www.wikidata.org/entity/Q37463>",
+  "y": "<http://www.wikidata.org/entity/Q7186>"
+ },
+ {
+  "entry": "p26-symmetric",
+  "x": "<http://www.wikidata.org/entity/Q7186>",
+  "y": "<http://www.wikidata.org/entity/Q37463>"
+ },
+ {
+  "entry": "p26-symmetric",
+  "x": "<http://www.wikidata.org/entity/Q72936>",
+  "y": "<http://www.wikidata.org/entity/Q1330110>"
+ },
+ {
+  "entry": "p47-symmetric",
+  "x": "<http://www.wikidata.org/entity/Q134675>",
+  "y": "<http://www.wikidata.org/entity/Q25855>"
+ }
+]

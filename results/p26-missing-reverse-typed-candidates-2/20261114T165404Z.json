@@ -1,0 +1,46 @@
+{
+  "head" : {
+    "vars" : [ "a", "aLabel", "b", "bLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1652838"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15838767"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bríet Bjarnhéðinsdóttir"
+      },
+      "bLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Valdimar Ásmundsson"
+      }
+    }, {
+      "a" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q44901299"
+      },
+      "b" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124622481"
+      },
+      "aLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sigrún Davíðsdóttir"
+      },
+      "bLabel" : {
+        "xml:lang" : "mul",
+        "type" : "literal",
+        "value" : "Helgi Guðmundsson"
+      }
+    } ]
+  }
+}

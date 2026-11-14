@@ -1,0 +1,29 @@
+# Every direct spouse (P26) or shares border with (P47) triple that has one
+# of the fourteen items of the hand-sized example as subject or as value. The
+# ones whose other end is outside the fourteen are what the subset leaves out.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?s ?sLabel ?p ?o ?oLabel WHERE {
+  {
+    VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951
+             wd:Q1330110 wd:Q72936 wd:Q112829435 wd:Q364179 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }
+    VALUES ?p { wdt:P26 wdt:P47 }
+    ?s ?p ?o .
+  }
+  UNION
+  {
+    VALUES ?o { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951
+             wd:Q1330110 wd:Q72936 wd:Q112829435 wd:Q364179 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }
+    VALUES ?p { wdt:P26 wdt:P47 }
+    ?s ?p ?o .
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,mul" }
+}
+ORDER BY ?p ?s ?o

@@ -1,0 +1,23 @@
+# Candidates for a clean default consequence: spouse triples with no reverse
+# triple where both parties are directly instances of human (Q5). Driven from
+# two small sets of subjects so that the query finishes: astronauts (P106
+# Q11631) and winners of the Nobel Prize in Physics (P166 Q38104). A sample
+# for choosing one case, not a count.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?a ?aLabel ?b ?bLabel WHERE {
+  { ?a wdt:P106 wd:Q11631 . } UNION { ?a wdt:P166 wd:Q38104 . }
+  ?a wdt:P26 ?b .
+  ?a wdt:P31 wd:Q5 .
+  ?b wdt:P31 wd:Q5 .
+  FILTER NOT EXISTS { ?b wdt:P26 ?a }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?a ?b
+LIMIT 50

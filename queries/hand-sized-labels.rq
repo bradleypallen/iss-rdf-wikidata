@@ -1,0 +1,28 @@
+# English (or language-neutral, "mul") labels of the fourteen items of the
+# hand-sized example, of the two properties, and of every class above a class
+# of an item. For printing only; no entry reads a label.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT { ?e rdfs:label ?label } WHERE {
+  {
+    VALUES ?e { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951
+             wd:Q1330110 wd:Q72936 wd:Q112829435 wd:Q364179 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855
+             wd:P26 wd:P47 wd:Q21510862 }
+  }
+  UNION
+  {
+    VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951
+             wd:Q1330110 wd:Q72936 wd:Q112829435 wd:Q364179 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }
+    ?s wdt:P31 ?c .
+    ?c wdt:P279* ?e .
+  }
+  ?e rdfs:label ?label .
+  FILTER(LANG(?label) IN ("en", "mul"))
+}

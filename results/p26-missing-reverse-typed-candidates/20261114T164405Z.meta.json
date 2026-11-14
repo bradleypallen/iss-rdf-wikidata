@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-missing-reverse-typed-candidates.rq",
+  "query_sha256": "e2b73b8d56163928a81e8897527831bd7c0c54214dd4deb8ab8defe4d9957903",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T16:44:05+00:00",
+  "finished_utc": "2026-11-14T16:44:06+00:00",
+  "seconds": 0.81,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 0,
+  "body_file": "results/p26-missing-reverse-typed-candidates/20261114T164405Z.json",
+  "body_bytes": 108,
+  "body_sha256": "2f73b0855e0187eb7483d4b52e96deb29ed8be9c47684aa654fb919d932e6e26",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:44:06 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2013"
+  },
+  "query": "# Candidates for a clean default consequence: spouse triples with no reverse\n# triple where both parties are directly instances of human (Q5). Driven from\n# two small sets of subjects so that the query finishes: astronauts (P106\n# Q11631) and winners of the Nobel Prize in Physics (P166 Q38104). A sample\n# for choosing one case, not a count.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?a ?aLabel ?b ?bLabel WHERE {\n  { ?a wdt:P106 wd:Q11631 . } UNION { ?a wdt:P166 wd:Q38104 . }\n  ?a wdt:P26 ?b .\n  ?a wdt:P31 wd:Q5 .\n  ?b wdt:P31 wd:Q5 .\n  FILTER NOT EXISTS { ?b wdt:P26 ?a }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nORDER BY ?a ?b\nLIMIT 50\n"
+}

@@ -1,0 +1,558 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix bd: <http://www.bigdata.com/rdf#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix hint: <http://www.bigdata.com/queryHints#> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix mwapi: <https://www.mediawiki.org/ontology#API/> .
+@prefix gas: <http://www.bigdata.com/rdf/gas#> .
+@prefix wdsubgraph: <https://query.wikidata.org/subgraph/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://www.opengis.net/def/geosparql/function/> .
+@prefix mediawiki: <https://www.mediawiki.org/ontology#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wikibaseqs: <http://wikiba.se/queryService#> .
+
+wd:P26 rdfs:label "spouse"@en .
+
+wd:P47 rdfs:label "shares border with"@en .
+
+wd:Q1033 rdfs:label "Nigeria"@en .
+
+wd:Q7186 rdfs:label "Marie Curie"@mul .
+
+wd:Q25855 rdfs:label "international waters"@en .
+
+wd:Q112829435 rdfs:label "Berta Gerster"@en .
+
+wd:Q139464 rdfs:label "Zechariah"@en .
+
+wd:Q134675 rdfs:label "Geta"@en , "Geta"@mul .
+
+wd:Q235849 rdfs:label "Elizabeth"@en .
+
+wd:Q385468 rdfs:label "Elizabeth"@en , "Elizabeth"@mul .
+
+wd:Q364179 rdfs:label "Fritz Reiner"@en , "Fritz Reiner"@mul .
+
+wd:Q72936 rdfs:label "Francis Otto, Duke of Brunswick-Lüneburg"@en .
+
+wd:Q37463 rdfs:label "Pierre Curie"@mul .
+
+wd:Q81810310 rdfs:label "Numbani"@mul .
+
+wd:Q1330110 rdfs:label "Elisabeth Magdalene von Brandenburg"@en , "Elisabeth Magdalene von Brandenburg"@mul .
+
+wd:Q2139951 rdfs:label "David Von Erich"@en .
+
+wd:Q21510862 rdfs:label "symmetric constraint"@en .
+
+wd:Q81810310 rdfs:label "Numbani"@en .
+
+wd:Q5 rdfs:label "human"@en .
+
+wd:Q729 rdfs:label "animal"@en , "Animalia"@mul .
+
+wd:Q6256 rdfs:label "country"@en .
+
+wd:Q56061 rdfs:label "administrative territorial entity"@en .
+
+wd:Q159344 rdfs:label "heterotroph"@en .
+
+wd:Q72638 rdfs:label "consumer"@en .
+
+wd:Q1084 rdfs:label "noun"@en .
+
+wd:Q7239 rdfs:label "organism"@en .
+
+wd:Q7380 rdfs:label "primate"@en , "Primates"@mul .
+
+wd:Q82794 rdfs:label "region"@en .
+
+wd:Q15978631 rdfs:label "Homo sapiens"@mul .
+
+wd:Q24229398 rdfs:label "agent"@en .
+
+wd:Q7188 rdfs:label "government"@en .
+
+wd:Q36458 rdfs:label "multicellular organism"@en .
+
+wd:Q795052 rdfs:label "individual"@en .
+
+wd:Q7275 rdfs:label "state"@en .
+
+wd:Q7270 rdfs:label "republic"@en .
+
+wd:Q171283 rdfs:label "Homo"@en .
+
+wd:Q28108 rdfs:label "political system"@en .
+
+wd:Q35120 rdfs:label "entity"@en .
+
+wd:Q1310239 rdfs:label "component"@en .
+
+wd:Q635162 rdfs:label "Hominidae"@mul .
+
+wd:Q488383 rdfs:label "object"@en .
+
+wd:Q43229 rdfs:label "organization"@en .
+
+wd:Q15284 rdfs:label "municipality"@en .
+
+wd:Q4835091 rdfs:label "territory"@en .
+
+wd:Q141104744 rdfs:label "geopolitical region"@en .
+
+wd:Q141104747 rdfs:label "geolegal region"@en .
+
+wd:Q141148364 rdfs:label "specialized object"@en .
+
+wd:Q141164427 rdfs:label "agentive physical object"@en .
+
+wd:Q106559804 rdfs:label "person or organization"@en .
+
+wd:Q58778 rdfs:label "system"@en .
+
+wd:Q223557 rdfs:label "physical object"@en .
+
+wd:Q171283 rdfs:label "Homo"@mul .
+
+wd:Q4406616 rdfs:label "concrete object"@en .
+
+wd:Q3622002 rdfs:label "geographical area"@en .
+
+wd:Q3322575 rdfs:label "Cytota"@mul .
+
+wd:Q43702 rdfs:label "federation"@en .
+
+wd:Q635162 rdfs:label "Hominidae"@en .
+
+wd:Q16686448 rdfs:label "artificial object"@en .
+
+wd:Q27043948 rdfs:label "material anatomical entity"@en .
+
+wd:Q27096235 rdfs:label "artificial geographic entity"@en .
+
+wd:Q27096213 rdfs:label "geographic entity"@en .
+
+wd:Q82799 rdfs:label "name"@en .
+
+wd:Q16686022 rdfs:label "natural physical object"@en .
+
+wd:Q2382443 rdfs:label "Biota"@mul .
+
+wd:Q12352399 rdfs:label "material object"@en .
+
+wd:Q15642541 rdfs:label "human-geographic territorial entity"@en .
+
+wd:Q98929991 rdfs:label "place"@en .
+
+wd:Q66394244 rdfs:label "physical anatomical entity"@en .
+
+wd:Q112826975 rdfs:label "particular anatomical entity"@en .
+
+wd:Q147276 rdfs:label "proper noun"@en .
+
+wd:Q7377 rdfs:label "mammal"@en , "Mammalia"@mul .
+
+wd:Q154954 rdfs:label "natural person"@en .
+
+wd:Q28845870 rdfs:label "biological component"@en .
+
+wd:Q53617407 rdfs:label "material entity"@en .
+
+wd:Q155076 rdfs:label "juridical person"@en .
+
+wd:Q11028 rdfs:label "information"@en .
+
+wd:Q164509 rdfs:label "omnivore"@en .
+
+wd:Q484652 rdfs:label "international organization"@en .
+
+wd:Q124711484 rdfs:label "spatial region"@en .
+
+wd:Q141148545 rdfs:label "specialized material entity"@en .
+
+wd:Q141158817 rdfs:label "physical object with unity"@en .
+
+wd:Q141445716 rdfs:label "unitary integral entity"@en .
+
+wd:Q141159271 rdfs:label "non-quality concrete endurant"@en .
+
+wd:Q141751599 rdfs:label "cognitive entity"@en .
+
+wd:Q141905832 rdfs:label "situatable entity"@en .
+
+wd:Q503992 rdfs:label "nominal"@en .
+
+wd:Q618123 rdfs:label "geographical feature"@en .
+
+wd:Q2221906 rdfs:label "geographic location"@en .
+
+wd:Q651943 rdfs:label "signifier"@en .
+
+wd:Q854457 rdfs:label "complex system"@en .
+
+wd:Q202444 rdfs:label "given name"@en .
+
+wd:Q183039 rdfs:label "form of state"@en .
+
+wd:Q6502323 rdfs:label "particular"@en .
+
+wd:Q1639378 rdfs:label "social system"@en .
+
+wd:Q1048835 rdfs:label "political territorial entity"@en .
+
+wd:Q1970309 rdfs:label "natural object"@en .
+
+wd:Q853614 rdfs:label "identifier"@en .
+
+wd:Q1063239 rdfs:label "polity"@en .
+
+wd:Q512187 rdfs:label "federal republic"@en .
+
+wd:Q7048977 rdfs:label "abstract entity"@en .
+
+wd:Q215627 rdfs:label "person"@en .
+
+wd:Q10683158 rdfs:label "substance"@en .
+
+wd:Q1145276 rdfs:label "fictional country"@en .
+
+wd:Q895526 rdfs:label "governing body"@en .
+
+wd:Q856076 rdfs:label "municipality of Finland"@en .
+
+wd:Q13196193 rdfs:label "part"@en .
+
+wd:Q3268571 rdfs:label "administrative territorial entity of a single country"@en .
+
+wd:Q3778211 rdfs:label "legal person"@en .
+
+wd:Q897395 rdfs:label "executive board"@en .
+
+wd:Q646728 rdfs:label "administrative territorial entity of Finland"@en .
+
+wd:Q30241068 rdfs:label "observable entity"@en .
+
+wd:Q1140229 rdfs:label "political union"@en .
+
+wd:Q25404640 rdfs:label "spatial object"@en .
+
+wd:Q16334298 rdfs:label "group of living things"@en .
+
+wd:Q21871294 rdfs:label "group or class of living things"@en .
+
+wd:Q13002315 rdfs:label "legendary figure"@en .
+
+wd:Q14897293 rdfs:label "fictional entity"@en .
+
+wd:Q18706315 rdfs:label "hypothetical entity"@en .
+
+wd:Q10915 rdfs:label "Chordata"@mul .
+
+wd:Q53617489 rdfs:label "independent continuant"@en .
+
+wd:Q56369191 rdfs:label "compositional object"@en .
+
+wd:Q61961344 rdfs:label "group of physical objects"@en .
+
+wd:Q7210356 rdfs:label "political organization"@en .
+
+wd:Q27043950 rdfs:label "anatomical entity"@en .
+
+wd:Q3624078 rdfs:label "sovereign state"@en .
+
+wd:Q48937186 rdfs:label "word or phrase"@en .
+
+wd:Q64728693 rdfs:label "non-existent entity"@en .
+
+wd:Q60596080 rdfs:label "bionym"@en .
+
+wd:Q61964280 rdfs:label "inanimate object"@en .
+
+wd:Q2659904 rdfs:label "government organization"@en .
+
+wd:Q1964689 rdfs:label "fictional city"@en .
+
+wd:Q2250224 rdfs:label "individual person"@en .
+
+wd:Q3895768 rdfs:label "fictional location"@en .
+
+wd:Q124711467 rdfs:label "immaterial entity"@en .
+
+wd:Q115537581 rdfs:label "imaginary character"@en .
+
+wd:Q141594779 rdfs:label "structure"@en .
+
+wd:Q141204632 rdfs:label "physical entity"@en .
+
+wd:Q141222889 rdfs:label "material endurant"@en .
+
+wd:Q141250146 rdfs:label "persistent entity"@en .
+
+wd:Q141493485 rdfs:label "endurant"@en .
+
+wd:Q141438998 rdfs:label "discrete presential"@en .
+
+wd:Q141445704 rdfs:label "integral entity"@en .
+
+wd:Q141447391 rdfs:label "non-conscious thing"@en .
+
+wd:Q141533852 rdfs:label "semi-abstract entity or generically dependent continuant"@en .
+
+wd:Q1799794 rdfs:label "administrative territorial entity of a specific level"@en .
+
+wd:Q1549152 rdfs:label "public institution"@en .
+
+wd:Q1896989 rdfs:label "subject of international law"@en .
+
+wd:Q131085629 rdfs:label "collective agent"@en .
+
+wd:Q132907471 rdfs:label "individual item"@en .
+
+wd:Q134601875 rdfs:label "group or class of people"@en .
+
+wd:Q134602505 rdfs:label "group of beings"@en .
+
+wd:Q134602526 rdfs:label "group or class of beings"@en .
+
+wd:Q141159595 rdfs:label "physical region"@en .
+
+wd:Q141105488 rdfs:label "heterogeneous substance"@en .
+
+wd:Q141149247 rdfs:label "spatial region or site"@en .
+
+wd:Q141159298 rdfs:label "physical endurant"@en .
+
+wd:Q141182323 rdfs:label "localized entity"@en .
+
+wd:Q141186854 rdfs:label "non-agentive physical object"@en .
+
+wd:Q141204587 rdfs:label "independent entity"@en .
+
+wd:Q15796005 rdfs:label "location in a fictional work"@en .
+
+wd:Q12405827 rdfs:label "biblical character"@en .
+
+wd:Q12357832 rdfs:label "second-level administrative division"@en .
+
+wd:Q6501447 rdfs:label "local government"@en .
+
+wd:Q5891007 rdfs:label "anatomically modern human"@en .
+
+wd:Q99527517 rdfs:label "collective entity"@en .
+
+wd:Q15706911 rdfs:label "fictional object"@en .
+
+wd:Q4271324 rdfs:label "mythical character"@en .
+
+wd:Q65683458 rdfs:label "facet"@en .
+
+wd:Q106668099 rdfs:label "corporate body"@en .
+
+wd:Q123349660 rdfs:label "geolocatable entity"@en .
+
+wd:Q124711658 rdfs:label "object aggregate"@en .
+
+wd:Q103940464 rdfs:label "continuant"@en .
+
+wd:Q5589178 rdfs:label "regime"@en .
+
+wd:Q141183644 rdfs:label "concrete"@en .
+
+wd:Q134261520 rdfs:label "group or class of humans"@en .
+
+wd:Q134601727 rdfs:label "group of persons"@en .
+
+wd:Q150866 rdfs:label "Deuterostomia"@mul .
+
+wd:Q4358176 rdfs:label "council"@en .
+
+wd:Q4271324 rdfs:label "mythical character"@mul .
+
+wd:Q6005984 rdfs:label "baryonic matter"@en .
+
+wd:Q16334295 rdfs:label "group of humans"@en .
+
+wd:Q22676603 rdfs:label "federal system"@en .
+
+wd:Q108059277 rdfs:label "fictional locality"@en .
+
+wd:Q150866 rdfs:label "deuterostome"@en .
+
+wd:Q141751717 rdfs:label "location"@en .
+
+wd:Q141810753 rdfs:label "perspective"@en .
+
+wd:Q141913309 rdfs:label "space region"@en .
+
+wd:Q141642415 rdfs:label "spatio-temporal particular"@en .
+
+wd:Q141681465 rdfs:label "concrete endurant"@en .
+
+wd:Q141817791 rdfs:label "weak object"@en .
+
+wd:Q141865851 rdfs:label "ordinary object"@en .
+
+wd:Q141905635 rdfs:label "non-relation entity"@en .
+
+wd:Q20643955 rdfs:label "human biblical figure"@en .
+
+wd:Q2364925 rdfs:label "causal structure"@en .
+
+wd:Q10856962 rdfs:label "anthroponym"@en .
+
+wd:Q10541491 rdfs:label "legal form"@en .
+
+wd:Q141159342 rdfs:label "abstract"@en .
+
+wd:Q141447513 rdfs:label "element"@en .
+
+wd:Q141750218 rdfs:label "characteristic"@en .
+
+wd:Q141445610 rdfs:label "simple thing"@en .
+
+wd:Q141810788 rdfs:label "entity (EMMO)"@en .
+
+wd:Q141328123 rdfs:label "descriptive content entity"@en .
+
+wd:Q141537802 rdfs:label "information content or representation form"@en .
+
+wd:Q141817786 rdfs:label "persistence perspective"@en .
+
+wd:Q24334685 rdfs:label "mythical entity"@en .
+
+wd:Q96196009 rdfs:label "former or current state"@en .
+
+wd:Q98142361 rdfs:label "fictional artificial entity"@en .
+
+wd:Q11879590 rdfs:label "female given name"@en .
+
+wd:Q21070598 rdfs:label "figure that may or may not be fictional"@en .
+
+wd:Q10547012 rdfs:label "common matter"@en .
+
+wd:Q7551287 rdfs:label "social object"@en .
+
+wd:Q57662985 rdfs:label "country in a fiction work"@en .
+
+wd:Q64034456 rdfs:label "fictional administrative territorial entity"@en .
+
+wd:Q137023128 rdfs:label "region"@en .
+
+wd:Q136433660 rdfs:label "entity (BFO)"@en .
+
+wd:Q18563354 rdfs:label "religious character"@en .
+
+wd:Q142124367 rdfs:label "physical thing or symbolic object"@en .
+
+wd:Q141810807 rdfs:label "fusion"@en .
+
+wd:Q141539429 rdfs:label "symbol sequence"@en .
+
+wd:Q141665417 rdfs:label "composite continuant"@en .
+
+wd:Q141696840 rdfs:label "morphosyntactic phenomenon"@en .
+
+wd:Q141756664 rdfs:label "human-made thing"@en .
+
+wd:Q141814105 rdfs:label "causal object"@en .
+
+wd:Q141814138 rdfs:label "causal cluster"@en .
+
+wd:Q141866137 rdfs:label "linguistic attribute"@en .
+
+wd:Q141905891 rdfs:label "divisible entity"@en .
+
+wd:Q130409395 rdfs:label "feminine name"@en .
+
+wd:Q141403457 rdfs:label "classification datum"@en .
+
+wd:Q112117312 rdfs:label "fictional settlement"@en .
+
+wd:Q25241 rdfs:label "Vertebrata"@mul .
+
+wd:Q140919303 rdfs:label "region"@en .
+
+wd:Q141756883 rdfs:label "persistent thing"@en .
+
+wd:Q35758 rdfs:label "matter"@en .
+
+wd:Q5173 rdfs:label "Bilateria"@mul .
+
+wd:Q758243 rdfs:label "attribute"@en .
+
+wd:Q3059449 rdfs:label "Nephrozoa"@mul .
+
+wd:Q100320664 rdfs:label "concept in linguistics"@en .
+
+wd:Q28732711 rdfs:label "physical substance"@en .
+
+wd:Q141158787 rdfs:label "amount of matter"@en .
+
+wd:Q141205897 rdfs:label "dependent entity"@en .
+
+wd:Q141539427 rdfs:label "ordinary form"@en .
+
+wd:Q141866102 rdfs:label "internal attribute"@en .
+
+wd:Q141438977 rdfs:label "continuous"@en .
+
+wd:Q141438987 rdfs:label "discrete"@en .
+
+wd:Q141214836 rdfs:label "presential"@en .
+
+wd:Q141214978 rdfs:label "generically dependent entity"@en .
+
+wd:Q141514550 rdfs:label "information entity"@en .
+
+wd:Q141445732 rdfs:label "non-integral entity"@en .
+
+wd:Q141537679 rdfs:label "content or representation form"@en .
+
+wd:Q141537687 rdfs:label "representation form"@en .
+
+wd:Q141501601 rdfs:label "physical endurant phenomenon"@en .
+
+wd:Q98119401 rdfs:label "group or class of physical objects"@en .
+
+wd:Q28555911 rdfs:label "ordinary matter"@en .
+
+wd:Q141156634 rdfs:label "collection"@en .
+
+wd:Q141152464 rdfs:label "language entity"@en .
+
+wd:Q141539432 rdfs:label "soft symbol sequence"@en .
+
+wd:Q141696849 rdfs:label "morphosyntactic category"@en .
+
+wd:Q141905953 rdfs:label "divisible entity with discrete parts"@en .

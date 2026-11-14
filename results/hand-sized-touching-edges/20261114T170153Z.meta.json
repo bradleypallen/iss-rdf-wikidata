@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/hand-sized-touching-edges.rq",
+  "query_sha256": "6cb5b77eaf326da4e6c73dd41a6eb9a700a0d38cc062518bffe11df83a06c24e",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T17:01:53+00:00",
+  "finished_utc": "2026-11-14T17:01:53+00:00",
+  "seconds": 0.22,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 35,
+  "body_file": "results/hand-sized-touching-edges/20261114T170153Z.json",
+  "body_bytes": 19753,
+  "body_sha256": "cc1c5165fe1d9aeb28ebff67c0383e7c83361cbf831851e38df88a52ee39677e",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 17:01:53 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2013"
+  },
+  "query": "# Every direct spouse (P26) or shares border with (P47) triple that has one\n# of the fourteen items of the hand-sized example as subject or as value. The\n# ones whose other end is outside the fourteen are what the subset leaves out.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?s ?sLabel ?p ?o ?oLabel WHERE {\n  {\n    VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951\n             wd:Q1330110 wd:Q72936 wd:Q112829435 wd:Q364179 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }\n    VALUES ?p { wdt:P26 wdt:P47 }\n    ?s ?p ?o .\n  }\n  UNION\n  {\n    VALUES ?o { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951\n             wd:Q1330110 wd:Q72936 wd:Q112829435 wd:Q364179 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }\n    VALUES ?p { wdt:P26 wdt:P47 }\n    ?s ?p ?o .\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul\" }\n}\nORDER BY ?p ?s ?o\n"
+}

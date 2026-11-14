@@ -1,0 +1,18 @@
+# Property constraints on shares border with (P47), with constraint status
+# and listed exceptions. Records the IRI of each constraint statement.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?c ?type ?typeLabel ?status ?statusLabel ?exception ?exceptionLabel WHERE {
+  wd:P47 p:P2302 ?c .
+  ?c ps:P2302 ?type .
+  OPTIONAL { ?c pq:P2316 ?status }
+  OPTIONAL { ?c pq:P2303 ?exception }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?type ?c ?exception

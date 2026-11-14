@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/candidate-spouse-edges.rq",
+  "query_sha256": "b27aaadd92c74a026c8450a74f9e7d1212f8a205ad81403024a27f4b0e95833b",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T16:44:11+00:00",
+  "finished_utc": "2026-11-14T16:44:12+00:00",
+  "seconds": 1.108,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 35,
+  "body_file": "results/candidate-spouse-edges/20261114T164411Z.json",
+  "body_bytes": 16351,
+  "body_sha256": "0c54a2deb4879141119865372a16e393ad7b309f2860542088e519011bb6c036",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:44:12 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2021"
+  },
+  "query": "# Every direct spouse triple with one of the candidate items as subject or as\n# value, to see which candidates have spouses outside the chosen set and\n# which pairs are reciprocated.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT DISTINCT ?s ?sLabel ?o ?oLabel WHERE {\n  {\n    VALUES ?s { wd:Q10556584 wd:Q240485 wd:Q63964937 wd:Q434292 wd:Q112829435 wd:Q364179 wd:Q1330110 wd:Q72936\n                  wd:Q139464 wd:Q385468 wd:Q469726 wd:Q1158139 wd:Q338415 wd:Q226163\n                  wd:Q2139951 wd:Q727175 wd:Q521435 wd:Q7186 wd:Q37463\n                  wd:Q81810310 wd:Q1033 wd:Q118629252 wd:Q134675 wd:Q25855 }\n    ?s wdt:P26 ?o .\n  }\n  UNION\n  {\n    VALUES ?o { wd:Q10556584 wd:Q240485 wd:Q63964937 wd:Q434292 wd:Q112829435 wd:Q364179 wd:Q1330110 wd:Q72936\n                  wd:Q139464 wd:Q385468 wd:Q469726 wd:Q1158139 wd:Q338415 wd:Q226163\n                  wd:Q2139951 wd:Q727175 wd:Q521435 wd:Q7186 wd:Q37463\n                  wd:Q81810310 wd:Q1033 wd:Q118629252 wd:Q134675 wd:Q25855 }\n    ?s wdt:P26 ?o .\n  }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nORDER BY ?s ?o\n"
+}

@@ -1,0 +1,31 @@
+{
+  "query_file": "queries/checker-p47-exceptions.api.json",
+  "query_sha256": "9b14251eb9850321431ebe7b6c0d0dfa5b5802cef25f050ee9e97c089694883e",
+  "endpoint": "https://www.wikidata.org/w/api.php",
+  "request_url": "https://www.wikidata.org/w/api.php?action=wbcheckconstraints&format=json&formatversion=2&id=Q81810310%7CQ118629252%7CQ134675%7CQ25855&status=%2A",
+  "started_utc": "2026-11-14T16:43:51+00:00",
+  "finished_utc": "2026-11-14T16:44:00+00:00",
+  "seconds": 9.118,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 4,
+  "body_file": "results/checker-p47-exceptions/20261114T164351Z.json",
+  "body_bytes": 1932219,
+  "body_sha256": "7da963b3de3d16343f55b39f1f16d1d2705e73ef65a44a7f4fe73bc986349850",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:43:51 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Server": "mw-api-ext.codfw.main-5f564dc48-jbscp"
+  },
+  "query": {
+    "purpose": "Which side an exception to the symmetric constraint on P47 is read on. Numbani and Belgorod People's Republic are listed exceptions and are subjects of unreciprocated P47 statements. Geta is not listed and has an unreciprocated P47 statement whose value, international waters, is listed. All constraints, all statuses.",
+    "id": [
+      "Q81810310",
+      "Q118629252",
+      "Q134675",
+      "Q25855"
+    ],
+    "status": "*"
+  }
+}

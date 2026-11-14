@@ -1,0 +1,49 @@
+{
+  "query_file": "queries/checker-hand-sized.api.json",
+  "query_sha256": "40c4de13de5d6cc4e4564410c6144bb31e452f26c917b4eb2616fc77513354f8",
+  "endpoint": "https://www.wikidata.org/w/api.php",
+  "request_url": "https://www.wikidata.org/w/api.php?action=wbcheckconstraints&format=json&formatversion=2&id=Q7186%7CQ37463%7CQ235849%7CQ139464%7CQ385468%7CQ2139951%7CQ1330110%7CQ72936%7CQ81810310%7CQ1033%7CQ134675%7CQ25855&constraintid=P26%2475392F51-A753-4451-B057-4C2719462EFB%7CP26%24862D87C1-BB05-45A8-934F-3585370F6253%7CP26%24183C2471-ED90-45FD-949F-020CD7EF5F90%7CP26%2435E5D7A3-D2AC-4A9F-93D3-8630E85EC729%7CP26%2446738363-4725-63da-853b-24a1190a343e%7CP26%24c75a4c3d-4806-8402-9d44-79166c9dad87%7CP26%24f1e6c730-480b-deee-0bc5-792f91ba73e5%7CP47%24BDC21597-C3FC-417A-9437-E4B7FA4C7927&status=%2A",
+  "started_utc": "2026-11-14T16:54:09+00:00",
+  "finished_utc": "2026-11-14T16:54:10+00:00",
+  "seconds": 1.155,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 12,
+  "body_file": "results/checker-hand-sized/20261114T165409Z.json",
+  "body_bytes": 365342,
+  "body_sha256": "01e56c1d0e3f20d453f01a4577a9845e8d05021267136011bdf08ccf7536cd7d",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:54:09 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Server": "mw-api-ext.codfw.main-5f564dc48-927p6"
+  },
+  "query": {
+    "purpose": "What the constraint checker reports on the spouse and shares-border-with statements of the items of the hand-sized example, for comparison with the entries at K. Restricted to the symmetric, contemporary, conflicts-with, subject type and three none-of constraints on P26 and the symmetric constraint on P47.",
+    "id": [
+      "Q7186",
+      "Q37463",
+      "Q235849",
+      "Q139464",
+      "Q385468",
+      "Q2139951",
+      "Q1330110",
+      "Q72936",
+      "Q81810310",
+      "Q1033",
+      "Q134675",
+      "Q25855"
+    ],
+    "constraintid": [
+      "P26$75392F51-A753-4451-B057-4C2719462EFB",
+      "P26$862D87C1-BB05-45A8-934F-3585370F6253",
+      "P26$183C2471-ED90-45FD-949F-020CD7EF5F90",
+      "P26$35E5D7A3-D2AC-4A9F-93D3-8630E85EC729",
+      "P26$46738363-4725-63da-853b-24a1190a343e",
+      "P26$c75a4c3d-4806-8402-9d44-79166c9dad87",
+      "P26$f1e6c730-480b-deee-0bc5-792f91ba73e5",
+      "P47$BDC21597-C3FC-417A-9437-E4B7FA4C7927"
+    ],
+    "status": "*"
+  }
+}

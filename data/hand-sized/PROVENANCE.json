@@ -1,0 +1,90 @@
+{
+  "licence": "Data retrieved from Wikidata, public domain under CC0 1.0.",
+  "built_by": "tools/build_subset.py",
+  "sources": {
+    "facts": {
+      "query_file": "queries/hand-sized-facts.rq",
+      "query_sha256": "e5547cfa83e40f941e2bd07e7cb5bd0c70c03bc892c3158bff4d8c3dd9b20aec",
+      "result_file": "results/hand-sized-facts/20261114T170145Z.ttl",
+      "result_sha256": "7d21892ff848f0c2778b142f28b217c6b1bd0fbf6a9ce3e14aa40d2798cc17d3",
+      "run_started_utc": "2026-11-14T17:01:45+00:00",
+      "endpoint": "https://query.wikidata.org/sparql"
+    },
+    "subclass_paths": {
+      "query_file": "queries/hand-sized-subclass-paths.rq",
+      "query_sha256": "acd2c242984ae089b5f0137de878932a67ed68c3fbed409b9f7dc3c04c96088c",
+      "result_file": "results/hand-sized-subclass-paths/20261114T170148Z.ttl",
+      "result_sha256": "98bfc9a0e49229be0b2304d751661a520d2a8beac2dc049fbd5cc9cf422c3e27",
+      "run_started_utc": "2026-11-14T17:01:48+00:00",
+      "endpoint": "https://query.wikidata.org/sparql"
+    },
+    "labels": {
+      "query_file": "queries/hand-sized-labels.rq",
+      "query_sha256": "2956e83f44eca61d68412bb33cc617f7640a137af75856bf2722c54b137a6a30",
+      "result_file": "results/hand-sized-labels/20261114T170150Z.ttl",
+      "result_sha256": "83ddc54354b3c0a9c75657a18fe7f4227dffcc50e9aa63ebe98a7c6e906435b3",
+      "run_started_utc": "2026-11-14T17:01:50+00:00",
+      "endpoint": "https://query.wikidata.org/sparql"
+    },
+    "touching_edges": {
+      "query_file": "queries/hand-sized-touching-edges.rq",
+      "query_sha256": "6cb5b77eaf326da4e6c73dd41a6eb9a700a0d38cc062518bffe11df83a06c24e",
+      "result_file": "results/hand-sized-touching-edges/20261114T170153Z.json",
+      "result_sha256": "cc1c5165fe1d9aeb28ebff67c0383e7c83361cbf831851e38df88a52ee39677e",
+      "run_started_utc": "2026-11-14T17:01:53+00:00",
+      "endpoint": "https://query.wikidata.org/sparql"
+    }
+  },
+  "counts": {
+    "facts": 57,
+    "subclass_triples_fetched": 365,
+    "subclass_triples_kept": 8,
+    "asserted": 65,
+    "asserted_all_subclass": 422,
+    "labels": 253,
+    "spouse_or_border_triples_left_out": 23
+  },
+  "named_classes": [
+    "<http://www.wikidata.org/entity/Q101352>",
+    "<http://www.wikidata.org/entity/Q11879590>",
+    "<http://www.wikidata.org/entity/Q12308941>",
+    "<http://www.wikidata.org/entity/Q13002315>",
+    "<http://www.wikidata.org/entity/Q15623926>",
+    "<http://www.wikidata.org/entity/Q202444>",
+    "<http://www.wikidata.org/entity/Q21070568>",
+    "<http://www.wikidata.org/entity/Q215627>",
+    "<http://www.wikidata.org/entity/Q340069>",
+    "<http://www.wikidata.org/entity/Q3409032>",
+    "<http://www.wikidata.org/entity/Q4167410>",
+    "<http://www.wikidata.org/entity/Q4271324>",
+    "<http://www.wikidata.org/entity/Q577>",
+    "<http://www.wikidata.org/entity/Q5>",
+    "<http://www.wikidata.org/entity/Q95074>"
+  ],
+  "subclass_selection": "A fetched P279 triple is kept when its object is a class named in an entry or has a P279 path to one. data/hand-sized-all-subclass keeps all of them.",
+  "left_out": [
+    "<http://www.wikidata.org/entity/Q10084> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q25855>",
+    "<http://www.wikidata.org/entity/Q1009> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q1033>",
+    "<http://www.wikidata.org/entity/Q1032> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q1033>",
+    "<http://www.wikidata.org/entity/Q1033> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q1009>",
+    "<http://www.wikidata.org/entity/Q1033> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q1032>",
+    "<http://www.wikidata.org/entity/Q1033> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q1039>",
+    "<http://www.wikidata.org/entity/Q1033> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q657>",
+    "<http://www.wikidata.org/entity/Q1033> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q962>",
+    "<http://www.wikidata.org/entity/Q1039> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q1033>",
+    "<http://www.wikidata.org/entity/Q134675> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q134685>",
+    "<http://www.wikidata.org/entity/Q134675> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q176196>",
+    "<http://www.wikidata.org/entity/Q134675> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q51914>",
+    "<http://www.wikidata.org/entity/Q134685> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q134675>",
+    "<http://www.wikidata.org/entity/Q176196> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q134675>",
+    "<http://www.wikidata.org/entity/Q176196> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q25855>",
+    "<http://www.wikidata.org/entity/Q18177755> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q25855>",
+    "<http://www.wikidata.org/entity/Q47048> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q25855>",
+    "<http://www.wikidata.org/entity/Q51914> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q134675>",
+    "<http://www.wikidata.org/entity/Q5689> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q25855>",
+    "<http://www.wikidata.org/entity/Q5696> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q25855>",
+    "<http://www.wikidata.org/entity/Q5712> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q25855>",
+    "<http://www.wikidata.org/entity/Q657> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q1033>",
+    "<http://www.wikidata.org/entity/Q962> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q1033>"
+  ]
+}

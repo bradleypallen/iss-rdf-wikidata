@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p47-constraints.rq",
+  "query_sha256": "261665494a7034e07555e1cf1acdf50624f141aa99881f1d91c9177b2f30121d",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T16:44:02+00:00",
+  "finished_utc": "2026-11-14T16:44:03+00:00",
+  "seconds": 0.619,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 9,
+  "body_file": "results/p47-constraints/20261114T164402Z.json",
+  "body_bytes": 4481,
+  "body_sha256": "6353bed3662cdd301715d4f6e141d51ef282ec6e7903477161d54ce47afc4e10",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:44:03 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2007"
+  },
+  "query": "# Property constraints on shares border with (P47), with constraint status\n# and listed exceptions. Records the IRI of each constraint statement.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?c ?type ?typeLabel ?status ?statusLabel ?exception ?exceptionLabel WHERE {\n  wd:P47 p:P2302 ?c .\n  ?c ps:P2302 ?type .\n  OPTIONAL { ?c pq:P2316 ?status }\n  OPTIONAL { ?c pq:P2303 ?exception }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n}\nORDER BY ?type ?c ?exception\n"
+}

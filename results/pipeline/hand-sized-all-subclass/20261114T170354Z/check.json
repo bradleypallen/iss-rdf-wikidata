@@ -1,0 +1,41 @@
+{
+  "data": "data/hand-sized-all-subclass/asserted.nt",
+  "agree": true,
+  "K": {
+    "definition": 6967,
+    "pipeline": 6967,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "D*": {
+    "definition": 11,
+    "pipeline": 11,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "Cons": {
+    "definition": 6972,
+    "pipeline": 6972,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "incompatibilities at K": {
+    "definition": 4,
+    "pipeline": 4,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "incompatibilities over Cons": {
+    "definition": 9,
+    "pipeline": 9,
+    "agree": true,
+    "only_definition": [],
+    "only_pipeline": []
+  },
+  "incoherent at K": true,
+  "asserted is the data file": true
+}

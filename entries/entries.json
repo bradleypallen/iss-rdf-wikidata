@@ -1,5 +1,11 @@
 {
-  "status": "DRAFT 2026-11-14. Format and content are proposals; every item under 'choices' is undecided.",
+  "status": "DRAFT 2026-11-14. The file format is a proposal. Items under 'decided' were settled by Brad on 14 Nov 2026; items under an entry's 'choices' are still open.",
+  "decided": [
+    "A conflict that appears only over Cons is a third status, reported per default conclusion, not per graph.",
+    "Exceptions are read from the constraint statement in the graph.",
+    "An exception to a symmetric constraint is read on the subject of the statement, as the checker does.",
+    "Every constraint is an entry, whatever its status. The regime is the two P31/P279 rules."
+  ],
   "format": {
     "term": "A string. '?name' is a variable; anything else is a prefixed name from 'prefixes'.",
     "triple": "A list of three terms: subject, predicate, object.",
@@ -19,7 +25,6 @@
   },
   "regime": {
     "choices": [
-      "The regime is these two rules and nothing else. Alternative: no rules, with instance-of already closed under subclass-of in the selected subset.",
       "Reading P31 and P279 as rdf:type and rdfs:subClassOf is ours. It is what the subject type constraint's relation 'instance of' (Q21503252) asks the checker to do."
     ],
     "rules": [
@@ -47,18 +52,20 @@
       },
       "premises": [["?x", "wdt:P26", "?y"]],
       "conclusion": ["?y", "wdt:P26", "?x"],
-      "defeaters": [],
+      "defeaters": [
+        [["wd:P26", "p:P2302", "?c"], ["?c", "ps:P2302", "wd:Q21510862"], ["?c", "pq:P2303", "?x"]]
+      ],
       "guards": [],
       "choices": [
         "Reading a symmetric-constraint violation as a default consequence is our stipulation; Wikidata documents constraints as hints for editors.",
-        "No defeater, because the constraint statement lists no exception. Alternative: the same exception defeater as the P47 entry, read from the constraint statement, which matches nothing on P26 today.",
-        "No status is stated on the constraint, so it is taken as defeasible. With no defeater the only effect of that is that the conclusion is added in the one round of entries and is not in K.",
-        "The entry applies when ?y is an unknown value (a Skolem IRI). No guard may exclude that case, since a guard may not depend on the identity of a Skolem term. The conclusion then has a Skolem IRI as subject."
+        "The defeater has the same form as on P47. The constraint statement on P26 lists no exception, so it has no instance today.",
+        "The entry applies when ?y is an unknown value (a Skolem IRI). No guard may exclude that case, since a guard may not depend on the identity of a Skolem term. The conclusion then has a Skolem IRI as subject. The checker reports compliance on such statements, so here the entry and the checker differ."
       ],
       "evidence": [
         "results/p26-constraints/20261114T153132Z.json: no exception listed.",
         "results/p26-direct-count/20261114T153918Z.json and results/p26-reciprocated-count/20261114T153920Z.json: 987168 direct triples, 971294 with the reverse present; difference 15874, approximate (two servers).",
-        "results/p26-somevalue-count/20261114T154233Z.json: 2661 direct triples with an unknown value."
+        "results/p26-somevalue-count/20261114T154233Z.json: 2661 direct triples with an unknown value.",
+        "results/checker-hand-sized/20261114T170156Z.json: symmetric is 'warning' on Elizabeth (Q235849) and on Zechariah, and 'compliance' on David Von Erich's two unknown-value statements."
       ]
     },
     {
@@ -78,9 +85,9 @@
       "defeaters": [],
       "guards": [],
       "choices": [
-        "The constraint is mandatory, which the proposed mapping reads as a monotone rule of the regime. Written here as an incompatibility entry with no defeater. The two give the same verdicts; the difference is only where it is listed.",
         "The eight classes are named in the entry, so they are in the vocabulary. Alternative: read them from the constraint statement (pq:P2305), which puts the statement's triples in the subset instead.",
-        "Whether the checker follows subclass-of for this constraint is not confirmed. With the regime's second rule, this entry does."
+        "Whether the checker follows subclass-of for this constraint is not confirmed. With the regime's second rule, this entry does.",
+        "The checker reports compliance on the three name-value statements checked: at K the entry does not apply to them either."
       ],
       "evidence": [
         "results/p26-constraint-qualifiers/20261114T153135Z.json: the eight classes and the mandatory status.",
@@ -135,12 +142,15 @@
       "choices": [
         "Only date of birth and date of death are compared. The constraint is believed, from documentation, to use inception and start time, and dissolved and end time, as well.",
         "Direct date values carry no precision, so a year-precision date appears as 1 January. Comparing them as written over-reports; comparing years only is the alternative.",
-        "When either date is absent the entry does not apply. That this matches the checker is from documentation, not confirmed.",
+        "When either date is absent the entry does not apply. The checker agrees: it reports compliance on three statements whose value has no dates.",
+        "The entry applies when some date of death precedes some date of birth. The checker compares the latest end with the earliest start, as its own message on Berta Gerster and Fritz Reiner says: it reports compliance on Elisabeth Magdalene von Brandenburg and Francis Otto, where one of two dates of death precedes the birth. Matching it would need a guard inside a defeater, which the format does not have.",
         "The check has no direction, so the pair p26-contemporary-subject-first and p26-contemporary-value-first together express it. A violation is therefore present at K whichever direction is asserted."
       ],
       "evidence": [
         "results/p26-constraint-qualifiers/20261114T153135Z.json: the constraint has no parameters.",
-        "results/p26-nonoverlapping-lifetimes/20261114T153244Z.json: 200 rows (the cap), 184 distinct pairs; in 122 rows one date falls on 1 January."
+        "results/p26-nonoverlapping-lifetimes/20261114T153244Z.json: 200 rows (the cap), 184 distinct pairs; in 122 rows one date falls on 1 January.",
+        "results/checker-p26-name-values/20261114T164346Z.json and results/checker-p26-lifetimes/20261114T164349Z.json: compliance when a date is absent; warning on two pairs with non-overlapping dates.",
+        "results/checker-hand-sized/20261114T170156Z.json: compliance on Elisabeth Magdalene von Brandenburg and Francis Otto; warning on both statements of Berta Gerster and Fritz Reiner."
       ]
     },
     {
@@ -214,13 +224,12 @@
       "evidence": ["results/p26-constraint-qualifiers/20261114T153135Z.json"]
     },
     {
-      "id": "p47-symmetric-exception-as-subject",
-      "variant_of": "p47-symmetric",
+      "id": "p47-symmetric",
       "kind": "default",
       "source": {
         "property": "wd:P47",
         "constraint_type": "wd:Q21510862",
-        "statement": null,
+        "statement": "wds:P47-BDC21597-C3FC-417A-9437-E4B7FA4C7927",
         "constraint_status": null
       },
       "premises": [["?x", "wdt:P47", "?y"]],
@@ -230,59 +239,14 @@
       ],
       "guards": [],
       "choices": [
-        "The exception is read from the constraint statement in the graph, so that statement's triples must be in the subset. Alternative: name the three items in the entry.",
-        "The statement asserted on a listed item is exempt. This is the checker's rule as recalled from documentation, not confirmed.",
-        "The IRI of the constraint statement on P47 has not been recorded yet."
+        "Only the symmetric constraint on P47 is written as an entry. P47 has eight other constraint statements (subject type, value type, contemporary and others), for which no entry is written."
       ],
       "evidence": [
         "results/symmetric-inverse-constraint-exception-items/20261114T154519Z.json: three exceptions listed.",
-        "results/p47-exception-items-direct/20261114T160155Z.json: 11 direct triples involve a listed exception, none with its reverse; this variant defeats 3 of the 11 defaults."
+        "results/p47-exception-items-direct/20261114T160155Z.json: 11 direct triples involve a listed exception, none with its reverse; 3 of the 11 have the listed item as subject and are defeated.",
+        "results/p47-constraints/20261114T164402Z.json: the constraint statement and its three exceptions.",
+        "results/checker-p47-exceptions/20261114T164351Z.json: the checker reports 'exception' on the statements of Numbani and Belgorod People's Republic, and a violation on Geta's statement whose value is international waters."
       ]
-    },
-    {
-      "id": "p47-symmetric-exception-as-value",
-      "variant_of": "p47-symmetric",
-      "kind": "default",
-      "source": {
-        "property": "wd:P47",
-        "constraint_type": "wd:Q21510862",
-        "statement": null,
-        "constraint_status": null
-      },
-      "premises": [["?x", "wdt:P47", "?y"]],
-      "conclusion": ["?y", "wdt:P47", "?x"],
-      "defeaters": [
-        [["wd:P47", "p:P2302", "?c"], ["?c", "ps:P2302", "wd:Q21510862"], ["?c", "pq:P2303", "?y"]]
-      ],
-      "guards": [],
-      "choices": [
-        "The statement pointing at a listed item is exempt. This is how the eight statements with international waters as value use the list.",
-        "Otherwise as p47-symmetric-exception-as-subject."
-      ],
-      "evidence": ["results/p47-exception-items-direct/20261114T160155Z.json: this variant defeats 8 of the 11 defaults."]
-    },
-    {
-      "id": "p47-symmetric-exception-either-side",
-      "variant_of": "p47-symmetric",
-      "kind": "default",
-      "source": {
-        "property": "wd:P47",
-        "constraint_type": "wd:Q21510862",
-        "statement": null,
-        "constraint_status": null
-      },
-      "premises": [["?x", "wdt:P47", "?y"]],
-      "conclusion": ["?y", "wdt:P47", "?x"],
-      "defeaters": [
-        [["wd:P47", "p:P2302", "?c"], ["?c", "ps:P2302", "wd:Q21510862"], ["?c", "pq:P2303", "?x"]],
-        [["wd:P47", "p:P2302", "?c"], ["?c", "ps:P2302", "wd:Q21510862"], ["?c", "pq:P2303", "?y"]]
-      ],
-      "guards": [],
-      "choices": [
-        "A statement is exempt when either party is a listed item.",
-        "Otherwise as p47-symmetric-exception-as-subject."
-      ],
-      "evidence": ["results/p47-exception-items-direct/20261114T160155Z.json: this variant defeats all 11 defaults."]
     }
   ],
   "not_written": [

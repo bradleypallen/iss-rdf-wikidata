@@ -1,0 +1,21 @@
+# Every subclass of (P279) triple above a class of one of the fourteen items of
+# the hand-sized example: the classes of the items, and everything reachable
+# from them by P279. tools/build_subset.py keeps the triples that lie on a
+# path to a class named in an entry, and also keeps this whole set for a
+# comparison run.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT { ?m wdt:P279 ?n } WHERE {
+  VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951
+             wd:Q1330110 wd:Q72936 wd:Q112829435 wd:Q364179 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }
+  ?s wdt:P31 ?c .
+  ?c wdt:P279* ?m .
+  ?m wdt:P279 ?n .
+}

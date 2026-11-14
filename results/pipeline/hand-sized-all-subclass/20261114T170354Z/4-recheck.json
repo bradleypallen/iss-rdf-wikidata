@@ -1,0 +1,83 @@
+[
+ {
+  "entry": "p26-conflicts-with",
+  "x": "<http://www.wikidata.org/entity/Q385468>",
+  "y": "<http://www.wikidata.org/entity/Q139464>",
+  "class": "<http://www.wikidata.org/entity/Q11879590>",
+  "end": null,
+  "start": null,
+  "item": null
+ },
+ {
+  "entry": "p26-conflicts-with",
+  "x": "<http://www.wikidata.org/entity/Q385468>",
+  "y": "<http://www.wikidata.org/entity/Q139464>",
+  "class": "<http://www.wikidata.org/entity/Q202444>",
+  "end": null,
+  "start": null,
+  "item": null
+ },
+ {
+  "entry": "p26-contemporary-subject-first",
+  "x": "<http://www.wikidata.org/entity/Q112829435>",
+  "y": "<http://www.wikidata.org/entity/Q364179>",
+  "class": null,
+  "end": "\"1885-04-26T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "start": "\"1888-12-19T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "item": null
+ },
+ {
+  "entry": "p26-contemporary-subject-first",
+  "x": "<http://www.wikidata.org/entity/Q1330110>",
+  "y": "<http://www.wikidata.org/entity/Q72936>",
+  "class": null,
+  "end": "\"1529-08-20T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "start": "\"1530-06-30T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "item": null
+ },
+ {
+  "entry": "p26-contemporary-value-first",
+  "x": "<http://www.wikidata.org/entity/Q364179>",
+  "y": "<http://www.wikidata.org/entity/Q112829435>",
+  "class": null,
+  "end": "\"1885-04-26T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "start": "\"1888-12-19T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "item": null
+ },
+ {
+  "entry": "p26-contemporary-value-first",
+  "x": "<http://www.wikidata.org/entity/Q72936>",
+  "y": "<http://www.wikidata.org/entity/Q1330110>",
+  "class": null,
+  "end": "\"1529-08-20T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "start": "\"1530-06-30T00:00:00Z\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+  "item": null
+ },
+ {
+  "entry": "p26-subject-type",
+  "x": "<http://www.wikidata.org/.well-known/genid/3bcd12d3f81642853a156dd84ce8d7de>",
+  "y": "<http://www.wikidata.org/entity/Q2139951>",
+  "class": null,
+  "end": null,
+  "start": null,
+  "item": null
+ },
+ {
+  "entry": "p26-subject-type",
+  "x": "<http://www.wikidata.org/.well-known/genid/8020efddd5ec938c11e6a83cd2ddc353>",
+  "y": "<http://www.wikidata.org/entity/Q2139951>",
+  "class": null,
+  "end": null,
+  "start": null,
+  "item": null
+ },
+ {
+  "entry": "p26-subject-type",
+  "x": "<http://www.wikidata.org/entity/Q385468>",
+  "y": "<http://www.wikidata.org/entity/Q139464>",
+  "class": null,
+  "end": null,
+  "start": null,
+  "item": null
+ }
+]

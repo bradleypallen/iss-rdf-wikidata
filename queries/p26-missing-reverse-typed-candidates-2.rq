@@ -1,0 +1,24 @@
+# A second search for candidates for a clean default consequence, in case
+# Elizabeth (Q235849) and Zechariah do not serve: spouse triples with no
+# reverse triple where both parties are directly instances of human (Q5),
+# driven from citizens of Iceland (P27 Q189). The first search, driven from
+# astronauts and physics laureates, returned no row on 2026-11-14T16:44:05Z.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?a ?aLabel ?b ?bLabel WHERE {
+  ?a wdt:P27 wd:Q189 .
+  ?a wdt:P26 ?b .
+  ?a wdt:P31 wd:Q5 .
+  ?b wdt:P31 wd:Q5 .
+  FILTER NOT EXISTS { ?b wdt:P26 ?a }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,mul" }
+}
+ORDER BY ?a ?b
+LIMIT 50

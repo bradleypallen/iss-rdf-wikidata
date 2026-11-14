@@ -1,0 +1,6 @@
+{
+  "purpose": "A positive control for the contemporary constraint: two subjects whose spouse was born after the subject died, by direct dates (Q10556584, Q112829435). Same constraints as checker-p26-name-values.",
+  "id": ["Q10556584", "Q112829435"],
+  "constraintid": ["P26$75392F51-A753-4451-B057-4C2719462EFB", "P26$862D87C1-BB05-45A8-934F-3585370F6253", "P26$183C2471-ED90-45FD-949F-020CD7EF5F90", "P26$35E5D7A3-D2AC-4A9F-93D3-8630E85EC729", "P26$46738363-4725-63da-853b-24a1190a343e", "P26$c75a4c3d-4806-8402-9d44-79166c9dad87", "P26$f1e6c730-480b-deee-0bc5-792f91ba73e5"],
+  "status": "*"
+}

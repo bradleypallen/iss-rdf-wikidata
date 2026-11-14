@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/p26-missing-reverse-typed-candidates-2.rq",
+  "query_sha256": "a00a2980ecdc4fc61dfa9860f0bd2235ed085d9f7acf81ae479d3030566ad786",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "application/sparql-results+json",
+  "started_utc": "2026-11-14T16:54:04+00:00",
+  "finished_utc": "2026-11-14T16:54:07+00:00",
+  "seconds": 2.037,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": 2,
+  "body_file": "results/p26-missing-reverse-typed-candidates-2/20261114T165404Z.json",
+  "body_bytes": 1060,
+  "body_sha256": "6f525e5874e64f5c74a417d36f4770f6584fecb5a114b95a3762bf3d865cfa76",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:54:06 GMT",
+    "Content-Type": "application/sparql-results+json;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2014"
+  },
+  "query": "# A second search for candidates for a clean default consequence, in case\n# Elizabeth (Q235849) and Zechariah do not serve: spouse triples with no\n# reverse triple where both parties are directly instances of human (Q5),\n# driven from citizens of Iceland (P27 Q189). The first search, driven from\n# astronauts and physics laureates, returned no row on 2026-11-14T16:44:05Z.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?a ?aLabel ?b ?bLabel WHERE {\n  ?a wdt:P27 wd:Q189 .\n  ?a wdt:P26 ?b .\n  ?a wdt:P31 wd:Q5 .\n  ?b wdt:P31 wd:Q5 .\n  FILTER NOT EXISTS { ?b wdt:P26 ?a }\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul\" }\n}\nORDER BY ?a ?b\nLIMIT 50\n"
+}

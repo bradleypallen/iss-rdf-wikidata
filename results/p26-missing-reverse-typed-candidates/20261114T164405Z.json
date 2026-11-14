@@ -1,0 +1,8 @@
+{
+  "head" : {
+    "vars" : [ "a", "aLabel", "b", "bLabel" ]
+  },
+  "results" : {
+    "bindings" : [ ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "head" : {
+    "vars" : [ "c", "type", "typeLabel", "status", "statusLabel", "exception", "exceptionLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P47-A7BA4C60-AC39-4F70-933A-B5A4C6231232"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21503250"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "subject type constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P47-5903901F-E905-4E56-9295-B24FE0C8B6F7"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510851"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "allowed qualifiers constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P47-BDC21597-C3FC-417A-9437-E4B7FA4C7927"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118629252"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belgorod People's Republic"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P47-BDC21597-C3FC-417A-9437-E4B7FA4C7927"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q81810310"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Numbani"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P47-BDC21597-C3FC-417A-9437-E4B7FA4C7927"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510862"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "symmetric constraint"
+      },
+      "exception" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25855"
+      },
+      "exceptionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "international waters"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P47-6416D2CE-F916-4ADD-ADA5-FFD096DB04DF"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21510865"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "value-type constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P47-AD61C989-E49D-4ED1-8AF8-E3C95207EC39"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25796498"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "contemporary constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P47-47b6136a-4004-5dbd-da65-a63849619083"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52004125"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "allowed-entity-types constraint"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/P47-51ac15b6-431d-796c-49d7-0101706916f9"
+      },
+      "type" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53869507"
+      },
+      "typeLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "property scope constraint"
+      }
+    } ]
+  }
+}

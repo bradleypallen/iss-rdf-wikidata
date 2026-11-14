@@ -1,0 +1,23 @@
+{
+  "query_file": "queries/hand-sized-labels.rq",
+  "query_sha256": "554ccd22cd6df7947e38c228567fd736292d5dc5d2f80731c6f0a3f1b09ba1d3",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "accept": "text/turtle",
+  "started_utc": "2026-11-14T16:53:57+00:00",
+  "finished_utc": "2026-11-14T16:53:59+00:00",
+  "seconds": 1.572,
+  "http_status": 200,
+  "ok": true,
+  "error": null,
+  "rows": null,
+  "body_file": "results/hand-sized-labels/20261114T165357Z.ttl",
+  "body_bytes": 15061,
+  "body_sha256": "e4ac9d426629f895a943fec182d882ae10e89918dae5cad800adfd81ea65e1db",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 16:53:59 GMT",
+    "Content-Type": "text/turtle;charset=utf-8",
+    "Server": "nginx/1.22.1",
+    "X-Served-By": "wdqs2021"
+  },
+  "query": "# English (or language-neutral, \"mul\") labels of the twelve items of the\n# hand-sized example, of the two properties, and of every class above a class\n# of an item. For printing only; no entry reads a label.\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX pq: <http://www.wikidata.org/prop/qualifier/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nCONSTRUCT { ?e rdfs:label ?label } WHERE {\n  {\n    VALUES ?e { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951\n             wd:Q1330110 wd:Q72936 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855\n             wd:P26 wd:P47 wd:Q21510862 }\n  }\n  UNION\n  {\n    VALUES ?s { wd:Q7186 wd:Q37463 wd:Q235849 wd:Q139464 wd:Q385468 wd:Q2139951\n             wd:Q1330110 wd:Q72936 wd:Q81810310 wd:Q1033 wd:Q134675 wd:Q25855 }\n    ?s wdt:P31 ?c .\n    ?c wdt:P279* ?e .\n  }\n  ?e rdfs:label ?label .\n  FILTER(LANG(?label) IN (\"en\", \"mul\"))\n}\n"
+}

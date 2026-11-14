@@ -1,0 +1,30 @@
+# Every direct spouse triple with one of the candidate items as subject or as
+# value, to see which candidates have spouses outside the chosen set and
+# which pairs are reciprocated.
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT DISTINCT ?s ?sLabel ?o ?oLabel WHERE {
+  {
+    VALUES ?s { wd:Q10556584 wd:Q240485 wd:Q63964937 wd:Q434292 wd:Q112829435 wd:Q364179 wd:Q1330110 wd:Q72936
+                  wd:Q139464 wd:Q385468 wd:Q469726 wd:Q1158139 wd:Q338415 wd:Q226163
+                  wd:Q2139951 wd:Q727175 wd:Q521435 wd:Q7186 wd:Q37463
+                  wd:Q81810310 wd:Q1033 wd:Q118629252 wd:Q134675 wd:Q25855 }
+    ?s wdt:P26 ?o .
+  }
+  UNION
+  {
+    VALUES ?o { wd:Q10556584 wd:Q240485 wd:Q63964937 wd:Q434292 wd:Q112829435 wd:Q364179 wd:Q1330110 wd:Q72936
+                  wd:Q139464 wd:Q385468 wd:Q469726 wd:Q1158139 wd:Q338415 wd:Q226163
+                  wd:Q2139951 wd:Q727175 wd:Q521435 wd:Q7186 wd:Q37463
+                  wd:Q81810310 wd:Q1033 wd:Q118629252 wd:Q134675 wd:Q25855 }
+    ?s wdt:P26 ?o .
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?s ?o
